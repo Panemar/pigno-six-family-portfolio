@@ -1,0 +1,36 @@
+{
+  "status": "PASS_S5_FOLD_CLEAN_PRIMARY_ORACLE",
+  "generated_utc": "2026-08-11T00:24:58.949867+00:00",
+  "training_performed": false,
+  "FEM_modified_or_resolved": false,
+  "cases": 68,
+  "outer_folds": 5,
+  "inner_folds_per_outer": 4,
+  "nested_splits": 20,
+  "ranks": [
+    16,
+    32,
+    64,
+    96,
+    128
+  ],
+  "components": [
+    "u_X_transverse",
+    "v_Y_vertical",
+    "w_Z_longitudinal"
+  ],
+  "covariance_precision": "float32 accumulation; float64 eigensolve and metric",
+  "mean_centering": false,
+  "selection_boundary": "Only inner validation floors may select a representation inside each outer-train. No global rank is selected from outer OOF targets.",
+  "full_six_dof_boundary": "Historical one-case target-informed six-DOF floors remain diagnostic only and cannot select portfolio ranks.",
+  "acceleration_boundary": "Acceleration operator remains separate; no acceleration floor is inferred by differentiating displacement twice.",
+  "source_hashes": {
+    "universe": "10a79e21c625589fb76905d0db6537ad1bd5ea68c24422e4f52efa0c2d0b030b",
+    "outer_assignment": "e8099a34d78c581ce869d4c0d078cb6487fdc1a69b66d349afe8b0b11f77fe7e"
+  },
+  "artifacts": [
+    "NESTED_INNER_FOLD_ASSIGNMENT.csv",
+    "FOLD_CLEAN_PRIMARY_ORACLE_FLOORS.csv",
+    "FOLD_CLEAN_PRIMARY_ORACLE_SUMMARY.csv"
+  ]
+}

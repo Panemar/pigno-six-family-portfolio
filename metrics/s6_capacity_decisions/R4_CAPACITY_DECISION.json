@@ -1,0 +1,56 @@
+{
+  "status": "R4_NOT_AUTOMATICALLY_PROMOTED__DIAGNOSTIC_MICROPANEL_REQUIRED_BY_NO_SINGLE_CASE_CLOSURE_RULE",
+  "generated_utc": "2026-08-11T01:52:06.028559+00:00",
+  "route": "R4_PORT_HAMILTONIAN_OPINF",
+  "evidence_label": "historically exposed one-case capacity; not OOF, generalization or blind",
+  "physical_gate_status": "PASS_S6_R4_PORT_HAMILTONIAN_PHYSICS_GATE",
+  "representation_repair_consumed": true,
+  "representation_repair": "state standardization after unstable raw-RMS OpInf smoke",
+  "optimization_repair_consumed": true,
+  "optimization_repair": "constant learning rate after warm-up",
+  "matched_final_parameter_count": 209296,
+  "optimized_ph_predictive_improvements_vs_unconstrained": {
+    "physical_q_relative_l2": -1.2279761495055856,
+    "physical_qdot_relative_l2": -0.044200431207974226,
+    "displacement_X_relative_l2": 0.056487027971919325,
+    "displacement_Y_relative_l2": 0.0392687995791049,
+    "displacement_Z_relative_l2": 0.017657601566180053,
+    "velocity_X_relative_l2": 0.06741898497732765,
+    "velocity_Y_relative_l2": 0.09766018323746099,
+    "velocity_Z_relative_l2": 0.09888997679564983,
+    "rotation_X_relative_l2": 0.0221390792175372,
+    "rotation_Y_relative_l2": 0.03985300992681357,
+    "rotation_Z_relative_l2": 0.030556263361434504,
+    "rotation_rate_X_relative_l2": 0.08447822505039955,
+    "rotation_rate_Y_relative_l2": 0.08353571096031569,
+    "rotation_rate_Z_relative_l2": 0.07038546170019007
+  },
+  "optimized_ph_translation_improvement_each_axis": {
+    "X": 0.056487027971919325,
+    "Y": 0.0392687995791049,
+    "Z": 0.017657601566180053
+  },
+  "optimized_ph_velocity_improvement_each_axis": {
+    "X": 0.06741898497732765,
+    "Y": 0.09766018323746099,
+    "Z": 0.09888997679564983
+  },
+  "optimized_ph_noninferior_all_predictive_at_2_percent": false,
+  "optimized_ph_weak_residual": {
+    "weak_median": 1.0407160292553184e-07,
+    "weak_p90": 1.9885797973699614e-07
+  },
+  "optimized_ph_failed_diagnostic_gates": [
+    "velocity_median",
+    "causal"
+  ],
+  "hard_BC_pass": true,
+  "decision": {
+    "automatic_micropanel_promotion": false,
+    "scientific_route_closure": false,
+    "HPO_authorized": false,
+    "nested_OOF_authorized": false,
+    "reason_not_promoted": "The repaired pH route improved all translational fields over its matched unconstrained core and preserved power/equilibrium structure, but it missed the velocity-median gate and the frozen causality tolerance by a small numerical margin.",
+    "reason_not_closed": "The master contract forbids closure from one case; R4 proceeds only to the common diagnostic micropanel, with both route-specific repairs exhausted."
+  }
+}

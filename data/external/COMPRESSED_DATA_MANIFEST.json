@@ -1,0 +1,10 @@
+{
+  "source": "tables/figure_data/F27.csv",
+  "source_sha256": "bfc5a0ddd9a3b4548eeea2f3ca4aaf61ce205315f36b4aa25d396da4b2e6b233",
+  "source_bytes": 79349832,
+  "compressed": "tables/figure_data/F27.csv.gz",
+  "compressed_sha256": "67e1493ac7279456ee450bdb374a65dffbc6eb5321219faaf8991249a7ad695d",
+  "compressed_bytes": 19322682,
+  "roundtrip_sha256": "bfc5a0ddd9a3b4548eeea2f3ca4aaf61ce205315f36b4aa25d396da4b2e6b233",
+  "verified": true
+}

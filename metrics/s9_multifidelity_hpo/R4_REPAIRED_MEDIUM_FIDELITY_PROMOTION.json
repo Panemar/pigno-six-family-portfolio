@@ -1,0 +1,6 @@
+{
+  "status": "PASS_S9_R4_REPAIRED_MEDIUM_SUCCESSIVE_HALVING",
+  "promoted_trial_id": "R4_LHS_03",
+  "promotion_rule": "best lexicographic R4 configuration over all four folds",
+  "nested_OOF_authorized": false
+}

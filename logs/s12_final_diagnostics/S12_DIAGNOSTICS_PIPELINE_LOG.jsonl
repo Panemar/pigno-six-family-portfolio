@@ -1,0 +1,7 @@
+{"utc": "2026-08-11T13:46:19.606635+00:00", "event": "watcher_started", "pid": 29532}
+{"utc": "2026-08-11T15:43:05.869474+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S11_AUTORUN_FAILURE"}
+{"utc": "2026-08-11T22:37:01.155493+00:00", "event": "watcher_started", "pid": 43048}
+{"utc": "2026-08-12T10:45:23.718317+00:00", "event": "watcher_started", "pid": 8452}
+{"utc": "2026-08-12T19:38:18.628351+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S11_AUTORUN_FAILURE"}
+{"utc": "2026-08-12T20:17:26.436568+00:00", "event": "watcher_started", "pid": 34148}
+{"utc": "2026-08-13T00:33:40.993253+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S11_AUTORUN_FAILURE"}

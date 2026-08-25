@@ -1,0 +1,16 @@
+{
+  "figure_id": "F15",
+  "title": "S9 high-fidelity fold-0 validation convergence",
+  "generated_utc": "2026-08-11T14:07:42.764643+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "4db6f767f86d1e863ecbe9d0aee53595374e923d5e1fb0ff158b6ad48aeb528e",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F15.csv",
+  "source_csv_sha256": "07030a804700c9d4848b0486f1724364f891e3e35b057eb2367537180a538639",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F15.png",
+  "png_sha256": "06a1c105cca2bca7574e243533a636bdcb3503489422d5310e5290817b571910",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F15.pdf",
+  "pdf_sha256": "4576e6277f8d9cca68c234e4dbdc65e2e3e97fc838ba36b9c9b43aec58ff4328",
+  "units": "dimensionless",
+  "quantity": "validation displacement convergence",
+  "fold": 0
+}

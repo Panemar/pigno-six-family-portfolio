@@ -1,0 +1,14 @@
+{
+  "status": "GO_ORIGINAL_BRANCH_O_AUTHORITY",
+  "authority": "original bridge FEM model implemented and solved in COMSOL",
+  "branch": "O",
+  "cases": 68,
+  "all_compact_h5_hashes_reverified": true,
+  "historical_exposure": true,
+  "blind_test": false,
+  "branch_C_status": "INCOMPLETE_2_OF_68_AND_EXCLUDED",
+  "Rev7_Rev8_scientific_use": false,
+  "COMSOL_vs_FEM_comparison": false,
+  "new_FEM_panel": "design only after final model freeze; execution requires explicit user authorization",
+  "evidence": ["audits/S1_DATA_AUTHORITY_QA.json","contracts/S1_S2_COMMON_CONTRACT_GATE.json"]
+}

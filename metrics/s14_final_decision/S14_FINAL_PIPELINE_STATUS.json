@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING_S14_FINAL_PIPELINE",
+  "evidence_path": "S10_SINGLE_SEED_NEGATIVE",
+  "step": "FINAL_PACKAGE",
+  "completed_steps": [
+    "FINAL_SCIENTIFIC_DECISION",
+    "FINAL_DECISION_FIGURES",
+    "FINAL_DECISION_VISUAL_QA_READINESS",
+    "FINAL_DECISION_MANUAL_VISUAL_QA"
+  ],
+  "pid": 25688,
+  "training_or_tuning_authorized": false,
+  "started_utc": "2026-08-13T01:36:24.848450+00:00"
+}

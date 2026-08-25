@@ -1,0 +1,21 @@
+{
+  "schema": "PHYSICS_INFORMED_OPERATOR_PORTFOLIO_V1",
+  "status": "FROZEN_EXACTLY_SIX_ROUTES",
+  "frozen_utc": "2026-08-11T00:21:11.1589733Z",
+  "numerical_reference": "original bridge FEM model implemented and solved in COMSOL",
+  "scientific_comparison": "physics-informed family versus the same FEM/COMSOL reference and versus common controls",
+  "route_count": 6,
+  "seventh_family_forbidden": true,
+  "routes": [
+    {"id":"R1_BRIDGE_PINO","name":"Bridge-PINO","core":"multiple-input TFNO/TNO trajectory operator","physics":"compatible BC, spectral, modal or residual terms after FEM-floor audit","representation_repair":"input factorization or continuous/spectral temporal representation","optimization_repair":"normalized losses or causal curriculum"},
+    {"id":"R2_MO_PIGNO","name":"MO-PIGNO","core":"shared physical graph with specialized q/v/a operators or heads","physics":"hard BC, modal structure, defect-aware/integral kinematics and compatible weak/tangent terms","representation_repair":"task-specific basis, rank or context","optimization_repair":"GradNorm or PCGrad only after measured conflict"},
+    {"id":"R3_GRAPH_NEURAL_GALERKIN","name":"Graph Neural Galerkin","core":"Beam-graph field operator plus elementwise variational assembly","physics":"virtual work in a compatible six-DOF test space and hard essential BC","representation_repair":"test-space or Petrov-Galerkin enrichment","optimization_repair":"term normalization or adaptive quadrature/sampling"},
+    {"id":"R4_PORT_HAMILTONIAN_OPINF","name":"port-Hamiltonian OpInf","core":"constrained reduced input-output dynamics plus zero-initialized graph residual","physics":"J skew, R positive semidefinite, explicit energy and passivity balance","representation_repair":"energy-coordinate or state scaling","optimization_repair":"constrained linear solve followed by staged AdamW residual"},
+    {"id":"R5_ROTATION_MULTISCALE_GNO","name":"rotation-aware multiscale GNO","core":"Beam local-frame polar/axial messages with frozen fine-coarse-fine hierarchy","physics":"directional Timoshenko properties, frame covariance and parity-aware rotations","representation_repair":"hierarchy/coarsening or typed equivariant channels","optimization_repair":"zero-start residual gating or layerwise schedule"},
+    {"id":"R6_LOAD_DEPENDENT_RITZ_KRYLOV","name":"load-dependent Ritz/Krylov residual","core":"inner-fold load-conditioned Ritz/SOAR basis plus second-order propagator and graph residual","physics":"second-order projection, force directions and residual flexibility","representation_repair":"basis enrichment or POD-residual hybrid","optimization_repair":"rank/regularization selection then staged residual fit"}
+  ],
+  "not_new_families": ["TFNO","TNO","MIONet input branches","EGNN","complete local frames","MGNO","AMG-style hierarchy","generalized-alpha","Craig-Bampton","GradNorm","PCGrad"],
+  "common_controls": ["B2 POD+causal FIR+Ridge","capacity-matched data-only ablation per route","fixed modal/POD ROM"],
+  "training_authorized": false,
+  "next_gate": "S5_ORACLE_FLOORS_AND_TASK_GRADIENTS"
+}

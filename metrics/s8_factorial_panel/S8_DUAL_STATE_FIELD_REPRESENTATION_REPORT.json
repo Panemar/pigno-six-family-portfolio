@@ -1,0 +1,165 @@
+{
+  "schema": "S8_DUAL_STATE_FIELD_REPRESENTATION_REPORT_V1",
+  "status": "PASS_S8_DUAL_STATE_FIELD_REPRESENTATION",
+  "generated_utc": "2026-08-11T04:02:21.976530+00:00",
+  "mechanism": "frozen Physical32 state plus independently rebuilt R64 displacement and R128 velocity observation bases on the 12-case factorial panel",
+  "displacement_relative_l2_by_case_axis": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0023655322122256746,
+      0.0017919509722776074,
+      0.0001001594126392352
+    ],
+    [
+      0.002482076626936275,
+      0.0019746489502379394,
+      0.0001222519197678119
+    ],
+    [
+      0.0028069530676024927,
+      0.0013612168284419315,
+      0.00022563827340864694
+    ],
+    [
+      0.0029975129468874278,
+      0.00133781671388391,
+      0.0002012925473616713
+    ],
+    [
+      0.003611859591494655,
+      0.0013503588366202207,
+      0.0002477537850285411
+    ],
+    [
+      0.002637851510625777,
+      0.0018887219983589323,
+      0.00011360596520606161
+    ],
+    [
+      0.002701421644384283,
+      0.0020327487955656216,
+      0.0001324380390631515
+    ],
+    [
+      0.0035074608674295913,
+      0.0013354879815734985,
+      0.00020183895767487004
+    ]
+  ],
+  "velocity_relative_l2_by_case_axis": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.009065144765085782,
+      0.011793653948236197,
+      0.0008145791324849716
+    ],
+    [
+      0.00608133681820965,
+      0.009047162355512903,
+      0.0009002060979824058
+    ],
+    [
+      0.005646370286186392,
+      0.005063626160711299,
+      0.000628309147037798
+    ],
+    [
+      0.00497431579285226,
+      0.0043065784635653226,
+      0.0005869067555060869
+    ],
+    [
+      0.006755402109587557,
+      0.004669750104899619,
+      0.0009546205638808849
+    ],
+    [
+      0.011108996171601255,
+      0.009724735976702105,
+      0.0010919747317128014
+    ],
+    [
+      0.006889979160669797,
+      0.00812920389585109,
+      0.001112577385253345
+    ],
+    [
+      0.008236309453512676,
+      0.005070048935077487,
+      0.0008349788683169009
+    ]
+  ],
+  "maximum_nonzero_case_displacement_relative_l2_by_axis": [
+    0.003611859591494655,
+    0.0020327487955656216,
+    0.0002477537850285411
+  ],
+  "maximum_nonzero_case_velocity_relative_l2_by_axis": [
+    0.011108996171601255,
+    0.011793653948236197,
+    0.001112577385253345
+  ],
+  "hard_BC_basis_leak": {
+    "displacement": 2.9067099081801867e-14,
+    "velocity": 5.952885265930559e-14
+  },
+  "gates": {
+    "displacement_oracle_each_case_axis_max": 0.01,
+    "velocity_oracle_each_case_axis_max": 0.05,
+    "hard_BC_basis_leak_max": 1e-12,
+    "displacement_pass": true,
+    "velocity_pass": true,
+    "hard_BC_pass": true
+  },
+  "scientific_boundary": {
+    "Physical32_is_the_only_physical_state": true,
+    "field_coefficients_are_observation_coordinates": true,
+    "full_time_physical_state_inferred_from_fields": false,
+    "fold_local_rebuild_required_for_nested_OOF": true
+  },
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_DATASET.h5": "77ce5da426cb9dda7c2b137042dbad35661e9bba5b7a794d1ceff91330ff8475",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09"
+  },
+  "output": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_DUAL_STATE_FIELD_REPRESENTATION.h5": "e3727ae616427def881ffc8f316f9e79f9fc677e10eabe249159859d2627c368"
+  }
+}

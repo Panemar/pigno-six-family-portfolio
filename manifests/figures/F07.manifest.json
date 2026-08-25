@@ -1,0 +1,19 @@
+{
+  "figure_id": "F07",
+  "title": "Representation oracle floors before learning",
+  "generated_utc": "2026-08-13T01:09:32.474310+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "35a868314a85c6e1b9a87f8b5c491396535597c4bd04a3766adcccb0b9ce9f78",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F07.csv",
+  "source_csv_sha256": "f22fa8f0b052f41d42171e120ffafa0423c82c4242bbb7f438b9e973c581d851",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F07.png",
+  "png_sha256": "33d10ac9d837d59910fee45424f0743461f6c8b6c6682cd6fae53e4d75b58ab8",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F07.pdf",
+  "pdf_sha256": "f54bda241077280ff71967eb14c59b5d008bf748477fcd35b8182152f14720d8",
+  "units": "dimensionless",
+  "quantity": "displacement representation floor",
+  "fold_aggregation": "median",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

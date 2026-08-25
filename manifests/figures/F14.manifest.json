@@ -1,0 +1,18 @@
+{
+  "figure_id": "F14",
+  "title": "S9 high-fidelity error–physics–cost Pareto view",
+  "generated_utc": "2026-08-13T01:10:29.409091+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "35a868314a85c6e1b9a87f8b5c491396535597c4bd04a3766adcccb0b9ce9f78",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F14.csv",
+  "source_csv_sha256": "1b66a70e7a30baa42d0861e16f7d48530cb21fd0896f1a463435eaeeb09ca916",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F14.png",
+  "png_sha256": "bf7d792330996b59ed0744c4e58cec64bd66e468010716595a33a4f9930c9116",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F14.pdf",
+  "pdf_sha256": "aae3d1e3d25a0d68e8d2e86820aea6a047ce5a9d371643dc752aebafd1abcd0d",
+  "units": "dimensionless errors; parameter count",
+  "quantity": "high-fidelity Pareto diagnostics",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

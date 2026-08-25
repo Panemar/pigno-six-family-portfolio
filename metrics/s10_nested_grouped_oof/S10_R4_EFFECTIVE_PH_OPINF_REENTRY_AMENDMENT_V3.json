@@ -1,0 +1,92 @@
+{
+  "schema": "S10_R4_EFFECTIVE_PH_OPINF_REENTRY_AMENDMENT_V3",
+  "status": "PASS_S10_REPAIRED_R4_REENTRY_PREFLIGHT_AUTHORIZE_SMOKE",
+  "generated_utc": "2026-08-11T22:01:06.318527+00:00",
+  "evidence_label": "historically exposed nested grouped cross-validated development; not blind or external validation",
+  "candidate_trial_ids": [
+    "R4_LHS_03",
+    "R2_LHS_02",
+    "R6_LHS_04"
+  ],
+  "gates": {
+    "common_s9_repaired_audit_pass": true,
+    "candidate_set_exact": true,
+    "dataset_independent_qa_pass": true,
+    "fold_local_representation_qa_pass": true,
+    "historical_trainer_text_preserved_with_line_end_normalization": true,
+    "repaired_trainer_has_explicit_gate": true,
+    "old_r4_evidence_identified_for_exclusion": true,
+    "existing_r2_r6_outer0_pairs_reusable": true
+  },
+  "invalid_forward_evidence": {
+    "rule": "all S10 R4 physics reports without REPAIRED_EFFECTIVE_PH_OPINF in run_id are historical only",
+    "identified_run_count": 11,
+    "paths": [
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_0_INNER_0_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_0_INNER_1_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_0_INNER_2_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_0_INNER_3_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_1_INNER_0_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_1_INNER_1_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_1_INNER_2_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_INNER_R4_LHS_03_OUTER_1_INNER_3_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R4_LHS_03_OUTER_0_OUTER_OOF_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R4_LHS_03_OUTER_1_OUTER_OOF_PHYSICS_SEED_20260813",
+      "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_SMOKE_R4_LHS_03_OUTER_0_INNER_0_PHYSICS_SEED_20260813"
+    ]
+  },
+  "historical_trainer_provenance": {
+    "original_sha256_recorded_in_reports": "ceccd64ce1295c0124618b3e2da9622bed78d52baaf04f1b8a8de2989d203c8d",
+    "normalized_text_copy_sha256": "aa7db93e161d569f31351bea6af17b28c41e0462a48aa5921055e7839d00d71d",
+    "difference": "line-ending normalization during apply_patch preservation; binary identity is not claimed"
+  },
+  "reusable_completed_outer_pairs": [
+    {
+      "run_id": "S10_OUTER_R2_LHS_02_OUTER_0_OUTER_OOF_PHYSICS_SEED_20260813",
+      "admitted": true,
+      "report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R2_LHS_02_OUTER_0_OUTER_OOF_PHYSICS_SEED_20260813\\report.json",
+      "predictions": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R2_LHS_02_OUTER_0_OUTER_OOF_PHYSICS_SEED_20260813\\predictions.h5"
+    },
+    {
+      "run_id": "S10_OUTER_R2_LHS_02_OUTER_0_OUTER_OOF_CONTROL_SEED_20260813",
+      "admitted": true,
+      "report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R2_LHS_02_OUTER_0_OUTER_OOF_CONTROL_SEED_20260813\\report.json",
+      "predictions": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R2_LHS_02_OUTER_0_OUTER_OOF_CONTROL_SEED_20260813\\predictions.h5"
+    },
+    {
+      "run_id": "S10_OUTER_R6_LHS_04_OUTER_0_OUTER_OOF_PHYSICS_SEED_20260813",
+      "admitted": true,
+      "report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R6_LHS_04_OUTER_0_OUTER_OOF_PHYSICS_SEED_20260813\\report.json",
+      "predictions": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R6_LHS_04_OUTER_0_OUTER_OOF_PHYSICS_SEED_20260813\\predictions.h5"
+    },
+    {
+      "run_id": "S10_OUTER_R6_LHS_04_OUTER_0_OUTER_OOF_CONTROL_SEED_20260813",
+      "admitted": true,
+      "report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R6_LHS_04_OUTER_0_OUTER_OOF_CONTROL_SEED_20260813\\report.json",
+      "predictions": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\runs\\S10_OUTER_R6_LHS_04_OUTER_0_OUTER_OOF_CONTROL_SEED_20260813\\predictions.h5"
+    }
+  ],
+  "repair_contract": {
+    "fit_scope": "outer/inner training trajectories with direct reduced states only",
+    "operator": "tangent-assisted effective port-Hamiltonian OpInf propagator",
+    "learned_part": "graph-temporal residual generalized force plus specialized observation heads",
+    "control": "capacity-matched R4 data-only control",
+    "hard_constraints": [
+      "same case/time/node/component",
+      "causal",
+      "hard BC",
+      "finite",
+      "zero target leakage"
+    ]
+  },
+  "authorization": "one repaired-R4 S10 smoke run; full campaign only after smoke audit",
+  "source_sha256": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S9_PORTFOLIO_REPAIRED_R4_INDEPENDENT_AUDIT_V1.json": "a5f11852e1e3be8413ee9dab013914535fa37f919b33b3e00e88abb985116a50",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_NESTED_GROUPED_OOF_PROTOCOL_AMENDED_V2.json": "bcfc75380a61de09f9f93a751d485b2ebeca826d3fadc2669a65cde7b25c6ca7",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_ORIGINAL_68CASE_DATASET_INDEPENDENT_AUDIT.json": "917d7408a1de757f7d9ca19c1c3bc67a82227aef5a9d7c21a44d3ca05643cb98",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_FOLD_LOCAL_REPRESENTATION_QA.json": "2d66b505d0735a927ea332f838597c967f88e1ea52c68d284d88d6b3471c676e",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\48_run_s10_fold_trial.py": "6e783640d19a1e44883d92f90c130807c2d58adfe7cc39ca8232ea87d3f28981",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\49_run_s10_nested_oof_campaign.py": "eb01576413139a349c4e8558087e66668c41b30ecacbf9179af8364c17906631",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\historical\\48_run_s10_fold_trial_PRE_R4_OPINF_REPAIR_SHA256_CECCD64C.py": "aa7db93e161d569f31351bea6af17b28c41e0462a48aa5921055e7839d00d71d"
+  }
+}

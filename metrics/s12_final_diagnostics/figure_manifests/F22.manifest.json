@@ -1,0 +1,18 @@
+{
+  "figure_id": "F22",
+  "title": "OOF error by frozen factorial scenario factors",
+  "generated_utc": "2026-08-13T01:01:40.620250+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\73_generate_s12_paired_oof_field_figures.py",
+  "script_sha256": "abb0b36d7f40cd2b09f212ff3bceb7a81cb2c27db57eee6266fa37545360adea",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F22.csv",
+  "source_csv_sha256": "1d3d592e44fd861b66db1383f6ff3b01ea9c0cae3d4fc415617fc6760dc23739",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F22.png",
+  "png_sha256": "f0da54659b925d806a71002bee92a353c214ff62ac9d79865960c7f9cdc30039",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F22.pdf",
+  "pdf_sha256": "6de4432a4ec09244a95524660b7135ce3a01d59fb4dd602f8dfc363bc726997c",
+  "units": "dimensionless error; factor units on axes",
+  "quantity": "total displacement",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

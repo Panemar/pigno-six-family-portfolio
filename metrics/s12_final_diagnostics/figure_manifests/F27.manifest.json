@@ -1,0 +1,18 @@
+{
+  "figure_id": "F27",
+  "title": "Representative vertical space–time fields",
+  "generated_utc": "2026-08-13T01:01:52.528363+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\73_generate_s12_paired_oof_field_figures.py",
+  "script_sha256": "abb0b36d7f40cd2b09f212ff3bceb7a81cb2c27db57eee6266fa37545360adea",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F27.csv",
+  "source_csv_sha256": "bfc5a0ddd9a3b4548eeea2f3ca4aaf61ce205315f36b4aa25d396da4b2e6b233",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F27.png",
+  "png_sha256": "a3ae7772fa00f2d401236d09cbc45104d78ec4d20e6074e876f71a0655771355",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F27.pdf",
+  "pdf_sha256": "814d01c6e0fb6e265f45d3b4f629c60d5cf1f975560e1ce29dd0912ce330d2c6",
+  "units": "s, m in source; mm plotted",
+  "quantity": "Y vertical total displacement",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_S4_EXACTLY_SIX_ROUTES_FROZEN",
+  "portfolio_definition": "PORTFOLIO_DEFINITION.json",
+  "route_count": 6,
+  "seventh_family_forbidden": true,
+  "common_authority": true,
+  "common_graph": true,
+  "common_split": true,
+  "common_budget": true,
+  "common_metrics": true,
+  "training_authorized": false,
+  "reason_training_blocked": "S5 oracle floors, task-gradient diagnostics and pending load/base-state semantics must close first",
+  "next": "S5_ORACLE_FLOORS_AND_TASK_GRADIENTS"
+}

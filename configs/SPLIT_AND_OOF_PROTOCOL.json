@@ -1,0 +1,21 @@
+{
+  "schema": "PORTFOLIO_SPLIT_AND_OOF_V1",
+  "authority_branch": "O",
+  "historical_trajectories": 68,
+  "blind_test": false,
+  "unit_of_grouping": "complete case_id trajectory",
+  "outer_folds": 5,
+  "outer_fold_sizes": [14,14,14,13,13],
+  "inner_folds": 4,
+  "finalist_seeds": [0,1,2,3,4],
+  "selection_rule": "architecture, hyperparameters, loss weights, epoch and thresholds selected only inside outer-train using inner grouped CV",
+  "oof_rule": "each trajectory receives prediction only from a model whose fit and scalers excluded that trajectory",
+  "forbidden_features": ["case_id","historical split label","response-derived scenario identifier"],
+  "pairing_keys": ["case_id","saved_time","node_id","component","unit","field_semantics"],
+  "stratification_targets": ["speed","train_count","train_type","track","wind","seismic_scale","braking"],
+  "statistics_unit": "case_id",
+  "bootstrap": "paired by case; never snapshots as independent samples",
+  "outer_oof_tuning": false,
+  "sensor_access": false,
+  "new_fem_panel": "design after freeze; execution requires explicit user authorization"
+}

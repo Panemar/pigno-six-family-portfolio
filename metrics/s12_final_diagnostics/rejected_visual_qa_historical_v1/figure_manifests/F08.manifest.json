@@ -1,0 +1,16 @@
+{
+  "figure_id": "F08",
+  "title": "Six-family one-case capacity comparison",
+  "generated_utc": "2026-08-11T14:06:01.656856+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "4db6f767f86d1e863ecbe9d0aee53595374e923d5e1fb0ff158b6ad48aeb528e",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F08.csv",
+  "source_csv_sha256": "88358fdb2d441d0f2182936403aeeb6bf4b1e5d9bdb123f607e620f8f5d7f7ff",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F08.png",
+  "png_sha256": "be1f926da66c7170f29bdfe727a0a03ac30fd4d325bc05102a67265ed99fd83c",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F08.pdf",
+  "pdf_sha256": "08fb45a6ce1aa69c3e74a1bf1e1843094de0f19042aebf75af970b7e651d8949",
+  "units": "dimensionless",
+  "quantity": "capacity displacement error",
+  "case_count": 1
+}

@@ -1,0 +1,1 @@
+{"utc": "2026-08-11T03:20:44.360310+00:00", "event": "run_started", "run_id": "S6_MICROPANEL_R4_PORT_HAMILTONIAN_OPINF_PHYSICS_INFORMED_V1_DETERMINISTIC", "route": "R4", "variant": "physics", "anchor_kind": "full_Physical32_Newmark_port_Hamiltonian_compatible", "parameters": 283792}

@@ -1,0 +1,17 @@
+{
+  "trial_id": "R4_LHS_03",
+  "outer_fold": 4,
+  "selected_epoch": 80,
+  "aggregate_inner_selection_key": [
+    0.0,
+    0.08862496167421341,
+    0.08862496167421341,
+    0.12747933864593505,
+    0.140096515417099,
+    0.18093817681074142,
+    0.311794251203537,
+    0.06887715832873145,
+    377760.0
+  ],
+  "selection_scope": "four inner folds inside outer train only"
+}

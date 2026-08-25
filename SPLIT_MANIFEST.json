@@ -1,0 +1,47 @@
+{
+  "schema": "PORTFOLIO_SPLIT_MANIFEST_V1",
+  "status": "PASS_FROZEN_NESTED_GROUPED_TRAJECTORY_SPLIT",
+  "generated_utc": "2026-08-13T01:36:02.668926+00:00",
+  "authority_branch": "O",
+  "historical_trajectories": 68,
+  "historically_response_exposed": true,
+  "blind_test": false,
+  "unit_of_grouping": "complete case_id trajectory",
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "outer_evaluation_once_per_case": true,
+  "response_used_to_construct_assignment": false,
+  "pairing_keys": [
+    "case_id",
+    "saved_time",
+    "node_id",
+    "component",
+    "unit",
+    "field_semantics"
+  ],
+  "outer_fold_sizes": [
+    14,
+    14,
+    14,
+    13,
+    13
+  ],
+  "sources": {
+    "protocol": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\SPLIT_AND_OOF_PROTOCOL.json",
+      "sha256": "0a19dfb883c8a9e84255641cdaa1aff1532d077691d7321a15600ca374c30d3d",
+      "bytes": 1106
+    },
+    "folds": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_B2_COMMON_SPLIT_FOLDS.csv",
+      "sha256": "1580277c7c4ff361b2fcc139bc923bac2a2ab35369681359ffc1bda32b205e35",
+      "bytes": 5722
+    },
+    "assignments": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_B2_COMMON_SPLIT_ASSIGNMENTS.csv",
+      "sha256": "eb059fbcbc7cf51a5ddd36c44cdd44ac5d515a6816d5128862519043df43b748",
+      "bytes": 18385
+    }
+  },
+  "claim_boundary": "Nested grouped cross-validated/OOF evidence over historically exposed trajectories; not a blind test or external validation."
+}

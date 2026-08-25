@@ -1,0 +1,7 @@
+{
+  "figure_id": "F30",
+  "title": "OOF hotspot localization error",
+  "caption": "Euclidean distance between predicted and FEM/COMSOL maximum-response observation nodes; single-seed S10 diagnostic values after no route qualified for S11.",
+  "units": "m",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

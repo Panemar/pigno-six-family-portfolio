@@ -1,0 +1,18 @@
+{
+  "figure_id": "F25",
+  "title": "Worst-case OOF time histories",
+  "generated_utc": "2026-08-13T01:01:43.086648+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\73_generate_s12_paired_oof_field_figures.py",
+  "script_sha256": "abb0b36d7f40cd2b09f212ff3bceb7a81cb2c27db57eee6266fa37545360adea",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F25.csv",
+  "source_csv_sha256": "a443f52644b968703cab9df0aadde514ddddc54192ff7eb3ca6e70d7dfc2112e",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F25.png",
+  "png_sha256": "22ae1ea21fca9d77564664c90af65141d542bff0521ffd394333b3b34fdc9523",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F25.pdf",
+  "pdf_sha256": "c3dba514b517263287ef797e31481a35e3575656b7f30456770c37c991206616",
+  "units": "s and m in source; mm plotted",
+  "quantity": "total displacement",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

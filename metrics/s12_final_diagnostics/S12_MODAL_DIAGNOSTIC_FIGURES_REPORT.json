@@ -1,0 +1,22 @@
+{
+  "status": "PASS_S12_MODAL_DIAGNOSTIC_FIGURES",
+  "figure_ids": [
+    "F39",
+    "F40",
+    "F41"
+  ],
+  "finalists": [
+    "R4_LHS_03"
+  ],
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "seeds": [
+    20260813
+  ],
+  "five_seed_claim_allowed": false,
+  "structural_reference": "FEM/COMSOL eigenmodes versus independent Timoshenko graph auditor",
+  "candidate_scope": "OOF forced-response projections on fixed FEM/COMSOL modes; not candidate eigenmodes",
+  "response_energy_floor": "1e-6 of maximum modal-band energy within each case",
+  "cluster_policy": "modes 6-9 treated by subspace alignment",
+  "training_or_tuning_performed": false,
+  "final_decision_authorized": false
+}

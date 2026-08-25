@@ -1,0 +1,18 @@
+{
+  "figure_id": "F26",
+  "title": "Peak-region temporal zoom at frozen worst cases",
+  "generated_utc": "2026-08-13T01:01:43.943106+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\73_generate_s12_paired_oof_field_figures.py",
+  "script_sha256": "abb0b36d7f40cd2b09f212ff3bceb7a81cb2c27db57eee6266fa37545360adea",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F26.csv",
+  "source_csv_sha256": "9a996153e81a809a7804a0f07dfae44b951e701c02d50b099e664175db205f41",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F26.png",
+  "png_sha256": "1573dcb38ec71281c2f937d497b79c645261d987ee0effda5ac57666fa5feae1",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F26.pdf",
+  "pdf_sha256": "8493d7ee48b1b0a150a062ef9836e741b180c6cc402da8e50c5e4c912da900fc",
+  "units": "s and m in source; mm plotted",
+  "quantity": "total displacement",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

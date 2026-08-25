@@ -1,0 +1,18 @@
+{
+  "figure_id": "F44",
+  "title": "Noncompensatory physics-informed family gate matrix",
+  "generated_utc": "2026-08-13T01:19:16.073729+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\82_generate_s14_final_decision_figures.py",
+  "script_sha256": "ba65d2d674c2643099698f312634ff38b6eb5aa5030f86618dda3c97f81d4a12",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F44.csv",
+  "source_csv_sha256": "a7e6b241c4cba77ea2d79075fe427703e31fd48c0e893d35572865b5cb0fbd46",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F44.png",
+  "png_sha256": "94be4902a70810e96024edeb5ee2cf411a8a44bb071bf64daa53b4b5b07a7f0a",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F44.pdf",
+  "pdf_sha256": "864cb9c5fae5241c7657bda1085608a24c2affa5ffda10bbb3286ada24fba50c",
+  "units": "categorical",
+  "final_state": "NO_PHYSICS_INFORMED_FAMILY_ADDS_MATERIAL_VALUE",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

@@ -1,0 +1,6 @@
+{
+  "source": "external://checkpoints/S10_OUTER_R4_LHS_03_OUTER_2_OUTER_OOF_CONTROL_SEED_20260813/final_checkpoint.pt",
+  "sha256": "69ad7707474fca3570d8f20bbbc28e675c687d1fbcbeb683f06a3aef9f6558dd",
+  "size_bytes": 1540391,
+  "reason": "large binary stored externally; verify against recorded SHA-256"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_FOR_S6_CANDIDATES",
+  "historical_diagnostic": {
+    "case_id": "V40_A_E6_C10_1T",
+    "persistent_conflict_pairs": [],
+    "minimum_aggregated_cosine": -0.11287103870996806,
+    "effective_gradient_rank": 3.44277667798305,
+    "limitation": "one case and one historical checkpoint; cannot select a portfolio-wide sharing pattern"
+  },
+  "required_per_candidate_before_optimizer_step": [
+    "data-task gradient norm by primary component",
+    "physics-term gradient norm",
+    "pairwise gradient cosine over at least three causal windows",
+    "finite nonzero graph/physics branch gradient",
+    "layerwise contribution"
+  ],
+  "decision": "Start from each route's canonical sharing pattern. Compare M0/M1/M2 only inside R2. Activate GradNorm or PCGrad only after persistent measured conflict; never both simultaneously.",
+  "acceleration": "blocked from shared-gradient decisions until a compatible acceleration observation/physics contract is instantiated; do not infer by double differentiation"
+}

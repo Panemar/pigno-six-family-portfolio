@@ -1,0 +1,19 @@
+{
+  "figure_id": "F41",
+  "title": "Structural COMAC over the 512 bridge observations",
+  "generated_utc": "2026-08-13T01:02:08.317293+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\75_generate_s12_modal_diagnostics.py",
+  "script_sha256": "97cc93a4131030fff4acefd5ec8523ae80a3aead496975f8f3f97f5c46f54dac",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F41.csv",
+  "source_csv_sha256": "499dfb19fb689180de2d020439fe2b0a2744cca13121949df2f8e3014595f8fe",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F41.png",
+  "png_sha256": "8ed89ba13fa83e03c5cc16d9434bb43dfe9b0e4a7a093fd7042b7dd1dfdda4d0",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F41.pdf",
+  "pdf_sha256": "bf6139c91459089f6372b63ea19ed23f06b80c8e428bb19ae847007b11def5fb",
+  "units": "m coordinates; dimensionless COMAC",
+  "structural_modes": 12,
+  "cluster_alignment": "orthogonal Procrustes for modes 6-9",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

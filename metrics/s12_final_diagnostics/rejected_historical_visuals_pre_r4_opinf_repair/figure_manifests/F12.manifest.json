@@ -1,0 +1,15 @@
+{
+  "figure_id": "F12",
+  "title": "S9 hyperparameter parallel coordinates",
+  "generated_utc": "2026-08-11T14:09:35.594110+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "ef61dc53d337d1f7f6ff90be81d3d9f478e291cf36c93efc190fde1956610d14",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F12.csv",
+  "source_csv_sha256": "2c8c77d2c5edcb406a0bbb1ac27f0ae4634b2395a9afecd9d20fb801a88624d5",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F12.png",
+  "png_sha256": "1bb2ae134ed1ba5cf72804ab204ed50ad40ced2ca73901b672d404ca2432dbfc",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F12.pdf",
+  "pdf_sha256": "dc207bab88f7ced132eff196a4dd92d67f31a25ca7c2082c8064aefc7e7bfc0d",
+  "units": "mixed; raw values in source CSV",
+  "quantity": "S9 hyperparameter design"
+}

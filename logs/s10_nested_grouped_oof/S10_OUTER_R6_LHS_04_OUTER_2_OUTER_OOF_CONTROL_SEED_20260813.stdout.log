@@ -1,0 +1,17 @@
+{
+  "status": "PASS_S10_FOLD_TRIAL_EXECUTION",
+  "run_id": "S10_OUTER_R6_LHS_04_OUTER_2_OUTER_OOF_CONTROL_SEED_20260813",
+  "selected_epoch": 85,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.058754872530698776,
+    "velocity_X_pooled_l2": 0.4503335654735565,
+    "displacement_Y_pooled_l2": 0.03466634452342987,
+    "velocity_Y_pooled_l2": 0.21711033582687378,
+    "displacement_Z_pooled_l2": 0.025804845616221428,
+    "velocity_Z_pooled_l2": 0.23925645649433136,
+    "equilibrium_residual_median": 3.152109561630181,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "causality": 0.0
+}

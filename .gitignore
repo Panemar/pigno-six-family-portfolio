@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log.tmp
+*.tmp
+*.bak
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Large scientific binaries are registered externally.
+*.mph
+*.mphbin
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Explicitly retain the compact authority files already versioned before init.
+!data/authority/modal_reference_original.h5

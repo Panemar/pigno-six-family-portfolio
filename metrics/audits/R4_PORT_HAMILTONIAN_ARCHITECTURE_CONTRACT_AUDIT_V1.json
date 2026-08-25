@@ -1,0 +1,58 @@
+{
+  "schema": "R4_PORT_HAMILTONIAN_ARCHITECTURE_CONTRACT_AUDIT_V1",
+  "status": "FAIL_R4_PORT_HAMILTONIAN_ARCHITECTURE_CONTRACT",
+  "generated_utc": "2026-08-11T15:41:36.7746582Z",
+  "frozen_route": "R4_PORT_HAMILTONIAN_OPINF",
+  "required_core": "constrained port-Hamiltonian reduced input-output dynamics with J skew, R positive semidefinite, explicit energy/passivity and a zero-initialized graph residual",
+  "observed_training_core": "PortHamiltonianResidualOperator plus a fixed Physical32 Newmark anchor passed directly as q, v and a to SpecializedObservationHeads",
+  "findings": {
+    "PortHamiltonianOpInf_instantiated_in_training_scripts_S6_to_S10": false,
+    "PortHamiltonianOpInf_used_by_ConfigurableRoute_R4": false,
+    "fixed_Newmark_anchor_overwrites_R4_q_v_a": true,
+    "reported_physics_loss_depends_on_trainable_parameters_for_R4_physics_variant": false,
+    "graph_temporal_observation_heads_remain_trainable": true,
+    "static_primitive_J_R_Q_test_exists": true,
+    "static_primitive_test_proves_executed_R4_architecture": false
+  },
+  "evidence": [
+    "src/portfolio_operators/port_hamiltonian.py defines PortHamiltonianOpInf and PortHamiltonianResidualOperator as separate modules",
+    "scripts/05_s6_static_route_preflights.py instantiates PortHamiltonianOpInf only for a static primitive test",
+    "scripts/31_train_s6_micropanel_route.py and scripts/39_run_s9_fold_trial.py instantiate only PortHamiltonianResidualOperator for route R4",
+    "scripts/39_run_s9_fold_trial.py replaces q, v and a with the external Newmark anchor before SpecializedObservationHeads",
+    "scripts/48_run_s10_fold_trial.py imports ConfigurableRoute from S9 and supplies the same fixed Newmark anchor",
+    "R4 train_physics_loss is numerically constant across epochs because the audited state loss and equilibrium loss are evaluated on the fixed anchor"
+  ],
+  "affected_evidence_counts": {
+    "s6_capacity_R4_reports": 7,
+    "s6_micropanel_R4_reports": 4,
+    "s8_R4_reports": 4,
+    "s9_R4_reports": 36,
+    "s10_R4_completed_reports": 11,
+    "s10_R4_interrupted_partial_runs": 1
+  },
+  "classification": {
+    "PortHamiltonianOpInf_static_primitive_tests": "CAPACITY_ONLY",
+    "R4_trained_results_S6_to_S10": "INVALIDATED_BY_ARCHITECTURE_CONTRACT_AS_PORT_HAMILTONIAN_OPINF",
+    "R4_trained_results_reusable_as": "NEWmark_anchor_graph_temporal_residual_negative_or_comparator_evidence_only",
+    "R2_and_R6_completed_S10_results": "UNAFFECTED"
+  },
+  "runtime_action": {
+    "stopped_process_id": 25932,
+    "stopped_run_id": "S10_OUTER_R4_LHS_03_OUTER_1_OUTER_OOF_PHYSICS_SEED_20260813",
+    "campaign_status": "OPERATIONAL_FAILURE_S10",
+    "S11_authorized": false,
+    "artifacts_deleted": false,
+    "artifacts_moved": false
+  },
+  "source_sha256": {
+    "src/portfolio_operators/port_hamiltonian.py": "556DBD0B38432480A35E31EBEBCC22E9346B279E9686C3C364928026A25C2B45",
+    "scripts/05_s6_static_route_preflights.py": "CD2304D8110E20E63ACA9DCDE589F83EB035A3D0842B926BDE80383402CFAEF4",
+    "scripts/15_train_s6_r4_port_hamiltonian_capacity.py": "A2B1E4A6413850F3AC2F3C0669B82AB43578481F8CB02D311F756C5A198BFD8C",
+    "scripts/31_train_s6_micropanel_route.py": "0DE56B6B8ED8C65A0D35CEDF7942E46B625EFB7AF8F1ABDC540C5418CC197F40",
+    "scripts/39_run_s9_fold_trial.py": "D902F75AB3C334402CF8058EFEEC5E2382D8A8BE78176D9EEC442862C431DB9D",
+    "scripts/48_run_s10_fold_trial.py": "CECCD64CE1295C0124618B3E2DA9622BED78D52BAAF04F1B8A8DE2989D203C8D",
+    "PORTFOLIO_DEFINITION.json": "760F4E7A6D23F000D2C4887C814E8600D3E8AE19B0095C7D6A072DE68A245E83",
+    "PORTFOLIO_FAMILY_MATRIX.csv": "4527A9CD2C25344A69313D5075730025A3DB00A95E9C0893303F49606EAE5BE0"
+  },
+  "next_gate": "R4_REPAIR_MUST_INSTANTIATE_AND_EXERCISE_PORT_HAMILTONIAN_DYNAMICS_BEFORE_ANY_REENTRY_TO_S8_OR_LATER"
+}

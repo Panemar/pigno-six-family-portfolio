@@ -1,0 +1,7 @@
+{
+  "figure_id": "F25",
+  "title": "Worst-case OOF time histories",
+  "caption": "Median-seed worst-case histories at fixed FEM/COMSOL maximum-energy nodes. Worst case is selected by mean X/Y/Z trajectory error, not visual appearance.",
+  "units": "s and m in source; mm plotted",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

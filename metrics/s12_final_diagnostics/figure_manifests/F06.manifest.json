@@ -1,0 +1,18 @@
+{
+  "figure_id": "F06",
+  "title": "FEM/COMSOL base, incremental and total vertical fields",
+  "generated_utc": "2026-08-11T13:59:24.058830+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\69_generate_s12_authority_graph_figures.py",
+  "script_sha256": "247e9a772e612a65a03ac0faf76912cb67d4fdc53cd5de9948a747a00fd5b8f0",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F06.csv",
+  "source_csv_sha256": "adc4b47cebf2c82c26066a3fec9a8b05e7843e5e0781f03badf304762d7d9401",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F06.png",
+  "png_sha256": "d87e83d947594c210d3851d7db564a603091fd0f3db74e5d213594bdc075479f",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F06.pdf",
+  "pdf_sha256": "e3be83da3784ae4b242b8fbf667e9e6e13cba936c404934d3059e9160034c153",
+  "units": "m in source; mm in color scale",
+  "quantity": "Y vertical displacement",
+  "case_id": "V52_CPLUS_E8_C12_2T",
+  "time_s": 9.025,
+  "geometry": "true-aspect plan and elevation projections"
+}

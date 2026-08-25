@@ -1,0 +1,7 @@
+{
+  "figure_id": "F14",
+  "title": "S9 high-fidelity error–physics–cost Pareto view",
+  "caption": "Each point is one high-fidelity fold run. Marker area scales with parameter count; open squares are controls and filled circles physics variants. Black rings mark nondominated points across predictive error, residual and parameter count.",
+  "units": "dimensionless errors; parameter count",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

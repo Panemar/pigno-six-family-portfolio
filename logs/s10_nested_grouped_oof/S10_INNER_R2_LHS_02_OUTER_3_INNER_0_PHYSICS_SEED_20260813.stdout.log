@@ -1,0 +1,17 @@
+{
+  "status": "PASS_S10_FOLD_TRIAL_EXECUTION",
+  "run_id": "S10_INNER_R2_LHS_02_OUTER_3_INNER_0_PHYSICS_SEED_20260813",
+  "selected_epoch": 90,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.05625464767217636,
+    "velocity_X_pooled_l2": 0.5397645235061646,
+    "displacement_Y_pooled_l2": 0.03922412171959877,
+    "velocity_Y_pooled_l2": 0.27805230021476746,
+    "displacement_Z_pooled_l2": 0.025952348485589027,
+    "velocity_Z_pooled_l2": 0.3006204068660736,
+    "equilibrium_residual_median": 0.1528706338368111,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "causality": 0.0
+}

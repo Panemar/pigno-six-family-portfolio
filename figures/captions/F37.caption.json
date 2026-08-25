@@ -1,0 +1,7 @@
+{
+  "figure_id": "F37",
+  "title": "Equilibrium-residual reduction by seed and outer fold",
+  "caption": "Each point is one paired physics/control seed-fold comparison. Horizontal black segments are medians; positive values favor the physics-informed variant.",
+  "units": "percent for plotted paired reductions",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

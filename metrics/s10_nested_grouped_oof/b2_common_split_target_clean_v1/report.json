@@ -1,0 +1,109 @@
+{
+  "status": "PASS_S10_B2_COMMON_SPLIT_TARGET_CLEAN_OOF_AUDIT_PENDING",
+  "generated_utc": "2026-08-13T00:15:44.490490+00:00",
+  "model": "B2_FOLDCLEAN_POD_CAUSAL_FIR_RIDGE",
+  "algorithm_changes": "none",
+  "partition": "exact S10 common outer and inner folds",
+  "case_count": 68,
+  "summary_all_oof": {
+    "u": {
+      "pooled_relative_l2": 0.01814026582695039,
+      "median_case_relative_l2": 0.030282538145069406,
+      "p90_case_relative_l2": 0.12245315969919972,
+      "worst_case_relative_l2": 0.381992387845338,
+      "worst_case_id": "BASE_C1_0T"
+    },
+    "v": {
+      "pooled_relative_l2": 0.02493080638792909,
+      "median_case_relative_l2": 0.021546622418989535,
+      "p90_case_relative_l2": 0.03729696768613184,
+      "worst_case_relative_l2": 0.045717568990972304,
+      "worst_case_id": "BASE_C2_0T"
+    },
+    "w": {
+      "pooled_relative_l2": 0.037181203350144104,
+      "median_case_relative_l2": 0.04020483286081969,
+      "p90_case_relative_l2": 0.055133474835479764,
+      "worst_case_relative_l2": 0.0641828557424002,
+      "worst_case_id": "BASE_C2_0T"
+    }
+  },
+  "hard_BC_max_abs_m": 0.0,
+  "outer_fold_results": [
+    {
+      "outer_fold": 0,
+      "selected_input_rank": 128,
+      "selected_ridge_alpha": 1e-08,
+      "inner_selection_score": 0.26568343976903175,
+      "pod_rank": 24,
+      "pod_energy": 0.9999029492079612,
+      "pod_orthogonality_max_abs": 2.6226043701171875e-06,
+      "ridge_gram_condition": 16423.722608374454,
+      "u_pooled_l2": 0.015407460697754755,
+      "v_pooled_l2": 0.01741554484812629,
+      "w_pooled_l2": 0.03109045499317522
+    },
+    {
+      "outer_fold": 1,
+      "selected_input_rank": 128,
+      "selected_ridge_alpha": 1e-08,
+      "inner_selection_score": 0.23113261582572528,
+      "pod_rank": 24,
+      "pod_energy": 0.9999062533556865,
+      "pod_orthogonality_max_abs": 6.854534149169922e-06,
+      "ridge_gram_condition": 16446.365875674564,
+      "u_pooled_l2": 0.013987608351290424,
+      "v_pooled_l2": 0.01777085956462825,
+      "w_pooled_l2": 0.03473027328208445
+    },
+    {
+      "outer_fold": 2,
+      "selected_input_rank": 128,
+      "selected_ridge_alpha": 1e-06,
+      "inner_selection_score": 0.41132175745262245,
+      "pod_rank": 24,
+      "pod_energy": 0.9999046131392472,
+      "pod_orthogonality_max_abs": 4.827976226806641e-06,
+      "ridge_gram_condition": 16540.233381389135,
+      "u_pooled_l2": 0.0230862339104565,
+      "v_pooled_l2": 0.03685968485910273,
+      "w_pooled_l2": 0.045063246587140504
+    },
+    {
+      "outer_fold": 3,
+      "selected_input_rank": 128,
+      "selected_ridge_alpha": 1e-06,
+      "inner_selection_score": 0.39882841145609577,
+      "pod_rank": 24,
+      "pod_energy": 0.9999081262304506,
+      "pod_orthogonality_max_abs": 3.933906555175781e-06,
+      "ridge_gram_condition": 15800.07747205535,
+      "u_pooled_l2": 0.02271781651788048,
+      "v_pooled_l2": 0.02347980569685717,
+      "w_pooled_l2": 0.040257642162101696
+    },
+    {
+      "outer_fold": 4,
+      "selected_input_rank": 128,
+      "selected_ridge_alpha": 1e-08,
+      "inner_selection_score": 0.1432668126303179,
+      "pod_rank": 24,
+      "pod_energy": 0.9999061818184567,
+      "pod_orthogonality_max_abs": 3.933906555175781e-06,
+      "ridge_gram_condition": 15746.226646641226,
+      "u_pooled_l2": 0.013762703675554523,
+      "v_pooled_l2": 0.023873725925429627,
+      "w_pooled_l2": 0.03403075757483206
+    }
+  ],
+  "input_feature_count": 296,
+  "runtime_seconds": 364.6698250000045,
+  "source_hashes": {
+    "common_protocol": "26ce6b8d7043b031c18fb5336ae6daf3ffce1e067ca4459dd1943c7e6d9805a8",
+    "folds": "1580277c7c4ff361b2fcc139bc923bac2a2ab35369681359ffc1bda32b205e35",
+    "assignments": "eb059fbcbc7cf51a5ddd36c44cdd44ac5d515a6816d5128862519043df43b748",
+    "source_index": "82fb8c8d81b1531aedb375118ee275805288e08b649478c9badeabb1478aef5f",
+    "historical_b2_runner": "a3f04cc359aab720359e034ce11fbe743aa8a5bf5b5674dd6412236e6d7f3e3a"
+  },
+  "S11_authorized": false
+}

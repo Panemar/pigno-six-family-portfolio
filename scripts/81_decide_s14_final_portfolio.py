@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""Apply frozen portfolio gates after complete S12 diagnostics."""
+
+from __future__ import annotations
+
+import csv
+import json
+import os
+from datetime import datetime, timezone
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from visual_qa_validation import validate_manual_visual_qa
+
+ROOT=Path(__file__).resolve().parents[1];S10=ROOT/"s10_nested_grouped_oof";S11=ROOT/"s11_five_seed_confirmation";S12=ROOT/"s12_final_diagnostics";S14=ROOT/"s14_final_decision"
+S11_DECISION=S11/"S11_TO_S12_DECISION_V1.json";S11_COMPARISON=S11/"S11_TO_S12_METRIC_COMPARISONS.csv";GRAPH_REPORT=S12/"S12_GRAPH_UTILITY_FIGURE_REPORT.json";MODAL_REPORT=S12/"S12_MODAL_DIAGNOSTIC_FIGURES_REPORT.json";DYNAMIC_REPORT=S12/"dynamic_spatial_multiseed_v1"/"report.json";EXTENSION=S12/"S12_SEQUENTIAL_EXTENSION_PIPELINE_STATUS.json";CORE=S12/"S12_DIAGNOSTICS_PIPELINE_STATUS.json"
+OUTPUT=S14/"S14_FINAL_SCIENTIFIC_DECISION.json";GATES=S14/"S14_FAMILY_GATE_MATRIX.csv";CLAIMS=S14/"S14_CLAIM_EVIDENCE_LIMITATION.csv"
+FALLBACK=S12/"S12_NEGATIVE_RESULT_FALLBACK_STATUS.json"
+VISUAL_QA=S12/"S12_PREDECISION_MANUAL_VISUAL_QA_V1.json"
+
+def read(path):return json.loads(path.read_text(encoding="utf-8"))
+def atomic(path,payload):path.parent.mkdir(parents=True,exist_ok=True);tmp=path.with_suffix(path.suffix+".tmp");tmp.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+"\n",encoding="utf-8");os.replace(tmp,path)
+def write_csv(path,rows):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    with path.open("w",newline="",encoding="utf-8") as handle:writer=csv.DictWriter(handle,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+
+def main():
+    if OUTPUT.exists():raise FileExistsError(OUTPUT)
+    fallback_mode=FALLBACK.is_file() and read(FALLBACK).get("status")=="PASS_S12_SINGLE_SEED_NEGATIVE_DIAGNOSTICS"
+    required={MODAL_REPORT:"PASS_S12_MODAL_DIAGNOSTIC_FIGURES",GRAPH_REPORT:"PASS_S12_GRAPH_UTILITY_FIGURE",DYNAMIC_REPORT:"PASS_S12_DYNAMIC_SPATIAL_MULTISEED_AUDIT",VISUAL_QA:"PASS_S12_PREDECISION_MANUAL_VISUAL_QA_V1"}
+    if fallback_mode:required[FALLBACK]="PASS_S12_SINGLE_SEED_NEGATIVE_DIAGNOSTICS"
+    else:required.update({CORE:"PASS_S12_DIAGNOSTICS_PIPELINE_PARTIAL_FIGURE_SET",EXTENSION:"PASS_S12_SEQUENTIAL_EXTENSION_PIPELINE",S11_DECISION:"PASS_S11_TO_S12_FULL_DIAGNOSTICS_DECISION"})
+    for path,status in required.items():
+        if not path.is_file():raise SystemExit(f"Required final-decision input absent: {path}")
+        if read(path).get("status")!=status:raise RuntimeError(f"Unadmitted final-decision input: {path}")
+    validate_manual_visual_qa(VISUAL_QA,S12/"S12_PREDECISION_VISUAL_QA_READINESS_V1.json","PASS_S12_PREDECISION_MANUAL_VISUAL_QA_V1",[f"F{index:02d}" for index in range(1,44)],S12/"figures")
+    missing=[figure_id for figure_id in range(1,44) if not (S12/"figures"/f"F{figure_id:02d}.png").is_file()]
+    if missing:raise RuntimeError(f"F01-F43 incomplete: {missing}")
+    graph=read(GRAPH_REPORT);protocol=read(S10/"S10_NESTED_GROUPED_OOF_PROTOCOL_AMENDED_V2.json");route_by_trial={row["trial_id"]:row["route"] for row in protocol["candidate_templates"]};graph_by_trial={row["trial_id"]:row for row in graph["route_verdicts"]}
+    candidate_rows=[]
+    if fallback_mode:
+        promotion=read(S10/"S10_TO_S11_PROMOTION_DECISION_V1.json");diagnostic=promotion["decisions"][0];trial=diagnostic["trial_id"];graph_row=graph_by_trial[trial];aggregate=pd.read_csv(S10/"independent_oof_audit_v1"/"S10_OOF_AGGREGATE_METRICS.csv");selected=aggregate[(aggregate.trial_id==trial)&(aggregate.variant=="physics")&(aggregate.quantity=="displacement")&(aggregate.view=="total")&(aggregate.model=="S10_HYBRID")];mean_error=float(selected.pooled_relative_l2.mean())
+        candidate_rows.append({"trial_id":trial,"route":route_by_trial[trial],"seed_stability_pass":False,"predictive_noninferiority_pass":False,"predictive_material_gain":bool(diagnostic["predictive_material_gain"]),"physical_material_gain":bool(diagnostic["physical_material_gain"]),"graph_permutation_pass":bool(graph_row["permutation_pass"]),"graph_functional_benefit":graph_row["verdict"]=="PASS_FUNCTIONAL_BENEFICIAL_GRAPH_USE","graph_claim_boundary":"single-seed S10 frozen-checkpoint inference ablation only; no multiseed or retrained graph-free causal claim","modal_scope":"single-seed S10 forced response projected on fixed FEM/COMSOL structural modes; no learned eigenmode claim","full_state_gate_pass":False,"mean_primary_metric":mean_error,"classification":"NOT_ACCEPTABLE","ranking_key":[0,int(diagnostic.get("bootstrap_positive_axes",0)),int(diagnostic["predictive_material_gain"]),int(diagnostic["physical_material_gain"]),float(diagnostic["median_equilibrium_residual_reduction"]),-mean_error]})
+    else:
+        decision=read(S11_DECISION);comparisons=pd.read_csv(S11_COMPARISON)
+        for row in decision["decisions"]:
+            trial=row["trial_id"];graph_row=graph_by_trial[trial];graph_pass=graph_row["verdict"]=="PASS_FUNCTIONAL_BENEFICIAL_GRAPH_USE";hard=bool(row["seed_stability_pass"] and row["noninferiority_pass"] and graph_row["permutation_pass"]);primary=bool(hard and graph_pass and row["predictive_material_gain"]);physical=bool(hard and graph_pass and row["physical_material_gain"]);mean_error=float(comparisons[comparisons.trial_id==trial].physics_seed_median.mean())
+            classification="PRIMARY_FIELD_ACCEPTABLE" if primary else "NONINFERIOR_PHYSICAL_GAIN" if physical else "NOT_ACCEPTABLE"
+            candidate_rows.append({"trial_id":trial,"route":route_by_trial[trial],"seed_stability_pass":bool(row["seed_stability_pass"]),"predictive_noninferiority_pass":bool(row["noninferiority_pass"]),"predictive_material_gain":bool(row["predictive_material_gain"]),"physical_material_gain":bool(row["physical_material_gain"]),"graph_permutation_pass":bool(graph_row["permutation_pass"]),"graph_functional_benefit":graph_pass,"graph_claim_boundary":"inference ablation only; no retrained graph-free causal superiority","modal_scope":"fixed FEM/COMSOL structural modes plus OOF forced-response projections; no learned eigenmode claim","full_state_gate_pass":False,"mean_primary_metric":mean_error,"classification":classification,"ranking_key":[2 if primary else 1 if physical else 0,int(row["pooled_gain_axes"]),int(row["tail_gain"]),float(row["median_equilibrium_residual_reduction"]),-mean_error]})
+    ordered=sorted(candidate_rows,key=lambda row:tuple(row["ranking_key"]),reverse=True);winner=ordered[0] if ordered and ordered[0]["classification"]!="NOT_ACCEPTABLE" else None
+    if winner and winner["classification"]=="PRIMARY_FIELD_ACCEPTABLE":final_state="ACCEPTED_PRIMARY_FIELD_OPERATOR_WITH_FULL_STATE_LIMITATION"
+    elif winner:final_state="PHYSICS_INFORMED_NONINFERIOR_WITH_VALIDATED_PHYSICAL_GAIN"
+    else:final_state="NO_PHYSICS_INFORMED_FAMILY_ADDS_MATERIAL_VALUE"
+    routes=[row["id"] for row in read(ROOT/"PORTFOLIO_DEFINITION.json")["routes"]];short={"R1_BRIDGE_PINO":"R1","R2_MO_PIGNO":"R2","R3_GRAPH_NEURAL_GALERKIN":"R3","R4_PORT_HAMILTONIAN_OPINF":"R4","R5_ROTATION_MULTISCALE_GNO":"R5","R6_LOAD_DEPENDENT_RITZ_KRYLOV":"R6"}
+    s8=read(ROOT/"s8_factorial_panel"/"S8_FACTORIAL_AUDIT_AND_S9_PROMOTION_V3_REPAIRED_R4.json");s8_by={row["route"]:row for row in s8["families"]}
+    s9=read(ROOT/"audits"/"S9_PORTFOLIO_REPAIRED_R4_INDEPENDENT_AUDIT_V1.json");s9_promoted=set(s9["promoted_trial_ids"]);s9_routes={row["route"] for row in s9["ranking"] if row["trial_id"] in s9_promoted};candidate_by_route={row["route"]:row for row in candidate_rows}
+    gate_rows=[]
+    for route_id in routes:
+        route=short[route_id];final=candidate_by_route.get(route);gate_rows.append({"route":route,"family":route_id,"S6_capacity":"EXECUTED_WITH_REPAIRS","S8_factorial_primary":"PASS" if s8_by[route]["primary_seed_count"]==2 else "FAIL","S9_HPO":"PASS" if route in s9_routes else "NOT_REACHED","S10_nested_OOF":"PASS" if route in {"R4","R2","R6"} else "NOT_REACHED","S11_five_seed":"PASS" if final and not fallback_mode else "NOT_REACHED","predictive_noninferiority":"PASS" if final and final["predictive_noninferiority_pass"] else "FAIL" if final else "NOT_REACHED","predictive_material_gain":"PASS" if final and final["predictive_material_gain"] else "FAIL" if final else "NOT_REACHED","physical_material_gain":"PASS" if final and final["physical_material_gain"] else "FAIL" if final else "NOT_REACHED","graph_utility":"PASS_FUNCTIONAL" if final and final["graph_functional_benefit"] else "FAIL" if final else "NOT_REACHED","modal_evidence":"REPORTED_COMMON_AND_PROJECTED" if final else "COMMON_REFERENCE_ONLY","full_state":"FAIL_LIMITED" if final else "NOT_REACHED","final_selected":"PASS" if winner and route==winner["route"] else "FAIL"})
+    confirmation_evidence="S10 single-seed diagnostic after no route qualified for S11" if fallback_mode else "S11 five-seed paired OOF"
+    claim_rows=[
+        {"claim":"One numerical authority","observation":"All admitted comparisons preserve the original FEM/COMSOL identity contract.","evidence":"S1 data authority and exact same-case/time/node/component contracts","metric":"identity counts, hashes, units and axis mapping","FEM":"original FEM model implemented and solved in COMSOL","family":"all six","case":"68 historically exposed trajectories","worst_case":"not applicable to an identity gate","physical_mechanism":"common loads, supports, base state and observation map","architectural_mechanism":"common immutable data adapter","figure":"F02-F06","table":"DATA_ACCESS_REGISTRY.csv; S14_FAMILY_GATE_MATRIX.csv","decision":"PASS","limitation":"historically exposed trajectories; not blind or external"},
+        {"claim":"Common structural graph/modal authority","observation":"The active Beam topology and first structural modes have an independent Timoshenko audit.","evidence":"S2 Beam graph and first-12 FEM/COMSOL versus independent Timoshenko audit","metric":"frequency error, MAC, cluster-subspace similarity, topology and frame hashes","FEM":"FEM/COMSOL modal reference","family":"all graph routes","case":"common structural reference","worst_case":"reported by the modal audit, not inferred from forced-response POD","physical_mechanism":"Timoshenko beam stiffness, mass, supports and local frames","architectural_mechanism":"shared active Beam graph and fixed modal projection","figure":"F03-F05; F39-F41","table":"MODAL_REFERENCE_AUDIT.md; S12 modal source CSVs","decision":"PASS","limitation":"independent matrices are auditor/regularizer, not COMSOL full transient M,C,K"},
+        {"claim":"Physics-informed family adds material primary-field value","observation":"Acceptance is determined by paired trajectory evidence and noncompensatory predictive/physical gates.","evidence":confirmation_evidence+" plus B2/control noninferiority and S12 diagnostics","metric":"relative L2, RMSE, MAE, NRMSE, P90, worst case, bootstrap gain and residual reduction","FEM":"same-case/time/node/component FEM/COMSOL displacement fields","family":winner["route"] if winner else "none accepted","case":"all 68 OOF trajectories","worst_case":"explicitly reported in OOF tables and F20-F25","physical_mechanism":"route-compatible reduced, weak, energy, modal or Ritz physics","architectural_mechanism":"frozen route plus capacity-matched data-only control","figure":"F17-F45","table":"S10/S11 OOF metrics; S14_FAMILY_GATE_MATRIX.csv","decision":final_state,"limitation":"full state, sensors and genuinely new FEM panel remain unvalidated"},
+        {"claim":"Graph is functionally beneficial","observation":"Frozen-checkpoint perturbations test whether topology, mechanics and frames contribute to admitted predictions.","evidence":"S12 OOF graph corruption and consistent node-relabel tests","metric":"paired error change, prediction shift, bootstrap interval and permutation invariance","FEM":"OOF FEM/COMSOL fields","family":winner["route"] if winner else "best diagnostic route only","case":"all applicable OOF trajectories","worst_case":"reported per perturbation and global axis","physical_mechanism":"Beam connectivity, edge mechanics and local frames","architectural_mechanism":"message passing under frozen checkpoint","figure":"F42","table":"S12 graph-utility source CSV","decision":winner["graph_functional_benefit"] if winner else False,"limitation":"no separately retrained graph-free causal comparator"},
+        {"claim":"Modal reproduction by PIGNO","observation":"Candidate forced responses are projected on fixed structural modes; no candidate eigenpair is manufactured.","evidence":"OOF response projected on fixed FEM/COMSOL structural modes","metric":"response-coordinate peak frequency, temporal MAC, COMAC and subspace angles","FEM":"first 12 FEM/COMSOL structural modes","family":winner["route"] if winner else "best diagnostic route only","case":"energetically admitted modes by trajectory","worst_case":"P90 response-frequency error and minimum admitted subspace MAC","physical_mechanism":"fixed structural modal subspace","architectural_mechanism":"post hoc projection of OOF forced response","figure":"F39-F41","table":"S12 modal source CSVs","decision":"RESPONSE_MODAL_CONSISTENCY_ONLY","limitation":"PIGNO does not output eigenpairs; response POD is not labeled structural mode"},
+    ]
+    payload={"status":"PASS_S14_FINAL_SCIENTIFIC_DECISION","final_state":final_state,"winner":winner,"ordered_candidates":ordered,"reference":"single FEM model implemented and solved in COMSOL","evidence_label":"nested grouped OOF on 68 historically exposed trajectories; not blind or external","diagnostic_evidence_mode":"S10 single-seed negative route" if fallback_mode else "S11 five-seed finalists","B2_role":"frozen common-split POD plus causal FIR plus Ridge baseline","full_state_limitation":True,"sensor_validation_opened":False,"new_FEM_panel_executed":False,"new_FEM_panel_requires_explicit_user_authorization":True,"no_seventh_family":True,"decision_rules":"frozen S10/S11 noninferiority and material-gain gates plus S12 graph permutation/functional-benefit veto; no post-hoc modal threshold","generated_utc":datetime.now(timezone.utc).isoformat()}
+    write_csv(GATES,gate_rows);write_csv(CLAIMS,claim_rows);atomic(OUTPUT,payload);print(json.dumps(payload,indent=2))
+if __name__=="__main__":main()

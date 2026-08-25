@@ -1,0 +1,19 @@
+{
+  "status": "PASS_S8_FACTORIAL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S8_FACTORIAL_R6_LOAD_DEPENDENT_RITZ_KRYLOV_PHYSICS_INFORMED_SEED_20260811_V2_NONCOMPENSATORY_CHECKPOINT",
+  "best_epoch": 140,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.08464976352119334,
+    "velocity_X_pooled_l2": 0.5991090854878429,
+    "displacement_Y_pooled_l2": 0.059683066665281545,
+    "velocity_Y_pooled_l2": 0.3677187043941424,
+    "displacement_Z_pooled_l2": 0.04910361636056369,
+    "velocity_Z_pooled_l2": 0.30542349683290815,
+    "physical_q13_pooled_l2": 0.00418769050427725,
+    "physical_qdot13_pooled_l2": 0.0838167323855823,
+    "equilibrium_residual_median": 0.009262366837055117,
+    "equilibrium_residual_p90": 0.15222899269649615,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

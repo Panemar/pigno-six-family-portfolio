@@ -1,0 +1,18 @@
+{
+  "figure_id": "F18",
+  "title": "OOF error distributions by model and global component",
+  "generated_utc": "2026-08-13T00:57:12.160804+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\65_generate_s12_core_oof_figures.py",
+  "script_sha256": "219fa14f8e8502efc7845f12050b0d7711aaceeb9edb32b16f7828c6c04e3e4f",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F18.csv",
+  "source_csv_sha256": "49746a106000799f3a5f98a899925646a55ca225caeb0149bfa4b626fbfb3f8a",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F18.png",
+  "png_sha256": "939233a405bb476a7d1b747eaf8a0a4c34ff25c88cc872a46619f640e7f42965",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F18.pdf",
+  "pdf_sha256": "b493f170b7b5d7ed98325a6a7e0eb4e6c86d898f7717bf1490ab9d89c18fcc64",
+  "units": "dimensionless",
+  "quantity": "total displacement",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

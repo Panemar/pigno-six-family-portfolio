@@ -1,0 +1,7 @@
+{
+  "figure_id": "F05",
+  "title": "Causal axle trajectories on active rails",
+  "caption": "Axle position histories for V52_C_E8_C12_2T. Only positions inside the 135 m bridge span are drawn; source data retain entry and exit evolution.",
+  "units": "s and m",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

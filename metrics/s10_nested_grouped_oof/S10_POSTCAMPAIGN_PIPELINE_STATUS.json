@@ -1,0 +1,7 @@
+{
+  "status": "PASS_S10_POSTCAMPAIGN_PIPELINE_AWAITING_PROMOTION_DECISION",
+  "b2_report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\b2_common_split_target_clean_v1\\report.json",
+  "audit_report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_NESTED_GROUPED_OOF_INDEPENDENT_AUDIT.json",
+  "S11_authorized": false,
+  "completed_utc": "2026-08-13T00:29:50.152629+00:00"
+}

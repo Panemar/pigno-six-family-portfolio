@@ -1,0 +1,15 @@
+{
+  "figure_id": "F14",
+  "title": "S9 high-fidelity error–physics–cost Pareto view",
+  "generated_utc": "2026-08-11T14:11:08.856110+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "ef61dc53d337d1f7f6ff90be81d3d9f478e291cf36c93efc190fde1956610d14",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F14.csv",
+  "source_csv_sha256": "c678eead5b3c7c58df6e3c74183aef3867410d97707807aba1b3283d763135cd",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F14.png",
+  "png_sha256": "74cdeac4681248cefdaff664a6b6ae697027f7265a742ebae39ee339e6176467",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F14.pdf",
+  "pdf_sha256": "1b127dad1e870caa77ed2c1c767a1fd5a9ab682440ba692c95ee6f91c1a8dcf5",
+  "units": "dimensionless errors; parameter count",
+  "quantity": "high-fidelity Pareto diagnostics"
+}

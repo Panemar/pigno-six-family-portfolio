@@ -1,0 +1,19 @@
+{
+  "status": "FAIL_S8_FACTORIAL_PRIMARY",
+  "run_id": "S8_FACTORIAL_R3_GRAPH_NEURAL_GALERKIN_PHYSICS_INFORMED_SEED_20260810_V2_NONCOMPENSATORY_CHECKPOINT",
+  "best_epoch": 125,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.10175432732257358,
+    "velocity_X_pooled_l2": 0.714731432239185,
+    "displacement_Y_pooled_l2": 0.07170167746857332,
+    "velocity_Y_pooled_l2": 0.46602362840474615,
+    "displacement_Z_pooled_l2": 0.06004344988169906,
+    "velocity_Z_pooled_l2": 0.3776169518471483,
+    "physical_q13_pooled_l2": 0.050824048613539105,
+    "physical_qdot13_pooled_l2": 0.09540855537508769,
+    "equilibrium_residual_median": 0.168759003551754,
+    "equilibrium_residual_p90": 2.129049330944874,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

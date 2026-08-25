@@ -1,0 +1,18 @@
+{
+  "status": "PASS_CAUSAL_INPUTS_AND_BASE_MAPPING__ROUTE_PHYSICS_RESULTANTS_STAGED",
+  "load_support_file": "G:/Mi unidad/RESEARCH-BRIDGE/7-TESIS/Full Data Extracción/Original_extractions_20260801/graph_original_v1/load_support/original_graph_load_support.npz",
+  "load_support_sha256": "3c9bb636ae559fe6b8e062d8419cf850f2cfc7739bb24483a5b4989afdbec34a",
+  "track_A_unique_nodes": 1406,
+  "track_B_unique_nodes": 1408,
+  "track_union_unique_nodes": 2814,
+  "moving_load_projection": "analytic Gaussian integration against linear Beam shape functions with 50/50 rail split",
+  "causal_inputs_68": "contracts/causal_inputs_68_branch_o_v1.h5",
+  "causal_inputs_68_sha256": "6df908bf9c9f9b44d5a9334ce674a2ba0f254f079968c3d102d476834af2dc5f",
+  "incremental_mapping": "contracts/INCREMENTAL_TOTAL_FIELD_MAPPING.csv",
+  "incremental_mapping_sha256": "8a5c81a0737e6e2b51fb91710adb7553dca6f87261026efd6de4a03baa755f46",
+  "verified": ["track topology","path monotonicity","node/edge range","vertical projection witness","exact 68-case response-blind causal input union","inactive-track exact zeros","22 axle positions and forces","wind/braking/base-excitation series","exact base-case pairing by seismic and wind","same time and coordinates for total-minus-base"],
+  "pending_by_route": ["R3 virtual-work resultant and moment closure in its test space","R4 reduced input-port and energy balance closure","R6 fold-local force projection closure"],
+  "field_identity": "U_total=U_base_FEM+DeltaU_pred",
+  "capacity_data_contract_authorized": true,
+  "physics_claim_authorized": false
+}

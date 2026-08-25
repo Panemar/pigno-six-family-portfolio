@@ -1,0 +1,16 @@
+{
+  "schema": "PORTFOLIO_NONCOMPENSATORY_GATES_V1",
+  "noncompensatory_prerequisites": ["same_case","same_saved_time","same_node","same_component","same_unit","same_field_semantics","causal","finite","zero_leakage","hard_BC_where_declared"],
+  "gates": {
+    "PRIMARY_FIELD_GATE": ["relative_l2","rmse","mae","nrmse","r2","p90","p95","worst","peak_error","peak_time_error","phase","coherence","psd","hotspot","stability"],
+    "FULL_STATE_GATE": ["rotations","velocities","rotation_rates","accelerations","energy","defect_aware_kinematics","physical_residual"],
+    "MODAL_GATE": ["frequency_error","MAC","COMAC","subspace_MAC","principal_angles","effective_mass","participation"],
+    "PHYSICS_GATE": ["FEM_residual_floor","virtual_work","energy_balance","dissipation","force_input","passivity","stability"],
+    "GRAPH_UTILITY_GATE": ["multicase_gain","nonzero_graph_branch","edge_reversal","node_permutation","frame_perturbation","property_neutralization","connectivity_ablation"]
+  },
+  "route_closure_rule": "not from one output or one case; apply one representation and one optimization repair; close after two justified interventions each improve below 2 percent and resolve no physical gate",
+  "promotion": {"noninferiority_max_relative_degradation":0.02,"stable_seeds_required":4,"stable_seeds_total":5,"material_gain_any":["pooled error reduction >=5% in at least two primary components","P90 or worst reduction >=10%","noninferiority plus physical residual reduction >=25%","noninferiority plus consistent modal/spectral gain","noninferiority plus attributable graph generalization gain","noninferiority plus relevant compute gain"]},
+  "statistics": "paired by complete case trajectory; bootstrap cases, never snapshots",
+  "training_loss_is_evidence": false,
+  "outer_oof_tuning": false
+}

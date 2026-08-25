@@ -1,0 +1,20 @@
+{
+  "figure_id": "F08",
+  "title": "Six-family one-case capacity comparison",
+  "generated_utc": "2026-08-13T01:09:33.169644+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "35a868314a85c6e1b9a87f8b5c491396535597c4bd04a3766adcccb0b9ce9f78",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F08.csv",
+  "source_csv_sha256": "bb19247c0dcf5889b1f457b0c88d74bc5edb27bbcbd29292a1032588880f39f3",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F08.png",
+  "png_sha256": "26b52d34eb2c063600647f4f8d229758375d5dba03cc1735f0ce9d478b78eebe",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F08.pdf",
+  "pdf_sha256": "938af97ccf40bd47178331b2ffcc4e720e886bb04d8a5e136127b29ca0814453",
+  "units": "dimensionless",
+  "quantity": "capacity displacement error",
+  "case_count": 1,
+  "R4_claim_boundary": "historical pre-repair only",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

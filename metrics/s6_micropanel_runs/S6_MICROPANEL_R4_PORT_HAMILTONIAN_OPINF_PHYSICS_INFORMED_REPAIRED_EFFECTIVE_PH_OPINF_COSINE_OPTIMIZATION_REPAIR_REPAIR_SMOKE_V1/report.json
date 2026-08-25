@@ -1,0 +1,166 @@
+{
+  "status": "FAIL_S6_MICROPANEL_PRIMARY",
+  "run_id": "S6_MICROPANEL_R4_PORT_HAMILTONIAN_OPINF_PHYSICS_INFORMED_REPAIRED_EFFECTIVE_PH_OPINF_COSINE_OPTIMIZATION_REPAIR_REPAIR_SMOKE_V1",
+  "route": "R4",
+  "family": "PORT_HAMILTONIAN_OPINF",
+  "variant": "physics",
+  "optimization": "cosine",
+  "stage": "S6",
+  "seed": 20260810,
+  "anchor_kind": "fold_unrestricted_S6_capacity_ph_OpInf_R_tangent_assisted_effective_port",
+  "repaired_ph_opinf_fit_diagnostics": {
+    "snapshot_count": 78,
+    "state_dimension": 64,
+    "input_dimension": 32,
+    "gradient_rank": 63,
+    "joint_gradient_input_rank": 65,
+    "derivative_source": "tangent_equilibrium_MCK",
+    "port_ridge": 1e-06,
+    "operator_ridge": 1e-08,
+    "iterations": 92,
+    "converged": true,
+    "relative_step": 4.996863694615748e-07,
+    "state_derivative_relative_l2": 0.008137431890863524,
+    "port_output_relative_l2": 7.712957088279652e-06,
+    "maximum_symmetric_eigenvalue": 1.2174700345772027e-15,
+    "minimum_dissipation_eigenvalue": -1.2174700345772027e-15,
+    "finite": true
+  },
+  "evidence_label": "historically exposed S6 panel capacity; not OOF, generalization or blind",
+  "best_epoch": 10,
+  "checkpoint_selection": "lexicographic_noncompensatory_primary_displacement_then_velocity_and_physical_tiebreakers",
+  "checkpoint_selection_key": [
+    1.0,
+    6.0,
+    0.9596573512132293,
+    0.9596573512132293,
+    0.9826979708510956,
+    0.9827052680224486,
+    1.9431850108799278,
+    0.9552311398909901,
+    0.017731158902599093
+  ],
+  "epochs_executed": 10,
+  "parameter_count": 283792,
+  "epoch0_metrics": {
+    "displacement_X_pooled_l2": 0.9997969558695982,
+    "velocity_X_pooled_l2": 1.0046600623759394,
+    "displacement_Y_pooled_l2": 1.0064242594037873,
+    "velocity_Y_pooled_l2": 1.0036915283855543,
+    "displacement_Z_pooled_l2": 1.0046874833118702,
+    "velocity_Z_pooled_l2": 1.002692912883118,
+    "physical_q13_pooled_l2": 0.004067480181378267,
+    "physical_qdot13_pooled_l2": 0.09203792208783859,
+    "equilibrium_residual_median": 0.0025008217397781227,
+    "equilibrium_residual_p90": 0.11270161909043656,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "final_metrics": {
+    "displacement_X_pooled_l2": 0.9596573512132293,
+    "velocity_X_pooled_l2": 0.99951432143474,
+    "displacement_Y_pooled_l2": 0.5458692921658926,
+    "velocity_Y_pooled_l2": 0.9552311398909901,
+    "displacement_Z_pooled_l2": 0.437658367500806,
+    "velocity_Z_pooled_l2": 0.9389900780775596,
+    "physical_q13_pooled_l2": 0.017731158902599093,
+    "physical_qdot13_pooled_l2": 0.08705612274562814,
+    "equilibrium_residual_median": 0.037775257088429506,
+    "equilibrium_residual_p90": 0.7799929330159241,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "per_case_metrics": [
+    {
+      "case_id": "BASE_C3_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "displacement_X_relative_l2": 0.9278057343670046,
+      "velocity_X_relative_l2": 1.0026936513158848,
+      "displacement_Y_relative_l2": 0.6759806891884096,
+      "velocity_Y_relative_l2": 0.9700782272140063,
+      "displacement_Z_relative_l2": 0.3336891413433848,
+      "velocity_Z_relative_l2": 0.9647858361277559
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "displacement_X_relative_l2": 0.9399885272334293,
+      "velocity_X_relative_l2": 0.997907859255958,
+      "displacement_Y_relative_l2": 0.6333473795841063,
+      "velocity_Y_relative_l2": 0.983056342701692,
+      "displacement_Z_relative_l2": 0.370195739000147,
+      "velocity_Z_relative_l2": 0.9642399680882802
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "displacement_X_relative_l2": 0.9697507262034694,
+      "velocity_X_relative_l2": 0.9989821523778896,
+      "displacement_Y_relative_l2": 0.5559065403546188,
+      "velocity_Y_relative_l2": 0.9547683911728053,
+      "displacement_Z_relative_l2": 0.5336485123590136,
+      "velocity_Z_relative_l2": 0.9471079554109827
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "displacement_X_relative_l2": 0.982687025094066,
+      "velocity_X_relative_l2": 0.9981857054758053,
+      "displacement_Y_relative_l2": 0.5100068429217561,
+      "velocity_Y_relative_l2": 0.9577062782079636,
+      "displacement_Z_relative_l2": 0.522693632124399,
+      "velocity_Z_relative_l2": 0.9189487637246236
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "displacement_X_relative_l2": 0.9827052680224486,
+      "velocity_X_relative_l2": 1.0005706294989163,
+      "displacement_Y_relative_l2": 0.5140105823461482,
+      "velocity_Y_relative_l2": 0.9419175569223036,
+      "displacement_Z_relative_l2": 0.5207167857957882,
+      "velocity_Z_relative_l2": 0.9370490956052928
+    }
+  ],
+  "displacement_case_P90": {
+    "X": 0.9826979708510956,
+    "Y": 0.6589273653466883,
+    "Z": 0.5292665602651677
+  },
+  "velocity_case_P90": {
+    "X": 1.0018444425890973,
+    "Y": 0.9778650965066177,
+    "Z": 0.9645674889119656
+  },
+  "base_zero_increment_relative_to_panel_peak": 0.0,
+  "causality_future_perturbation_max_abs": 0.0,
+  "graph_load_branch_sensitivity_relative_l2": 1.0447665452957153,
+  "diagnostic_gates": {
+    "finite": true,
+    "hard_BC": true,
+    "causality": true,
+    "base_zero_increment": true,
+    "primary_pooled_each_axis": false,
+    "primary_case_P90_each_axis": false,
+    "velocity_pooled_axis_median": false,
+    "velocity_case_P90_axis_median": false,
+    "graph_branch_nonzero": true
+  },
+  "primary_field_gate_pass": false,
+  "full_state_velocity_gate_pass": false,
+  "physics_scope": "Physical32; direct 13-state supervision and route-compatible structure. Observation field coefficients are not FEM DOFs.",
+  "HPO_authorized": false,
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_SIX_CASE_MICROPANEL_DATASET.h5": "f2dcafb4770c0626a4e6e37c390b548d648901f77fbd65db24ab94c44c11c678",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_DUAL_STATE_FIELD_REPRESENTATION_VELOCITY_R128.h5": "d04861bf2da00bbb5181275ca9479ff91cf9096cbd774c09bce44e4390e8d798",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\SIX_ROUTE_MICROPANEL_PROTOCOL.json": "7ebe23c2e3fdfb0672b3759b652e5777487bb7cc3246b3d65008f24574a027ad",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\31_train_s6_micropanel_route.py": "d8dc3937b9da310be545a0d80d48a07911345a892e569e15eca2ff929578315a"
+  },
+  "generated_utc": "2026-08-11T16:13:35.445519+00:00"
+}

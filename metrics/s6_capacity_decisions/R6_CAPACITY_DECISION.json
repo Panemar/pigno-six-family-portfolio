@@ -1,0 +1,42 @@
+{
+  "status": "R6_NOT_AUTOMATICALLY_PROMOTED__DIAGNOSTIC_MICROPANEL_REQUIRED_BY_NO_SINGLE_CASE_CLOSURE_RULE",
+  "generated_utc": "2026-08-11T02:14:52.160144+00:00",
+  "route": "R6_LOAD_DEPENDENT_RITZ_KRYLOV",
+  "evidence_label": "historically exposed one-case capacity; not OOF, generalization or blind",
+  "basis_gate_status": "PASS_S6_R6_RITZ_KRYLOV_BASIS_GATE",
+  "representation_repair_consumed": true,
+  "representation_repair": "load-direction enrichment from four to eight directions, rank 8 to 16",
+  "optimization_repair_consumed": true,
+  "optimization_repair": "freeze Physical32 anchor and fit bounded residual only in the compatible complement with sustained learning rate",
+  "optimized_ritz_predictive_improvements_vs_modal": {
+    "physical_q_relative_l2": 0.9290586855455542,
+    "physical_qdot_relative_l2": 0.05738603001937729,
+    "displacement_X_relative_l2": 0.6921929563146346,
+    "displacement_Y_relative_l2": 0.08335579985821126,
+    "displacement_Z_relative_l2": 0.288433432248825,
+    "velocity_X_relative_l2": 0.15003315780043502,
+    "velocity_Y_relative_l2": 0.00890771162707769,
+    "velocity_Z_relative_l2": 0.0028738962190927512,
+    "rotation_X_relative_l2": 0.005318008940760399,
+    "rotation_Y_relative_l2": 0.04809505342567172,
+    "rotation_Z_relative_l2": 0.07928146016007545,
+    "rotation_rate_X_relative_l2": 0.0014535444803317023,
+    "rotation_rate_Y_relative_l2": 0.0040553458656064694,
+    "rotation_rate_Z_relative_l2": 0.010138688499662608
+  },
+  "optimized_ritz_noninferior_all_predictive_at_2_percent": true,
+  "ritz_anchor_preserved": true,
+  "optimized_ritz_failed_diagnostic_gates": [
+    "displacement_each_axis",
+    "velocity_median",
+    "velocity_worst"
+  ],
+  "decision": {
+    "automatic_micropanel_promotion": false,
+    "scientific_route_closure": false,
+    "HPO_authorized": false,
+    "nested_OOF_authorized": false,
+    "reason_not_promoted": "Ritz materially outperformed the rank-matched modal anchor and the staged residual preserved Physical32, but X/Y displacement and all velocity gates remained outside tolerance.",
+    "reason_not_closed": "The master contract forbids closure from one case; R6 proceeds only to the common diagnostic micropanel, with both route-specific repairs exhausted."
+  }
+}

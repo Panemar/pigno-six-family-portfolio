@@ -1,0 +1,123 @@
+{
+  "schema": "S6_MULTIFIELD_OBSERVATION_BASIS_REPORT_V1",
+  "status": "FAIL_S6_MULTIFIELD_OBSERVATION_REPRESENTATION",
+  "generated_utc": "2026-08-11T02:44:49.170288+00:00",
+  "blocker": "the one-case full-grid residual basis has a 14.6355% transverse oracle floor on the six-case panel",
+  "intervention": "retain common FEM-compatible Physical32 and use separate rank-64 observation residual bases for X, Y and Z, separately for displacement and velocity",
+  "classification": "common representation-contract correction, not a seventh family and not a route-specific architecture repair",
+  "evidence_label": "historically exposed micropanel representation; not OOF, generalization or blind",
+  "case_ids": [
+    "BASE_C3_0T",
+    "V40_A_E3_C6_1T",
+    "V52_B_E6_C10_1T",
+    "V40_C_E8_C12_2T",
+    "V52_CPLUS_E1_C4_2T",
+    "V40_CPLUS_E2_C5_2T"
+  ],
+  "displacement_relative_l2_by_case_axis": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.16499147682650497,
+      0.11238796883290532,
+      0.023833815920219197
+    ],
+    [
+      0.1653476368577802,
+      0.1168826796366899,
+      0.024578517242632176
+    ],
+    [
+      0.39170576437643023,
+      0.128955764231484,
+      0.06598762800823853
+    ],
+    [
+      0.3932827522311487,
+      0.1285996421091484,
+      0.06418571897932975
+    ],
+    [
+      0.3974331528728405,
+      0.12858019312087704,
+      0.06262480657857598
+    ]
+  ],
+  "velocity_relative_l2_by_case_axis": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.23975590379439496,
+      0.20221620494261813,
+      0.07308131810041231
+    ],
+    [
+      0.2726627916426226,
+      0.18656755393821475,
+      0.06897844414981572
+    ],
+    [
+      0.31469264906290484,
+      0.16177688105405658,
+      0.10702084882792226
+    ],
+    [
+      0.3341904063696105,
+      0.14539411828354568,
+      0.0808463051125679
+    ],
+    [
+      0.2532054283114348,
+      0.15389925845223829,
+      0.1054666535533277
+    ]
+  ],
+  "maximum_nonzero_case_displacement_relative_l2_by_axis": [
+    0.3974331528728405,
+    0.128955764231484,
+    0.06598762800823853
+  ],
+  "maximum_nonzero_case_velocity_relative_l2_by_axis": [
+    0.3341904063696105,
+    0.20221620494261813,
+    0.10702084882792226
+  ],
+  "direct_q32_relative_l2_by_case_at_13_states": [
+    0.0,
+    4.963684710026647,
+    5.479384255291474,
+    6.76741739910194,
+    6.300077189939786,
+    6.140653632666501
+  ],
+  "physical_basis_condition_number": 1882.7265812335447,
+  "displacement_decoder_condition_number": 48450.780737484354,
+  "velocity_decoder_condition_number": 48450.780737482164,
+  "gates": {
+    "displacement_oracle_each_case_axis_max": 0.01,
+    "displacement_oracle_pass": false,
+    "decoder_condition_max": 100000000.0,
+    "decoder_condition_pass": true
+  },
+  "scientific_boundary": {
+    "full_time_fields_are_direct_targets": true,
+    "first_32_coefficients_are_exact_physical_states": false,
+    "physical_state_supervision": "only 13 direct full-DOF projections per case",
+    "residual_field_scope": "512 observations",
+    "full_graph_residual_claim": false,
+    "fold_local_rebuild_required_for_factorial_HPO_OOF": true
+  },
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_SIX_CASE_MICROPANEL_DATASET.h5": "f2dcafb4770c0626a4e6e37c390b548d648901f77fbd65db24ab94c44c11c678",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09"
+  },
+  "output": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_MULTIFIELD_OBSERVATION_BASIS.h5": "25878eee2b7231b8acd1d03c3be1c61bf78a865eedc7ddf480252a67bdf5d440"
+  }
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\39_run_s9_fold_trial.py", line 460, in <module>
+    main()
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\39_run_s9_fold_trial.py", line 207, in main
+    raise FileExistsError(output)
+FileExistsError: G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s9_multifidelity_hpo\runs\S9_MEDIUM_R4_LHS_02_FOLD_2_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812

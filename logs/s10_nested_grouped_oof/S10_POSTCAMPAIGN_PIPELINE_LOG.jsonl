@@ -1,0 +1,16 @@
+{"utc": "2026-08-11T11:43:13.643228+00:00", "event": "watcher_started", "pid": 39568}
+{"utc": "2026-08-11T15:42:05.120399+00:00", "event": "campaign_failure_observed", "status": "OPERATIONAL_FAILURE_S10"}
+{"utc": "2026-08-11T22:11:55.418460+00:00", "event": "watcher_started", "pid": 43976}
+{"utc": "2026-08-12T10:45:23.345360+00:00", "event": "watcher_started", "pid": 19248}
+{"utc": "2026-08-12T19:36:50.184185+00:00", "event": "campaign_failure_observed", "status": "OPERATIONAL_FAILURE_S10"}
+{"utc": "2026-08-12T20:17:26.128525+00:00", "event": "watcher_started", "pid": 24212}
+{"utc": "2026-08-13T00:08:16.867131+00:00", "event": "campaign_complete_observed"}
+{"utc": "2026-08-13T00:09:05.870496+00:00", "event": "watcher_started", "pid": 11876}
+{"utc": "2026-08-13T00:09:05.954129+00:00", "event": "campaign_complete_observed"}
+{"utc": "2026-08-13T00:09:32.285278+00:00", "event": "watcher_started", "pid": 25904}
+{"utc": "2026-08-13T00:09:32.360651+00:00", "event": "campaign_complete_observed"}
+{"utc": "2026-08-13T00:09:32.428518+00:00", "event": "step_started", "step_name": "S10_B2_COMMON_SPLIT", "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\53_run_s10_b2_common_split_target_clean.py"}
+{"utc": "2026-08-13T00:15:45.430602+00:00", "event": "step_finished", "step_name": "S10_B2_COMMON_SPLIT", "stdout": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_B2_COMMON_SPLIT.stdout.log", "stderr": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_B2_COMMON_SPLIT.stderr.log"}
+{"utc": "2026-08-13T00:15:45.514074+00:00", "event": "step_started", "step_name": "S10_INDEPENDENT_OOF_AUDIT", "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\51_audit_s10_nested_oof_independent.py"}
+{"utc": "2026-08-13T00:29:50.139659+00:00", "event": "step_finished", "step_name": "S10_INDEPENDENT_OOF_AUDIT", "stdout": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_INDEPENDENT_OOF_AUDIT.stdout.log", "stderr": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_INDEPENDENT_OOF_AUDIT.stderr.log"}
+{"utc": "2026-08-13T00:29:50.326513+00:00", "event": "postcampaign_pipeline_complete", "S11_authorized": false}

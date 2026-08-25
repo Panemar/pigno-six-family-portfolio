@@ -1,0 +1,9 @@
+{"utc": "2026-08-11T13:35:36.700824+00:00", "event": "watcher_started", "pid": 23428}
+{"utc": "2026-08-11T15:42:42.256649+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S10_SCIENTIFIC_DECISION_FAILURE"}
+{"utc": "2026-08-11T22:12:29.983139+00:00", "event": "watcher_started", "pid": 39904}
+{"utc": "2026-08-12T10:45:23.601227+00:00", "event": "watcher_started", "pid": 22812}
+{"utc": "2026-08-12T19:37:51.087689+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S10_SCIENTIFIC_DECISION_FAILURE"}
+{"utc": "2026-08-12T20:17:26.407556+00:00", "event": "watcher_started", "pid": 33268}
+{"utc": "2026-08-13T00:33:28.260875+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S10_SCIENTIFIC_DECISION_FAILURE"}
+{"utc": "2026-08-13T00:54:56.711210+00:00", "event": "watcher_started", "pid": 29948}
+{"utc": "2026-08-13T00:54:56.834816+00:00", "event": "no_S11_campaign"}

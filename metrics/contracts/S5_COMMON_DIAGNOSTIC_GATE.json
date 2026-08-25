@@ -1,0 +1,15 @@
+{
+  "status": "PASS_S5_COMMON_DIAGNOSTICS__ROUTE_PREFLIGHTS_REQUIRED",
+  "fold_clean_primary_oracle": "PASS",
+  "nested_inner_splits": 20,
+  "causal_inputs_68": "PASS",
+  "incremental_total_mapping": "PASS",
+  "historical_task_gradient_generalization": "INSUFFICIENT_ONE_CASE",
+  "capacity_implementation_authorized": true,
+  "capacity_training_authorized_conditionally": "only after each route's synthetic/physics preflight and run contract pass",
+  "physics_claim_authorized": false,
+  "outer_oof_authorized": false,
+  "sensor_access": false,
+  "new_FEM_solve": false,
+  "next": "S6_PARALLEL_ROUTE_IMPLEMENTATION_AND_CAPACITY_PREFLIGHTS"
+}

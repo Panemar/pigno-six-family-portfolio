@@ -1,0 +1,71 @@
+{
+  "status": "PASS_S6_R6_RITZ_KRYLOV_BASIS_GATE",
+  "generated_utc": "2026-08-11T02:04:45.009950+00:00",
+  "route": "R6_LOAD_DEPENDENT_RITZ_KRYLOV",
+  "evidence_label": "historically exposed one-case basis gate; not OOF, generalization or blind",
+  "construction": "K r1=f and K r2=M r1, M-orthonormalized; load directions from capacity-fit trajectory only",
+  "fold_boundary": "For any later grouped CV, load SVD and Ritz bases must be rebuilt using inner-training trajectories only.",
+  "strong_physics_boundary": "Second-order projection applies only to Physical32; residual192 remains an observation correction.",
+  "metrics": {
+    "rank8_ritz": {
+      "rank": 8,
+      "load_direction_count": 4,
+      "M_orthogonality_relative_l2": 7.939940335266852e-11,
+      "force_projection_relative_l2": 0.03438532085477097,
+      "q_rollout_relative_l2": 0.004716184756145174,
+      "qdot_rollout_relative_l2": 0.2207617520006414,
+      "explicit_euler_radius_not_stability_gate": 1.2206457800642507,
+      "finite": true
+    },
+    "rank8_modal": {
+      "rank": 8,
+      "load_direction_count": 4,
+      "M_orthogonality_relative_l2": 7.137137300616596e-16,
+      "force_projection_relative_l2": 0.22029975966806223,
+      "q_rollout_relative_l2": 0.05475306304569836,
+      "qdot_rollout_relative_l2": 0.23411482588837162,
+      "explicit_euler_radius_not_stability_gate": 1.1497864721848365,
+      "finite": true
+    },
+    "rank16_ritz": {
+      "rank": 16,
+      "load_direction_count": 8,
+      "M_orthogonality_relative_l2": 6.266184767832559e-10,
+      "force_projection_relative_l2": 0.008305463424627258,
+      "q_rollout_relative_l2": 0.0038419845368437753,
+      "qdot_rollout_relative_l2": 0.22025398262358312,
+      "explicit_euler_radius_not_stability_gate": 1.2276834548294921,
+      "finite": true
+    },
+    "rank16_modal": {
+      "rank": 16,
+      "load_direction_count": 8,
+      "M_orthogonality_relative_l2": 9.710938522298795e-16,
+      "force_projection_relative_l2": 0.21885464625257994,
+      "q_rollout_relative_l2": 0.05415722200157656,
+      "qdot_rollout_relative_l2": 0.23366297281093892,
+      "explicit_euler_radius_not_stability_gate": 1.1537958872663319,
+      "finite": true
+    }
+  },
+  "checks": {
+    "all_M_orthogonality_le_1e_6": true,
+    "all_finite": true,
+    "ritz_rank8_force_coverage_better_than_modal": true,
+    "ritz_rank16_force_coverage_better_than_modal": true,
+    "ritz_rank8_q_rollout_le_1_percent": true,
+    "ritz_rank16_q_rollout_le_1_percent": true
+  },
+  "capacity_training_authorized": true,
+  "HPO_authorized": false,
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_physical32_variational_residual_preflight_V40_A_E6_C10_1T_v2\\S8_PHYSICAL32_VARIATIONAL_PREFLIGHT.h5": "d0bbb215094fd3b63c6ab4799a65195298a86d0ccc7d6b328e121948c5eafdd8",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\19_build_s6_r6_ritz_krylov_gate.py": "1bbf50869f3de304b3d4dd58f688efa604a235312c7386c7319e464183e2cb3a"
+  },
+  "output_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_capacity_common\\R6_RITZ_KRYLOV_PHYSICAL32_BASES_AND_ANCHORS.h5": "f9eaf5c1c99986eb9544f485d9272e485124308f82e21b5fd9f7172795a0354e"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "status": "PASS_S6_HISTORICAL_CAPACITY_PHYSICS_WITNESS",
+  "generated_utc": "2026-08-11T00:39:06.107078+00:00",
+  "authority": "single FEM model implemented and solved in COMSOL",
+  "hash_checks": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": {
+      "expected": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+      "actual": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+      "pass": true
+    },
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\report.json": {
+      "expected": "7964033a4266deefe8e13045b4e18b069f8208fa53ef6ed8ed7f9a5fc2047885",
+      "actual": "7964033a4266deefe8e13045b4e18b069f8208fa53ef6ed8ed7f9a5fc2047885",
+      "pass": true
+    },
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_physical32_variational_residual_preflight_V40_A_E6_C10_1T_v2\\S8_PHYSICAL32_VARIATIONAL_PREFLIGHT.h5": {
+      "expected": "d0bbb215094fd3b63c6ab4799a65195298a86d0ccc7d6b328e121948c5eafdd8",
+      "actual": "d0bbb215094fd3b63c6ab4799a65195298a86d0ccc7d6b328e121948c5eafdd8",
+      "pass": true
+    },
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_physical32_variational_residual_preflight_V40_A_E6_C10_1T_v2\\report.json": {
+      "expected": "b4d929c9cfc396ddc12010eec75cfac90cfa90832ab917f93a1a0b41e37836e8",
+      "actual": "b4d929c9cfc396ddc12010eec75cfac90cfa90832ab917f93a1a0b41e37836e8",
+      "pass": true
+    },
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_newmark_physical32_propagator_preflight_V40_A_E6_C10_1T_v1\\S8_NEWMARK_PHYSICAL32_PROPAGATOR.h5": {
+      "expected": "299ac96141828f745f5235b79a9a89f427a307bc775ede742ac52ac69e19e931",
+      "actual": "299ac96141828f745f5235b79a9a89f427a307bc775ede742ac52ac69e19e931",
+      "pass": true
+    }
+  },
+  "status_checks": {
+    "dataset": true,
+    "variational": true,
+    "newmark": true,
+    "same_case": true,
+    "same_reference": true,
+    "strong_scope_physical32_only": true,
+    "residual192_strong_forbidden": true,
+    "coordinatewise_strong_forbidden": true,
+    "capacity_only": true,
+    "historically_exposed": true
+  },
+  "dataset_schema_checks": {
+    "basis/phi_equation": {
+      "expected": [
+        132666,
+        224
+      ],
+      "actual": [
+        132666,
+        224
+      ],
+      "pass": true
+    },
+    "basis/phi_graph": {
+      "expected": [
+        132984,
+        224
+      ],
+      "actual": [
+        132984,
+        224
+      ],
+      "pass": true
+    },
+    "force/global_series": {
+      "expected": [
+        1201,
+        7
+      ],
+      "actual": [
+        1201,
+        7
+      ],
+      "pass": true
+    },
+    "force/observation_features": {
+      "expected": [
+        1201,
+        512,
+        30
+      ],
+      "actual": [
+        1201,
+        512,
+        30
+      ],
+      "pass": true
+    },
+    "force/reduced_force": {
+      "expected": [
+        1201,
+        224
+      ],
+      "actual": [
+        1201,
+        224
+      ],
+      "pass": true
+    },
+    "observation/FEM_COMSOL_delta_translation_m": {
+      "expected": [
+        1201,
+        512,
+        3
+      ],
+      "actual": [
+        1201,
+        512,
+        3
+      ],
+      "pass": true
+    },
+    "observation/FEM_COMSOL_delta_velocity_mps": {
+      "expected": [
+        1201,
+        512,
+        3
+      ],
+      "actual": [
+        1201,
+        512,
+        3
+      ],
+      "pass": true
+    },
+    "operator/M": {
+      "expected": [
+        224,
+        224
+      ],
+      "actual": [
+        224,
+        224
+      ],
+      "pass": true
+    },
+    "operator/C": {
+      "expected": [
+        224,
+        224
+      ],
+      "actual": [
+        224,
+        224
+      ],
+      "pass": true
+    },
+    "operator/K": {
+      "expected": [
+        224,
+        224
+      ],
+      "actual": [
+        224,
+        224
+      ],
+      "pass": true
+    },
+    "state/q_delta": {
+      "expected": [
+        1201,
+        224
+      ],
+      "actual": [
+        1201,
+        224
+      ],
+      "pass": true
+    },
+    "state/qdot_delta": {
+      "expected": [
+        1201,
+        224
+      ],
+      "actual": [
+        1201,
+        224
+      ],
+      "pass": true
+    },
+    "time_s": {
+      "expected": [
+        1201
+      ],
+      "actual": [
+        1201
+      ],
+      "pass": true
+    }
+  },
+  "finite_checks": {
+    "force/global_series": true,
+    "force/observation_features": true,
+    "force/reduced_force": true,
+    "observation/FEM_COMSOL_delta_translation_m": true,
+    "observation/FEM_COMSOL_delta_velocity_mps": true,
+    "state/q_delta": true,
+    "state/qdot_delta": true,
+    "time_s": true
+  },
+  "matrix_checks": {
+    "M": {
+      "symmetry_relative_l2": 2.137900492163503e-08,
+      "pass": true
+    },
+    "C": {
+      "symmetry_relative_l2": 9.61065879066265e-12,
+      "pass": true
+    },
+    "K": {
+      "symmetry_relative_l2": 7.941297453125731e-12,
+      "pass": true
+    }
+  },
+  "time_check": {
+    "strictly_increasing": true,
+    "n_saved": 1201,
+    "dt_s_median": 0.025000000000000133,
+    "dt_matches_0p025": true
+  },
+  "variational_schema_checks": {
+    "physical_rank_32": true,
+    "direct_panel_has_13_times": true,
+    "all_numeric_finite": true
+  },
+  "newmark_schema_checks": {
+    "physical_rank_32": true,
+    "rollout_full_saved_grid": true,
+    "all_numeric_finite": true
+  },
+  "scientific_scope": {
+    "authorized": "one-case route capacity tests for the frozen six-family portfolio",
+    "not_authorized": [
+      "micropanel promotion",
+      "factorial promotion",
+      "HPO",
+      "nested OOF",
+      "blind-test claims"
+    ],
+    "physics_loss": "variational/virtual-work on physical32 only",
+    "residual192": "data/graph residual representation; no strong equation",
+    "integrator_boundary": "This is V4's propagator, not a reproduction of COMSOL internal generalized-alpha integration."
+  }
+}

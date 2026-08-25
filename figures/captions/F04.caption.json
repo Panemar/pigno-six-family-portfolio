@@ -1,0 +1,7 @@
+{
+  "figure_id": "F04",
+  "title": "Audited local Beam frames — three true-aspect projections",
+  "caption": "Projected local x/y/z directions for 120 deterministic edge samples in plan, elevation and cross-section. Each projection preserves the physical aspect of its two displayed axes; glyph lengths are visual only and the source direction cosines remain unitless and unscaled.",
+  "units": "m for positions; unitless direction cosines",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

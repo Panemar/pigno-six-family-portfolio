@@ -1,0 +1,37 @@
+{
+  "schema": "S11_TO_S12_DECISION_PROTOCOL_V1",
+  "status": "FROZEN_BEFORE_S10_COMPLETE",
+  "frozen_utc": "2026-08-11T13:33:00Z",
+  "input": "independently audited S11 exact-once OOF fields and metrics",
+  "scope": "scientific eligibility and full-diagnostics routing; no training or tuning",
+  "seed_stability": {
+    "required_admitted_seeds": 4,
+    "total_seeds": 5,
+    "seed_admitted_when": "all five outer folds are finite, causal, hard-BC compliant and free of outer-target selection"
+  },
+  "noninferiority": {
+    "maximum_relative_degradation": 0.02,
+    "metrics": ["pooled_relative_l2", "case_p90_relative_l2", "case_worst_relative_l2"],
+    "axes": ["X", "Y", "Z"],
+    "comparators": ["common-split B2", "capacity-matched control"],
+    "aggregation": "median across five seeds",
+    "noncompensatory": true
+  },
+  "predictive_material_gain": {
+    "pooled_reduction_at_least": 0.05,
+    "pooled_axes_required": 2,
+    "or_p90_or_worst_reduction_at_least": 0.10
+  },
+  "physical_material_gain": {
+    "paired_median_residual_reduction_at_least": 0.25,
+    "positive_outer_fold_seed_pairs_at_least": 20,
+    "total_outer_fold_seed_pairs": 25
+  },
+  "paired_uncertainty": "bootstrap trajectories as paired units within each seed; never bootstrap snapshots as independent",
+  "full_diagnostics_rule": "All independently admitted S11 finalists proceed to S12 metrics and figures, even when preliminary acceptance eligibility fails, because S12 is diagnostic and performs no tuning.",
+  "preliminary_acceptance_eligibility": "seed stability AND noninferiority AND (predictive material gain OR physical material gain); spectral, modal, graph or computational gains may only be added by S12 evidence without changing prediction gates",
+  "S12_training_authorized": false,
+  "S12_tuning_authorized": false,
+  "new_FEM_solve_authorized": false,
+  "final_decision_authorized": false
+}

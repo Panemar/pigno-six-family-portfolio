@@ -1,0 +1,25 @@
+{
+  "status": "FROZEN_S6_ONE_CASE_CAPACITY_CONTRACT",
+  "case_id": "V40_A_E6_C10_1T",
+  "base_case_id": "BASE_C1_0T",
+  "task": "incremental loaded-minus-base translation and velocity on the identical saved grid",
+  "axis_convention": "X=transverse, Y=vertical/height, Z=longitudinal",
+  "saved_grid": {
+    "n_time": 1201,
+    "dt_s": 0.025,
+    "n_observations": 512
+  },
+  "state": {
+    "total_rank": 224,
+    "physical_rank": 32,
+    "residual_rank": 192
+  },
+  "source_dataset": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5",
+  "source_sha256": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+  "same_case_time_node_component_required": true,
+  "historically_exposed_not_blind": true,
+  "new_FEM_simulation": false,
+  "sensors_opened": false,
+  "Rev7_or_Rev8_used": false,
+  "promotion_scope": "capacity only; no route may enter micropanel from this audit alone"
+}

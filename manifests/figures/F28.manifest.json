@@ -1,0 +1,18 @@
+{
+  "figure_id": "F28",
+  "title": "Critical-instant spatial fields at frozen worst contexts",
+  "generated_utc": "2026-08-13T01:01:54.085133+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\73_generate_s12_paired_oof_field_figures.py",
+  "script_sha256": "abb0b36d7f40cd2b09f212ff3bceb7a81cb2c27db57eee6266fa37545360adea",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F28.csv",
+  "source_csv_sha256": "e090b0d81e4e3dba2628015c845a6e05c1f3f70f06eeb17d6e2285fbbb0b24a2",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F28.png",
+  "png_sha256": "afb3c2d0dbbea69d2c3651288c4d0a09652e735a27ec6d207d2de254a54f3a2d",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F28.pdf",
+  "pdf_sha256": "eaec0d66616eda1182266af3ad53cd32722c08655d7e401f6a3f3a50dff98305",
+  "units": "m in source; mm plotted",
+  "quantity": "worst-component total displacement",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

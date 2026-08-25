@@ -1,0 +1,7 @@
+{
+  "figure_id": "F40",
+  "title": "Structural MAC and OOF projected-response consistency",
+  "caption": "The structural MAC matrix compares FEM/COMSOL mode shapes with the independent Timoshenko graph auditor; the close 6–9 cluster is interpreted by subspace metrics, not forced diagonal identity. The OOF matrix measures temporal MAC after projecting forced responses onto fixed FEM/COMSOL modes and does not claim that PIGNO outputs eigenvectors.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

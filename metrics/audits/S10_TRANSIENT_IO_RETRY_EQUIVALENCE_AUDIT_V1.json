@@ -1,0 +1,43 @@
+{
+  "schema": "S10_TRANSIENT_IO_RETRY_EQUIVALENCE_AUDIT_V1",
+  "status": "PASS_S10_TRANSIENT_IO_RETRY_PATH_EQUIVALENCE",
+  "generated_utc": "2026-08-12T19:40:00Z",
+  "pre_retry_trainer_sha256": "a1e9992229527d5f7ebf11ae1776609e305f9c0e4859522c76986d9b15c82a55",
+  "post_retry_trainer_sha256": "b51b0a29875e79c466b7ebe1bc447622c14283f80590420cca0eabcbe06a6b7e",
+  "unified_diff": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_TRANSIENT_IO_RETRY_EQUIVALENCE_AUDIT_V1.diff",
+  "unified_diff_sha256": "145ebdf46ee65c57b6bbccbb86a59177f46b7506dc4bdf2a15b4f6a9dd95e001",
+  "triggering_failure": {
+    "run_id": "S10_INNER_R6_LHS_04_OUTER_3_INNER_3_PHYSICS_SEED_20260813",
+    "observed_epoch": 29,
+    "exception": "PermissionError",
+    "errno": 13,
+    "target": "live_progress.csv",
+    "scientific_failure": false
+  },
+  "proof_obligations": {
+    "dataset_and_split_paths_unchanged": true,
+    "model_and_operator_construction_unchanged": true,
+    "forward_and_loss_functions_unchanged": true,
+    "optimizer_and_scheduler_unchanged": true,
+    "epoch_budget_and_selection_key_unchanged": true,
+    "random_seed_and_iteration_order_unchanged": true,
+    "physics_and_control_paths_unchanged": true,
+    "hard_BC_and_causality_checks_unchanged": true,
+    "only_transient_PermissionError_and_BlockingIOError_are_retried": true,
+    "retry_is_bounded_and_reraises_after_exhaustion": true,
+    "scientific_payload_written_is_unchanged": true,
+    "python_compile_passed": true
+  },
+  "admitted_scope": [
+    "completed S10 reports produced by pre-retry trainer hash a1e9992229527d5f7ebf11ae1776609e305f9c0e4859522c76986d9b15c82a55",
+    "remaining S10 reports produced by post-retry trainer hash b51b0a29875e79c466b7ebe1bc447622c14283f80590420cca0eabcbe06a6b7e"
+  ],
+  "excluded_scope": [
+    "any change to numerical arrays, seeds, splits, architecture, physics, loss, optimizer, scheduler, epoch or selection contract",
+    "any report failing identity, finiteness, hard-BC, causality, shape, epoch or prediction checks",
+    "any unlisted trainer hash"
+  ],
+  "formal_program_equivalence_proved": false,
+  "reasoning": "The post-retry trainer executes the same numerical operations and writes the same scientific payload. It only retries bounded transient access-denied/locking failures raised while creating or appending progress and atomically replacing status JSON on the synchronized G: drive.",
+  "S11_authorized": false
+}

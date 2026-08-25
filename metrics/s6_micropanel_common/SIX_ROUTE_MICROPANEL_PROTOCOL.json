@@ -1,0 +1,217 @@
+{
+  "schema": "S6_COMMON_SIX_CASE_MICROPANEL_PROTOCOL_V1",
+  "status": "FROZEN_SIX_CASE_MICROPANEL_AFTER_LATENT_PROVENANCE_GATE",
+  "generated_utc": "2026-08-11T02:33:27.111877+00:00",
+  "evidence_label": "historically exposed six-case capacity/micropanel; not OOF, generalization or blind evidence",
+  "reference": "single FEM model implemented and solved in COMSOL",
+  "purpose": "joint six-trajectory memorization/compatibility screen under one common budget; not model selection on unseen trajectories",
+  "selection_basis": "minimum master-instruction coverage constrained to cases with direct compact fields and independent 13-state full-DOF recovery",
+  "case_count": 6,
+  "cases": [
+    {
+      "case_id": "BASE_C3_0T",
+      "base_case_id": "BASE_C3_0T",
+      "speed_kmh": 0.0,
+      "series": "C+",
+      "train_count": 0,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 20.0,
+      "roles": [
+        "BASE",
+        "zero-increment/base-anchor",
+        "wind-only total field"
+      ],
+      "incremental_displacement_rms_m": 0.0,
+      "incremental_velocity_rms_mps": 0.0,
+      "incremental_displacement_peak_abs_m": 0.0,
+      "brake_ramp_max": 1.0,
+      "braking_active": false,
+      "full_dof_13_state_case_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5",
+      "full_dof_13_state_base_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "speed_kmh": 40.0,
+      "series": "A",
+      "train_count": 1,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 20.0,
+      "roles": [
+        "1T at 40 km/h",
+        "wind in total field",
+        "lowest nonzero incremental RMS among selected train cases"
+      ],
+      "incremental_displacement_rms_m": 0.01280485661520886,
+      "incremental_velocity_rms_mps": 0.0041366228274062914,
+      "incremental_displacement_peak_abs_m": 0.06178631097873924,
+      "brake_ramp_max": 1.0,
+      "braking_active": true,
+      "full_dof_13_state_case_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_A_E3_C6_1T_v1\\original_full_dof_state_pilot.h5",
+      "full_dof_13_state_base_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "speed_kmh": 52.0,
+      "series": "B",
+      "train_count": 1,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 0.0,
+      "roles": [
+        "1T at 52 km/h",
+        "no wind or seismic"
+      ],
+      "incremental_displacement_rms_m": 0.013051246269084485,
+      "incremental_velocity_rms_mps": 0.005329909037012514,
+      "incremental_displacement_peak_abs_m": 0.07470028445900503,
+      "brake_ramp_max": 1.0,
+      "braking_active": true,
+      "full_dof_13_state_case_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_B_E6_C10_1T_v1\\original_full_dof_state_pilot.h5",
+      "full_dof_13_state_base_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "speed_kmh": 40.0,
+      "series": "C",
+      "train_count": 2,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 0.0,
+      "roles": [
+        "2T",
+        "40 km/h",
+        "no wind or seismic"
+      ],
+      "incremental_displacement_rms_m": 0.012843883561513706,
+      "incremental_velocity_rms_mps": 0.007989101763169247,
+      "incremental_displacement_peak_abs_m": 0.13927589968774745,
+      "brake_ramp_max": 1.0,
+      "braking_active": true,
+      "full_dof_13_state_case_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_C_E8_C12_2T_v1\\original_full_dof_state_pilot.h5",
+      "full_dof_13_state_base_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "speed_kmh": 52.0,
+      "series": "C+",
+      "train_count": 2,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 20.0,
+      "roles": [
+        "C+",
+        "2T",
+        "52 km/h",
+        "wind"
+      ],
+      "incremental_displacement_rms_m": 0.01436115744787952,
+      "incremental_velocity_rms_mps": 0.010925588796502739,
+      "incremental_displacement_peak_abs_m": 0.17045020114230555,
+      "brake_ramp_max": 1.0,
+      "braking_active": true,
+      "full_dof_13_state_case_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_CPLUS_E1_C4_2T_v1\\original_full_dof_state_pilot.h5",
+      "full_dof_13_state_base_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "speed_kmh": 40.0,
+      "series": "C+",
+      "train_count": 2,
+      "seismic_scale_factor": 0.4,
+      "wind_mps": 20.0,
+      "roles": [
+        "C+",
+        "2T",
+        "40 km/h",
+        "train+wind+seismic"
+      ],
+      "incremental_displacement_rms_m": 0.01635887471113665,
+      "incremental_velocity_rms_mps": 0.010045347249526666,
+      "incremental_displacement_peak_abs_m": 0.1704474974785781,
+      "brake_ramp_max": 1.0,
+      "braking_active": true,
+      "full_dof_13_state_case_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_CPLUS_E2_C5_2T_v1\\original_full_dof_state_pilot.h5",
+      "full_dof_13_state_base_source": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C2_0T_v1\\original_full_dof_state_pilot.h5"
+    }
+  ],
+  "coverage": {
+    "BASE": true,
+    "1T_40": true,
+    "1T_52": true,
+    "2T": true,
+    "Cplus": true,
+    "train_wind_seismic": true,
+    "braking": true,
+    "low_amplitude": true
+  },
+  "low_amplitude_definition": "smallest nonzero incremental displacement RMS among the selected train cases",
+  "low_amplitude_case": "V40_A_E3_C6_1T",
+  "braking_contract": "braking is a causal force component active within train trajectories; no independent braking/no-braking factorial dimension exists in the 68-case manifest",
+  "field_contract": {
+    "trained_target": "DeltaU=U_case_total-U_base_total at identical saved time, node and component",
+    "total_reconstruction": "U_total_pred=U_base_FEM+DeltaU_pred",
+    "base_case_role": "zero-increment and exact base-anchor/reconstruction QA; it contributes no nonzero incremental learning signal",
+    "report_both_increment_and_total": true,
+    "axis_convention": "X=transverse, Y=vertical/height, Z=longitudinal"
+  },
+  "latent_physics_boundary": {
+    "full_time_compact_fields_as_supervised_targets": true,
+    "full_time_observation_inferred_q_as_observation_compatible_latent_target": true,
+    "full_time_observation_inferred_qdot_as_exact_physical_state": false,
+    "direct_13_state_q_and_qdot_as_sparse_physical_audit": true,
+    "strong_dynamic_residual_on_13_states": false,
+    "reason_strong_residual_blocked": "No compatible full-DOF Uddot or exact reduced force is available at all required micropanel states; qdot inferred from observations is not accepted as an exact state."
+  },
+  "common_budget": {
+    "seed": 20260810,
+    "maximum_epochs": 150,
+    "early_stopping_minimum_evaluations_without_improvement": 30,
+    "joint_training_on_all_six_cases": true,
+    "case_balanced_loss": true,
+    "device": "cuda:0",
+    "mixed_precision": "blocked until parity test",
+    "route_specific_representation_repairs_remaining": 0,
+    "route_specific_optimization_repairs_remaining": 0
+  },
+  "separate_noncompensatory_gates": {
+    "PRIMARY_FIELD_GATE": {
+      "incremental_displacement_pooled_relative_l2_each_axis_max": 0.1,
+      "incremental_displacement_case_P90_relative_l2_each_axis_max": 0.2,
+      "base_zero_increment_prediction_relative_to_panel_peak_max": 0.0001
+    },
+    "FULL_STATE_GATE": {
+      "incremental_velocity_pooled_relative_l2_axis_median_max": 0.35,
+      "incremental_velocity_case_P90_axis_median_max": 0.6,
+      "observation_inferred_qdot_as_exact_state": false
+    },
+    "PHYSICS_GATE": {
+      "hard_BC_max_abs": 1e-12,
+      "causality_future_perturbation_max_abs": 1e-07,
+      "route_specific_structure_test": "required",
+      "strong_residual_on_inferred_full-time_state": "forbidden",
+      "direct_13_state_audit": "required where nonzero"
+    },
+    "GRAPH_UTILITY_GATE": {
+      "active_branch_nonzero": true,
+      "graph_perturbation_response_nonzero": true,
+      "physics_variant_predictive_noninferiority_vs_matched_control_relative": 0.02
+    },
+    "MODAL_GATE": {
+      "report_required": true,
+      "cannot_compensate_primary_field_failure": true
+    }
+  },
+  "promotion_rule": "A family may be promoted only in a declared role (primary-field or full-state) after all hard gates pass; failure of velocity alone cannot close a primary-field candidate, and no pooled metric can hide a failed case/component gate.",
+  "blocked_after_micropanel_until_audit": [
+    "factorial panel",
+    "HPO",
+    "nested OOF"
+  ],
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\v5r_mo_pigno_final_campaign\\manifests\\V5R_CASE_UNIVERSE.csv": "10a79e21c625589fb76905d0db6537ad1bd5ea68c24422e4f52efa0c2d0b030b",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\INCREMENTAL_TOTAL_FIELD_MAPPING.csv": "8a5c81a0737e6e2b51fb91710adb7553dca6f87261026efd6de4a03baa755f46",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\causal_inputs_68_branch_o_v1.h5": "6df908bf9c9f9b44d5a9334ce674a2ba0f254f079968c3d102d476834af2dc5f"
+  }
+}

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "railway-bridge-pigno-portfolio"
+version = "1.0.0"
+description = "Six-family physics-informed neural-operator portfolio for railway-bridge dynamics"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy==2.4.4",
+  "h5py==3.16.0",
+  "torch==2.11.0",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "scipy==1.18.0",
+  "pandas==3.0.3",
+  "matplotlib==3.11.0",
+  "scikit-learn==1.9.0",
+  "networkx==3.6.1",
+]
+dev = ["pytest==9.1.1"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

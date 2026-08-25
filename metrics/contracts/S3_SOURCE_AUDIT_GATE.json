@@ -1,0 +1,20 @@
+{
+  "status": "PASS_S3_SOURCE_TRANSFER_AUDIT_WITH_BLOCKERS",
+  "six_routes_have_primary_method_support": true,
+  "direct_bridge_validation_from_external_sources": false,
+  "seventh_family_opened": false,
+  "external_code_execution_authorized": false,
+  "blocked_code_archives": [
+    "neuraloperator_physics_informed"
+  ],
+  "paper_only_due_to_license": [
+    "ImprovedDeepONets"
+  ],
+  "historical_authority": {
+    "B2": "FROZEN_AUTHORITATIVE_SURROGATE",
+    "C1B_02": "VALID_FINAL_OOF_EVIDENCE__NEGATIVE_MATERIAL_UTILITY"
+  },
+  "training_authorized": false,
+  "reason_training_blocked": "S4 portfolio/common contracts and S5 oracle/physics floors are incomplete",
+  "next": "S4_FREEZE_EXACTLY_SIX_ROUTES"
+}

@@ -1,0 +1,7 @@
+{
+  "figure_id": "F31",
+  "title": "Nodewise OOF total-displacement error — true aspect",
+  "caption": "Nodewise pooled relative L2 over all 68 trajectories and 1201 saved times for the representative single seed of the best-ranked non-promoted S10 route. Coordinates use X transverse, Z longitudinal and Y vertical without geometric compression.",
+  "units": "dimensionless error; coordinates in m",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

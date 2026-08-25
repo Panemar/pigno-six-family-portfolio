@@ -1,0 +1,7 @@
+{
+  "figure_id": "F18",
+  "title": "OOF error distributions by model and global component",
+  "caption": "Trajectory-level total-displacement error distributions. Candidate values are seed medians; each box contains 68 paired trajectories, not snapshots.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

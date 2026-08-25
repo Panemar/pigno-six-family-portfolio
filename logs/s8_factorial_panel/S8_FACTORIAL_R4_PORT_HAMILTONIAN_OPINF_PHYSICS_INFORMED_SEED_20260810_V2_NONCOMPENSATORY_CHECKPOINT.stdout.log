@@ -1,0 +1,19 @@
+{
+  "status": "PASS_S8_FACTORIAL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S8_FACTORIAL_R4_PORT_HAMILTONIAN_OPINF_PHYSICS_INFORMED_SEED_20260810_V2_NONCOMPENSATORY_CHECKPOINT",
+  "best_epoch": 75,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.09213342355157797,
+    "velocity_X_pooled_l2": 0.8371243839935072,
+    "displacement_Y_pooled_l2": 0.06648105797909447,
+    "velocity_Y_pooled_l2": 0.6726864976753205,
+    "displacement_Z_pooled_l2": 0.045852838532821204,
+    "velocity_Z_pooled_l2": 0.559447566629752,
+    "physical_q13_pooled_l2": 0.003980166775433045,
+    "physical_qdot13_pooled_l2": 0.08355750657818425,
+    "equilibrium_residual_median": 5.6609931910413197e-08,
+    "equilibrium_residual_p90": 1.1005937499689944e-07,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

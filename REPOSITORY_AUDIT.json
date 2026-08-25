@@ -1,0 +1,24 @@
+{
+  "schema": "PIGNO_SIX_FAMILY_GIT_RELEASE_AUDIT_V1",
+  "generated_utc": "2026-08-25T16:40:34.2955222Z",
+  "source_campaign": "portfolio_physics_informed_operators_final/thesis_physics_informed_operator_portfolio_final",
+  "original_source_mutated": false,
+  "maximum_file": {
+    "path": "tables/figure_data/F27.csv.gz",
+    "bytes": 19322682
+  },
+  "files_ge_25_mib": 0,
+  "files_ge_100_mib": 0,
+  "secret_candidate_lines": 0,
+  "external_binary_manifest_rows": 57,
+  "compressed_f27_roundtrip_verified": true,
+  "portable_unit_tests": {
+    "tests": 7,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "evidence_label": "nested grouped OOF on 68 historically exposed trajectories; not blind or external",
+  "trackable_file_count_including_manifest": 2548,
+  "trackable_payload_bytes_excluding_manifest": 73569143
+}

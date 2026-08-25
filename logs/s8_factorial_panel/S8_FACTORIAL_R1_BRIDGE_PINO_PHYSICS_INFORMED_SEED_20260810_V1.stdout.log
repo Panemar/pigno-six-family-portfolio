@@ -1,0 +1,19 @@
+{
+  "status": "FAIL_S8_FACTORIAL_PRIMARY",
+  "run_id": "S8_FACTORIAL_R1_BRIDGE_PINO_PHYSICS_INFORMED_SEED_20260810_V1",
+  "best_epoch": 150,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.1071554839318639,
+    "velocity_X_pooled_l2": 0.5472617091908054,
+    "displacement_Y_pooled_l2": 0.07690254506700424,
+    "velocity_Y_pooled_l2": 0.4571532787918739,
+    "displacement_Z_pooled_l2": 0.07514799211688018,
+    "velocity_Z_pooled_l2": 0.3621831823713849,
+    "physical_q13_pooled_l2": 0.043808215790000715,
+    "physical_qdot13_pooled_l2": 0.0892352284251697,
+    "equilibrium_residual_median": 0.24979697200704232,
+    "equilibrium_residual_p90": 6.6831107215162175,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

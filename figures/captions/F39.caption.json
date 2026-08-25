@@ -1,0 +1,7 @@
+{
+  "figure_id": "F39",
+  "title": "Structural frequency and projected-response frequency diagnostics",
+  "caption": "Left: independent Timoshenko graph versus FEM/COMSOL eigenfrequencies, with modes 6–9 treated as a cluster. Right: PIGNO OOF response projected onto the fixed FEM/COMSOL modes; peak-frequency errors use only case/mode bands above a documented relative energy floor. The right panel is not a PIGNO eigenfrequency estimate.",
+  "units": "Hz and percent",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

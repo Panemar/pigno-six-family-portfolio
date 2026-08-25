@@ -1,0 +1,97 @@
+{
+  "status": "PASS_S12_AUTHORITY_GRAPH_VISUAL_QA_V1",
+  "generated_utc": "2026-08-11T13:59:29.673878+00:00",
+  "scope": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06"
+  ],
+  "manual_visual_review_recorded_after_original_resolution_inspection": true,
+  "rows": [
+    {
+      "figure_id": "F01",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: stage sequence and authorization boundary are legible"
+    },
+    {
+      "figure_id": "F02",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: six-route mechanism map is legible and is not presented as a ranking"
+    },
+    {
+      "figure_id": "F03",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: true-aspect Beam graph, observations and restrained nodes are legible"
+    },
+    {
+      "figure_id": "F04",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: local frames are legible in three true-aspect orthographic projections"
+    },
+    {
+      "figure_id": "F05",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: causal axle trajectories and active tracks are legible"
+    },
+    {
+      "figure_id": "F06",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: base, incremental and total fields share one symmetric scale and use true-aspect plan/elevation projections"
+    }
+  ],
+  "rejected_attempt_archives": [
+    "rejected_visual_qa_v1",
+    "rejected_visual_qa_v2",
+    "rejected_visual_qa_v3",
+    "rejected_visual_qa_v4_stale_generator_hash"
+  ],
+  "forbidden_arrowpoint_count": 0,
+  "failures": [],
+  "training_or_tuning_performed": false,
+  "S12_final_decision_authorized": false
+}

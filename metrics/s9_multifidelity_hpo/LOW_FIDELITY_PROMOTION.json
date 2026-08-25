@@ -1,0 +1,19 @@
+{
+  "status": "PASS_S9_LOW_FIDELITY_SUCCESSIVE_HALVING",
+  "promoted_trial_ids": [
+    "R1_LHS_07",
+    "R1_LHS_08",
+    "R1_LHS_02",
+    "R6_LHS_02",
+    "R6_LHS_04",
+    "R6_LHS_08",
+    "R4_LHS_02",
+    "R4_LHS_03",
+    "R4_LHS_04",
+    "R2_LHS_02",
+    "R2_LHS_06",
+    "R2_LHS_01"
+  ],
+  "promotion_rule": "top three lexicographic configurations per promoted family",
+  "nested_OOF_authorized": false
+}

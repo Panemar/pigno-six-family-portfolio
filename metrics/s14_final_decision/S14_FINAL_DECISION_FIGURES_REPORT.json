@@ -1,0 +1,9 @@
+{
+  "status": "PASS_S14_FINAL_DECISION_FIGURES",
+  "figure_ids": [
+    "F44",
+    "F45"
+  ],
+  "final_state": "NO_PHYSICS_INFORMED_FAMILY_ADDS_MATERIAL_VALUE",
+  "training_or_tuning_performed": false
+}

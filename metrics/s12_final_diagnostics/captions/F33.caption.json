@@ -1,0 +1,7 @@
+{
+  "figure_id": "F33",
+  "title": "Coherence at representative OOF trajectories",
+  "caption": "Full saved-grid magnitude-squared coherence for the best-ranked non-promoted S10 route's single-seed, median-error representative trajectory. No low-pass filtering is applied; undefined low-energy phase values remain blank.",
+  "units": "Magnitude-squared coherence",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

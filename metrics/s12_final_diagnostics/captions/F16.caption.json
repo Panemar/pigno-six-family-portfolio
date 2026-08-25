@@ -1,0 +1,7 @@
+{
+  "figure_id": "F16",
+  "title": "Recorded S9 loss terms; gradient diagnostics unavailable",
+  "caption": "Only data and physics loss terms were serialized per epoch for these runs. Per-term gradient norms and gradient cosines were not recorded and are explicitly unavailable; no values are reconstructed or imputed.",
+  "units": "training objective units",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

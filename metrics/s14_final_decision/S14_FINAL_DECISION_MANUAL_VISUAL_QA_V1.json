@@ -1,0 +1,49 @@
+{
+  "status": "PASS_S14_FINAL_DECISION_MANUAL_VISUAL_QA_V1",
+  "generated_utc": "2026-08-13T01:20:00.055995+00:00",
+  "scope": [
+    "F44",
+    "F45"
+  ],
+  "manual_visual_review_performed": true,
+  "review_method": "agent_inspection_of_contact_sheets_and_original_pngs",
+  "readiness_sha256": "14b10f03e3d7fb47427878776ced27de551a9d37e6935175f718149a6dbce038",
+  "reviewed_png_sha256": {
+    "F44": "94be4902a70810e96024edeb5ee2cf411a8a44bb071bf64daa53b4b5b07a7f0a",
+    "F45": "bf64ba91032a482c168925ff68ea86cfdebf5647000ade216a0aa8b3ce9e5615"
+  },
+  "findings": [
+    {
+      "figure_id": "F44",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "All six routes and reached/not-reached gates are legible; common modal reference and scoped projected evidence remain distinct from learned eigenmode validation."
+    },
+    {
+      "figure_id": "F45",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "PASS, FAIL, FAIL/LIMITED and NOT RUN/OUT OF SCOPE are visually distinct; R4 gains are retained while failed primary noninferiority and the absence of five-seed confirmation prevent acceptance."
+    }
+  ],
+  "repaired_during_review": [
+    "F45"
+  ],
+  "failed_attempt_archive_preserved": "failed_final_visual_qa_before_F45_status_repair",
+  "training_or_tuning_performed": false,
+  "final_package_authorized": true
+}

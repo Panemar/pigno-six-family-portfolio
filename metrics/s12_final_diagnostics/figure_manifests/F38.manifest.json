@@ -1,0 +1,18 @@
+{
+  "figure_id": "F38",
+  "title": "Hard boundary-condition compliance",
+  "generated_utc": "2026-08-13T00:57:16.953427+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\65_generate_s12_core_oof_figures.py",
+  "script_sha256": "219fa14f8e8502efc7845f12050b0d7711aaceeb9edb32b16f7828c6c04e3e4f",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F38.csv",
+  "source_csv_sha256": "a784cda06e2079516ade993e334043cc4ba88c79d704f91428aa7b6102600870",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F38.png",
+  "png_sha256": "c29ded3e1e722157730dc3136a5ef7309cdea4478adf34d0ef43d0287ca88806",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F38.pdf",
+  "pdf_sha256": "aecb2e8d3ecebb40d16c697426c20efb49c86c6f3185f7936d08773ef445b371",
+  "units": "m",
+  "quantity": "hard BC violation",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

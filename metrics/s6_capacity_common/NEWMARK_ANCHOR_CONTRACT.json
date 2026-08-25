@@ -1,0 +1,22 @@
+{
+  "status": "ADMITTED_NEWMARK_PHYSICAL32_ANCHOR",
+  "source_report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_newmark_physical32_propagator_preflight_V40_A_E6_C10_1T_v1\\report.json",
+  "source_report_sha256": "42d2d3b10aa307f067d24e86964ea054bb73a5b383786c33a6647ea659f03872",
+  "integrator": {
+    "name": "Newmark average acceleration",
+    "beta": 0.25,
+    "gamma": 0.5,
+    "dt_s": 0.025000000000000133
+  },
+  "causality_contract": "step n to n+1 uses state at n and prescribed force at n+1 only; no later response or force",
+  "interpretation_boundary": "This is V4's propagator, not a reproduction of COMSOL internal generalized-alpha integration.",
+  "use": "common physical anchor or comparator where compatible; not compulsory as every route's architecture",
+  "predictive_diagnostics_not_selection_gates": {
+    "one_step_q_relative_l2": 0.0002638821202248878,
+    "one_step_qdot_relative_l2": 0.01874016028900961,
+    "open_loop_rollout_q_relative_l2": 0.003822636530348497,
+    "open_loop_rollout_qdot_relative_l2": 0.21985604646121581,
+    "reason": "S8 capacity must determine whether the bounded graph residual can learn the unexplained discrepancy; the physical anchor is not claimed as the final predictor."
+  },
+  "HPO_authorized": false
+}

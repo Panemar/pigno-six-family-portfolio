@@ -1,0 +1,15 @@
+{
+  "status": "FAIL_FINAL_MASTER_COMPLETION_AUDIT",
+  "final_state": "NO_PHYSICS_INFORMED_FAMILY_ADDS_MATERIAL_VALUE",
+  "requirements": 27,
+  "passed": 26,
+  "failed": [
+    {
+      "requirement": "Mandatory top-level artifacts",
+      "pass": false,
+      "evidence": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\thesis_physics_informed_operator_portfolio_final",
+      "detail": "DATA_ACCESS_REGISTRY.csv, MODAL_REFERENCE_CONTRACT.h5, SPLIT_MANIFEST.json"
+    }
+  ],
+  "generated_utc": "2026-08-13T01:30:51.993784+00:00"
+}

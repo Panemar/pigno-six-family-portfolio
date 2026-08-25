@@ -1,0 +1,19 @@
+{
+  "status": "PASS_S8_FACTORIAL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S8_FACTORIAL_R1_BRIDGE_PINO_DATA_ONLY_CONTROL_SEED_20260810_V1",
+  "best_epoch": 150,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.08579552741250156,
+    "velocity_X_pooled_l2": 0.5168990427952963,
+    "displacement_Y_pooled_l2": 0.06277755195166203,
+    "velocity_Y_pooled_l2": 0.42598077868475237,
+    "displacement_Z_pooled_l2": 0.05677987892381036,
+    "velocity_Z_pooled_l2": 0.3523524952482224,
+    "physical_q13_pooled_l2": 1.9057554483616266,
+    "physical_qdot13_pooled_l2": 1.9583930075085412,
+    "equilibrium_residual_median": 5.4134364367648775,
+    "equilibrium_residual_p90": 118.76929870850988,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

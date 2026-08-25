@@ -1,0 +1,20 @@
+{
+  "figure_id": "F42",
+  "title": "Frozen-checkpoint graph utility and invariance ablations",
+  "generated_utc": "2026-08-13T01:07:25.585895+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\78_generate_s12_graph_utility_figure.py",
+  "script_sha256": "be469d210ebea9c90b01e2754abb72b536edc0b16f93f0b32d7b2dc70eb14db5",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F42.csv",
+  "source_csv_sha256": "f6ab7b1437379c9aa86f1801a32cef27db92b20c42d670be192fc5cc9913b6ed",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F42.png",
+  "png_sha256": "ed6fbc85f0cdd18fedcc850f774d28a31e0fd91f140a5e4ee4b41a9b53eb3afc",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F42.pdf",
+  "pdf_sha256": "006964a33143d7f09ab82229bcbaad23237d04fa2873bf51db96f5435261b881",
+  "units": "dimensionless relative-L2",
+  "bootstrap_draws": 10000,
+  "resampling_unit": "complete trajectory after seed median",
+  "training_or_tuning_performed": false,
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

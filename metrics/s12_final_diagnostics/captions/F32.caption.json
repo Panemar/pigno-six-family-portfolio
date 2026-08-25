@@ -1,0 +1,7 @@
+{
+  "figure_id": "F32",
+  "title": "PSD comparison at representative OOF trajectories",
+  "caption": "Full saved-grid psd (m²/hz) for the best-ranked non-promoted S10 route's single-seed, median-error representative trajectory. No low-pass filtering is applied; undefined low-energy phase values remain blank.",
+  "units": "PSD (m²/Hz)",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

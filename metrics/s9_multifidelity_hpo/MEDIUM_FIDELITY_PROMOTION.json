@@ -1,0 +1,11 @@
+{
+  "status": "PASS_S9_MEDIUM_FIDELITY_SUCCESSIVE_HALVING",
+  "promoted_trial_ids": [
+    "R1_LHS_07",
+    "R6_LHS_04",
+    "R4_LHS_03",
+    "R2_LHS_02"
+  ],
+  "promotion_rule": "best per family then global fill to four",
+  "nested_OOF_authorized": false
+}

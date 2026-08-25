@@ -1,0 +1,25 @@
+{
+  "status": "PASS_S5_CAUSAL_INPUTS_68_BRANCH_O",
+  "generated_utc": "2026-08-11T00:28:04.084965+00:00",
+  "checks": {
+    "exact_68_unique_cases": true,
+    "time_identity": true,
+    "all_virtual_numeric_finite": true,
+    "inactive_tracks_zero": true,
+    "source_load_support_hash_exact": true,
+    "historical_partition_counts_50_9_9": true
+  },
+  "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\causal_inputs_68_branch_o_v1.h5",
+  "output_sha256": "6df908bf9c9f9b44d5a9334ce674a2ba0f254f079968c3d102d476834af2dc5f",
+  "source_sha256": {
+    "historical_cal": "660a85214d7ab473c5913c1a3717d830a7ea3b387d9238e89570c853d6103e99",
+    "historical_dev": "5731fa146df1cbcfeed46b27a5c2371cab6aa67efaf6738a15da4de0f92dc6ef",
+    "historical_test": "74291a11cb9904f50d88a1826a6fe85da271fb708ce2f9d0521bd46e91a43ae2"
+  },
+  "universe_sha256": "10a79e21c625589fb76905d0db6537ad1bd5ea68c24422e4f52efa0c2d0b030b",
+  "case_count": 68,
+  "response_data_read": false,
+  "training_performed": false,
+  "FEM_modified_or_resolved": false,
+  "interpretation_boundary": "Historical CAL/DEV/TEST labels are provenance only. All 68 trajectories are historically exposed and must be handled by the new nested grouped OOF protocol."
+}

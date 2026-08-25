@@ -1,0 +1,7 @@
+{
+  "figure_id": "F28",
+  "title": "Critical-instant spatial fields at frozen worst contexts",
+  "caption": "True-aspect plan projections of FEM/COMSOL, PIGNO and absolute error at the FEM critical time of the worst component and frozen worst case.",
+  "units": "m in source; mm plotted",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

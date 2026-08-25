@@ -1,0 +1,20 @@
+{
+  "figure_id": "F40",
+  "title": "Structural MAC and OOF projected-response consistency",
+  "generated_utc": "2026-08-13T01:02:07.539219+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\75_generate_s12_modal_diagnostics.py",
+  "script_sha256": "97cc93a4131030fff4acefd5ec8523ae80a3aead496975f8f3f97f5c46f54dac",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F40.csv",
+  "source_csv_sha256": "677b2b712f1698adc41a74249958440091288b6c36144b00039efc72c4be3afc",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F40.png",
+  "png_sha256": "fda6a11447b8744e961db61d7dbd2cb8b05f76a502f6850992d92c425d56b97c",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F40.pdf",
+  "pdf_sha256": "4a673b14023af7575b02191d6f418ade9019faae4ec2e381d51dcd45884b1f20",
+  "units": "dimensionless",
+  "structural_modes": 12,
+  "cluster_modes": "6-9",
+  "response_subspace_rows_in_source": true,
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

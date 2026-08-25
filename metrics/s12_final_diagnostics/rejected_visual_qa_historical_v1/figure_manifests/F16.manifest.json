@@ -1,0 +1,16 @@
+{
+  "figure_id": "F16",
+  "title": "Recorded S9 loss terms; gradient diagnostics unavailable",
+  "generated_utc": "2026-08-11T14:07:45.774268+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "4db6f767f86d1e863ecbe9d0aee53595374e923d5e1fb0ff158b6ad48aeb528e",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F16.csv",
+  "source_csv_sha256": "e7b3026bca732e784c7f98a4102164e62d951f574e2627a11c0f5f2ed571a11e",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F16.png",
+  "png_sha256": "26cefbeae91b9eb197b35276c7ad9b51145582331d74db4b1be84cbcdc3f2e63",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F16.pdf",
+  "pdf_sha256": "b995d363a5c3f3a27792b0eddb9d1d0735917cf98ef989ca44fa21316dc1e334",
+  "units": "training objective units",
+  "quantity": "recorded loss terms",
+  "gradient_diagnostics": "unavailable in source logs"
+}

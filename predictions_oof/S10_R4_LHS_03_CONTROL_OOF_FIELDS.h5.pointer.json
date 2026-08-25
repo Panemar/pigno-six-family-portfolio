@@ -1,0 +1,6 @@
+{
+  "source": "external://predictions_oof/S10_R4_LHS_03_CONTROL_OOF_FIELDS.h5",
+  "sha256": "f5e91b331c149613b8c06c50e2a5d040cdc14cbe925917f796f77878877812c2",
+  "size_bytes": 1326225090,
+  "reason": "large binary stored externally; verify against recorded SHA-256"
+}

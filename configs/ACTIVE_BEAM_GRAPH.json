@@ -1,0 +1,15 @@
+{
+  "status": "PASS_LINKED_CANONICAL_GRAPH",
+  "canonical_file": "G:/Mi unidad/RESEARCH-BRIDGE/7-TESIS/Full Data Extracción/Original_extractions_20260801/graph_original_v1/original_exact_timoshenko_graph.npz",
+  "sha256": "97a064ff0ac2226f4e0c8eb6c2363799ee9a7b7a238fa131030f0060cafe2e86",
+  "nodes": 22164,
+  "directed_edges": 48430,
+  "undirected_edges": 24215,
+  "components": 1,
+  "fixed_dof": 36,
+  "spring_dof_nonzero": 34,
+  "observation_nodes": 512,
+  "axis_contract": {"X":"transverse","Y":"vertical_height","Z":"longitudinal"},
+  "dynamic_graph_utility": "NOT_YET_DEMONSTRATED",
+  "evidence": "audits/S2_ACTIVE_BEAM_GRAPH_NUMERICAL_QA.json"
+}

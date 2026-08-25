@@ -1,0 +1,2 @@
+epoch,elapsed_s,lr,train_data_loss,train_physics_loss,selection_key,peak_vram_GiB
+0,0.00617459999921266,0.0,0.0,0.0,null,2.77907133102417

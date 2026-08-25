@@ -1,0 +1,7 @@
+{
+  "figure_id": "F04",
+  "title": "Audited local Beam frames — stratified edge sample",
+  "caption": "Local x/y/z directions for 120 deterministic edge samples. The full frame field remains in the graph authority; sampling is visual only.",
+  "units": "m for positions; unitless direction cosines",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

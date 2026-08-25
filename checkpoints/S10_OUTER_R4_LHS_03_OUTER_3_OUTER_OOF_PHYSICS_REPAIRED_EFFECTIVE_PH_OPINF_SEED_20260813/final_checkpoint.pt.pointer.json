@@ -1,0 +1,6 @@
+{
+  "source": "external://checkpoints/S10_OUTER_R4_LHS_03_OUTER_3_OUTER_OOF_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260813/final_checkpoint.pt",
+  "sha256": "bf5a94b48b9cae91cb7e3610125599616a9635681623666df30e0791e00cd04d",
+  "size_bytes": 1540391,
+  "reason": "large binary stored externally; verify against recorded SHA-256"
+}

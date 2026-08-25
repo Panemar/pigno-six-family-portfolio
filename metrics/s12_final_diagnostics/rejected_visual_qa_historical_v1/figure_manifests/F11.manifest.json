@@ -1,0 +1,15 @@
+{
+  "figure_id": "F11",
+  "title": "Successive-halving promotion history",
+  "generated_utc": "2026-08-11T14:06:08.459868+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "4db6f767f86d1e863ecbe9d0aee53595374e923d5e1fb0ff158b6ad48aeb528e",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F11.csv",
+  "source_csv_sha256": "ad5c4bbe9d5f8c9a14670410b65df34d51fa5ab77b0e2bc365f6d50f4e2e33cb",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F11.png",
+  "png_sha256": "d4aa32c6a3a264ec250b2e1e6c023de1e54817fd51173576ade7f05972e490b1",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F11.pdf",
+  "pdf_sha256": "98bb6d44d308348e6af115fae00f8808d9ab4f04da244886221561c80ac914ee",
+  "units": "categorical",
+  "quantity": "multifidelity promotion"
+}

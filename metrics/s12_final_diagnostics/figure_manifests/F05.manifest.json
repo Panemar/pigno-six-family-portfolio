@@ -1,0 +1,17 @@
+{
+  "figure_id": "F05",
+  "title": "Causal axle trajectories on active rails",
+  "generated_utc": "2026-08-11T13:59:20.363035+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\69_generate_s12_authority_graph_figures.py",
+  "script_sha256": "247e9a772e612a65a03ac0faf76912cb67d4fdc53cd5de9948a747a00fd5b8f0",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F05.csv",
+  "source_csv_sha256": "7df6a4a6de04cbfe6ff8602d5fd812df8ec30770a37ebc6251752f7c44dea56c",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F05.png",
+  "png_sha256": "45aaa7b1824745ef34d6a4006c6025619311ed7c0e66b0e575277e7a5b66dd69",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F05.pdf",
+  "pdf_sha256": "8c757314449ca27449cd204e6ed5df66d150192045e8e49dcdd430a0c6f7ba2e",
+  "units": "s and m",
+  "quantity": "moving-load kinematics",
+  "case_id": "V52_C_E8_C12_2T",
+  "bridge_length_m": 135.0
+}

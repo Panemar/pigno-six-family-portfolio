@@ -1,0 +1,141 @@
+{
+  "schema": "S6_DUAL_STATE_FIELD_REPRESENTATION_REPORT_V1",
+  "status": "FAIL_S6_DUAL_STATE_FIELD_REPRESENTATION",
+  "generated_utc": "2026-08-11T02:46:13.885392+00:00",
+  "representation_level": "third and final admissible common representation attempt",
+  "mechanism": "Physical32 remains a six-DOF mechanics state; displacement and velocity use independent component-wise rank-64 observation heads",
+  "why_not_one_latent_identity": "The 512 translation observations do not uniquely identify a common six-DOF state; the attempted coupled decoder produced up to 39.7433% displacement oracle error and q32 errors above 4.96.",
+  "displacement_relative_l2_by_case_axis": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0027036317818851024,
+      0.0022393913879320687,
+      0.00011595115662340708
+    ],
+    [
+      0.0029115737145143576,
+      0.0023628262817380363,
+      0.0001307149927756651
+    ],
+    [
+      0.0024007618537296308,
+      0.0011359743105685146,
+      0.00018718842273877462
+    ],
+    [
+      0.003125591374289666,
+      0.00111250916062501,
+      0.00017571302861024322
+    ],
+    [
+      0.0026700581320407662,
+      0.0011146871932732972,
+      0.0001843678957648445
+    ]
+  ],
+  "velocity_relative_l2_by_case_axis": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.07779054630110206,
+      0.05465455416364451,
+      0.006313307767376314
+    ],
+    [
+      0.092707624771976,
+      0.04890906832679836,
+      0.00754904882179693
+    ],
+    [
+      0.0378528744135165,
+      0.02362542968525056,
+      0.004101610430392039
+    ],
+    [
+      0.050572544035338216,
+      0.02188576853768051,
+      0.005031346562556509
+    ],
+    [
+      0.031804974952296575,
+      0.021959702498412097,
+      0.003918222459103701
+    ]
+  ],
+  "maximum_nonzero_case_displacement_relative_l2_by_axis": [
+    0.003125591374289666,
+    0.0023628262817380363,
+    0.00018718842273877462
+  ],
+  "maximum_nonzero_case_velocity_relative_l2_by_axis": [
+    0.092707624771976,
+    0.05465455416364451,
+    0.00754904882179693
+  ],
+  "physical32_field_basis_capture_error_by_case_axis": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.060966546209619714,
+      0.027276737585534356,
+      0.0036467756891193337
+    ],
+    [
+      0.054829776263936696,
+      0.03106585354492914,
+      0.003942786542341578
+    ],
+    [
+      0.1908520127172688,
+      0.0424165278797895,
+      0.00817239434294463
+    ],
+    [
+      0.17950505096606775,
+      0.04232655183722152,
+      0.00805167785703047
+    ],
+    [
+      0.19179509159521668,
+      0.04250103131712802,
+      0.008274323848427682
+    ]
+  ],
+  "hard_BC_basis_leak": {
+    "displacement": 2.2550791546797263e-14,
+    "velocity": 1.92509357689031e-14
+  },
+  "gates": {
+    "displacement_oracle_each_case_axis_max": 0.01,
+    "velocity_oracle_each_case_axis_max": 0.05,
+    "hard_BC_basis_leak_max": 1e-12,
+    "displacement_pass": true,
+    "velocity_pass": false,
+    "hard_BC_pass": true
+  },
+  "scientific_boundary": {
+    "field_heads_are_direct_FEM_observation_targets": true,
+    "physical_state_is_supervised_at_direct_13_states": true,
+    "kinematic_identity_between_independent_heads_is_imposed": false,
+    "positive_correlation_between_displacement_and_velocity_is_imposed": false,
+    "full_graph_field_claim": false,
+    "fold_local_basis_rebuild_required_later": true
+  },
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_SIX_CASE_MICROPANEL_DATASET.h5": "f2dcafb4770c0626a4e6e37c390b548d648901f77fbd65db24ab94c44c11c678",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09"
+  },
+  "output": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_DUAL_STATE_FIELD_REPRESENTATION.h5": "27e45a2d46c61b894c377ccf38e7254508ee82be78194a35b4d05d0c557b13d2"
+  }
+}

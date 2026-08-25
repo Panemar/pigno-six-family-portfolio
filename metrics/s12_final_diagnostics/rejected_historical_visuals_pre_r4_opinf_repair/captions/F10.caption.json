@@ -1,0 +1,7 @@
+{
+  "figure_id": "F10",
+  "title": "Factorial-panel median error across two seeds",
+  "caption": "Median pooled displacement errors across the two frozen S8 seeds for every route and matched variant. R6 modal is retained as its additional rank-matched comparator.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\54_run_s10_postcampaign_pipeline.py", line 97, in <module>
+    main()
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\54_run_s10_postcampaign_pipeline.py", line 79, in main
+    run_step("S10_B2_COMMON_SPLIT", B2_SCRIPT)
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\54_run_s10_postcampaign_pipeline.py", line 51, in run_step
+    event("step_started", name=name, script=str(script))
+TypeError: event() got multiple values for argument 'name'

@@ -1,0 +1,19 @@
+{
+  "figure_id": "F45",
+  "title": "Integrated scientific portfolio decision",
+  "generated_utc": "2026-08-13T01:19:17.033634+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\82_generate_s14_final_decision_figures.py",
+  "script_sha256": "ba65d2d674c2643099698f312634ff38b6eb5aa5030f86618dda3c97f81d4a12",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F45.csv",
+  "source_csv_sha256": "b7d1881ec2988d55fbde6b7fa093e1c37785f00a90f37d72727457a3b57f1b36",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F45.png",
+  "png_sha256": "bf64ba91032a482c168925ff68ea86cfdebf5647000ade216a0aa8b3ce9e5615",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F45.pdf",
+  "pdf_sha256": "2e88adc6977b0fd75a3856ee35fdf5adefe59b7c4e1b10ab12b8917a604da1d1",
+  "units": "categorical",
+  "final_state": "NO_PHYSICS_INFORMED_FAMILY_ADDS_MATERIAL_VALUE",
+  "reference": "FEM model implemented and solved in COMSOL",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

@@ -1,0 +1,19 @@
+{
+  "figure_id": "F29",
+  "title": "FEM/COMSOL and PIGNO deformed elevation shapes",
+  "generated_utc": "2026-08-13T01:01:54.766789+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\73_generate_s12_paired_oof_field_figures.py",
+  "script_sha256": "abb0b36d7f40cd2b09f212ff3bceb7a81cb2c27db57eee6266fa37545360adea",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F29.csv",
+  "source_csv_sha256": "1281e64cc915404d2b3b387fc133400ec158f2f1dc20bb2fa445d08e36dbae8d",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F29.png",
+  "png_sha256": "c4398fd09379cfbb5c8c6cb1d7934800c0cca8a6a8161e8e8423ca95cb3db4d6",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F29.pdf",
+  "pdf_sha256": "b8a95751e54d7667b44bd77420b5cdf49c848d169711c6e8233d034dbf7b9fc3",
+  "units": "m",
+  "quantity": "three-component total displacement and deformed elevation",
+  "readability_scaling": "explicit per trial in source CSV",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": "F10",
+  "title": "Factorial-panel median error across two seeds",
+  "generated_utc": "2026-08-11T14:09:29.505291+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "ef61dc53d337d1f7f6ff90be81d3d9f478e291cf36c93efc190fde1956610d14",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F10.csv",
+  "source_csv_sha256": "2a8a06535aaf8d3ef4f2a59b1eab651ef1eba850818ba219917557459ab10940",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F10.png",
+  "png_sha256": "0a4521cca8c74b6eca85b5230d436744fa21a99dbad45b0fc88cf894eadf1094",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F10.pdf",
+  "pdf_sha256": "31a2264e2f42c39825eb405a8c8d9ac00c128290bed7771f0661a32b840959e6",
+  "units": "dimensionless",
+  "quantity": "factorial-panel displacement error",
+  "seed_aggregation": "median of two"
+}

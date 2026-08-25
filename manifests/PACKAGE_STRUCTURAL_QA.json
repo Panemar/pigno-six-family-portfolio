@@ -1,0 +1,34 @@
+{
+  "status": "PASS_FINAL_PACKAGE_STRUCTURAL_QA",
+  "required_figures": 45,
+  "required_per_figure_artifacts": [
+    "PNG",
+    "PDF",
+    "CSV",
+    "caption JSON",
+    "manifest JSON"
+  ],
+  "missing_or_empty_figure_files": [],
+  "ArrowPoint_files": [],
+  "mandatory_reports": 19,
+  "missing_reports": [],
+  "family_module_count": 6,
+  "expected_family_modules": [
+    "R1_bridge_pino.py",
+    "R2_mo_pigno.py",
+    "R3_graph_galerkin.py",
+    "R4_port_hamiltonian.py",
+    "R5_rotation_multiscale.py",
+    "R6_ritz_krylov.py"
+  ],
+  "observed_family_modules": [
+    "R1_bridge_pino.py",
+    "R2_mo_pigno.py",
+    "R3_graph_galerkin.py",
+    "R4_port_hamiltonian.py",
+    "R5_rotation_multiscale.py",
+    "R6_ritz_krylov.py"
+  ],
+  "source_module_count": 10,
+  "binary_artifact_registry_rows": 24
+}

@@ -1,0 +1,7 @@
+{
+  "figure_id": "F36",
+  "title": "Saved-grid kinematic consistency",
+  "caption": "Finite-difference displacement derivative versus direct velocity, assessed relative to the same calculation on FEM/COMSOL saved outputs. This is a consistency diagnostic, not the COMSOL integration algorithm.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

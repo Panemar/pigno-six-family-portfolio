@@ -1,0 +1,18 @@
+{
+  "schema": "S0_PORTFOLIO_DECISION_V1",
+  "decision": "GO_PORTFOLIO_DESIGN",
+  "training_authorized": false,
+  "reason": "Branch O provides a complete audited 68-trajectory FEM/COMSOL authority; Branch C is incomplete but quarantined and unnecessary for this campaign; historical evidence and untested-family distinctions are preserved.",
+  "canonical_routes": [
+    "R1_BRIDGE_PINO",
+    "R2_MO_PIGNO",
+    "R3_GRAPH_NEURAL_GALERKIN",
+    "R4_PORT_HAMILTONIAN_OPINF",
+    "R5_ROTATION_MULTISCALE_GNO",
+    "R6_LOAD_DEPENDENT_RITZ_KRYLOV"
+  ],
+  "route_count": 6,
+  "seventh_family_forbidden": true,
+  "next_state": "S1_NUMERICAL_GRAPH_LOAD_MODAL_SOURCE_CONTRACTS",
+  "blocked": ["sensor access","Rev7/Rev8 scientific use","MPH mutation","new FEM solves","blind-test claims","outer OOF tuning"]
+}

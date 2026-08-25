@@ -1,0 +1,59 @@
+{
+  "status": "R5_NOT_AUTOMATICALLY_PROMOTED__DIAGNOSTIC_MICROPANEL_REQUIRED_BY_NO_SINGLE_CASE_CLOSURE_RULE",
+  "generated_utc": "2026-08-11T02:01:45.604998+00:00",
+  "route": "R5_ROTATION_MULTISCALE_GNO",
+  "evidence_label": "historically exposed one-case capacity; not OOF, generalization or blind",
+  "representation_repair_consumed": true,
+  "representation_repair": "deterministic 128-cell quantile fine-coarse-fine hierarchy",
+  "representation_repair_predictive_improvements": {
+    "physical_q_relative_l2": -2.4716718950264826e-05,
+    "physical_qdot_relative_l2": 0.00016649443880263756,
+    "displacement_X_relative_l2": -0.00011224264365276759,
+    "displacement_Y_relative_l2": -0.00010464298789179363,
+    "displacement_Z_relative_l2": 0.00015057012014454412,
+    "velocity_X_relative_l2": -1.2620195765219075e-05,
+    "velocity_Y_relative_l2": 1.6366430509245646e-05,
+    "velocity_Z_relative_l2": 6.258187034346069e-05,
+    "rotation_X_relative_l2": -1.9178558549946354e-05,
+    "rotation_Y_relative_l2": -6.592106435678112e-05,
+    "rotation_Z_relative_l2": -8.889698180671411e-07,
+    "rotation_rate_X_relative_l2": 1.0031775649369378e-07,
+    "rotation_rate_Y_relative_l2": -3.1517113826336546e-06,
+    "rotation_rate_Z_relative_l2": -2.3785013918990143e-06
+  },
+  "representation_repair_materially_helped": false,
+  "optimization_repair_consumed": true,
+  "optimization_repair": "constant learning rate after warm-up",
+  "optimized_active_predictive_improvements_vs_neutralized": {
+    "physical_q_relative_l2": -0.06255126977377097,
+    "physical_qdot_relative_l2": -0.012243410885314174,
+    "displacement_X_relative_l2": -0.07054968479252637,
+    "displacement_Y_relative_l2": -0.055069284386195495,
+    "displacement_Z_relative_l2": -0.036537238930786614,
+    "velocity_X_relative_l2": -0.007376920459131364,
+    "velocity_Y_relative_l2": -0.00884168854763262,
+    "velocity_Z_relative_l2": -0.01352348943028059,
+    "rotation_X_relative_l2": -0.0063603749240767815,
+    "rotation_Y_relative_l2": -0.034933648098390085,
+    "rotation_Z_relative_l2": -0.006605290985687142,
+    "rotation_rate_X_relative_l2": -0.006565520577492177,
+    "rotation_rate_Y_relative_l2": -0.004149540870150543,
+    "rotation_rate_Z_relative_l2": -0.008369255415592431
+  },
+  "optimized_active_noninferior_all_predictive_at_2_percent": false,
+  "mechanics_branch_nonzero_but_small": 0.0017828610725700855,
+  "coarse_branch_nonzero": 0.11823222041130066,
+  "optimized_active_failed_diagnostic_gates": [
+    "displacement_each_axis",
+    "velocity_median",
+    "velocity_worst"
+  ],
+  "decision": {
+    "automatic_micropanel_promotion": false,
+    "scientific_route_closure": false,
+    "HPO_authorized": false,
+    "nested_OOF_authorized": false,
+    "reason_not_promoted": "The hierarchy was active but did not materially improve capacity; sustained learning improved both models, while active local-frame mechanics was slightly inferior to the neutralized matched control and the route missed displacement and velocity gates.",
+    "reason_not_closed": "The master contract forbids closure from one case; R5 proceeds only to the common diagnostic micropanel, with both route-specific repairs exhausted."
+  }
+}

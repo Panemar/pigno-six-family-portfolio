@@ -1,0 +1,16 @@
+{
+  "figure_id": "F04",
+  "title": "Audited local Beam frames — stratified edge sample",
+  "generated_utc": "2026-08-11T13:54:31.792653+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\69_generate_s12_authority_graph_figures.py",
+  "script_sha256": "75179082a76454961e9aa5a80cfcdbb1c302161e5c6daef399c33ed485e5aeee",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F04.csv",
+  "source_csv_sha256": "e266744a1342e06f39bb0b32294a4c870a2ece49f42b4dfd763f16d78e65beeb",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F04.png",
+  "png_sha256": "e9b665d23e09f11ddcea32b57ec29967fd8bc632e804d2defc7717a92f4c9ed2",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F04.pdf",
+  "pdf_sha256": "be26e7cfe5951ce3a2c02211b67cabbcfb786ef03488cc9c2d959ddd852b9a41",
+  "units": "m for positions; unitless direction cosines",
+  "quantity": "local Beam frames",
+  "sample_edge_count": 120
+}

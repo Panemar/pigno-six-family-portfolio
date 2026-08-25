@@ -1,0 +1,139 @@
+{
+  "schema": "PORTFOLIO_S6_SIX_ROUTE_CAPACITY_PROTOCOL_V1",
+  "status": "FROZEN_AFTER_PASS_S6_HISTORICAL_CAPACITY_PHYSICS_WITNESS",
+  "purpose": "Test representability and trainability of each frozen physics-informed family on one complete historically exposed trajectory before any micropanel promotion.",
+  "scientific_boundary": {
+    "this_is": "one-case capacity evidence",
+    "this_is_not": [
+      "multicase evidence",
+      "generalization evidence",
+      "nested OOF evidence",
+      "blind test",
+      "authorization for HPO"
+    ],
+    "reference": "single bridge FEM model implemented and solved in COMSOL",
+    "comparison": "each route versus the same FEM/COMSOL trajectory and common controls; never COMSOL versus FEM"
+  },
+  "data": {
+    "case_id": "V40_A_E6_C10_1T",
+    "base_case_id": "BASE_C1_0T",
+    "field_semantics": "incremental loaded-minus-base response",
+    "same_case_same_saved_time_same_node_same_component": true,
+    "axis_convention": "X=transverse, Y=vertical/height, Z=longitudinal",
+    "time_samples": 1201,
+    "dt_s": 0.025,
+    "observation_nodes": 512,
+    "active_Beam_nodes": 22164,
+    "directed_edges": 48430,
+    "state_total_rank": 224,
+    "physical_rank": 32,
+    "residual_rank": 192,
+    "outputs": [
+      "incremental displacement u_X_v_Y_w_Z at the 512 identical observations",
+      "incremental velocity at the same observations",
+      "q and qdot where the route uses the admitted reduced state"
+    ],
+    "acceleration": "not a capacity target because no compatible full-saved-grid exact FEM/COMSOL qddot exists; no double differentiation of displacement",
+    "inputs": [
+      "prescribed causal load features",
+      "reduced force",
+      "Beam graph properties and local frames for graph routes",
+      "time and case parameters only when available without response leakage"
+    ]
+  },
+  "common_budget": {
+    "seed": 20260810,
+    "maximum_epochs": 150,
+    "minimum_no_improvement_evaluations_before_early_stop": 30,
+    "checkpoint_epochs": [0, 1, 5, 10],
+    "checkpoint_gate_scope": [
+      "finite outputs and losses",
+      "nonzero finite gradients",
+      "no explosive degradation",
+      "causality",
+      "hard BC where declared"
+    ],
+    "utility_is_not_judged_at_epoch_10": true,
+    "primary_device": "cuda:0",
+    "single_training_process": true,
+    "mixed_precision": "disabled until an explicit numerical-parity test passes"
+  },
+  "capacity_admission": {
+    "required": [
+      "finite complete rollout",
+      "strictly causal future-perturbation test",
+      "hard BC exact where declared",
+      "nonconstant response",
+      "meaningful reduction from initialization or documented plateau",
+      "finite per-axis displacement and velocity metrics",
+      "physics diagnostics appropriate to the route",
+      "data-only ablation of approximately comparable capacity"
+    ],
+    "not_sufficient": [
+      "training loss alone",
+      "one output alone",
+      "one instant alone",
+      "a single pooled scalar",
+      "the admitted Newmark anchor alone"
+    ],
+    "failure_handling": "preserve checkpoint and evidence; then allow exactly one representation repair and one optimization repair before route closure can be considered later than the single-case stage"
+  },
+  "one_case_diagnostic_thresholds_not_final_utility": {
+    "purpose": "detect clear representability failure without imposing final B2-level utility at capacity",
+    "displacement_relative_l2_each_axis_max": 0.05,
+    "reduced_q_relative_l2_max": 0.05,
+    "velocity_relative_l2_axis_median_max": 0.25,
+    "velocity_relative_l2_axis_worst_max": 0.40,
+    "reduced_qdot_relative_l2_max": 0.30,
+    "variational_weak_median_max": 0.05,
+    "variational_weak_p90_max": 0.10,
+    "hard_BC_max_abs": 1e-12,
+    "interpretation": "Failure of a threshold diagnoses a repair target; it does not close a route from one case or one output. Final utility remains the paired B2 comparison under later OOF evidence."
+  },
+  "physics_contract": {
+    "physical32": "variational or virtual-work residual is authorized",
+    "residual192": "strong equation is forbidden; use data or graph residual representation",
+    "newmark": "admitted causal physical anchor, not a reproduction of COMSOL generalized-alpha integration and not mandatory as the architecture of every family",
+    "coordinatewise_strong_loss": false,
+    "saved_grid_finite_difference_qddot_as_exact_reference": false
+  },
+  "routes": {
+    "R1_BRIDGE_PINO": {
+      "mechanism": "causal multiple-input temporal spectral operator",
+      "capacity_target": "observation displacement and velocity trajectories",
+      "physics": "physical32 variational diagnostic/loss after normalized reduced projection",
+      "mandatory_ablation": "same temporal operator without physics loss"
+    },
+    "R2_MO_PIGNO": {
+      "mechanism": "shared Beam-graph encoder with separate displacement and velocity heads",
+      "capacity_target": "full graph latent field decoded at identical observations",
+      "physics": "hard BC plus compatible physical32 variational and kinematic diagnostics; no forced positive cross-channel correlation",
+      "mandatory_ablation": "capacity-matched graph operator without physics loss"
+    },
+    "R3_GRAPH_NEURAL_GALERKIN": {
+      "mechanism": "Beam-graph field operator with a compatible Galerkin test space",
+      "capacity_target": "observation fields and reduced physical state",
+      "physics": "virtual work on physical32; elementwise Beam assembly is required before claiming full Graph Galerkin implementation",
+      "mandatory_ablation": "same graph field operator without variational loss"
+    },
+    "R4_PORT_HAMILTONIAN_OPINF": {
+      "mechanism": "constrained passive physical32 input-output core plus zero-initialized learned residual",
+      "capacity_target": "physical32 trajectory plus observation correction",
+      "physics": "J skew, R positive semidefinite, Q positive definite, power balance",
+      "mandatory_ablation": "capacity-matched unconstrained reduced dynamical core"
+    },
+    "R5_ROTATION_MULTISCALE_GNO": {
+      "mechanism": "typed polar/axial local-frame messages with frozen fine-coarse-fine hierarchy",
+      "capacity_target": "Beam-graph latent field and observation response",
+      "physics": "frame covariance, rotation parity, directional Timoshenko properties and hard BC",
+      "mandatory_ablation": "same hierarchy with neutralized frames or directional properties"
+    },
+    "R6_LOAD_DEPENDENT_RITZ_KRYLOV": {
+      "mechanism": "load-conditioned Ritz/SOAR reduced propagator plus bounded graph residual",
+      "capacity_target": "reduced and observation trajectories",
+      "physics": "second-order projected dynamics, force-direction coverage and M orthogonality",
+      "mandatory_ablation": "rank-matched fold-clean POD/Newmark residual comparator"
+    }
+  },
+  "promotion_after_capacity": "No route is promoted directly to factorial or OOF. Routes passing capacity enter the common three-case micropanel; failed routes consume their predeclared repairs before any scientific closure."
+}

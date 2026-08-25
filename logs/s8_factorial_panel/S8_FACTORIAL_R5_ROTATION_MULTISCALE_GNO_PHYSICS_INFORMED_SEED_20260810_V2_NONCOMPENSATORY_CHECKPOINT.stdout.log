@@ -1,0 +1,19 @@
+{
+  "status": "PASS_S8_FACTORIAL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S8_FACTORIAL_R5_ROTATION_MULTISCALE_GNO_PHYSICS_INFORMED_SEED_20260810_V2_NONCOMPENSATORY_CHECKPOINT",
+  "best_epoch": 150,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.09679645896416589,
+    "velocity_X_pooled_l2": 0.6434883435086286,
+    "displacement_Y_pooled_l2": 0.07946071352300253,
+    "velocity_Y_pooled_l2": 0.4159236082317022,
+    "displacement_Z_pooled_l2": 0.06829493949506706,
+    "velocity_Z_pooled_l2": 0.3665603648000752,
+    "physical_q13_pooled_l2": 0.04719834004092782,
+    "physical_qdot13_pooled_l2": 0.08055006239419674,
+    "equilibrium_residual_median": 0.17058358153537467,
+    "equilibrium_residual_p90": 1.3050240590809654,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

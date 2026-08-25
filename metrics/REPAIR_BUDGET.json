@@ -1,0 +1,21 @@
+{
+  "schema": "PORTFOLIO_REPAIR_BUDGET_V1",
+  "routes": 6,
+  "repairs_per_route": {
+    "representation": 1,
+    "optimization": 1
+  },
+  "maximum_method_interventions_per_route": 3,
+  "maximum_external_sources_per_blocker": 2,
+  "combination_after_individual_ablation_only": true,
+  "close_route_if": "two consecutive justified interventions improve <2% and resolve no physical gate",
+  "never_close_from": [
+    "one output alone",
+    "one case alone",
+    "training loss alone",
+    "failure before data/model evaluation",
+    "a channel whose FEM representation floor already fails"
+  ],
+  "no_seventh_family": true,
+  "outer_oof_repair_forbidden": true
+}

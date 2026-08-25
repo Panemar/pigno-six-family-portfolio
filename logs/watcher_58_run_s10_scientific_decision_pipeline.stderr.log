@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\58_run_s10_scientific_decision_pipeline.py", line 125, in <module>
+    main()
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\58_run_s10_scientific_decision_pipeline.py", line 97, in main
+    run_step("S10_DYNAMIC_SPATIAL_AUDIT", DYNAMIC_SCRIPT)
+  File "G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\scripts\58_run_s10_scientific_decision_pipeline.py", line 64, in run_step
+    event("step_started", name=name, script=str(script))
+TypeError: event() got multiple values for argument 'name'

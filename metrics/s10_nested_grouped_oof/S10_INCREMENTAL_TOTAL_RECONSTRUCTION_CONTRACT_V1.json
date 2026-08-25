@@ -1,0 +1,74 @@
+{
+  "schema": "S10_INCREMENTAL_TOTAL_RECONSTRUCTION_CONTRACT_V1",
+  "status": "SUPERSEDED_BEFORE_FIRST_S10_OUTER_OOF_RESULT_BY_V2",
+  "superseded_by": "S10_INCREMENTAL_TOTAL_RECONSTRUCTION_CONTRACT_V2.json",
+  "reference": "single FEM model implemented and solved in COMSOL",
+  "axis_mapping": {
+    "X": "u_transverse",
+    "Y": "v_vertical_height",
+    "Z": "w_longitudinal"
+  },
+  "problem_detected": "S10 predicts the train-induced field increment relative to the environment-matched zero-train case, whereas the frozen B2 historical metrics and fields describe total response. Their raw errors are not directly comparable.",
+  "s10_incremental_definition": "delta_y_FEM(case)=y_FEM(case)-y_FEM(base_case_id(case))",
+  "b2_incremental_comparator": "delta_y_B2_OOF(case)=y_B2_OOF(case)-y_B2_OOF(base_case_id(case))",
+  "total_hybrid_definition": "y_S10_hybrid_OOF(case)=y_B2_OOF(base_case_id(case))+delta_y_S10_OOF(case)",
+  "prohibited_reconstruction": "Never add the observed FEM base-case field to an S10 prediction; doing so would inject the numerical target and invalidate surrogate evidence.",
+  "comparison_views": [
+    {
+      "view": "incremental",
+      "target": "FEM/COMSOL delta response stored in S10_ORIGINAL_68CASE_DATASET.h5",
+      "models": [
+        "S10 physics candidate",
+        "capacity-matched S10 data-only control",
+        "frozen B2 OOF incremental comparator"
+      ],
+      "scope": "64 train-active trajectories; zero-train base cases are exact-zero increment checks, not energetic relative-error samples"
+    },
+    {
+      "view": "total",
+      "target": "FEM/COMSOL total response stored in S10_ORIGINAL_68CASE_DATASET.h5",
+      "models": [
+        "frozen B2 OOF total field",
+        "cross-fitted B2-base plus S10-increment hybrid total field"
+      ],
+      "scope": "all 68 trajectories"
+    }
+  ],
+  "selection_and_promotion_rules": [
+    "Outer targets may not select epochs, hyperparameters, reconstruction rules, or candidates.",
+    "Physics-versus-control comparisons use identical incremental targets, folds, epochs, seeds, nodes, times, axes, and units.",
+    "B2 comparisons must be same case, same time, same node, same axis, and either both incremental or both total.",
+    "A candidate cannot be promoted on incremental error alone; its reconstructed total field must also be audited against frozen B2.",
+    "No primary metric by axis may degrade more than 2 percent relative to B2 for a noninferiority claim.",
+    "At most two candidates may pass from S10 to S11, and S11 remains blocked until an independent S10 audit explicitly authorizes promotion."
+  ],
+  "evidence_labels": {
+    "s10_incremental": "nested grouped OOF over historically exposed trajectories; not blind",
+    "b2_historical": "historical OOF; not blind",
+    "total_hybrid": "cross-fitted hybrid OOF composition over historically exposed trajectories; not an external or blind test"
+  },
+  "frozen_sources": {
+    "s10_dataset": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_ORIGINAL_68CASE_DATASET.h5",
+      "sha256": "3c230db10d487264b8e076fc7e70cf2c7983849d90c99123e201c40a11f3cf86"
+    },
+    "b2_oof_fields": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\s8r_reopened_architecture_search_v1\\phase_c_nested_oof_v1_multimetric\\predictions\\nested_median_oof_fields.h5",
+      "sha256": "d9ea4d36e6eaea90f255c3be12cdec4f96e149d0f4074e21d917b6d019400904"
+    }
+  },
+  "compatibility_evidence_observed_before_freeze": {
+    "same_68_case_set": true,
+    "same_time_grid": true,
+    "base_case_ids_available_in_B2": [
+      "BASE_C1_0T",
+      "BASE_C2_0T",
+      "BASE_C3_0T",
+      "BASE_C8_0T"
+    ],
+    "sampled_same_case_FEM_total_max_abs_difference_m": 0.0,
+    "full_chunkwise_identity_check_pending_independent_audit": true
+  },
+  "scientific_limitation": "The total hybrid uses a frozen historical B2 OOF base prediction whose historical folds are not identical to the S10 outer folds. This composition must be reported as cross-fitted hybrid evidence and may not be relabeled as a pure S10 nested-fold model or external validation.",
+  "S11_authorized": false
+}

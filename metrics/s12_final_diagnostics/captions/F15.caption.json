@@ -1,0 +1,7 @@
+{
+  "figure_id": "F15",
+  "title": "S9 high-fidelity fold-0 validation convergence",
+  "caption": "Validation trajectories for the four high-fidelity configurations on the same fold. This convergence view is historical internal-selection evidence and is not OOF or a comparison to the external S10 folds.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

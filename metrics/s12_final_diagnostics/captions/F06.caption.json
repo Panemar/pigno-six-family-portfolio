@@ -1,0 +1,7 @@
+{
+  "figure_id": "F06",
+  "title": "FEM/COMSOL base, incremental and total vertical fields",
+  "caption": "Plan and elevation projections of reference fields at the saved time nearest 9.025 s for V52_CPLUS_E8_C12_2T. Each projection preserves its physical aspect, and one symmetric color scale is common to base, incremental and total fields.",
+  "units": "m in source; mm in color scale",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

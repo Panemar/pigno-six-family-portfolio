@@ -1,0 +1,7 @@
+{
+  "figure_id": "F19",
+  "title": "Trajectory-paired OOF improvement versus common B2",
+  "caption": "Mean paired trajectory error difference and 95% case bootstrap interval after taking the candidate median for the single S10 diagnostic seed. Negative values favor the physics-informed candidate; 68 trajectories, not snapshots, are resampled.",
+  "units": "dimensionless relative-L2 difference",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

@@ -1,0 +1,458 @@
+{
+  "schema": "S9_MULTIFIDELITY_INDEPENDENT_AUDIT_V1",
+  "status": "PASS_S9_INDEPENDENT_AUDIT_AUTHORIZE_S10_PREPARATION",
+  "generated_utc": "2026-08-11T10:13:06.008686+00:00",
+  "evidence_label": "fold-clean historical development evidence; not OOF or blind",
+  "gates": {
+    "report_count_32": true,
+    "registry_count_32": true,
+    "all_hard_constraints_pass": true,
+    "recomputed_promoted_match_official": true,
+    "recomputed_promoted_match_expected": true,
+    "r4_strict_noninferiority_all_folds": true
+  },
+  "recomputed_promoted_trial_ids": [
+    "R4_LHS_03",
+    "R2_LHS_02",
+    "R6_LHS_04"
+  ],
+  "ranking": [
+    {
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "noninferior_folds": 4,
+      "physical_ratio_worst": 2.4660814330085932e-08,
+      "ranking_key": [
+        0,
+        0.0,
+        2.0,
+        0.13307473781202672,
+        0.13307473781202672,
+        0.18562933422399003,
+        0.19323148855554637,
+        0.32348527763160206,
+        0.7032375816575914,
+        5.916414098187603e-08,
+        377760.0,
+        2.4660814330085932e-08
+      ]
+    },
+    {
+      "trial_id": "R2_LHS_02",
+      "route": "R2",
+      "noninferior_folds": 1,
+      "physical_ratio_worst": 0.08081256115806888,
+      "ranking_key": [
+        3,
+        0.0,
+        1.0,
+        0.12936560897630733,
+        0.12936560897630733,
+        0.16966460983641476,
+        0.17853249814233635,
+        0.26586083763670343,
+        0.6580569101112197,
+        0.21224590520634304,
+        396512.0,
+        0.08081256115806888
+      ]
+    },
+    {
+      "trial_id": "R6_LHS_04",
+      "route": "R6",
+      "noninferior_folds": 1,
+      "physical_ratio_worst": 0.0038723897966941876,
+      "ranking_key": [
+        3,
+        0.0,
+        1.0,
+        0.13630784633538454,
+        0.13630784633538454,
+        0.1601740201447292,
+        0.16752847225560855,
+        0.3060502096344353,
+        0.4505207907348566,
+        0.010748722815054495,
+        279753.0,
+        0.0038723897966941876
+      ]
+    },
+    {
+      "trial_id": "R1_LHS_07",
+      "route": "R1",
+      "noninferior_folds": 1,
+      "physical_ratio_worst": 0.1724743404272367,
+      "ranking_key": [
+        3,
+        0.0,
+        3.0,
+        0.14470893362679613,
+        0.14470893362679613,
+        0.2274411578213937,
+        0.2406943209187854,
+        0.37261349674049565,
+        0.7300485864662893,
+        0.5354850255803967,
+        301024.0,
+        0.1724743404272367
+      ]
+    }
+  ],
+  "paired_fold_audit": [
+    {
+      "trial_id": "R1_LHS_07",
+      "route": "R1",
+      "fold": 0,
+      "strict_noninferior": true,
+      "maximum_relative_degradation": 0.019795295884971864,
+      "physical_residual_ratio": 0.055387460533697995,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": 0.019795295884971864,
+        "p90_X": -0.05799781554998973,
+        "worst_X": -0.07243065554115935,
+        "pooled_Y": -0.06868946647303864,
+        "p90_Y": -0.08393100699817979,
+        "worst_Y": -0.08377296722200445,
+        "pooled_Z": -0.08068494148819905,
+        "p90_Z": -0.1084024569499189,
+        "worst_Z": -0.11256600619823842
+      }
+    },
+    {
+      "trial_id": "R1_LHS_07",
+      "route": "R1",
+      "fold": 1,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.12063323212448207,
+      "physical_residual_ratio": 0.09293530083530759,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": 0.014662232647099316,
+        "p90_X": 0.008686073636232639,
+        "worst_X": 0.005218012123125115,
+        "pooled_Y": 0.009996241804755224,
+        "p90_Y": -0.07796700130385814,
+        "worst_Y": -0.08832194522026371,
+        "pooled_Z": 0.12063323212448207,
+        "p90_Z": 0.06738139396913567,
+        "worst_Z": 0.04668176952101999
+      }
+    },
+    {
+      "trial_id": "R1_LHS_07",
+      "route": "R1",
+      "fold": 2,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.09184146261454496,
+      "physical_residual_ratio": 0.1724743404272367,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": 0.06318542734070154,
+        "p90_X": 0.08455316927275525,
+        "worst_X": 0.09184146261454496,
+        "pooled_Y": 0.09142553338822368,
+        "p90_Y": 0.07913085556331212,
+        "worst_Y": 0.07763441751254141,
+        "pooled_Z": -0.1464200472465973,
+        "p90_Z": -0.17385795160971984,
+        "worst_Z": -0.18623386692183141
+      }
+    },
+    {
+      "trial_id": "R1_LHS_07",
+      "route": "R1",
+      "fold": 3,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.2328003690283178,
+      "physical_residual_ratio": 0.07902566653380405,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": 0.024018685710660348,
+        "p90_X": 0.05594932581663081,
+        "worst_X": 0.059362470627980723,
+        "pooled_Y": 0.12371343761043718,
+        "p90_Y": 0.21244998336880783,
+        "worst_Y": 0.2328003690283178,
+        "pooled_Z": 0.0832341182752363,
+        "p90_Z": 0.03690631928716126,
+        "worst_Z": 0.03283405084017166
+      }
+    },
+    {
+      "trial_id": "R2_LHS_02",
+      "route": "R2",
+      "fold": 0,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.13813463403363713,
+      "physical_residual_ratio": 0.08081256115806888,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.03048933102660356,
+        "p90_X": -0.027004079721158147,
+        "worst_X": -0.026285976715842763,
+        "pooled_Y": 0.031787077917861284,
+        "p90_Y": -0.03862183771887906,
+        "worst_Y": -0.04689890327289692,
+        "pooled_Z": 0.092071494069486,
+        "p90_Z": 0.1319102900013498,
+        "worst_Z": 0.13813463403363713
+      }
+    },
+    {
+      "trial_id": "R2_LHS_02",
+      "route": "R2",
+      "fold": 1,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.10851484390634747,
+      "physical_residual_ratio": 0.07236358186199139,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": 0.10851484390634747,
+        "p90_X": 0.07988736994715695,
+        "worst_X": 0.07985442803963805,
+        "pooled_Y": -0.07243917098806651,
+        "p90_Y": -0.11078320483225534,
+        "worst_Y": -0.11543680616958518,
+        "pooled_Z": -0.24713403480137686,
+        "p90_Z": -0.23826637876715262,
+        "worst_Z": -0.24814443980320733
+      }
+    },
+    {
+      "trial_id": "R2_LHS_02",
+      "route": "R2",
+      "fold": 2,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.07935960868614766,
+      "physical_residual_ratio": 0.0677619858416047,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.14597380999510667,
+        "p90_X": -0.1413742610751837,
+        "worst_X": -0.14027416115428293,
+        "pooled_Y": -0.04319260334975872,
+        "p90_Y": 0.06502800779026918,
+        "worst_Y": 0.07935960868614766,
+        "pooled_Z": -0.024854774874769392,
+        "p90_Z": -0.17969105629258852,
+        "worst_Z": -0.20358328362833222
+      }
+    },
+    {
+      "trial_id": "R2_LHS_02",
+      "route": "R2",
+      "fold": 3,
+      "strict_noninferior": true,
+      "maximum_relative_degradation": -0.00014179604205599716,
+      "physical_residual_ratio": 0.044745675392554085,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.03212730449949064,
+        "p90_X": -0.0032402249105839553,
+        "worst_X": -0.00014179604205599716,
+        "pooled_Y": -0.07128548838422843,
+        "p90_Y": -0.10449088572780729,
+        "worst_Y": -0.11186407560486933,
+        "pooled_Z": -0.09276199968170429,
+        "p90_Z": -0.15740225037840017,
+        "worst_Z": -0.1627309132498186
+      }
+    },
+    {
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "fold": 0,
+      "strict_noninferior": true,
+      "maximum_relative_degradation": -0.07400808293308436,
+      "physical_residual_ratio": 2.4660814330085932e-08,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.11549458506543187,
+        "p90_X": -0.1578669374015833,
+        "worst_X": -0.1658296135094618,
+        "pooled_Y": -0.2339089511101875,
+        "p90_Y": -0.0965872214055622,
+        "worst_Y": -0.07400808293308436,
+        "pooled_Z": -0.1813169086722587,
+        "p90_Z": -0.2410491771086567,
+        "worst_Z": -0.24978619046216166
+      }
+    },
+    {
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "fold": 1,
+      "strict_noninferior": true,
+      "maximum_relative_degradation": -0.04941061849184414,
+      "physical_residual_ratio": 1.898324466228207e-08,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.04941061849184414,
+        "p90_X": -0.06072219386671329,
+        "worst_X": -0.06302466928443196,
+        "pooled_Y": -0.2763108951668237,
+        "p90_Y": -0.08556147783691315,
+        "worst_Y": -0.058529879431324816,
+        "pooled_Z": -0.17289018847934257,
+        "p90_Z": -0.09924699256123315,
+        "worst_Z": -0.06829253103304644
+      }
+    },
+    {
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "fold": 2,
+      "strict_noninferior": true,
+      "maximum_relative_degradation": -0.17889208281037206,
+      "physical_residual_ratio": 2.0701698119979946e-08,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.2463894666414329,
+        "p90_X": -0.19264853145985483,
+        "worst_X": -0.17889208281037206,
+        "pooled_Y": -0.40645924832224856,
+        "p90_Y": -0.5450516192220867,
+        "worst_Y": -0.5598100204279983,
+        "pooled_Z": -0.3954708503596853,
+        "p90_Z": -0.40520271113803663,
+        "worst_Z": -0.40688850583737324
+      }
+    },
+    {
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "fold": 3,
+      "strict_noninferior": true,
+      "maximum_relative_degradation": 0.0075657690531656385,
+      "physical_residual_ratio": 1.6341545860095405e-08,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.06310303809573992,
+        "p90_X": -0.05521072686653017,
+        "worst_X": -0.05434909728496884,
+        "pooled_Y": -0.07325807555570929,
+        "p90_Y": -0.006980710986437488,
+        "worst_Y": 0.0075657690531656385,
+        "pooled_Z": -0.15640045313584405,
+        "p90_Z": -0.03726435649554316,
+        "worst_Z": -0.026185607049941106
+      }
+    },
+    {
+      "trial_id": "R6_LHS_04",
+      "route": "R6",
+      "fold": 0,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.029303928324791118,
+      "physical_residual_ratio": 0.002994720236311379,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.08582861764523853,
+        "p90_X": -0.1025499197699562,
+        "worst_X": -0.10610655340255004,
+        "pooled_Y": -0.17458643276100894,
+        "p90_Y": 0.000221165539567858,
+        "worst_Y": 0.029303928324791118,
+        "pooled_Z": -0.09807210156020585,
+        "p90_Z": -0.2007798620207909,
+        "worst_Z": -0.21543691005888588
+      }
+    },
+    {
+      "trial_id": "R6_LHS_04",
+      "route": "R6",
+      "fold": 1,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.07190187197020981,
+      "physical_residual_ratio": 0.001357814953322864,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": 0.07190187197020981,
+        "p90_X": 0.03852775483870485,
+        "worst_X": 0.03824268594244473,
+        "pooled_Y": -0.20494593913172587,
+        "p90_Y": -0.18919237482624118,
+        "worst_Y": -0.1872213418380364,
+        "pooled_Z": -0.3165992175157377,
+        "p90_Z": -0.31526714205069817,
+        "worst_Z": -0.3203650312765972
+      }
+    },
+    {
+      "trial_id": "R6_LHS_04",
+      "route": "R6",
+      "fold": 2,
+      "strict_noninferior": false,
+      "maximum_relative_degradation": 0.25706904919500984,
+      "physical_residual_ratio": 0.001929885083502266,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": 0.009993924036853397,
+        "p90_X": 0.1137920390762508,
+        "worst_X": 0.14008544745129625,
+        "pooled_Y": 0.25706904919500984,
+        "p90_Y": 0.2544361283078038,
+        "worst_Y": 0.25409951767710437,
+        "pooled_Z": 0.09039836555106362,
+        "p90_Z": 0.06972348717835297,
+        "worst_Z": 0.06615557153603802
+      }
+    },
+    {
+      "trial_id": "R6_LHS_04",
+      "route": "R6",
+      "fold": 3,
+      "strict_noninferior": true,
+      "maximum_relative_degradation": -0.07281458613766412,
+      "physical_residual_ratio": 0.0038723897966941876,
+      "hard_constraints_pass": true,
+      "relative_changes": {
+        "pooled_X": -0.07281458613766412,
+        "p90_X": -0.15867669511691218,
+        "worst_X": -0.1672632290589292,
+        "pooled_Y": -0.28267622998414255,
+        "p90_Y": -0.2712109063184268,
+        "worst_Y": -0.26924169579224255,
+        "pooled_Z": -0.3921217223439216,
+        "p90_Z": -0.3268145086757014,
+        "worst_Z": -0.3208804321805353
+      }
+    }
+  ],
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_0_CONTROL_SEED_20260812\\report.json": "bbb73cffc76ddc86035ef429ae694c2be959189ad9becb1b9c45a90bf73dd215",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_0_PHYSICS_SEED_20260812\\report.json": "53015cfb371ce48cedb01a3d7656827efac4647878dc55c6352c57259c7065c9",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_1_CONTROL_SEED_20260812\\report.json": "0b5b49b5d10cc6b4ee2af358ed3a831a7838be4ea6e5c98eac5bae1bc3a9e9f1",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_1_PHYSICS_SEED_20260812\\report.json": "62b879dacb4268170c674e7e1432e5ce0605b21d07916c2c02731830b4da1c8b",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_2_CONTROL_SEED_20260812\\report.json": "228d61b4d50081ef9928ae9d6c4dc340c59f52e450f99da4ddf487ce99b01c6a",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_2_PHYSICS_SEED_20260812\\report.json": "3f678da51fd59e4c51fb1901b6d1da81c2a1ee803b79bb7587b82525e32d06a1",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_3_CONTROL_SEED_20260812\\report.json": "40105b98665c735a9d46d9dc5d5b16a059647f41737e5d94e655c28872048604",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R1_LHS_07_FOLD_3_PHYSICS_SEED_20260812\\report.json": "6fa2f26a75f0bf3bbbbeb0029ca2696cf8126c70adf2105073b7c507ab830126",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_0_CONTROL_SEED_20260812\\report.json": "9b368fea340deb949997c6fbe92d2ffcd2bb5799a1218125e07bc4bc5b39aa61",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_0_PHYSICS_SEED_20260812\\report.json": "281f69c6004ee7324348e234015d49ebac13a8c612933651d909636af70f42d6",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_1_CONTROL_SEED_20260812\\report.json": "bfcc349198c4a303a35a7bc70912bdd12c22bb5860220569b72edf54764b80a5",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_1_PHYSICS_SEED_20260812\\report.json": "b392a9823abd4652d9d42dcf00978931dd9098f96708a871c00ad8cca74adc6d",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_2_CONTROL_SEED_20260812\\report.json": "cf04bb5729c910445d26ab5d55f08873c79c66022a040f7feb27bb5ca640f2c6",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_2_PHYSICS_SEED_20260812\\report.json": "8fee5b725e0c830b3276a2f5def5c5bb2fe7ff5e3ba6e6ded8462ebf1173f486",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_3_CONTROL_SEED_20260812\\report.json": "601cba9ba538368bb4b7f8ac6165e9e39f35df63fbf23301ca377a3d599db7ac",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R2_LHS_02_FOLD_3_PHYSICS_SEED_20260812\\report.json": "37c0fb6f3cfede1de98f0b50668ea3a469284e75faa43ef1eed6ea30f9376bec",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_0_CONTROL_SEED_20260812\\report.json": "c706e623d3a4a0d09abc0a0e079494d4c76c76548f4acd204a1f70ec9cda135f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_0_PHYSICS_SEED_20260812\\report.json": "b6ebd5654e56d1d0438f6a28dafd69ac1be57f1d9f2bb137f1a00b7a8c90ec09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_1_CONTROL_SEED_20260812\\report.json": "e88cb6125cfe2c36d2f3198a29318d1a5c455b56faf493c89b89bc41b7621fb8",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_1_PHYSICS_SEED_20260812\\report.json": "7979db4a8d87142e7729759778a60e91e3aa05299adaa01dc6f23f2e2c846f18",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_2_CONTROL_SEED_20260812\\report.json": "84e61a2e1f5141ac3cf51b2336c7e27bbdf291e039ba6574d26c1cfcba00f551",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_2_PHYSICS_SEED_20260812\\report.json": "d62015d015704ffb01a47377c3ecc553229fbb70e7759896392c3df036c20985",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_3_CONTROL_SEED_20260812\\report.json": "612e9d7b9986cb846cff95ca2ae8d4d8771b6ca922b985b8bf65991246889832",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R4_LHS_03_FOLD_3_PHYSICS_SEED_20260812\\report.json": "f9f266c78517e98d3e716196b093a7e7a497c0462007c64647d7fb5707b394c5",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_0_CONTROL_SEED_20260812\\report.json": "ceb5bb12d4a0d2ae757d6815846c70c14d567fab56cb1db84921cd4675ec38c3",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_0_PHYSICS_SEED_20260812\\report.json": "724d2f7c0e9b99c0c5297e0967ed3e49cafb81efaf7c0332079f73977e747dc1",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_1_CONTROL_SEED_20260812\\report.json": "aa308b3c01fe9dac99740d3d36b197250a3d4966856e1de72df3444476e0b0b9",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_1_PHYSICS_SEED_20260812\\report.json": "5ebf7f000c65b844d6076f5384bbc8fbb5d68d6591de9ccffeafa2d7c0d3cfa6",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_2_CONTROL_SEED_20260812\\report.json": "c40c0af0fd68613d9b5c523b57ada4b5d5482dc9fd2ad7f7678e235122023b47",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_2_PHYSICS_SEED_20260812\\report.json": "53d351e4e3b8de95d042e3e62152956b2bf3cc8fcbf03541d6d1fcbba007b736",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_3_CONTROL_SEED_20260812\\report.json": "7d57b2c4ba87d6bd08ab331c3fad67a5a20939775ccd5f3406d1e089f5aa2fb4",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\runs\\S9_HIGH_R6_LHS_04_FOLD_3_PHYSICS_SEED_20260812\\report.json": "22467e2677416d22b85b108d0b72679cc4546ec454e671aeb75f06070a42e1bf"
+  },
+  "scope_authorized": "prepare S10 nested grouped OOF only; no S11 or final claim"
+}

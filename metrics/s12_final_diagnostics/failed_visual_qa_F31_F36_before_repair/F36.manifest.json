@@ -1,0 +1,18 @@
+{
+  "figure_id": "F36",
+  "title": "Saved-grid kinematic consistency",
+  "generated_utc": "2026-08-13T01:01:36.935035+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\67_generate_s12_dynamic_spatial_figures.py",
+  "script_sha256": "c41450e4c21fb3979faf4a6239eccfe2a757c81bd67c4740ad59b41a394dd1b8",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F36.csv",
+  "source_csv_sha256": "4942d46fa451551ef1647c90b9c7bb6a99e6798e79ffc2338b02ad1e99b3c9dc",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F36.png",
+  "png_sha256": "51ea16a0c530c3aee8b14b264409789248023207c79bedc36e493d7377264ea7",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F36.pdf",
+  "pdf_sha256": "836703d6142746587812c6227a50f74d27c16b63816ba41b8d3f4025bd011db2",
+  "units": "dimensionless",
+  "quantity": "kinematic consistency",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

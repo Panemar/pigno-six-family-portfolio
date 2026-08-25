@@ -1,0 +1,189 @@
+{
+  "status": "FAIL_S8_FACTORIAL_PRIMARY",
+  "run_id": "S8_FACTORIAL_R1_BRIDGE_PINO_DATA_ONLY_CONTROL_SMOKE_V1",
+  "route": "R1",
+  "family": "BRIDGE_PINO",
+  "variant": "control",
+  "optimization": "fixed",
+  "stage": "S8",
+  "seed": 20260810,
+  "anchor_kind": "learned_data_only_latent",
+  "evidence_label": "historically exposed S8 panel capacity; not OOF, generalization or blind",
+  "best_epoch": 1,
+  "epochs_executed": 1,
+  "parameter_count": 621216,
+  "epoch0_metrics": {
+    "displacement_X_pooled_l2": 0.9988331106597513,
+    "velocity_X_pooled_l2": 1.0030790268792238,
+    "displacement_Y_pooled_l2": 1.00366633849972,
+    "velocity_Y_pooled_l2": 1.001500461573714,
+    "displacement_Z_pooled_l2": 1.0108000689874657,
+    "velocity_Z_pooled_l2": 1.002077874008938,
+    "physical_q13_pooled_l2": 0.8726111835976494,
+    "physical_qdot13_pooled_l2": 1.142407555319252,
+    "equilibrium_residual_median": 1.222113704991722,
+    "equilibrium_residual_p90": 20.74636355446125,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "final_metrics": {
+    "displacement_X_pooled_l2": 0.9965545149921912,
+    "velocity_X_pooled_l2": 1.0024310899992546,
+    "displacement_Y_pooled_l2": 0.9974911187165709,
+    "velocity_Y_pooled_l2": 1.0006232684105087,
+    "displacement_Z_pooled_l2": 1.0056692504000637,
+    "velocity_Z_pooled_l2": 1.0013497963746176,
+    "physical_q13_pooled_l2": 0.8979720711358968,
+    "physical_qdot13_pooled_l2": 1.1317025598290462,
+    "equilibrium_residual_median": 1.2082303850548541,
+    "equilibrium_residual_p90": 21.33452186301841,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "per_case_metrics": [
+    {
+      "case_id": "BASE_C1_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "BASE_C2_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "BASE_C3_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "BASE_C8_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "displacement_X_relative_l2": 0.9966282743307688,
+      "velocity_X_relative_l2": 1.006361684266254,
+      "displacement_Y_relative_l2": 0.9980231779512203,
+      "velocity_Y_relative_l2": 1.007650347975563,
+      "displacement_Z_relative_l2": 1.0057847838946303,
+      "velocity_Z_relative_l2": 1.0037773630271618
+    },
+    {
+      "case_id": "V40_B_E5_C9_1T",
+      "displacement_X_relative_l2": 0.9973498380146266,
+      "velocity_X_relative_l2": 1.0022421048697212,
+      "displacement_Y_relative_l2": 0.9984844059335654,
+      "velocity_Y_relative_l2": 1.0051680614831344,
+      "displacement_Z_relative_l2": 1.0069759671894125,
+      "velocity_Z_relative_l2": 1.0033503862220832
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "displacement_X_relative_l2": 0.995029911153766,
+      "velocity_X_relative_l2": 1.0026096109945453,
+      "displacement_Y_relative_l2": 0.9973421570202076,
+      "velocity_Y_relative_l2": 1.0000530658223534,
+      "displacement_Z_relative_l2": 1.0045563256491308,
+      "velocity_Z_relative_l2": 1.000704206915262
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "displacement_X_relative_l2": 0.9940628800980686,
+      "velocity_X_relative_l2": 1.0015266061958252,
+      "displacement_Y_relative_l2": 0.9968728481066225,
+      "velocity_Y_relative_l2": 0.9991514490706573,
+      "displacement_Z_relative_l2": 1.0014908334661667,
+      "velocity_Z_relative_l2": 1.0001372046693564
+    },
+    {
+      "case_id": "V52_A_E7_C11_2T",
+      "displacement_X_relative_l2": 0.9935462036657111,
+      "velocity_X_relative_l2": 1.002941070781376,
+      "displacement_Y_relative_l2": 0.9988391588941102,
+      "velocity_Y_relative_l2": 1.0013837764543456,
+      "displacement_Z_relative_l2": 1.0098797673811013,
+      "velocity_Z_relative_l2": 1.00333386362022
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "displacement_X_relative_l2": 0.9973017281410699,
+      "velocity_X_relative_l2": 1.00459629867138,
+      "displacement_Y_relative_l2": 0.9983311758433595,
+      "velocity_Y_relative_l2": 1.0034145519149924,
+      "displacement_Z_relative_l2": 1.0070617803011053,
+      "velocity_Z_relative_l2": 1.003092998827809
+    },
+    {
+      "case_id": "V52_C_E4_C7_1T",
+      "displacement_X_relative_l2": 0.9991422557772692,
+      "velocity_X_relative_l2": 1.0017959857003205,
+      "displacement_Y_relative_l2": 0.9979266740049075,
+      "velocity_Y_relative_l2": 1.002181435731414,
+      "displacement_Z_relative_l2": 1.006926545825993,
+      "velocity_Z_relative_l2": 1.0027800772198943
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "displacement_X_relative_l2": 0.9941492188091866,
+      "velocity_X_relative_l2": 1.0019540645897227,
+      "displacement_Y_relative_l2": 0.9970963228377061,
+      "velocity_Y_relative_l2": 0.9993992373831562,
+      "displacement_Z_relative_l2": 1.0021434875714808,
+      "velocity_Z_relative_l2": 0.9999531699172607
+    }
+  ],
+  "displacement_case_P90": {
+    "X": 0.9978875633434194,
+    "Y": 0.9985908318217288,
+    "Z": 1.007907176425104
+  },
+  "velocity_case_P90": {
+    "X": 1.005125914349842,
+    "Y": 1.005912747430863,
+    "Z": 1.0034784792636067
+  },
+  "base_zero_increment_relative_to_panel_peak": 0.0,
+  "causality_future_perturbation_max_abs": 0.0,
+  "graph_load_branch_sensitivity_relative_l2": null,
+  "diagnostic_gates": {
+    "finite": true,
+    "hard_BC": true,
+    "causality": true,
+    "base_zero_increment": true,
+    "primary_pooled_each_axis": false,
+    "primary_case_P90_each_axis": false,
+    "velocity_pooled_axis_median": false,
+    "velocity_case_P90_axis_median": false
+  },
+  "primary_field_gate_pass": false,
+  "full_state_velocity_gate_pass": false,
+  "physics_scope": "Physical32; direct 13-state supervision and route-compatible structure. Observation field coefficients are not FEM DOFs.",
+  "HPO_authorized": false,
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_DATASET.h5": "77ce5da426cb9dda7c2b137042dbad35661e9bba5b7a794d1ceff91330ff8475",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_DUAL_STATE_FIELD_REPRESENTATION.h5": "e3727ae616427def881ffc8f316f9e79f9fc677e10eabe249159859d2627c368",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_PROTOCOL.json": "5f1f217d10e1d47d00ce20c73b17f147003924b7e5164ecac30766e1cb9cfd2d",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\31_train_s6_micropanel_route.py": "693d459d6bde51df3f784f552b6b17d5e87e0b0d7ee14866df3e23ac4f05064e"
+  },
+  "generated_utc": "2026-08-11T04:06:04.024925+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS_S12_CORE_OOF_FIGURES",
+  "generated_utc": "2026-08-13T00:57:17.780587+00:00",
+  "figure_ids": [
+    "F17",
+    "F18",
+    "F20",
+    "F21",
+    "F23",
+    "F37",
+    "F38",
+    "F43"
+  ],
+  "figure_count": 8,
+  "training_or_tuning_performed": false,
+  "S13_authorized": false
+}

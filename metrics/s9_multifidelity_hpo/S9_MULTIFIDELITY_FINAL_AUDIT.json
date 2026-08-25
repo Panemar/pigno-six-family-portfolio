@@ -1,0 +1,50 @@
+{
+  "status": "PASS_S9_MULTIFIDELITY_HPO_AND_FREEZE_S10_CANDIDATES",
+  "promoted_trial_ids": [
+    "R4_LHS_03",
+    "R2_LHS_02",
+    "R6_LHS_04"
+  ],
+  "candidate_limit": 3,
+  "ranking": [
+    {
+      "rank": 1,
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "noninferior_folds": 4,
+      "physical_ratio_worst": 2.4660814330085932e-08,
+      "ranking_key": "[0, 0.0, 2.0, 0.13307473781202672, 0.13307473781202672, 0.18562933422399003, 0.19323148855554637, 0.32348527763160206, 0.7032375816575914, 5.916414098187603e-08, 377760, 2.4660814330085932e-08]",
+      "decision": "PROMOTE_TO_S10"
+    },
+    {
+      "rank": 2,
+      "trial_id": "R2_LHS_02",
+      "route": "R2",
+      "noninferior_folds": 1,
+      "physical_ratio_worst": 0.08081256115806888,
+      "ranking_key": "[3, 0.0, 1.0, 0.12936560897630733, 0.12936560897630733, 0.16966460983641476, 0.17853249814233635, 0.26586083763670343, 0.6580569101112197, 0.21224590520634304, 396512, 0.08081256115806888]",
+      "decision": "PROMOTE_TO_S10"
+    },
+    {
+      "rank": 3,
+      "trial_id": "R6_LHS_04",
+      "route": "R6",
+      "noninferior_folds": 1,
+      "physical_ratio_worst": 0.0038723897966941876,
+      "ranking_key": "[3, 0.0, 1.0, 0.13630784633538454, 0.13630784633538454, 0.1601740201447292, 0.16752847225560855, 0.3060502096344353, 0.4505207907348566, 0.010748722815054495, 279753, 0.0038723897966941876]",
+      "decision": "PROMOTE_TO_S10"
+    },
+    {
+      "rank": 4,
+      "trial_id": "R1_LHS_07",
+      "route": "R1",
+      "noninferior_folds": 1,
+      "physical_ratio_worst": 0.1724743404272367,
+      "ranking_key": "[3, 0.0, 3.0, 0.14470893362679613, 0.14470893362679613, 0.2274411578213937, 0.2406943209187854, 0.37261349674049565, 0.7300485864662893, 0.5354850255803967, 301024, 0.1724743404272367]",
+      "decision": "RETAIN_S9_COMPARATOR"
+    }
+  ],
+  "evidence_label": "fold-clean historical development evidence; not OOF or blind",
+  "nested_OOF_authorized": true,
+  "generated_utc": "2026-08-11T10:05:26.923396+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "figure_id": "F39",
+  "title": "Structural frequency and projected-response frequency diagnostics",
+  "generated_utc": "2026-08-13T01:02:06.542973+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\75_generate_s12_modal_diagnostics.py",
+  "script_sha256": "97cc93a4131030fff4acefd5ec8523ae80a3aead496975f8f3f97f5c46f54dac",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F39.csv",
+  "source_csv_sha256": "0c86269bde10d6bcb4a22c6606723b8207c9b4ccc0f6302a243d9fd1527b4d9b",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F39.png",
+  "png_sha256": "3c6bfe9e3f931cab602347ee6def8049452d2f2a762a343114a5ba520f63ba63",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F39.pdf",
+  "pdf_sha256": "0cfb6d825a661860401995f48ec4ffb125cf8c0061b44a265a8e73e917e18a7f",
+  "units": "Hz and percent",
+  "structural_modes": 12,
+  "response_band_half_width_hz": 0.25,
+  "response_energy_floor": "1e-6 of maximum modal-band energy within each case",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

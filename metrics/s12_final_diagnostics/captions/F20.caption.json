@@ -1,0 +1,7 @@
+{
+  "figure_id": "F20",
+  "title": "Median and tail OOF errors",
+  "caption": "P50, P90, P95 and worst trajectory-level total-displacement relative L2. Tail metrics are noncompensatory in the final decision.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

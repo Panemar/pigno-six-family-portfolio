@@ -1,0 +1,7 @@
+{
+  "figure_id": "F42",
+  "title": "Frozen-checkpoint graph utility and invariance ablations",
+  "caption": "Five-seed, five-fold OOF inference ablations compare correct graph predictions with deterministic connectivity, mechanics and frame corruptions. Positive paired changes mean the corruption worsens FEM/COMSOL agreement. Consistent node relabeling is an invariance QA. This establishes frozen-model functional dependence or benefit only; it is not causal superiority over a separately retrained graph-free model. The historical graph_load_branch_sensitivity metric is excluded because it zeroed excitation inputs rather than the graph.",
+  "units": "dimensionless relative-L2",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

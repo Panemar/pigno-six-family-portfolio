@@ -1,0 +1,18 @@
+{
+  "status": "PASS_S12_PAIRED_OOF_FIELD_FIGURES",
+  "figure_ids": [
+    "F19",
+    "F22",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29"
+  ],
+  "selection_rules": "single admitted S10 diagnostic seed; median or worst complete trajectory; fixed FEM energy/peak node; same time-node-component",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "training_or_tuning_performed": false,
+  "final_decision_authorized": false
+}

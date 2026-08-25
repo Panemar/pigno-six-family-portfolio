@@ -1,0 +1,18 @@
+{
+  "figure_id": "F30",
+  "title": "OOF hotspot localization error",
+  "generated_utc": "2026-08-13T01:01:20.850202+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\67_generate_s12_dynamic_spatial_figures.py",
+  "script_sha256": "c41450e4c21fb3979faf4a6239eccfe2a757c81bd67c4740ad59b41a394dd1b8",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F30.csv",
+  "source_csv_sha256": "a09c4b3c7eaca08efe0fcfc0541b3f6777c614552396f27b89cd5614082d56a8",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F30.png",
+  "png_sha256": "bf7754aea802a79d577cc97656fd5d3de85f4696c63cb09a97a8b85e8184dd61",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F30.pdf",
+  "pdf_sha256": "09d401ff7de7e175f9d28adeddc8677a1be84db27c5d54cb1d4685786826835f",
+  "units": "m",
+  "quantity": "total displacement hotspot",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

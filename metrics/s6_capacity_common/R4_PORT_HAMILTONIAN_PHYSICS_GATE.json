@@ -1,0 +1,50 @@
+{
+  "status": "PASS_S6_R4_PORT_HAMILTONIAN_PHYSICS_GATE",
+  "generated_utc": "2026-08-11T01:28:58.668965+00:00",
+  "route": "R4_PORT_HAMILTONIAN_OPINF",
+  "evidence_label": "historically exposed one-case structural gate; not capacity, OOF, generalization or blind",
+  "reference_contract": "single FEM model implemented and solved in COMSOL",
+  "state_definition": "x=[q,p], p=M qdot in the compatible Physical32 space",
+  "hamiltonian": "H=0.5*q^T*K*q+0.5*p^T*M^{-1}*p",
+  "flow": "xdot=(J-R)Qx+Bf",
+  "input_port": "B=[0;I], output y=B^T Qx=qdot",
+  "metrics": {
+    "force_port_mapping_relative_l2": 9.728749873088007e-16,
+    "fem_equilibrium_panel_relative_l2": 0.0023164526009407742,
+    "J_skew_relative_l2": 0.0,
+    "R_min_eigenvalue": 0.0,
+    "Q_min_eigenvalue": 0.9999999999999323,
+    "energy_min": 1.970732680472645e-09,
+    "energy_max": 100887.78313631054,
+    "power_balance_max_abs": 3.637978807091713e-11,
+    "newmark_homogeneous_spectral_radius": 0.9943573259378264,
+    "newmark_q_rollout_relative_l2": 0.003822636530348497,
+    "newmark_qdot_rollout_relative_l2_diagnostic": 0.21985604646121581
+  },
+  "checks": {
+    "force_port_mapping_relative_l2_le_1e_10": true,
+    "J_skew_relative_l2_le_1e_12": true,
+    "R_psd": true,
+    "Q_pd": true,
+    "energy_finite_nonnegative": true,
+    "power_balance_max_abs_le_1e_6": true,
+    "fem_equilibrium_panel_relative_l2_le_5e_3": true,
+    "newmark_homogeneous_spectral_radius_le_1": true,
+    "newmark_q_rollout_relative_l2_le_1e_2": true,
+    "finite": true
+  },
+  "capacity_training_authorized": true,
+  "neural_residual_authorized": true,
+  "HPO_authorized": false,
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_physical32_variational_residual_preflight_V40_A_E6_C10_1T_v2\\S8_PHYSICAL32_VARIATIONAL_PREFLIGHT.h5": "d0bbb215094fd3b63c6ab4799a65195298a86d0ccc7d6b328e121948c5eafdd8",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_newmark_physical32_propagator_preflight_V40_A_E6_C10_1T_v1\\S8_NEWMARK_PHYSICAL32_PROPAGATOR.h5": "299ac96141828f745f5235b79a9a89f427a307bc775ede742ac52ac69e19e931",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\14_audit_s6_r4_port_hamiltonian_gate.py": "1068b4b36f3e58449b5b5831f38eb85879eae9dfd93f2c67cecaf1d2310f586a"
+  },
+  "output_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_capacity_common\\R4_PORT_HAMILTONIAN_PHYSICAL32_OPERATORS.h5": "0f4847660ba467ed74652a12786c7ee23dd45bc4fd0389e3d034e700efec52a2"
+  }
+}

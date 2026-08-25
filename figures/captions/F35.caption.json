@@ -1,0 +1,7 @@
+{
+  "figure_id": "F35",
+  "title": "OOF spectral-energy error by frequency band",
+  "caption": "Median trajectory-level relative spectral-energy error. All saved-grid bands through Nyquist are retained; the 5 Hz boundary is reported, not used as a filter.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

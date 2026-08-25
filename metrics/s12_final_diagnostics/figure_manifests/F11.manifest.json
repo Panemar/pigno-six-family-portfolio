@@ -1,0 +1,18 @@
+{
+  "figure_id": "F11",
+  "title": "Successive-halving promotion history",
+  "generated_utc": "2026-08-13T01:09:39.425748+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "35a868314a85c6e1b9a87f8b5c491396535597c4bd04a3766adcccb0b9ce9f78",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F11.csv",
+  "source_csv_sha256": "ad5c4bbe9d5f8c9a14670410b65df34d51fa5ab77b0e2bc365f6d50f4e2e33cb",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F11.png",
+  "png_sha256": "fe8e4da93ac4918f9e411e279302397ba79bad43d1efd6184283619d9a59d3e8",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F11.pdf",
+  "pdf_sha256": "45829004c0b6eaf85a76e95fbdf3dea1493fef6440d132a1a5099553193965b7",
+  "units": "categorical",
+  "quantity": "multifidelity promotion",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

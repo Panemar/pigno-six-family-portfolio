@@ -1,0 +1,18 @@
+route_id,test,pass,value,threshold,detail
+R1_BRIDGE_PINO,strict_causality_future_perturbation,True,0.0,<=2e-6,future inputs cannot alter prior outputs
+R1_BRIDGE_PINO,hard_BC,True,0.0,==0,constrained observation node
+R1_BRIDGE_PINO,finite_nonconstant_output,True,0.2396617978811264,>0 finite,trajectory operator active
+R2_MO_PIGNO,nonzero_graph_attribute_utility,True,0.0011534786317497492,>1e-7,edge attributes affect all-head output
+R2_MO_PIGNO,specialized_heads_distinct,True,0.19982153177261353,>1e-7,q and v are not aliases
+R2_MO_PIGNO,hard_BC_all_heads,True,0.0,==0,q/v/a observation heads
+R3_GRAPH_NEURAL_GALERKIN,pred_equals_FEM_floor,True,0.0,<=2e-5 float32,weak residual vanishes for exact equilibrium
+R3_GRAPH_NEURAL_GALERKIN,force_mismatch_detected,True,0.2645762860774994,>1e-3,test space is not decorative
+R4_PORT_HAMILTONIAN_OPINF,J_skew,True,0.0,<=1e-7,architectural identity
+R4_PORT_HAMILTONIAN_OPINF,R_Q_positive,True,0.00010099999781232327,>0,dissipation and energy metrics
+R4_PORT_HAMILTONIAN_OPINF,power_balance,True,5.960464477539063e-08,<=2e-6,gradH.xdot = input power - dissipation
+R5_ROTATION_MULTISCALE_GNO,polar_axial_reflection_separated,True,6.0,>0,axial rotations use det(Q)Q
+R5_ROTATION_MULTISCALE_GNO,local_frame_branch_nonzero,True,7.346871376037598,>1e-6,typed messages active
+R5_ROTATION_MULTISCALE_GNO,fine_coarse_fine_path,True,0.8450706005096436,shape exact and finite,multiscale representation path
+R6_LOAD_DEPENDENT_RITZ_KRYLOV,M_orthonormality,True,9.648501873016357e-07,<=2e-5,fold-local basis invariant
+R6_LOAD_DEPENDENT_RITZ_KRYLOV,projected_second_order_symmetry,True,1.1920928955078125e-07,<=2e-5,M/C/K structure retained
+R6_LOAD_DEPENDENT_RITZ_KRYLOV,static_load_direction_coverage,True,6.964865519876184e-07,<=2e-5,first Ritz block spans K^-1 F

@@ -1,0 +1,19 @@
+{
+  "figure_id": "F36",
+  "title": "Saved-grid kinematic consistency",
+  "generated_utc": "2026-08-13T01:14:44.676902+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\67_generate_s12_dynamic_spatial_figures.py",
+  "script_sha256": "01b9f48e35b8239c89e0a93871c38c0d1c24b287c97baae89ab03289134f596c",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F36.csv",
+  "source_csv_sha256": "4942d46fa451551ef1647c90b9c7bb6a99e6798e79ffc2338b02ad1e99b3c9dc",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F36.png",
+  "png_sha256": "5eb50713be765c31f0c1f535c42159c21277e4c845c6c4b88fac108a5891167a",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F36.pdf",
+  "pdf_sha256": "7feb72a9a971a1e00edad47f8c6a8e99971b93389e2cada76fc139c5ec8ab6b3",
+  "units": "dimensionless",
+  "quantity": "kinematic consistency",
+  "undefined_policy": "excluded from boxplot only; retained as null in source CSV with valid/total counts shown",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

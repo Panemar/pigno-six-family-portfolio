@@ -1,0 +1,7 @@
+{
+  "figure_id": "F21",
+  "title": "Trajectory × model × component OOF error",
+  "caption": "Heatmap ordered by each trajectory's maximum model-component error. Candidate entries are medians for the single S10 diagnostic seed.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

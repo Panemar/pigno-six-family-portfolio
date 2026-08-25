@@ -1,0 +1,17 @@
+{
+  "status": "PASS_S10_FOLD_TRIAL_EXECUTION",
+  "run_id": "S10_INNER_R4_LHS_03_OUTER_2_INNER_3_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260813",
+  "selected_epoch": 100,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.062023527920246124,
+    "velocity_X_pooled_l2": 0.5480406880378723,
+    "displacement_Y_pooled_l2": 0.03893154859542847,
+    "velocity_Y_pooled_l2": 0.2783084511756897,
+    "displacement_Z_pooled_l2": 0.025458266958594322,
+    "velocity_Z_pooled_l2": 0.2732820212841034,
+    "equilibrium_residual_median": 0.024487750312161542,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "causality": 0.0
+}

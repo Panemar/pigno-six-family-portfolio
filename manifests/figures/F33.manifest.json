@@ -1,0 +1,22 @@
+{
+  "figure_id": "F33",
+  "title": "Coherence at representative OOF trajectories",
+  "generated_utc": "2026-08-13T01:01:34.248899+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\67_generate_s12_dynamic_spatial_figures.py",
+  "script_sha256": "c41450e4c21fb3979faf4a6239eccfe2a757c81bd67c4740ad59b41a394dd1b8",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F33.csv",
+  "source_csv_sha256": "1407e1444a7e012cf766374ba0ac1e3994139439f0a6b46e58b64458d263f542",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F33.png",
+  "png_sha256": "4313dbcc183d13e0da10cb4348db44f2949af07ef96b72aed505b5f08d4e5e2e",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F33.pdf",
+  "pdf_sha256": "2fdcd40b09c6a61ab16c61cbedaa7076de758fc5c4be9fabdae506843f3e8102",
+  "units": "Magnitude-squared coherence",
+  "quantity": "total displacement spectrum",
+  "frequency_range_hz": [
+    0,
+    20
+  ],
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

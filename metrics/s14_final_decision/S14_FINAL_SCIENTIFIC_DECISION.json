@@ -1,0 +1,41 @@
+{
+  "status": "PASS_S14_FINAL_SCIENTIFIC_DECISION",
+  "final_state": "NO_PHYSICS_INFORMED_FAMILY_ADDS_MATERIAL_VALUE",
+  "winner": null,
+  "ordered_candidates": [
+    {
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "seed_stability_pass": false,
+      "predictive_noninferiority_pass": false,
+      "predictive_material_gain": true,
+      "physical_material_gain": true,
+      "graph_permutation_pass": true,
+      "graph_functional_benefit": true,
+      "graph_claim_boundary": "single-seed S10 frozen-checkpoint inference ablation only; no multiseed or retrained graph-free causal claim",
+      "modal_scope": "single-seed S10 forced response projected on fixed FEM/COMSOL structural modes; no learned eigenmode claim",
+      "full_state_gate_pass": false,
+      "mean_primary_metric": 0.027690282177218667,
+      "classification": "NOT_ACCEPTABLE",
+      "ranking_key": [
+        0,
+        1,
+        1,
+        1,
+        0.9852573236016215,
+        -0.027690282177218667
+      ]
+    }
+  ],
+  "reference": "single FEM model implemented and solved in COMSOL",
+  "evidence_label": "nested grouped OOF on 68 historically exposed trajectories; not blind or external",
+  "diagnostic_evidence_mode": "S10 single-seed negative route",
+  "B2_role": "frozen common-split POD plus causal FIR plus Ridge baseline",
+  "full_state_limitation": true,
+  "sensor_validation_opened": false,
+  "new_FEM_panel_executed": false,
+  "new_FEM_panel_requires_explicit_user_authorization": true,
+  "no_seventh_family": true,
+  "decision_rules": "frozen S10/S11 noninferiority and material-gain gates plus S12 graph permutation/functional-benefit veto; no post-hoc modal threshold",
+  "generated_utc": "2026-08-13T01:17:17.209199+00:00"
+}

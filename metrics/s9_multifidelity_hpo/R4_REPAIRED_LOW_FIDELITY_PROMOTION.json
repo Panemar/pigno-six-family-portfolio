@@ -1,0 +1,10 @@
+{
+  "status": "PASS_S9_R4_REPAIRED_LOW_SUCCESSIVE_HALVING",
+  "promoted_trial_ids": [
+    "R4_LHS_03",
+    "R4_LHS_02",
+    "R4_LHS_04"
+  ],
+  "promotion_rule": "top three lexicographic R4 configurations over folds 0 and 1",
+  "nested_OOF_authorized": false
+}

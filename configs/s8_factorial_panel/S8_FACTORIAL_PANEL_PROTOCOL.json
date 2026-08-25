@@ -1,0 +1,242 @@
+{
+  "schema": "S8_BALANCED_FACTORIAL_PANEL_PROTOCOL_V1",
+  "status": "FROZEN_S8_BALANCED_12_TRAJECTORY_FACTORIAL_PANEL",
+  "generated_utc": "2026-08-11T03:57:51.790764+00:00",
+  "reference": "single FEM model implemented and solved in COMSOL",
+  "evidence_label": "historically exposed factorial panel; not OOF, generalization or blind evidence",
+  "selection_basis": "complete availability of compact fields and compatible direct 13-state full-DOF recovery, with exact balance over the available physical factors",
+  "case_count": 12,
+  "zero_increment_base_count": 4,
+  "loaded_case_count": 8,
+  "cases": [
+    {
+      "case_id": "BASE_C1_0T",
+      "base_case_id": "BASE_C1_0T",
+      "role": "zero_increment_environmental_base",
+      "speed_kmh": 0.0,
+      "series": "C+",
+      "train_count": 0,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 0.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C1_0T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "BASE_C2_0T",
+      "base_case_id": "BASE_C2_0T",
+      "role": "zero_increment_environmental_base",
+      "speed_kmh": 0.0,
+      "series": "C+",
+      "train_count": 0,
+      "seismic_scale_factor": 0.4,
+      "wind_mps": 20.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C2_0T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C2_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "BASE_C3_0T",
+      "base_case_id": "BASE_C3_0T",
+      "role": "zero_increment_environmental_base",
+      "speed_kmh": 0.0,
+      "series": "C+",
+      "train_count": 0,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 20.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C3_0T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "BASE_C8_0T",
+      "base_case_id": "BASE_C8_0T",
+      "role": "zero_increment_environmental_base",
+      "speed_kmh": 0.0,
+      "series": "C+",
+      "train_count": 0,
+      "seismic_scale_factor": 0.4,
+      "wind_mps": 0.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C8_0T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C8_0T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 40.0,
+      "series": "A",
+      "train_count": 1,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 20.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_A_E3_C6_1T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_A_E3_C6_1T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V40_B_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 40.0,
+      "series": "B",
+      "train_count": 1,
+      "seismic_scale_factor": 0.4,
+      "wind_mps": 0.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_B_E5_C9_1T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_B_E5_C9_1T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 40.0,
+      "series": "C",
+      "train_count": 2,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 0.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_C_E8_C12_2T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_C_E8_C12_2T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 40.0,
+      "series": "C+",
+      "train_count": 2,
+      "seismic_scale_factor": 0.4,
+      "wind_mps": 20.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_CPLUS_E2_C5_2T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_CPLUS_E2_C5_2T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V52_A_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 52.0,
+      "series": "A",
+      "train_count": 2,
+      "seismic_scale_factor": 0.4,
+      "wind_mps": 0.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_A_E7_C11_2T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_A_E7_C11_2T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 52.0,
+      "series": "B",
+      "train_count": 1,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 0.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_B_E6_C10_1T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_B_E6_C10_1T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V52_C_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 52.0,
+      "series": "C",
+      "train_count": 1,
+      "seismic_scale_factor": 0.4,
+      "wind_mps": 20.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_C_E4_C7_1T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_C_E4_C7_1T_v1\\original_full_dof_state_pilot.h5"
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "role": "loaded_factorial_trajectory",
+      "speed_kmh": 52.0,
+      "series": "C+",
+      "train_count": 2,
+      "seismic_scale_factor": 0.0,
+      "wind_mps": 20.0,
+      "compact_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_CPLUS_E1_C4_2T\\compact_kinematics.h5",
+      "full_dof_h5": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_CPLUS_E1_C4_2T_v1\\original_full_dof_state_pilot.h5"
+    }
+  ],
+  "loaded_factor_coverage": {
+    "speed_kmh": {
+      "40.0": 4,
+      "52.0": 4
+    },
+    "train_count": {
+      "1": 4,
+      "2": 4
+    },
+    "wind_mps": {
+      "20.0": 4,
+      "0.0": 4
+    },
+    "seismic_scale_factor": {
+      "0.0": 4,
+      "0.4": 4
+    },
+    "series": {
+      "A": 2,
+      "B": 2,
+      "C": 2,
+      "C+": 2
+    },
+    "environmental_pair": {
+      "s0.0_w20.0": 2,
+      "s0.4_w0.0": 2,
+      "s0.0_w0.0": 2,
+      "s0.4_w20.0": 2
+    }
+  },
+  "field_contract": {
+    "target": "loaded total minus environmental-matched base at identical saved time, node and component",
+    "total_reconstruction": "FEM base plus predicted increment",
+    "axis_convention": "X transverse; Y vertical/height; Z longitudinal"
+  },
+  "budget": {
+    "seeds": [
+      20260810,
+      20260811
+    ],
+    "maximum_epochs_per_seed": 150,
+    "same_architecture_and_fixed_rate_optimizer_as_selected_S6_candidate": true,
+    "joint_training_on_all_12_cases": true,
+    "case_balanced_loss": true,
+    "device": "cuda:0"
+  },
+  "gates": {
+    "hard_BC_max_abs": 1e-12,
+    "causality_future_perturbation_max_abs": 1e-07,
+    "incremental_displacement_pooled_relative_l2_each_axis_max": 0.1,
+    "incremental_displacement_case_P90_relative_l2_each_axis_max": 0.2,
+    "incremental_velocity_pooled_relative_l2_axis_median_max": 0.35,
+    "incremental_velocity_case_P90_relative_l2_axis_median_max": 0.6,
+    "physics_vs_best_control_noninferiority_relative": 0.02
+  },
+  "promotion_limit_after_S8": 4,
+  "HPO_authorized": false,
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\v5r_mo_pigno_final_campaign\\manifests\\V5R_CASE_UNIVERSE.csv": "10a79e21c625589fb76905d0db6537ad1bd5ea68c24422e4f52efa0c2d0b030b",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C1_0T\\compact_kinematics.h5": "02cbc80791f40ef10568eb33b4e251ef5eea5731f65256bf9517a14b152e457c",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5": "afebb20e8cc026b17384186206558d7c5372cedbeaadf09438e1c114f67c8c1e",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C2_0T\\compact_kinematics.h5": "e584595775d1a0ef59e613ef13d2f4fff35f81b12d3cac8bff6222caf0041e64",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C2_0T_v1\\original_full_dof_state_pilot.h5": "d53f2092188b40b572a92a95faa006201759db96fb189056ad106fb4712d5431",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C3_0T\\compact_kinematics.h5": "5e7d3b1a40d6d31ad4375d239e81df4ef0eecf2cb0dbc7e2bb1356b82a8a348d",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5": "d28757243a3a581d55a2eb24bf7482a735cc14de18d174cf81fd2004183016e8",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C8_0T\\compact_kinematics.h5": "9a264b2c30c390c0826e1dbd79194ed329b7ce3956799472b2ba85472604ef5c",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C8_0T_v1\\original_full_dof_state_pilot.h5": "2794f499de85b565ddbbf6a50e690e89970142c45672ae265746526fa13dfae7",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_A_E3_C6_1T\\compact_kinematics.h5": "2f5e8bd317d3f733fb5389bc0c864dd038e52247cb24940fef96088a87860664",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_A_E3_C6_1T_v1\\original_full_dof_state_pilot.h5": "a77cede74a2f489eb0e4cbf091f90f618847ab2bce07cf79ad32cfa3ba01f182",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_B_E5_C9_1T\\compact_kinematics.h5": "2ced25438ac5f3bc8d7d90515e980cab7b677b5ce86e3d4f1a2ca5a267bc655f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_B_E5_C9_1T_v1\\original_full_dof_state_pilot.h5": "96892db7c62fda37628b511622656b79db5eb68c9c5101e4725bd646620449e0",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_C_E8_C12_2T\\compact_kinematics.h5": "762d25a6adbef06a1462522e65deb42dde6bb806b990c021e394d72459a6ef77",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_C_E8_C12_2T_v1\\original_full_dof_state_pilot.h5": "b8b8433e9b5e1b4a540e67b4f11b70f72a191a35a20816dcd3f93d88905b4fed",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_CPLUS_E2_C5_2T\\compact_kinematics.h5": "7fab31c65cd01150a55f0d7a0c435260792e862c0bd4b433768a0dcf812d6c23",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_CPLUS_E2_C5_2T_v1\\original_full_dof_state_pilot.h5": "aa35bbd56b8cd60fc0f37e2dcab864455f3ee440d62e0a7488351149854ebc95",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_A_E7_C11_2T\\compact_kinematics.h5": "173906e772c1425c81dc351530bec41efb0516393eef75067eb752503389067e",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_A_E7_C11_2T_v1\\original_full_dof_state_pilot.h5": "3c7d1ff5880bcff29ea62bf3a6f9bcd57e316dcccec3cf7eb190f688730fd03d",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_B_E6_C10_1T\\compact_kinematics.h5": "bfb5b351622db8cb3f98f07602a166a862305bd14bcfd802b7ac52d5952292f8",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_B_E6_C10_1T_v1\\original_full_dof_state_pilot.h5": "6fcd0888c8eb1a49a568aab1ec8a7983477b2ed609db2f98ab99fb010a757aa3",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_C_E4_C7_1T\\compact_kinematics.h5": "4d84f2268e11aef2ed0b4ab6958bb43989dce9c4ae73e3edfefe00cd0066ca48",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_C_E4_C7_1T_v1\\original_full_dof_state_pilot.h5": "6f7250d3874a8c87581e13c99de4e4ec5666b041fa1fb2ea244f8a38476a7638",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_CPLUS_E1_C4_2T\\compact_kinematics.h5": "2c0fd3545c107d7ebe666b33db2e71ad59aec14f7f48163aead23dcccb5a1ba9",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_CPLUS_E1_C4_2T_v1\\original_full_dof_state_pilot.h5": "6a29d2de9724328d2a77677ec580d956a0c2c5036fdcb348958110462ce82891"
+  }
+}

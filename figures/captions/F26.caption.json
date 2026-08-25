@@ -1,0 +1,7 @@
+{
+  "figure_id": "F26",
+  "title": "Peak-region temporal zoom at frozen worst cases",
+  "caption": "A ±1 s window around the FEM/COMSOL peak at the maximum-amplitude observation node of the worst component in each frozen worst case. No temporal alignment or phase shifting is applied.",
+  "units": "s and m in source; mm plotted",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

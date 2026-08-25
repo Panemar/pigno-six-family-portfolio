@@ -1,0 +1,7 @@
+{
+  "figure_id": "F22",
+  "title": "OOF error by frozen factorial scenario factors",
+  "caption": "Median and interquartile trajectory error by speed, train count, wind and seismic scale. Candidate error is first median-aggregated for the single S10 diagnostic seed and then summarized across complete trajectories.",
+  "units": "dimensionless error; factor units on axes",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "FAIL_S2_ACTIVE_BEAM_GRAPH_NUMERICAL_QA",
+  "checks": {
+    "graph_hash_matches_frozen": true,
+    "nodes_22164": true,
+    "directed_edges_48430": true,
+    "undirected_edges_24215": true,
+    "no_self_loops": true,
+    "edge_indices_in_range": true,
+    "directed_reciprocity_1": true,
+    "single_connected_component": true,
+    "all_numeric_arrays_finite": true,
+    "positive_edge_properties": true,
+    "frame_orthogonality_le_2e_12": true,
+    "frame_det_positive_near_one": true,
+    "local_x_aligned_with_bar": true,
+    "edge_length_matches_coords": true,
+    "mass_decomposition_exact": true,
+    "fixed_dof_36": true,
+    "observation_nodes_512_unique": true,
+    "observation_mapping_exact": true,
+    "sensor_mapping_matches_user_contract": true,
+    "sensor_mapping_exact": false
+  },
+  "graph_sha256": "97a064ff0ac2226f4e0c8eb6c2363799ee9a7b7a238fa131030f0060cafe2e86",
+  "nodes": 22164,
+  "directed_edges": 48430,
+  "undirected_edges": 24215,
+  "connected_component_sizes": [
+    22164
+  ],
+  "maximum_frame_orthogonality_error": 8.881784197001252e-16,
+  "determinant_min": 0.9999999999999991,
+  "determinant_max": 1.0000000000000004,
+  "minimum_local_x_bar_abs_cosine": 0.9999999999999998,
+  "maximum_edge_length_coordinate_difference_m": 0.0,
+  "maximum_mass_decomposition_error_kg_per_m": 0.0,
+  "fixed_dof_count": 36,
+  "nonzero_spring_dof_count": 34,
+  "observation_mapping_error_max_m": 0.0,
+  "sensor_entity_contract": {
+    "S1": 212,
+    "S2": 57,
+    "S3": 99,
+    "S4": 146
+  },
+  "sensor_mapping_error_max_m": 7.105427357601002e-15,
+  "positive_property_checks": {
+    "length_m": true,
+    "area": true,
+    "Iyy": true,
+    "Izz": true,
+    "J_beam": true,
+    "kappay": true,
+    "kappaz": true,
+    "E": true,
+    "G": true,
+    "rho": true,
+    "mL": true
+  },
+  "dynamic_graph_utility": "NOT_YET_DEMONSTRATED",
+  "training_authorized": false
+}

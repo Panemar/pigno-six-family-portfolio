@@ -1,0 +1,42 @@
+{
+  "schema": "S11_FIVE_SEED_CONFIRMATION_PROTOCOL_V1",
+  "status": "FROZEN_BEFORE_S10_COMPLETE",
+  "frozen_utc": "2026-08-11T13:24:00Z",
+  "purpose": "Confirm seed stability and physics attribution for at most two S10-promoted physics-informed candidates under the same five grouped outer folds.",
+  "evidence_label": "historically exposed grouped OOF confirmation; not blind, external, or a new FEM panel",
+  "numerical_reference": "one FEM model implemented and solved in COMSOL",
+  "candidate_source": "s10_nested_grouped_oof/S10_TO_S11_PROMOTION_DECISION_V1.json",
+  "maximum_finalists": 2,
+  "seeds": [0, 1, 2, 3, 4],
+  "outer_folds": [0, 1, 2, 3, 4],
+  "variants_per_finalist": ["physics", "capacity_matched_control"],
+  "planned_runs_per_finalist": 50,
+  "maximum_total_runs": 100,
+  "epoch_rule": "For each finalist and outer fold, reuse the epoch selected exclusively by the four S10 inner folds. No seed-specific, outer-target, or S11-target epoch selection.",
+  "initialization_rule": "Refit every seed, fold and variant from a new initialization; never warm-start from S10 or another seed.",
+  "data_rule": "Reuse the exact S10 FEM/COMSOL authority, causal inputs, active Beam graph, fold-local representations, train/validation trajectory assignments and CAL-only transforms.",
+  "prediction_rule": "Write exact-once full 68-case OOF displacement and direct velocity fields for every finalist, variant and seed.",
+  "comparison_views": {
+    "incremental": "candidate incremental prediction versus the same FEM/COMSOL incremental target",
+    "total": "target-fold-clean B2 base plus candidate increment versus FEM/COMSOL total field",
+    "forbidden": "observed FEM base injection"
+  },
+  "hard_gates": [
+    "same case, saved time, observation node and global component",
+    "finite fields and metrics",
+    "hard translation BC max abs <= 1e-12",
+    "causality max abs <= 1e-7",
+    "zero outer-target tuning",
+    "stable in at least four of five seeds"
+  ],
+  "predictive_noninferiority": "For X, Y and Z separately, no pooled, P90 or worst total-displacement metric may degrade more than 2% relative to common-split B2 or the capacity-matched control.",
+  "material_gain": "Apply the frozen portfolio alternatives: >=5% pooled reduction in at least two primary components, or >=10% P90/worst reduction, or predictive noninferiority with robust physical/modal/spectral/graph/computational gain.",
+  "physics_attribution": "Compare physics and capacity-matched control with paired fold and seed summaries; a mean-only improvement cannot compensate a failed hard, P90, worst-case, stability or leakage gate.",
+  "checkpoint_reporting": "Report every seed. Use the median-performing admitted seed as the representative checkpoint; never select the most favorable seed.",
+  "S12_tuning_authorized": false,
+  "new_FEM_solve_authorized": false,
+  "sensor_access_authorized": false,
+  "seventh_family_authorized": false,
+  "execution_gate": "PASS_S10_PROMOTION_DECISION with one or two promoted candidates and PASS_S10_SCIENTIFIC_DECISION_PIPELINE",
+  "current_execution_status": "NOT_STARTED"
+}

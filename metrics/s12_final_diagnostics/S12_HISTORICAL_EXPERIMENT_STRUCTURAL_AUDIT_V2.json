@@ -1,0 +1,139 @@
+{
+  "schema": "S12_HISTORICAL_EXPERIMENT_STRUCTURAL_AUDIT_V2",
+  "status": "PASS_S12_HISTORICAL_EXPERIMENT_STRUCTURAL_AUDIT_V2",
+  "generated_utc": "2026-08-13T01:10:35.318676+00:00",
+  "scope": [
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+  ],
+  "source_contract": {
+    "uses_repaired_S8_registry": true,
+    "uses_repaired_S9_audit": true,
+    "filters_legacy_R4_physics": true
+  },
+  "rows": [
+    {
+      "figure_id": "F07",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F08",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F09",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F10",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F11",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F12",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F13",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F14",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F15",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    },
+    {
+      "figure_id": "F16",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      }
+    }
+  ],
+  "failures": [],
+  "manual_visual_review_performed": false,
+  "manual_visual_review_required_before_final_package": true,
+  "training_or_tuning_performed": false,
+  "S14_authorized": false
+}

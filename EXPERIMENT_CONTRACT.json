@@ -1,0 +1,22 @@
+{
+  "schema": "PORTFOLIO_COMMON_EXPERIMENT_CONTRACT_V1",
+  "authority_branch": "O",
+  "case_count": 68,
+  "historical_exposure": true,
+  "blind_test": false,
+  "pairing_keys": ["case_id","saved_time","node_id","component","unit","field_semantics"],
+  "axis_contract": {"X":"transverse","Y":"vertical_height","Z":"longitudinal"},
+  "saved_time": {"count":1201,"dt_s":0.025,"same_grid_all_cases":true},
+  "observations": {"nodes":512,"components_primary":["u","v","w"],"full_state_staged":true},
+  "graph": {"nodes":22164,"directed_edges":48430,"sha256":"97a064ff0ac2226f4e0c8eb6c2363799ee9a7b7a238fa131030f0060cafe2e86"},
+  "load_support_sha256": "3c9bb636ae559fe6b8e062d8419cf850f2cfc7739bb24483a5b4989afdbec34a",
+  "modal_reference_sha256": "af588aaa04bf1b897d00befe6ef84370095b691129654dbc6b61857c95cc638f",
+  "split": {"outer_folds":5,"outer_fold_sizes":[14,14,14,13,13],"inner_folds":4,"group":"complete case_id trajectory"},
+  "selection": "inner grouped CV only; outer OOF cannot select route, representation, hyperparameters, losses, epoch, checkpoint or thresholds",
+  "seeds": {"screening":[0],"initial_oof":[0,1,2],"finalists":[0,1,2,3,4]},
+  "forbidden_features": ["case_id","historical split label","response-derived scenario identifier"],
+  "forbidden_data": ["Rev7","Rev8","sensors","outer-fold targets during selection"],
+  "reference_language": "PIGNO/family versus FEM/COMSOL; never COMSOL versus FEM",
+  "new_fem_solves_authorized": false,
+  "mph_mutation_authorized": false
+}

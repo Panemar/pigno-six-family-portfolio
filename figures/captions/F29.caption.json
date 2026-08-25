@@ -1,0 +1,7 @@
+{
+  "figure_id": "F29",
+  "title": "FEM/COMSOL and PIGNO deformed elevation shapes",
+  "caption": "Left panels use the true displacement scale. Right panels magnify displacement only by the explicitly serialized factor so deformation shape is legible; undeformed geometry and coordinate axes are not silently compressed.",
+  "units": "m",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

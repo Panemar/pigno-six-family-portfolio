@@ -1,0 +1,32 @@
+{
+  "status": "PASS_S12_GRAPH_UTILITY_INFERENCE_ABLATION_EXECUTION",
+  "finalists": [
+    "R4_LHS_03"
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds": [
+    20260813
+  ],
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "perturbations": [
+    "P0_CORRECT",
+    "P1_CONSISTENT_NODE_RELABEL",
+    "P2_EDGE_ATTRIBUTE_MISMATCH",
+    "P3_CONNECTIVITY_DESTINATION_SHIFT",
+    "P4_MEAN_NEUTRALIZED_EDGE_MECHANICS",
+    "P5_IDENTITY_LOCAL_FRAMES"
+  ],
+  "complete_OOF_identity": true,
+  "same_case_time_node_axis": true,
+  "training_or_tuning_performed": false,
+  "claim_boundary": "frozen-checkpoint functional dependence/benefit only; not causal superiority to a retrained graph-free model",
+  "historical_graph_load_branch_metric_used": false,
+  "completed_utc": "2026-08-13T01:07:22.135648+00:00"
+}

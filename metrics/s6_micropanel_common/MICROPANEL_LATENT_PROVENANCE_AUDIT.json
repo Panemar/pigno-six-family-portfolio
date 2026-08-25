@@ -1,0 +1,131 @@
+{
+  "schema": "S6_MICROPANEL_LATENT_PROVENANCE_AUDIT_V1",
+  "status": "PASS_MICROPANEL_LATENT_PROVENANCE_WITH_RESTRICTED_PHYSICS_SCOPE",
+  "generated_utc": "2026-08-11T02:29:38.135355+00:00",
+  "evidence_label": "historically exposed representation audit; not OOF, generalization or blind evidence",
+  "reference": "single FEM model implemented and solved in COMSOL",
+  "same_case_time_node_component": true,
+  "coordinate_max_abs_error_m": 5.312785367195261e-08,
+  "sample_time_max_abs_error_s": 0.0,
+  "source_to_projector_dof_name_dictionary": [
+    [
+      9,
+      0
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      11,
+      2
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      13,
+      4
+    ],
+    [
+      14,
+      5
+    ]
+  ],
+  "source_to_projector_dof_name_pair_counts": {
+    "source_9_projector_0": 22111,
+    "source_10_projector_1": 22111,
+    "source_11_projector_2": 22111,
+    "source_12_projector_3": 22111,
+    "source_13_projector_4": 22111,
+    "source_14_projector_5": 22111
+  },
+  "direct_full_dof_projection": {
+    "q_224_relative_l2": 1.4898843103015319e-15,
+    "q_32_relative_l2": 1.3190220043140441e-15,
+    "qdot_224_relative_l2": 1.7477815727988186e-15,
+    "qdot_32_relative_l2": 1.6246796203675233e-15
+  },
+  "direct_full_dof_representation_by_group": {
+    "rotation_X": {
+      "displacement_or_rotation_relative_l2": 0.0021190081231262405,
+      "velocity_or_rotation_rate_relative_l2": 0.04561068885652252
+    },
+    "rotation_Y": {
+      "displacement_or_rotation_relative_l2": 0.0016414334406012238,
+      "velocity_or_rotation_rate_relative_l2": 0.04670421258969708
+    },
+    "rotation_Z": {
+      "displacement_or_rotation_relative_l2": 0.0007934976649430179,
+      "velocity_or_rotation_rate_relative_l2": 0.05679271106598074
+    },
+    "translation_X": {
+      "displacement_or_rotation_relative_l2": 0.0001316221936494524,
+      "velocity_or_rotation_rate_relative_l2": 0.014769288097082557
+    },
+    "translation_Y": {
+      "displacement_or_rotation_relative_l2": 7.01518563526509e-05,
+      "velocity_or_rotation_rate_relative_l2": 0.005498872181621365
+    },
+    "translation_Z": {
+      "displacement_or_rotation_relative_l2": 2.3979666974121985e-05,
+      "velocity_or_rotation_rate_relative_l2": 0.0013123356687252583
+    }
+  },
+  "compact_identity": {
+    "displacement_relative_l2_vs_capacity_h5": 0.0,
+    "velocity_relative_l2_vs_capacity_h5": 0.0
+  },
+  "observation_inverse": {
+    "basis_rows": 1536,
+    "basis_columns": 224,
+    "rank": 224,
+    "condition_number": 10114.115625466908,
+    "q_224_relative_l2_vs_full_grid_projection": 0.0010985384061588908,
+    "q_32_relative_l2_vs_full_grid_projection": 0.0010696717485557483,
+    "qdot_224_relative_l2_vs_full_grid_projection": 0.2914866440252989,
+    "qdot_32_relative_l2_vs_full_grid_projection": 0.30769026994598614,
+    "q_224_relative_l2_vs_direct_13_state_projection": 0.00107526229602241,
+    "qdot_224_relative_l2_vs_direct_13_state_projection": 0.08251697960903896,
+    "translation_reconstruction_relative_l2": 6.497246146146714e-06,
+    "velocity_reconstruction_relative_l2": 0.0016579826193672906
+  },
+  "thresholds_frozen_for_this_provenance_gate": {
+    "direct_projection_identity_max": 1e-10,
+    "observation_q_coordinate_supervision_max": 0.01,
+    "observation_qdot_physical_state_max": 0.05,
+    "observation_field_reconstruction_max": 0.03
+  },
+  "gates": {
+    "direct_q_identity": true,
+    "direct_qdot_identity": true,
+    "observation_q_coordinate_supervision": true,
+    "observation_qdot_is_physical_state": false,
+    "observation_translation_field": true,
+    "observation_velocity_field": true
+  },
+  "authorized": {
+    "full_time_compact_fields_as_supervised_targets": true,
+    "full_time_observation_inferred_q_as_observation_compatible_latent_target": true,
+    "full_time_observation_inferred_qdot_as_exact_physical_state": false,
+    "direct_13_state_q_and_qdot_as_sparse_physical_audit": true,
+    "strong_dynamic_residual_on_13_states": false,
+    "reason_strong_residual_blocked": "No compatible full-DOF Uddot or exact reduced force is available at all required micropanel states; qdot inferred from observations is not accepted as an exact state."
+  },
+  "micropanel_loss_boundary": [
+    "supervise displacement and velocity fields directly on identical compact FEM/COMSOL observations",
+    "use observation-inferred q only as a displacement-compatible representation target",
+    "do not supervise physical qdot from observation inversion",
+    "evaluate q and qdot physics only at the 13 directly extracted full-DOF states per available case",
+    "use architecture-level hard BC, causality, passivity, symmetry, modal embedding and admitted propagators without relabeling inferred coordinates as exact FEM states"
+  ],
+  "provenance_sha256": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_trajectory_projector_V40_A_E6_C10_1T_v2_full_dt\\S8_CAPACITY_FULL_TRAJECTORY_PROJECTOR.h5": "4811c5c79b0bfe94e9ef02b8bcff553d4ac4035fdeb93919e2cacf1306cfd823",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_calfit41_V40_A_E6_C10_1T_v1\\original_full_dof_state_pilot.h5": "e5d873046016d4664a76034f78bad01c5d7f9da80d34af28a2d987afa7d767b3",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5": "afebb20e8cc026b17384186206558d7c5372cedbeaadf09438e1c114f67c8c1e",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_A_E6_C10_1T\\compact_kinematics.h5": "bc86fb770d940fe73d8f6dbf3a7f128691128dae08dfb8f8240855b4f505b459",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C1_0T\\compact_kinematics.h5": "02cbc80791f40ef10568eb33b4e251ef5eea5731f65256bf9517a14b152e457c"
+  }
+}

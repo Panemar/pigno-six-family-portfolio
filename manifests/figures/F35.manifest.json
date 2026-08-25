@@ -1,0 +1,18 @@
+{
+  "figure_id": "F35",
+  "title": "OOF spectral-energy error by frequency band",
+  "generated_utc": "2026-08-13T01:01:36.061922+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\67_generate_s12_dynamic_spatial_figures.py",
+  "script_sha256": "c41450e4c21fb3979faf4a6239eccfe2a757c81bd67c4740ad59b41a394dd1b8",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F35.csv",
+  "source_csv_sha256": "a1aa9e7a81e88bb388fd30a13eb90c604f68af64a22484c99d3a85e0baf55619",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F35.png",
+  "png_sha256": "89eaef8a389886f530802156901a130254a8301bdbaa4590955a3a260c72d143",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F35.pdf",
+  "pdf_sha256": "624ce606195944c4fffccd7762d074b272b12228fd7adaf63640725ec473fa16",
+  "units": "dimensionless",
+  "quantity": "total displacement spectral energy",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

@@ -1,0 +1,28 @@
+requirement,pass,evidence,detail
+S14 decision exists,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_SCIENTIFIC_DECISION.json,
+Exact admitted final state,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_SCIENTIFIC_DECISION.json,NO_PHYSICS_INFORMED_FAMILY_ADDS_MATERIAL_VALUE
+Single FEM/COMSOL reference,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_SCIENTIFIC_DECISION.json,
+No seventh family,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_SCIENTIFIC_DECISION.json,
+Sensors remain closed,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_SCIENTIFIC_DECISION.json,
+No new FEM panel executed,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_SCIENTIFIC_DECISION.json,
+S10 nested grouped OOF independent audit passed,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\audits\S10_NESTED_GROUPED_OOF_INDEPENDENT_AUDIT.json,
+S10 same-case-time-node-axis contract,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\audits\S10_NESTED_GROUPED_OOF_INDEPENDENT_AUDIT.json,
+Exactly the six frozen routes R1-R6,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\PORTFOLIO_DEFINITION.json,"R1_BRIDGE_PINO, R2_MO_PIGNO, R3_GRAPH_NEURAL_GALERKIN, R4_PORT_HAMILTONIAN_OPINF, R5_ROTATION_MULTISCALE_GNO, R6_LOAD_DEPENDENT_RITZ_KRYLOV"
+Exact six route implementations packaged,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final\families,"R1_bridge_pino.py, R2_mo_pigno.py, R3_graph_galerkin.py, R4_port_hamiltonian.py, R5_rotation_multiscale.py, R6_ritz_krylov.py"
+Final package exists,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final,
+Mandatory package directories,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final,
+Mandatory top-level artifacts,False,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final,"DATA_ACCESS_REGISTRY.csv, MODAL_REFERENCE_CONTRACT.h5, SPLIT_MANIFEST.json"
+First delivery artifacts and GO decision,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final,
+Nineteen mandatory reports,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final\reports,
+F01-F45 complete and hash-valid,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s12_final_diagnostics,
+F01-F43 explicit visual QA passed,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s12_final_diagnostics\S12_PREDECISION_MANUAL_VISUAL_QA_V1.json,
+F44-F45 explicit visual QA passed,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_DECISION_MANUAL_VISUAL_QA_V1.json,
+No mandatory ArrowPoint product,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final,
+FEM/COMSOL authority has 68 complete trajectories,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s10_nested_grouped_oof\S10_ORIGINAL_68CASE_DATASET.h5,"cases=68, times=1201, observations=512, shape=(68, 1201, 512, 3)"
+Saved grid and observations frozen,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s10_nested_grouped_oof\S10_ORIGINAL_68CASE_DATASET.h5,
+Negative path has no promoted route,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s10_nested_grouped_oof\S10_TO_S11_PROMOTION_DECISION_V1.json,
+Negative path does not claim five seeds,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s14_final_decision\S14_FINAL_SCIENTIFIC_DECISION.json,
+Complete admitted OOF fields,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\s10_nested_grouped_oof\independent_oof_audit_v1,
+Checkpoint/prediction registry nonempty,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final\manifests\BINARY_ARTIFACT_REGISTRY.csv,rows=24
+Executable source and tests packaged,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final,"source_modules=10, junit_reports=1"
+No split FEM/COMSOL authority or false blind claim,True,G:\Mi unidad\RESEARCH-BRIDGE\7-TESIS\PIGNO\portfolio_physics_informed_operators_final\thesis_physics_informed_operator_portfolio_final\reports,

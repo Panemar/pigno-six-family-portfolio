@@ -1,0 +1,16 @@
+{
+  "figure_id": "F13",
+  "title": "Exploratory S9 hyperparameter importance",
+  "generated_utc": "2026-08-11T14:07:34.176460+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "4db6f767f86d1e863ecbe9d0aee53595374e923d5e1fb0ff158b6ad48aeb528e",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F13.csv",
+  "source_csv_sha256": "364ba4b0c908560efd91f5c05a02fb166383e507a26fd25353340137f8d521c0",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F13.png",
+  "png_sha256": "afdaf852579c129bfc632e5511674e2a96e2e7258c02e52d3b914e0570e2653f",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F13.pdf",
+  "pdf_sha256": "7b7e1fbf14998eb5351e47cdfe7889cb552945ce431122f1f7279dfbd7631844",
+  "units": "absolute increase in low-fidelity score MAE",
+  "quantity": "permutation importance",
+  "trial_count": 32
+}

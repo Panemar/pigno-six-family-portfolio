@@ -1,0 +1,26 @@
+{
+  "schema": "S10_ORIGINAL_68CASE_DATASET_INDEPENDENT_AUDIT_V1",
+  "status": "PASS_S10_ORIGINAL_68CASE_DATASET_INDEPENDENT_AUDIT",
+  "generated_utc": "2026-08-11T10:52:26.507923+00:00",
+  "checks": {
+    "internal_status_pass": true,
+    "exact_68_unique_cases": true,
+    "saved_time_identity": true,
+    "observation_identity": true,
+    "all_numeric_payload_finite": true,
+    "four_environment_bases_exact_zero_increment": true,
+    "environment_matched_base_ids_declared": true,
+    "force_projection_sample_relative_error_le_1e_6": true,
+    "direct_state_mask_count_12": true,
+    "missing_direct_states_zero_and_masked": true,
+    "outer_OOF_exact_once_partition": true,
+    "build_report_pass": true,
+    "prior_S8_load_parity": true
+  },
+  "maximum_sample_force_projection_relative_error": 1.015695416290448e-08,
+  "dataset_sha256": "3c230db10d487264b8e076fc7e70cf2c7983849d90c99123e201c40a11f3cf86",
+  "build_report_sha256": "9cd40f59c05f7c19b30dd87ab01ff262fd9b9229cb099853f85bf5161844f516",
+  "protocol_sha256": "bcfc75380a61de09f9f93a751d485b2ebeca826d3fadc2669a65cde7b25c6ca7",
+  "training_authorized": true,
+  "S11_authorized": false
+}

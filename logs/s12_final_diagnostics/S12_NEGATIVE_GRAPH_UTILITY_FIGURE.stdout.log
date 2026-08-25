@@ -1,0 +1,20 @@
+{
+  "status": "PASS_S12_GRAPH_UTILITY_FIGURE",
+  "figure_ids": [
+    "F42"
+  ],
+  "route_verdicts": [
+    {
+      "trial_id": "R4_LHS_03",
+      "permutation_pass": true,
+      "functional_dependence": true,
+      "beneficial_use": true,
+      "verdict": "PASS_FUNCTIONAL_BENEFICIAL_GRAPH_USE",
+      "causal_retrained_graph_free_superiority": false
+    }
+  ],
+  "historical_graph_load_branch_metric_used": false,
+  "claim_boundary": "functional frozen-checkpoint graph dependence/benefit; not causal retrained graph-free superiority",
+  "training_or_tuning_performed": false,
+  "final_decision_authorized": false
+}

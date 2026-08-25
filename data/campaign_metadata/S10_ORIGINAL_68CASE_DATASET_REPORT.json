@@ -1,0 +1,647 @@
+{
+  "schema": "S10_ORIGINAL_68CASE_DATASET_REPORT_V1",
+  "status": "PASS_S10_ORIGINAL_68CASE_DATASET_AWAITING_INDEPENDENT_QA",
+  "generated_utc": "2026-08-11T10:50:11.621870+00:00",
+  "case_count": 68,
+  "time_count": 1201,
+  "observation_count": 512,
+  "direct_state_case_count": 12,
+  "base_increment_zero_case_count": 4,
+  "all_finite": true,
+  "evidence_label": "historically exposed trajectories for nested grouped OOF; not blind",
+  "no_FEM_recomputation": true,
+  "support_density_fast_path_bitwise_parity_max_abs": 0.0,
+  "S8_load_node_parity_relative_max": 0.0,
+  "S8_reduced_force_parity_relative_max": 1.0066652534772268e-15,
+  "case_reports": [
+    {
+      "case_id": "BASE_C1_0T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "reduced_force_l2": 0.0,
+      "finite": true
+    },
+    {
+      "case_id": "BASE_C2_0T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "reduced_force_l2": 0.0,
+      "finite": true
+    },
+    {
+      "case_id": "BASE_C3_0T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "reduced_force_l2": 0.0,
+      "finite": true
+    },
+    {
+      "case_id": "BASE_C8_0T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "reduced_force_l2": 0.0,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.008569989880911306,
+      "delta_velocity_rms_mps": 0.005248880771134152,
+      "reduced_force_l2": 602384.9214501297,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.010706439690649036,
+      "delta_velocity_rms_mps": 0.006590152495036023,
+      "reduced_force_l2": 725309.3735786782,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.016358804699295924,
+      "delta_velocity_rms_mps": 0.009963087499326055,
+      "reduced_force_l2": 1040376.9644747807,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01284383144663843,
+      "delta_velocity_rms_mps": 0.007999322405947074,
+      "reduced_force_l2": 851780.1149493975,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.0075263040888454745,
+      "delta_velocity_rms_mps": 0.005925904980985079,
+      "reduced_force_l2": 543655.0690163043,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.009400842145627036,
+      "delta_velocity_rms_mps": 0.007325411557889865,
+      "reduced_force_l2": 648866.3066628529,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.01436115744787952,
+      "delta_velocity_rms_mps": 0.010925588796502739,
+      "reduced_force_l2": 921285.7237109295,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.011276433704378933,
+      "delta_velocity_rms_mps": 0.008743368227470771,
+      "reduced_force_l2": 757877.6741416279,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.008570017543426262,
+      "delta_velocity_rms_mps": 0.005263980305817075,
+      "reduced_force_l2": 602384.9214501297,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.010706537419616219,
+      "delta_velocity_rms_mps": 0.006622861625762976,
+      "reduced_force_l2": 725309.3735786782,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.01635887471113665,
+      "delta_velocity_rms_mps": 0.010045347249526666,
+      "reduced_force_l2": 1040376.9644747807,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.012843877817517793,
+      "delta_velocity_rms_mps": 0.007983246084952664,
+      "reduced_force_l2": 851780.1149493975,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.007526062920183782,
+      "delta_velocity_rms_mps": 0.005885540225072247,
+      "reduced_force_l2": 543655.0690163043,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.009400643726850105,
+      "delta_velocity_rms_mps": 0.007311985541329074,
+      "reduced_force_l2": 648866.3066628529,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014361035086097729,
+      "delta_velocity_rms_mps": 0.010926828631868031,
+      "reduced_force_l2": 921285.7237109295,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.011276245944200194,
+      "delta_velocity_rms_mps": 0.008749000128856838,
+      "reduced_force_l2": 757877.6741416279,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.01280485661520886,
+      "delta_velocity_rms_mps": 0.0041366228274062914,
+      "reduced_force_l2": 520977.00968334085,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013444061861907435,
+      "delta_velocity_rms_mps": 0.004802513359331875,
+      "reduced_force_l2": 627283.9367268246,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01539205262463501,
+      "delta_velocity_rms_mps": 0.006509132449047358,
+      "reduced_force_l2": 900746.6352618033,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014142337265713248,
+      "delta_velocity_rms_mps": 0.005426651408031257,
+      "reduced_force_l2": 736652.6545944939,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.012521116831345273,
+      "delta_velocity_rms_mps": 0.004675997024166106,
+      "reduced_force_l2": 470249.9749554419,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013051227325720418,
+      "delta_velocity_rms_mps": 0.005337465462432239,
+      "reduced_force_l2": 561245.1884542959,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014656855824804714,
+      "delta_velocity_rms_mps": 0.007223396993167011,
+      "reduced_force_l2": 797716.8135591719,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013631034795786545,
+      "delta_velocity_rms_mps": 0.006030898120487515,
+      "reduced_force_l2": 655520.0869737626,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.012804938585625186,
+      "delta_velocity_rms_mps": 0.004100352508321984,
+      "reduced_force_l2": 520977.00968334085,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013444152730069337,
+      "delta_velocity_rms_mps": 0.004652403122987322,
+      "reduced_force_l2": 627283.9367268246,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.015392159938703175,
+      "delta_velocity_rms_mps": 0.006420047373954524,
+      "reduced_force_l2": 900746.6352618033,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014142443109515493,
+      "delta_velocity_rms_mps": 0.005386769401322985,
+      "reduced_force_l2": 736652.6545944939,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.012521163736585067,
+      "delta_velocity_rms_mps": 0.0046387957302435655,
+      "reduced_force_l2": 470249.9749554419,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013051278057645313,
+      "delta_velocity_rms_mps": 0.005355163740422519,
+      "reduced_force_l2": 561245.1884542959,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014656885937433636,
+      "delta_velocity_rms_mps": 0.007192522180268768,
+      "reduced_force_l2": 797716.8135591719,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.013631097018645335,
+      "delta_velocity_rms_mps": 0.006110366610937715,
+      "reduced_force_l2": 655520.0869737626,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01280500901913573,
+      "delta_velocity_rms_mps": 0.004128631383381879,
+      "reduced_force_l2": 520978.13202061516,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.013444176999750939,
+      "delta_velocity_rms_mps": 0.004703095072938286,
+      "reduced_force_l2": 627285.232679898,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.015392217513732345,
+      "delta_velocity_rms_mps": 0.006437248699971271,
+      "reduced_force_l2": 900748.2035796827,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014142451265204286,
+      "delta_velocity_rms_mps": 0.005427409534663516,
+      "reduced_force_l2": 736654.067946118,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.0125211731089667,
+      "delta_velocity_rms_mps": 0.004678642617131959,
+      "reduced_force_l2": 470250.9376731631,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013051291814722555,
+      "delta_velocity_rms_mps": 0.005334914951312055,
+      "reduced_force_l2": 561246.3078770307,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014656907753132976,
+      "delta_velocity_rms_mps": 0.007220469374555234,
+      "reduced_force_l2": 797718.1794557478,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013631088133771504,
+      "delta_velocity_rms_mps": 0.006105236232932505,
+      "reduced_force_l2": 655521.3132112426,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.012804871511999586,
+      "delta_velocity_rms_mps": 0.004150814781086213,
+      "reduced_force_l2": 520978.13202061516,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013444059311145987,
+      "delta_velocity_rms_mps": 0.004775334570596528,
+      "reduced_force_l2": 627285.232679898,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.015392112050836551,
+      "delta_velocity_rms_mps": 0.0065737193840576654,
+      "reduced_force_l2": 900748.2035796827,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01414232536062607,
+      "delta_velocity_rms_mps": 0.005451463271683346,
+      "reduced_force_l2": 736654.067946118,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01252114861446951,
+      "delta_velocity_rms_mps": 0.0046575714644097295,
+      "reduced_force_l2": 470250.9376731631,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.013051246269084485,
+      "delta_velocity_rms_mps": 0.005329909037012514,
+      "reduced_force_l2": 561246.3078770307,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014656883922022688,
+      "delta_velocity_rms_mps": 0.007166811178109907,
+      "reduced_force_l2": 797718.1794557478,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.013631044222573153,
+      "delta_velocity_rms_mps": 0.006087892303931444,
+      "reduced_force_l2": 655521.3132112426,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.008570061374063164,
+      "delta_velocity_rms_mps": 0.005314657300288688,
+      "reduced_force_l2": 602380.7489225328,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.010706459388845877,
+      "delta_velocity_rms_mps": 0.006619478899704067,
+      "reduced_force_l2": 725305.3612034081,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01635888782397249,
+      "delta_velocity_rms_mps": 0.010042152249674014,
+      "reduced_force_l2": 1040373.1526032209,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.012843893475764293,
+      "delta_velocity_rms_mps": 0.008029227250884072,
+      "reduced_force_l2": 851776.2325398867,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.007526060375050178,
+      "delta_velocity_rms_mps": 0.005890980186515255,
+      "reduced_force_l2": 543651.5423829658,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.009400644303881933,
+      "delta_velocity_rms_mps": 0.007306438253791501,
+      "reduced_force_l2": 648862.881517551,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01436102538862901,
+      "delta_velocity_rms_mps": 0.010902076836686788,
+      "reduced_force_l2": 921282.4300105717,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.011276222989443582,
+      "delta_velocity_rms_mps": 0.008657038159751291,
+      "reduced_force_l2": 757874.3389718399,
+      "finite": true
+    },
+    {
+      "case_id": "V40_A_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.00857003112154195,
+      "delta_velocity_rms_mps": 0.00528547221502896,
+      "reduced_force_l2": 602380.7489225328,
+      "finite": true
+    },
+    {
+      "case_id": "V40_B_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.010706484001242222,
+      "delta_velocity_rms_mps": 0.0065915303570110275,
+      "reduced_force_l2": 725305.3612034081,
+      "finite": true
+    },
+    {
+      "case_id": "V40_CPLUS_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.01635884356865686,
+      "delta_velocity_rms_mps": 0.009965993081949774,
+      "reduced_force_l2": 1040373.1526032209,
+      "finite": true
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": true,
+      "delta_translation_rms_m": 0.012843883561513706,
+      "delta_velocity_rms_mps": 0.007989101763169247,
+      "reduced_force_l2": 851776.2325398867,
+      "finite": true
+    },
+    {
+      "case_id": "V52_A_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.007526358414884184,
+      "delta_velocity_rms_mps": 0.005958587366845869,
+      "reduced_force_l2": 543651.5423829658,
+      "finite": true
+    },
+    {
+      "case_id": "V52_B_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.009400832900544226,
+      "delta_velocity_rms_mps": 0.007345471313915304,
+      "reduced_force_l2": 648862.881517551,
+      "finite": true
+    },
+    {
+      "case_id": "V52_CPLUS_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.014361193377211161,
+      "delta_velocity_rms_mps": 0.010955611356670359,
+      "reduced_force_l2": 921282.4300105717,
+      "finite": true
+    },
+    {
+      "case_id": "V52_C_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "direct_full_dof_state_available": false,
+      "delta_translation_rms_m": 0.011276458122091748,
+      "delta_velocity_rms_mps": 0.008726363810889756,
+      "reduced_force_l2": 757874.3389718399,
+      "finite": true
+    }
+  ],
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_NESTED_GROUPED_OOF_PROTOCOL_AMENDED_V2.json": "bcfc75380a61de09f9f93a751d485b2ebeca826d3fadc2669a65cde7b25c6ca7",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\causal_inputs_68_branch_o_v2_case_identity.h5": "97cc00038ecebe25bd94bbc10c5db94c80cf96c8de61afb3895d91908e1959e1",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\response_cal_v1\\cal_response_vds.h5": "e6403e480db618896d9932b62eb2dd7f4ed01f816e15407d0cf23f311b094784",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\response_dev_v1\\dev_response_vds.h5": "87a63b11a5c88b2178bebc63356de2e3a9cb3cdd9e70f140e5bbce60aec8a560",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\response_test_v1\\test_response_vds.h5": "d09e8f5ffb1ece95ca32ce6cf051fdf4d967fd1195687ddf10a78f5377cbd9b8",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_trajectory_projector_V40_A_E6_C10_1T_v2_full_dt\\S8_CAPACITY_FULL_TRAJECTORY_PROJECTOR.h5": "4811c5c79b0bfe94e9ef02b8bcff553d4ac4035fdeb93919e2cacf1306cfd823",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_DATASET.h5": "77ce5da426cb9dda7c2b137042dbad35661e9bba5b7a794d1ceff91330ff8475",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\parametric_graph_load_generator_v1\\audit_report.json": "00f27d1c00fdad89bf9eda407d26dd8a2bebb8e78d97716f3ee5dc14570b8376",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\original_exact_timoshenko_graph.npz": "97a064ff0ac2226f4e0c8eb6c2363799ee9a7b7a238fa131030f0060cafe2e86",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\load_support\\original_graph_load_support.npz": "3c9bb636ae559fe6b8e062d8419cf850f2cfc7739bb24483a5b4989afdbec34a",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\observation_load_kernels_v1\\kernels.npz": "41049a0275899337bb77a6819b4bbb0871d6964c9d8d789d9bce72cc1f2876b0"
+  },
+  "output": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_ORIGINAL_68CASE_DATASET.h5": "3c230db10d487264b8e076fc7e70cf2c7983849d90c99123e201c40a11f3cf86"
+  }
+}

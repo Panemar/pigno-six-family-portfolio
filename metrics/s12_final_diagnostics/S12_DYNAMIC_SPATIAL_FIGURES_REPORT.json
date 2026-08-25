@@ -1,0 +1,21 @@
+{
+  "status": "PASS_S12_DYNAMIC_SPATIAL_FIGURES",
+  "figure_ids": [
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36"
+  ],
+  "representative_seed_case": {
+    "R4_LHS_03": {
+      "seed": 20260813,
+      "case_id": "V40_A_E5_C9_1T"
+    }
+  },
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "training_or_tuning_performed": false
+}

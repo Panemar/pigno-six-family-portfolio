@@ -1,0 +1,7 @@
+{
+  "figure_id": "F43",
+  "title": "Predictive error versus model capacity and VRAM",
+  "caption": "Each point is one frozen seed. Marker area increases with peak VRAM. Training time, inference time and FEM speedup require separate measured timing and are not inferred here.",
+  "units": "dimensionless error; parameter count; GiB VRAM",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

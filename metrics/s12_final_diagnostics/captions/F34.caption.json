@@ -1,0 +1,7 @@
+{
+  "figure_id": "F34",
+  "title": "Phase difference at representative OOF trajectories",
+  "caption": "Full saved-grid phase difference (rad) for the best-ranked non-promoted S10 route's single-seed, median-error representative trajectory. No low-pass filtering is applied; undefined low-energy phase values remain blank.",
+  "units": "Phase difference (rad)",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

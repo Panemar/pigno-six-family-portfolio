@@ -1,0 +1,7 @@
+{
+  "figure_id": "F07",
+  "title": "Representation oracle floors before learning",
+  "caption": "Median fold-clean pooled, P90 and worst-case displacement oracle floors across all nested inner partitions. These are representation limits, not learned-model errors.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

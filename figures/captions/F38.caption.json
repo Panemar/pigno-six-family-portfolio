@@ -1,0 +1,7 @@
+{
+  "figure_id": "F38",
+  "title": "Hard boundary-condition compliance",
+  "caption": "Maximum support-translation violation for all seed-fold runs. Exact zeros are displayed at 1e-16 m solely for logarithmic visualization and remain zero in source data.",
+  "units": "m",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

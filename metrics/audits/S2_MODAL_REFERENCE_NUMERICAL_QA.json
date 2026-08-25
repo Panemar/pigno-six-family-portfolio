@@ -1,0 +1,31 @@
+{
+  "status": "PASS_S2_MODAL_REFERENCE_AND_AUDITOR_CONTRACT",
+  "checks": {
+    "modal_h5_hash_matches_conversion": true,
+    "modal_case_BASE_C1_0T": true,
+    "modal_axis_contract": true,
+    "48_real_modes_serialized": true,
+    "modal_arrays_finite": true,
+    "valid_mask_complete": true,
+    "first12_equivalence_pass": true,
+    "first12_frequency_max_abs_error_le_2pct": true,
+    "observable_cluster_similarity_ge_0p90": true,
+    "assembled_modal_mass_error_le_1pct": true,
+    "canonical_reduced_operator_pass": true,
+    "reduced_operator_shared_case_time_only_force_varies": true
+  },
+  "modal_h5_sha256": "af588aaa04bf1b897d00befe6ef84370095b691129654dbc6b61857c95cc638f",
+  "mode_count": 48,
+  "frequency_min_hz": 2.0922803861199686,
+  "frequency_max_hz": 5.656583033361165,
+  "first12_frequency_error_abs_percent_max": 0.050831354215495866,
+  "first12_observable_cluster_similarity_min": 0.9999152489388772,
+  "effective_mass_percent_max": 73.50821070618878,
+  "complex_modes_excluded_from_serialized_real_set": [
+    36,
+    37
+  ],
+  "reference_boundary": "stored FEM/COMSOL modal solution is authority; independent Timoshenko assembly is auditor/regularizer only",
+  "transient_operator_boundary": "This is an independent transient-contract Timoshenko reduced operator. It is not identity with COMSOL's unavailable full transient M,C,K or proof of transient-load equivalence.",
+  "training_authorized": false
+}

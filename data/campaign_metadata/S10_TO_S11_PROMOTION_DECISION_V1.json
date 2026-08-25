@@ -1,0 +1,426 @@
+{
+  "status": "NO_S10_ROUTE_ELIGIBLE_FOR_S11",
+  "schema": "S10_TO_S11_PROMOTION_DECISION_V1",
+  "evidence_label": "historically exposed nested grouped OOF evidence; not blind or external",
+  "baseline": "B2 POD plus causal FIR plus Ridge refit on exact S10 outer folds",
+  "candidate_view": "target-clean B2 fold base plus S10 FEM-matched incremental prediction",
+  "selection_variant": "physics; control is a capacity-matched noninferiority ablation",
+  "hard_rules": {
+    "B2_noninferiority_each_axis": "pooled, P90 and worst relative L2 degradation each <= 2.0%",
+    "control_noninferiority_each_axis": "pooled, P90 and worst relative L2 degradation each <= 2.0%",
+    "predictive_material_gain": "pooled relative L2 reduction >=5% in at least two axes OR P90/worst reduction >=10% in at least one axis",
+    "physical_material_gain": "paired outer-fold median equilibrium-residual reduction >=25% and positive reduction in at least 4 of 5 folds versus capacity-matched control",
+    "bootstrap": "paired complete-case probability of improvement >=0.95 in at least one axis",
+    "maximum_promoted": 2
+  },
+  "decisions": [
+    {
+      "trial_id": "R4_LHS_03",
+      "route": "R4",
+      "eligible_for_S11": false,
+      "noninferior_to_B2_all_axes": false,
+      "noninferior_to_capacity_matched_control_all_axes": true,
+      "predictive_material_gain": true,
+      "physical_material_gain": true,
+      "bootstrap_gate": true,
+      "bootstrap_positive_axes": 1,
+      "physics_equilibrium_residual_by_outer_fold": [
+        0.03482967242199331,
+        0.02435373333770951,
+        0.027899419661164437,
+        0.02519694441554844,
+        0.025821855655443975
+      ],
+      "control_equilibrium_residual_by_outer_fold": [
+        1.8329792796727828,
+        1.6519207693107996,
+        1.9024318744627613,
+        1.5144587999403134,
+        1.7717445389907354
+      ],
+      "equilibrium_residual_reduction_by_outer_fold": [
+        0.9809983272542989,
+        0.9852573236016215,
+        0.9853348653186107,
+        0.9833624101120866,
+        0.9854257455930113
+      ],
+      "median_equilibrium_residual_reduction": 0.9852573236016215,
+      "positive_equilibrium_residual_reduction_folds": 5,
+      "pooled_reduction_vs_B2_across_axes": -0.08374665837381833,
+      "axes": [
+        {
+          "axis": "X",
+          "physics_mean_relative_l2": 0.061500552694189206,
+          "control_mean_relative_l2": 0.061852910872525584,
+          "b2_mean_relative_l2": 0.0556123915459219,
+          "physics_pooled_relative_l2": 0.019996060545706143,
+          "control_pooled_relative_l2": 0.020194858322146344,
+          "b2_pooled_relative_l2": 0.01814026582695039,
+          "pooled_reduction_vs_b2": -0.10230250959159932,
+          "p90_reduction_vs_b2": -0.03311964127197372,
+          "worst_reduction_vs_b2": 0.0,
+          "noninferior_to_b2": false,
+          "noninferior_to_control": true,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": false,
+            "worst_relative_l2": true
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.0004,
+          "bootstrap_ci95_mean_difference": [
+            0.0023662838564816155,
+            0.00972041665447563
+          ],
+          "bootstrap_positive": false
+        },
+        {
+          "axis": "Y",
+          "physics_mean_relative_l2": 0.03293242148347031,
+          "control_mean_relative_l2": 0.033884627588560534,
+          "b2_mean_relative_l2": 0.023622556344310732,
+          "physics_pooled_relative_l2": 0.034241189981967284,
+          "control_pooled_relative_l2": 0.035575133602866744,
+          "b2_pooled_relative_l2": 0.02493080638792909,
+          "pooled_reduction_vs_b2": -0.37344895504647857,
+          "p90_reduction_vs_b2": -0.1495479525970332,
+          "worst_reduction_vs_b2": -0.07528461175478134,
+          "noninferior_to_b2": false,
+          "noninferior_to_control": true,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": false,
+            "worst_relative_l2": false
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.0,
+          "bootstrap_ci95_mean_difference": [
+            0.007452759372896335,
+            0.011187180929500369
+          ],
+          "bootstrap_positive": false
+        },
+        {
+          "axis": "Z",
+          "physics_mean_relative_l2": 0.03219538517725407,
+          "control_mean_relative_l2": 0.03794048332728999,
+          "b2_mean_relative_l2": 0.03995341345936107,
+          "physics_pooled_relative_l2": 0.028833596003982796,
+          "control_pooled_relative_l2": 0.03635561650018717,
+          "b2_pooled_relative_l2": 0.0371812033501441,
+          "pooled_reduction_vs_b2": 0.22451148951662292,
+          "p90_reduction_vs_b2": 0.14095406955743892,
+          "worst_reduction_vs_b2": 0.0,
+          "noninferior_to_b2": true,
+          "noninferior_to_control": true,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "bootstrap_probability_improvement_vs_b2": 1.0,
+          "bootstrap_ci95_mean_difference": [
+            -0.009531740890606545,
+            -0.005993581527329932
+          ],
+          "bootstrap_positive": true
+        }
+      ],
+      "ranking_key": [
+        0,
+        1,
+        1,
+        1,
+        -0.08374665837381833,
+        0.9852573236016215
+      ]
+    },
+    {
+      "trial_id": "R2_LHS_02",
+      "route": "R2",
+      "eligible_for_S11": false,
+      "noninferior_to_B2_all_axes": false,
+      "noninferior_to_capacity_matched_control_all_axes": false,
+      "predictive_material_gain": false,
+      "physical_material_gain": true,
+      "bootstrap_gate": true,
+      "bootstrap_positive_axes": 1,
+      "physics_equilibrium_residual_by_outer_fold": [
+        0.19611904317056356,
+        0.1681891413705567,
+        0.20612811029897024,
+        0.22261064143627693,
+        0.13083157096627968
+      ],
+      "control_equilibrium_residual_by_outer_fold": [
+        2.1872098104868942,
+        2.433731397256306,
+        2.9377575052070335,
+        3.506576892206545,
+        1.9441820457660524
+      ],
+      "equilibrium_residual_reduction_by_outer_fold": [
+        0.9103336853052495,
+        0.9308924799342415,
+        0.9298348791778702,
+        0.9365162526648041,
+        0.9327061109060242
+      ],
+      "median_equilibrium_residual_reduction": 0.9308924799342415,
+      "positive_equilibrium_residual_reduction_folds": 5,
+      "pooled_reduction_vs_B2_across_axes": -0.20551017648840966,
+      "axes": [
+        {
+          "axis": "X",
+          "physics_mean_relative_l2": 0.06412532026933318,
+          "control_mean_relative_l2": 0.0637245041160215,
+          "b2_mean_relative_l2": 0.0556123915459219,
+          "physics_pooled_relative_l2": 0.02168779121188284,
+          "control_pooled_relative_l2": 0.02082955346563044,
+          "b2_pooled_relative_l2": 0.01814026582695039,
+          "pooled_reduction_vs_b2": -0.19556082687950524,
+          "p90_reduction_vs_b2": -0.16959706350435486,
+          "worst_reduction_vs_b2": 0.0,
+          "noninferior_to_b2": false,
+          "noninferior_to_control": false,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": false,
+            "worst_relative_l2": true
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.0,
+          "bootstrap_ci95_mean_difference": [
+            0.004287545155128459,
+            0.013059596311717167
+          ],
+          "bootstrap_positive": false
+        },
+        {
+          "axis": "Y",
+          "physics_mean_relative_l2": 0.0347234972199813,
+          "control_mean_relative_l2": 0.03552813026403322,
+          "b2_mean_relative_l2": 0.023622556344310732,
+          "physics_pooled_relative_l2": 0.0364933674367093,
+          "control_pooled_relative_l2": 0.039235218424190144,
+          "b2_pooled_relative_l2": 0.02493080638792909,
+          "pooled_reduction_vs_b2": -0.46378608332454613,
+          "p90_reduction_vs_b2": -0.26983306040989635,
+          "worst_reduction_vs_b2": -0.24061590641212816,
+          "noninferior_to_b2": false,
+          "noninferior_to_control": true,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": false,
+            "worst_relative_l2": false
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.0,
+          "bootstrap_ci95_mean_difference": [
+            0.009055713228956245,
+            0.013174014703099578
+          ],
+          "bootstrap_positive": false
+        },
+        {
+          "axis": "Z",
+          "physics_mean_relative_l2": 0.036818345567337984,
+          "control_mean_relative_l2": 0.040014083356042195,
+          "b2_mean_relative_l2": 0.03995341345936107,
+          "physics_pooled_relative_l2": 0.03558923879117675,
+          "control_pooled_relative_l2": 0.04240927782581531,
+          "b2_pooled_relative_l2": 0.0371812033501441,
+          "pooled_reduction_vs_b2": 0.042816380738822324,
+          "p90_reduction_vs_b2": 0.07973398004235713,
+          "worst_reduction_vs_b2": -0.003968364233998892,
+          "noninferior_to_b2": true,
+          "noninferior_to_control": true,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.9923,
+          "bootstrap_ci95_mean_difference": [
+            -0.00564433183038475,
+            -0.000562640682109423
+          ],
+          "bootstrap_positive": true
+        }
+      ],
+      "ranking_key": [
+        0,
+        1,
+        0,
+        1,
+        -0.20551017648840966,
+        0.9308924799342415
+      ]
+    },
+    {
+      "trial_id": "R6_LHS_04",
+      "route": "R6",
+      "eligible_for_S11": false,
+      "noninferior_to_B2_all_axes": false,
+      "noninferior_to_capacity_matched_control_all_axes": false,
+      "predictive_material_gain": false,
+      "physical_material_gain": true,
+      "bootstrap_gate": false,
+      "bootstrap_positive_axes": 0,
+      "physics_equilibrium_residual_by_outer_fold": [
+        0.008697028473409774,
+        0.012398057241673663,
+        0.012101933573703913,
+        0.011496865411723808,
+        0.00990452442803463
+      ],
+      "control_equilibrium_residual_by_outer_fold": [
+        2.95905139275907,
+        2.901289583505362,
+        3.152109561630181,
+        3.0947400779633543,
+        2.4497143503452676
+      ],
+      "equilibrium_residual_reduction_by_outer_fold": [
+        0.9970608727869034,
+        0.9957267081120892,
+        0.9961606875214561,
+        0.99628503036698,
+        0.9959568655722498
+      ],
+      "median_equilibrium_residual_reduction": 0.9961606875214561,
+      "positive_equilibrium_residual_reduction_folds": 5,
+      "pooled_reduction_vs_B2_across_axes": -0.20796284806452248,
+      "axes": [
+        {
+          "axis": "X",
+          "physics_mean_relative_l2": 0.06127433364595391,
+          "control_mean_relative_l2": 0.06182942556069487,
+          "b2_mean_relative_l2": 0.0556123915459219,
+          "physics_pooled_relative_l2": 0.019971402869226825,
+          "control_pooled_relative_l2": 0.020593488200967538,
+          "b2_pooled_relative_l2": 0.01814026582695039,
+          "pooled_reduction_vs_b2": -0.1009432309175964,
+          "p90_reduction_vs_b2": -0.0438644061267669,
+          "worst_reduction_vs_b2": 0.0,
+          "noninferior_to_b2": false,
+          "noninferior_to_control": true,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": false,
+            "worst_relative_l2": true
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": true,
+            "worst_relative_l2": true
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.001,
+          "bootstrap_ci95_mean_difference": [
+            0.0020307361800556405,
+            0.009406652263842132
+          ],
+          "bootstrap_positive": false
+        },
+        {
+          "axis": "Y",
+          "physics_mean_relative_l2": 0.0338811027923786,
+          "control_mean_relative_l2": 0.03367568698348783,
+          "b2_mean_relative_l2": 0.023622556344310732,
+          "physics_pooled_relative_l2": 0.03552656369935689,
+          "control_pooled_relative_l2": 0.03491122472074128,
+          "b2_pooled_relative_l2": 0.02493080638792909,
+          "pooled_reduction_vs_b2": -0.425006602135341,
+          "p90_reduction_vs_b2": -0.24053176664923645,
+          "worst_reduction_vs_b2": -0.28414581293462005,
+          "noninferior_to_b2": false,
+          "noninferior_to_control": false,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": false,
+            "worst_relative_l2": false
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": true,
+            "p90_relative_l2": false,
+            "worst_relative_l2": false
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.0,
+          "bootstrap_ci95_mean_difference": [
+            0.007612555329459113,
+            0.012993113888030951
+          ],
+          "bootstrap_positive": false
+        },
+        {
+          "axis": "Z",
+          "physics_mean_relative_l2": 0.04027478103977212,
+          "control_mean_relative_l2": 0.03946058258348907,
+          "b2_mean_relative_l2": 0.03995341345936107,
+          "physics_pooled_relative_l2": 0.040822682484914885,
+          "control_pooled_relative_l2": 0.036560651261819586,
+          "b2_pooled_relative_l2": 0.0371812033501441,
+          "pooled_reduction_vs_b2": -0.09793871114063002,
+          "p90_reduction_vs_b2": -0.14069684117225373,
+          "worst_reduction_vs_b2": -0.38230679283804425,
+          "noninferior_to_b2": false,
+          "noninferior_to_control": false,
+          "noninferiority_to_b2_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": false,
+            "worst_relative_l2": false
+          },
+          "noninferiority_to_control_by_metric": {
+            "pooled_relative_l2": false,
+            "p90_relative_l2": true,
+            "worst_relative_l2": false
+          },
+          "bootstrap_probability_improvement_vs_b2": 0.4573,
+          "bootstrap_ci95_mean_difference": [
+            -0.003779865656963652,
+            0.004644721404695105
+          ],
+          "bootstrap_positive": false
+        }
+      ],
+      "ranking_key": [
+        0,
+        0,
+        0,
+        1,
+        -0.20796284806452248,
+        0.9961606875214561
+      ]
+    }
+  ],
+  "promoted_to_S11": [],
+  "S11_authorized": false,
+  "S11_scope": "Only the promoted frozen configurations; five seeds [0,1,2,3,4]; no retuning on outer OOF targets."
+}

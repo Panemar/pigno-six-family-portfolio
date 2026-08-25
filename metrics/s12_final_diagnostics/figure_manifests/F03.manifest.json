@@ -1,0 +1,18 @@
+{
+  "figure_id": "F03",
+  "title": "Active FEM Beam graph and observation operator — true aspect",
+  "generated_utc": "2026-08-11T13:59:14.685231+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\69_generate_s12_authority_graph_figures.py",
+  "script_sha256": "247e9a772e612a65a03ac0faf76912cb67d4fdc53cd5de9948a747a00fd5b8f0",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F03.csv",
+  "source_csv_sha256": "88ce70e2aa4f8b533b4fcbce02c6682c17ce5eaf4dc693c92760bef9d62d479c",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F03.png",
+  "png_sha256": "9dfe712dc446309cb0f99db1cc619545800ab09c3ecbd4af7782e847c7cec8db",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F03.pdf",
+  "pdf_sha256": "4c6e1f2e2a5bb3d2f2b8700133076dd51daddcf95f7bf7ba99417ad1826a7f7b",
+  "units": "m",
+  "quantity": "active Beam graph",
+  "node_count": 22164,
+  "edge_count": 48430,
+  "observation_count": 512
+}

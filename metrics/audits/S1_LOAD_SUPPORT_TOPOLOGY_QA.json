@@ -1,0 +1,24 @@
+{
+  "status": "PASS_S1_LOAD_SUPPORT_TOPOLOGY_QA",
+  "checks": {
+    "load_hash_matches_frozen": true,
+    "track_A_two_paths": true,
+    "track_B_two_paths": true,
+    "track_A_nodes_1406": true,
+    "track_B_nodes_1408": true,
+    "track_A_edges_path_consistent": true,
+    "track_B_edges_path_consistent": true,
+    "track_A_arc_length_strict": true,
+    "track_B_arc_length_strict": true,
+    "node_indices_in_range": true,
+    "forward_edge_indices_in_range": true,
+    "vertical_live_projection_witness_pass": true
+  },
+  "load_support_sha256": "3c9bb636ae559fe6b8e062d8419cf850f2cfc7739bb24483a5b4989afdbec34a",
+  "track_A_unique_nodes": 1406,
+  "track_B_unique_nodes": 1408,
+  "track_union_unique_nodes": 2814,
+  "vertical_projection_method": "analytic Gaussian integration against linear beam shape functions; 50/50 rail split",
+  "limitation": "topology/routing support is verified here; time-dependent axle force resultants remain a separate S1 contract",
+  "training_authorized": false
+}

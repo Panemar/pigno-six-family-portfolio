@@ -1,0 +1,618 @@
+{
+  "schema": "S10_FOLD_LOCAL_REPRESENTATION_QA_V1",
+  "status": "PASS_S10_ALL_OUTER_AND_INNER_FOLD_LOCAL_REPRESENTATIONS",
+  "generated_utc": "2026-08-11T10:59:40.513864+00:00",
+  "representation_count": 25,
+  "folds": [
+    {
+      "kind": "outer",
+      "outer_fold": 0,
+      "inner_fold": null,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 54,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004094660747796297,
+        0.0019211045000702143,
+        0.000900248356629163
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010908814147114754,
+        0.01130647398531437,
+        0.0012068173382431269
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_0_REPRESENTATION.h5",
+      "sha256": "eec5c810577c47985b0dfcc9860962be16ce4ac8335c24ba02513101fb86e49f"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 0,
+      "inner_fold": 0,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004040162079036236,
+        0.002090522088110447,
+        0.0009292655740864575
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010945483110845089,
+        0.010547851212322712,
+        0.001248276443220675
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_0_INNER_0_REPRESENTATION.h5",
+      "sha256": "7f9e352bf4aea882791e6c6aff4835b6babf785d4c5880b7a93ea36cf4c38523"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 0,
+      "inner_fold": 1,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 40,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004225680138915777,
+        0.00195485120639205,
+        0.0008966473396867514
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.009914000518620014,
+        0.010432036593556404,
+        0.001285150065086782
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_0_INNER_1_REPRESENTATION.h5",
+      "sha256": "ff7831d39856dfd9aefe2e16719dac0567bbc1af97eacd54109a17850110cb63"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 0,
+      "inner_fold": 2,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.003995029255747795,
+        0.0021153781563043594,
+        0.0009600394987501204
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010752939619123936,
+        0.009335105307400227,
+        0.0013435444561764598
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_0_INNER_2_REPRESENTATION.h5",
+      "sha256": "25d4c8dbaa9277293c787c4031d5d3f190af8baf81686a8f70a24c6bd9c150c4"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 0,
+      "inner_fold": 3,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 40,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004005761351436377,
+        0.0020260403398424387,
+        0.0009684658725745976
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.012041933834552765,
+        0.010600298643112183,
+        0.001298125833272934
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_0_INNER_3_REPRESENTATION.h5",
+      "sha256": "13b58e42b5397473fc89bd3cb35e3fc873aaa19a7f2896b5366384540fa7e2ee"
+    },
+    {
+      "kind": "outer",
+      "outer_fold": 1,
+      "inner_fold": null,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 54,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004006883129477501,
+        0.00199694512411952,
+        0.001099682180210948
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.012115104123950005,
+        0.010955974459648132,
+        0.0012916949344798923
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_1_REPRESENTATION.h5",
+      "sha256": "aed3d5d7d543a41151c16c963a7672bd158157f8b74043f7744ab1bd59ecee24"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 1,
+      "inner_fold": 0,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004105549771338701,
+        0.0020179415587335825,
+        0.0009891699301078916
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010416310280561447,
+        0.010419859550893307,
+        0.0012545650824904442
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_1_INNER_0_REPRESENTATION.h5",
+      "sha256": "c4271d337ffc19b7d405f4e94369b893b681d58363d60a226d9cb7e27f497c05"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 1,
+      "inner_fold": 1,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 40,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.003997448831796646,
+        0.0020555334631353617,
+        0.0010017756139859557
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.011421095579862595,
+        0.010415645316243172,
+        0.0013288635527715087
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_1_INNER_1_REPRESENTATION.h5",
+      "sha256": "c1ec6da2df2aaab5aae44192f36e6bce7056fc58625fec28fde9f02a48b48b8b"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 1,
+      "inner_fold": 2,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004130123183131218,
+        0.0020954373758286238,
+        0.0009168614633381367
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.011067437008023262,
+        0.011457795277237892,
+        0.0013350251829251647
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_1_INNER_2_REPRESENTATION.h5",
+      "sha256": "fd8f45a8bb7fc512a688c09906013d4c9991c4612827f1f5cd1d00d5a31162ca"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 1,
+      "inner_fold": 3,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 40,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004026882350444794,
+        0.0020121410489082336,
+        0.0009339782409369946
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.01001314539462328,
+        0.010593876242637634,
+        0.0011985626770183444
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_1_INNER_3_REPRESENTATION.h5",
+      "sha256": "5b2865bbc710b6d885e791de651813cfd4812cb63ab65e49a7212893a8616681"
+    },
+    {
+      "kind": "outer",
+      "outer_fold": 2,
+      "inner_fold": null,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 54,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004195076879113913,
+        0.0019409438828006387,
+        0.0010182404657825828
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010983559302985668,
+        0.009473524056375027,
+        0.00133133539929986
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_2_REPRESENTATION.h5",
+      "sha256": "98f359d185613b468b5ec40f8c37b8dad94bf6c7837080eb4d063f3397db6f02"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 2,
+      "inner_fold": 0,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004104556515812874,
+        0.001901081996038556,
+        0.0009097454603761435
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010434780269861221,
+        0.01042906567454338,
+        0.001324591226875782
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_2_INNER_0_REPRESENTATION.h5",
+      "sha256": "7ec51ba57194670b324a02d04f266ff0db5662c6f825e927a5299d6b5ce14bf8"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 2,
+      "inner_fold": 1,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 40,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.0040184021927416325,
+        0.0020581770222634077,
+        0.0009034465765580535
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.009858026169240475,
+        0.01065916195511818,
+        0.0012103510089218616
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_2_INNER_1_REPRESENTATION.h5",
+      "sha256": "bb9585669223f1069aa226aae7a25967a2de200022f9239c0d049fb30014834f"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 2,
+      "inner_fold": 2,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004028693772852421,
+        0.0020794637966901064,
+        0.0009979895548895001
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.012286183424293995,
+        0.009452378377318382,
+        0.0013314241077750921
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_2_INNER_2_REPRESENTATION.h5",
+      "sha256": "f6de0e276d6109cb224fc9004e97f848384c1376ccb688d9b0a244bed1003b83"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 2,
+      "inner_fold": 3,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 40,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004165305756032467,
+        0.0019470626721158624,
+        0.0010852658888325095
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010643433779478073,
+        0.01078000757843256,
+        0.0012410370400175452
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_2_INNER_3_REPRESENTATION.h5",
+      "sha256": "f297a25965093807e2b1bf32760b5d71cf3cfc819496f8c5cae25db0858468bb"
+    },
+    {
+      "kind": "outer",
+      "outer_fold": 3,
+      "inner_fold": null,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 55,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.0038557504303753376,
+        0.0021857991814613342,
+        0.001063159666955471
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.009853621944785118,
+        0.010954505763947964,
+        0.0013194628991186619
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_3_REPRESENTATION.h5",
+      "sha256": "dda29904b5866586328b4ead5898b8843374f58afe483b36837149f345e28e94"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 3,
+      "inner_fold": 0,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.003794405609369278,
+        0.002111112931743264,
+        0.0009051558445207775
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.011556653305888176,
+        0.011325041763484478,
+        0.0014281481271609664
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_3_INNER_0_REPRESENTATION.h5",
+      "sha256": "8adf14dff796970930bd465eaa282ca1200c94d901bf8a83edb415a2ce8997a3"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 3,
+      "inner_fold": 1,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.0039456565864384174,
+        0.0020142740104347467,
+        0.0009682511445134878
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.011818340979516506,
+        0.010903493501245975,
+        0.0014061519177630544
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_3_INNER_1_REPRESENTATION.h5",
+      "sha256": "3c1229b8cb5f14d96ecff51abbbb3010ae43c613c0df72bf2ef5510eb38b3e0c"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 3,
+      "inner_fold": 2,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 42,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.003976284526288509,
+        0.0019659537356346846,
+        0.001029363484121859
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.012412377633154392,
+        0.011439959518611431,
+        0.0013137500500306487
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_3_INNER_2_REPRESENTATION.h5",
+      "sha256": "8372dd5f20391cf7ab133fc9e392b85f1f06380c92b927786671dbcf6e59c8e8"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 3,
+      "inner_fold": 3,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.003923120908439159,
+        0.002143275225535035,
+        0.0009612863650545478
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.011042645201086998,
+        0.010457982309162617,
+        0.001195997465401888
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_3_INNER_3_REPRESENTATION.h5",
+      "sha256": "38351d9310ab521f0a46355095f789a98d01ba16c08971dd30fc13675d8852b8"
+    },
+    {
+      "kind": "outer",
+      "outer_fold": 4,
+      "inner_fold": null,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 55,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.0038197359535843134,
+        0.002091660164296627,
+        0.0009320280514657497
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010570071637630463,
+        0.010647588409483433,
+        0.0013962130760774016
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_4_REPRESENTATION.h5",
+      "sha256": "7ac316a44733f28c8b03372c6c61c0eec405a46e62f3fb0d1f0ff478ce57d19d"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 4,
+      "inner_fold": 0,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.003979930654168129,
+        0.002085302257910371,
+        0.0009669243008829653
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.011308596469461918,
+        0.01156533882021904,
+        0.0013654279755428433
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_4_INNER_0_REPRESENTATION.h5",
+      "sha256": "cb1fc1a764b500e15d447984089c90dab56866e8d0b0a0bb201fdfa119b9912a"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 4,
+      "inner_fold": 1,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.003847701009362936,
+        0.0022407015785574913,
+        0.0009931344538927078
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.010029840283095837,
+        0.01083388365805149,
+        0.0013378284638747573
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_4_INNER_1_REPRESENTATION.h5",
+      "sha256": "9d3c2fd4b812df61a0351f71fdfb318b3a48dbac8d3c53de46ac4f31b68765cb"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 4,
+      "inner_fold": 2,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 42,
+      "validation_case_count": 13,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.0038516903296113014,
+        0.0021812408231198788,
+        0.0009736063657328486
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.01224745437502861,
+        0.011545860208570957,
+        0.0012066507479175925
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_4_INNER_2_REPRESENTATION.h5",
+      "sha256": "84c361cca840edc46d8108c1220f3d916e7679022a8ae450809c4f3d698a5ca3"
+    },
+    {
+      "kind": "inner",
+      "outer_fold": 4,
+      "inner_fold": 3,
+      "status": "PASS_S10_FOLD_LOCAL_REPRESENTATION",
+      "train_case_count": 41,
+      "validation_case_count": 14,
+      "maximum_validation_displacement_oracle_L2_by_axis": [
+        0.004053029231727123,
+        0.0020579148549586535,
+        0.000940494064707309
+      ],
+      "maximum_validation_velocity_oracle_L2_by_axis": [
+        0.01099364086985588,
+        0.009711243212223053,
+        0.0013613110641017556
+      ],
+      "hard_BC_basis_leak": {
+        "displacement": 0.0,
+        "velocity": 0.0
+      },
+      "output": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_OUTER_4_INNER_3_REPRESENTATION.h5",
+      "sha256": "edc5bf421fa48112c886e7ba510130258f24100ca1720c675099efd9b280cbb9"
+    }
+  ],
+  "leakage_rule": "every POD basis is fit only on complete training trajectories of its own outer or inner split",
+  "S10_training_authorized": true,
+  "S11_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_ORIGINAL_68CASE_DATASET.h5": "3c230db10d487264b8e076fc7e70cf2c7983849d90c99123e201c40a11f3cf86",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_ORIGINAL_68CASE_DATASET_INDEPENDENT_AUDIT.json": "917d7408a1de757f7d9ca19c1c3bc67a82227aef5a9d7c21a44d3ca05643cb98",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_NESTED_GROUPED_OOF_PROTOCOL_AMENDED_V2.json": "bcfc75380a61de09f9f93a751d485b2ebeca826d3fadc2669a65cde7b25c6ca7",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f"
+  }
+}

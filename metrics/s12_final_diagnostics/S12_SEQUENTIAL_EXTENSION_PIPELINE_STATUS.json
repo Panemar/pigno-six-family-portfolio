@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED_BY_CORE_S12_FAILURE",
+  "upstream_status": "BLOCKED_BY_S11_POSTCAMPAIGN_FAILURE",
+  "training_or_tuning_authorized": false,
+  "failed_utc": "2026-08-13T00:34:00.528648+00:00"
+}

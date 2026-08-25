@@ -1,0 +1,104 @@
+{
+  "status": "FROZEN_ORIGINAL_FEM_AUTHORITY_MASTER_S2_V1",
+  "generated_utc": "2026-08-07T17:23:18.466070+00:00",
+  "data_authority": "FROZEN",
+  "authority_scope": "68 original physical FEM trajectories only",
+  "master_instruction_sha256": "EA88EE300DB23A265F1A20AC01286D14045DD8E1E077FDB26B6164C47329DBD0",
+  "scientific_grain": "complete physical case trajectory",
+  "primary_supervised_output": [
+    "u_X_transverse_m",
+    "v_Y_vertical_m",
+    "w_Z_longitudinal_m"
+  ],
+  "counts": {
+    "manifest_cases": 68,
+    "audited_cases": 68,
+    "eligible_cases": 68,
+    "failed_cases": 0,
+    "reporting_contexts_not_physical_cases": 72
+  },
+  "checks": {
+    "physical_manifest_has_68_rows": true,
+    "case_ids_unique": true,
+    "quality_registry_has_same_case_set": true,
+    "loaded_lineage_has_same_case_set": true,
+    "source_provenance_has_same_case_set": true,
+    "quality_campaign_status_pass": true,
+    "dataset_admission_status_pass": true,
+    "registry_has_68_rows": true,
+    "all_cases_authority_eligible": true,
+    "no_case_failures": true,
+    "all_authority_paths_unique": true,
+    "sensor_histories_not_opened": true,
+    "cal_holdout_not_opened_by_s2": true,
+    "dev_not_opened_by_s2": true,
+    "test_not_opened_by_s2": true,
+    "legacy_scientific_data_not_used": true,
+    "no_fem_recomputation": true,
+    "training_not_authorized": true
+  },
+  "failures": [],
+  "access_boundary": {
+    "sensor_histories_opened": false,
+    "cal_holdout_opened_by_s2": false,
+    "dev_opened_by_s2": false,
+    "test_opened_by_s2": false,
+    "legacy_scientific_data_used": false,
+    "fem_recomputed": false,
+    "training_authorized": false
+  },
+  "legacy_policy": {
+    "rev7_rev8_scientific_data_admitted": false,
+    "code_reuse_requires_legacy_origin_true": true,
+    "code_reuse_requires_scientific_data_reused_false": true
+  },
+  "artifacts": {
+    "case_registry": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\ORIGINAL_FEM_CASE_REGISTRY.csv",
+      "sha256": "af072d98c4679baf1b8f43c87f44fccaf19d0b14e5a6991a1a4b448475e36966"
+    },
+    "hash_manifest": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\ORIGINAL_FEM_HASHES.sha256",
+      "sha256": "52fef806846ddd91c1c34e3256284054bfda818bca8a670ba79db35894fc7996"
+    },
+    "qa_report": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\ORIGINAL_FEM_QA_REPORT.md",
+      "sha256": "eef22ac08fc42f277b223cb1d01bf15bb0028e2b2756dd30f01cccab1d3b5950"
+    },
+    "audit_log": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\S2_ORIGINAL_FEM_AUTHORITY_AUDIT_LOG.jsonl",
+      "sha256": "c6b4b7118671b2e786a1e637956e493da2e72f5eebf7789c82aaa1dbb39906f9"
+    },
+    "progress": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\S2_ORIGINAL_FEM_AUTHORITY_AUDIT_PROGRESS.json"
+    }
+  },
+  "sources": {
+    "physical_manifest": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\original_physical_case_manifest_68.csv",
+      "sha256": "d3c00bc85ae08bbe16b378e78d31a711c1a6b5c7bc4597a6eb2487196343339a"
+    },
+    "quality_registry": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\quality_gate_final\\case_quality_summary.csv",
+      "sha256": "4d16804f006f72d322d180e55c8b43f9bf7b8740d4f6c1b9182d651126a72a09"
+    },
+    "quality_report": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\quality_gate_final\\campaign_quality_report.json",
+      "sha256": "3d9e52d0c921001eea69ae865ef458cf0affc96de094c8819a5b2a7a62ab237a"
+    },
+    "dataset_admission": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_admission\\report.json",
+      "sha256": "44c0ee97cdfa2a4ca3177ffce6770279746079cc87aacf6d9195a7751fef646c"
+    },
+    "loaded_mph_lineage": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_admission\\loaded_mph_lineage.csv",
+      "sha256": "3bd5c6f03c0fa1d9c2fc9a53914e4197a8c21dfc492ff68ec9477f22c54529e2"
+    },
+    "source_provenance": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_admission\\source_provenance.csv",
+      "sha256": "f7f9d1d9020364d2998902cd294807b212ac85c0c34a423e0d132ba305f49336"
+    }
+  },
+  "interpretation_boundary": "This freeze proves integrity and lineage of the original FEM authority. It is not PIGNO training, surrogate verification, experimental validation, strong-residual compatibility, or split blindness.",
+  "next_allowed_state": "S3_PARAMETRIC_DOMAIN_AUDIT"
+}

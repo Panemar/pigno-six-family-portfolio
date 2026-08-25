@@ -1,0 +1,13 @@
+{
+  "schema": "S10_CAUSAL_AUTHORITY_AMENDMENT_V2",
+  "status": "FROZEN_S10_CAUSAL_AUTHORITY_AMENDMENT_V2",
+  "generated_utc": "2026-08-11T10:32:49.649187+00:00",
+  "superseded_causal_authority": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\causal_inputs_68_branch_o_v1.h5",
+  "admitted_causal_authority": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\causal_inputs_68_branch_o_v2_case_identity.h5",
+  "reason": "CAL v2 case-identity is later, independently audited, and has a lower exact axle-vs-moment discrepancy than CAL v1; DEV and TEST case-identity sources remain unchanged.",
+  "response_authority_changed": false,
+  "FEM_recomputed": false,
+  "historical_exposure_changed": false,
+  "qa_report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_CAUSAL_INPUTS_68_V2_QA.json",
+  "qa_sha256": "4781bf31557c6034ac8309080fcef1289c64d8437805559ec757e486bb42a235"
+}

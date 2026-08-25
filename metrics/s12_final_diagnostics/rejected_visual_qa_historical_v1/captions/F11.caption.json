@@ -1,0 +1,7 @@
+{
+  "figure_id": "F11",
+  "title": "Successive-halving promotion history",
+  "caption": "All 32 deterministic Latin-hypercube configurations and their exact promotion path through low, medium and high fidelity. Absence at a later stage means pruning under the frozen lexicographic rule.",
+  "units": "categorical",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

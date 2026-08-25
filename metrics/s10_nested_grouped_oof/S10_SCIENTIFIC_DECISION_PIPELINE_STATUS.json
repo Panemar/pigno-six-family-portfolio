@@ -1,0 +1,9 @@
+{
+  "status": "PASS_S10_SCIENTIFIC_DECISION_PIPELINE",
+  "dynamic_report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\dynamic_spatial_audit_v1\\report.json",
+  "promotion_report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_TO_S11_PROMOTION_DECISION_V1.json",
+  "promoted_to_S11": [],
+  "S11_authorized": false,
+  "S11_training_started": false,
+  "completed_utc": "2026-08-13T00:53:52.379333+00:00"
+}

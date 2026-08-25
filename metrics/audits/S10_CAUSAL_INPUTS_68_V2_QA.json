@@ -1,0 +1,49 @@
+{
+  "schema": "S10_CAUSAL_INPUTS_68_V2_CASE_IDENTITY_QA_V1",
+  "status": "PASS_S10_CAUSAL_INPUTS_68_V2_CASE_IDENTITY",
+  "generated_utc": "2026-08-11T10:32:49.342164+00:00",
+  "checks": {
+    "exact_68_unique_cases": true,
+    "all_sources_independently_passed": true,
+    "time_identity": true,
+    "all_virtual_numeric_finite": true,
+    "inactive_tracks_zero": true,
+    "cal_v2_gaussian_contract_not_worse_than_v1": true,
+    "response_data_not_read": true
+  },
+  "cal_v1_vs_v2_max_absolute_differences": {
+    "static_features": 0.0,
+    "external_series": 0.0,
+    "track_active": 0.0,
+    "axle_position_m": 1041.0,
+    "axle_force_N": 0.0,
+    "wind_window_bounds_m": 1041.0,
+    "track_load_moments": 4236473.0
+  },
+  "cal_v1_exact_axle_vs_zero_moment_relative_error": 6.676958921442877e-07,
+  "cal_v2_exact_axle_vs_zero_moment_relative_error": 4.623956029772515e-08,
+  "sources": {
+    "historical_cal_case_identity_v2": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\causal_inputs_cal_v2_case_identity\\cal_causal_inputs.h5",
+      "sha256": "38948f1f3ea2c6f00683c4c7df0f2aa604993a57861acd7638fe8a66d8fc3bdb"
+    },
+    "historical_dev_case_identity": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\causal_inputs_dev_v1_target_blind\\dev_causal_inputs.h5",
+      "sha256": "5731fa146df1cbcfeed46b27a5c2371cab6aa67efaf6738a15da4de0f92dc6ef"
+    },
+    "historical_test_case_identity": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\causal_inputs_test_v1_target_blind\\test_causal_inputs.h5",
+      "sha256": "74291a11cb9904f50d88a1826a6fe85da271fb708ce2f9d0521bd46e91a43ae2"
+    }
+  },
+  "source_audits": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\causal_inputs_cal_v2_case_identity\\audit_report.json": "5a7906d06122899a158e2eb86f41cec70405a8866f208b70e50048d6c3f1c8ba",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\causal_inputs_dev_v1_target_blind\\audit_report.json": "958da9365d713ebf7a675883f8bcd279ece258a8c5003faf518d39692efc82ca",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\causal_inputs_test_v1_target_blind\\audit_report.json": "a499e33034fbf67cd50e8d70030833e882104ef7170299de2586b0585d45eaad"
+  },
+  "output": {
+    "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\causal_inputs_68_branch_o_v2_case_identity.h5",
+    "sha256": "97cc00038ecebe25bd94bbc10c5db94c80cf96c8de61afb3895d91908e1959e1"
+  },
+  "interpretation": "This non-overwriting authority replaces only the CAL v1 causal source with the later independently audited CAL v2 case-identity source. It does not alter FEM responses or historical exposure."
+}

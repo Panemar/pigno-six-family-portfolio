@@ -1,0 +1,7 @@
+{
+  "figure_id": "F17",
+  "title": "OOF case-error empirical distributions",
+  "caption": "ECDF of trajectory-level total-displacement relative L2 after taking the median for the single S10 diagnostic seed for the best-ranked non-promoted S10 route. B2 is the common-split deterministic comparator.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

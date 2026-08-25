@@ -1,0 +1,19 @@
+{
+  "figure_id": "F19",
+  "title": "Trajectory-paired OOF improvement versus common B2",
+  "generated_utc": "2026-08-13T01:01:39.643965+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\73_generate_s12_paired_oof_field_figures.py",
+  "script_sha256": "abb0b36d7f40cd2b09f212ff3bceb7a81cb2c27db57eee6266fa37545360adea",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F19.csv",
+  "source_csv_sha256": "71d530d12174e3ec155d788cecd989cb6728bbb6c137fa4102c6e4d63da72ace",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F19.png",
+  "png_sha256": "439c39cb1302dbb0f80655230e1eb8f487a2d555d321192d4661b7b68495e1d6",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F19.pdf",
+  "pdf_sha256": "9ac95faff5e1f9e5327159e373201a49e05ab6f54845f0f185c3338b9dbd5c5d",
+  "units": "dimensionless relative-L2 difference",
+  "quantity": "total displacement",
+  "bootstrap_draws": 10000,
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

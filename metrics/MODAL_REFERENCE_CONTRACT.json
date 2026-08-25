@@ -1,0 +1,13 @@
+{
+  "status": "PASS_MODAL_REFERENCE_WITH_BOUNDARY",
+  "canonical_file": "G:/Mi unidad/RESEARCH-BRIDGE/7-TESIS/Full Data Extracción/Original_extractions_20260801/modal_original_v1/comsol_modal_original.h5",
+  "sha256": "af588aaa04bf1b897d00befe6ef84370095b691129654dbc6b61857c95cc638f",
+  "reference": "stored modal solution of FEM implemented in COMSOL",
+  "real_modes": 48,
+  "frequency_range_hz": [2.0922803861199686,5.656583033361165],
+  "first12_max_frequency_error_percent_independent_auditor": 0.050831354215495866,
+  "first12_min_observable_cluster_similarity": 0.9999152489388772,
+  "independent_timoshenko_role": ["geometry auditor","orientation auditor","property auditor","mass/BC auditor","regularizer","candidate reduced propagator"],
+  "forbidden_claim": "independent Timoshenko operators are the unavailable full transient COMSOL M,C,K or prove load equivalence",
+  "matching": "cluster/subspace matching for close or degenerate modes; no forced one-to-one pairing"
+}

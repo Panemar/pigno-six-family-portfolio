@@ -1,0 +1,1 @@
+{"utc": "2026-08-11T01:18:19.738271+00:00", "event": "run_started", "run_id": "S6_R3_GRAPH_GALERKIN_CAPACITY_DATA_ONLY_REP_PETROV_PHYSICAL32_SMOKE_E1_V1", "parameters": 211920, "script_sha256": "8476386547eebbe2506891fcc3a6a4efa8b57c26cc25ded1f85f53b87c3b5cb2", "elementwise_witness_status": "CONDITIONED_S6_R3_ELEMENTWISE_VARIATIONAL_WITNESS"}

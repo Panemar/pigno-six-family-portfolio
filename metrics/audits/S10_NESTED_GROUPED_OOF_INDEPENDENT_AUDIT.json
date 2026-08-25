@@ -1,0 +1,46 @@
+{
+  "status": "PASS_S10_NESTED_GROUPED_OOF_INDEPENDENT_AUDIT",
+  "generated_utc": "2026-08-13T00:29:49.897777+00:00",
+  "audited_run_count": 90,
+  "inner_run_count": 60,
+  "outer_run_count": 30,
+  "candidate_count": 3,
+  "variant_count": 2,
+  "trainer_provenance_counts": {
+    "PRE_RETRY_HASH_ADMITTED_BY_BOUNDED_IO_PATH_EQUIVALENCE": 57,
+    "LEGACY_HASH_ADMITTED_BY_CHAINED_NONREPAIRED_AND_IO_PATH_EQUIVALENCE": 12,
+    "CURRENT_TRANSIENT_IO_RETRY_TRAINER": 21
+  },
+  "legacy_trainer_path_equivalence_audit": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_LEGACY_TRAINER_PATH_EQUIVALENCE_AUDIT_V1.json",
+  "legacy_trainer_path_equivalence_audit_sha256": "5480c047cbe59d8b916256086a867e9c797ff63a13c718ead00385cc4c23b06f",
+  "transient_io_retry_equivalence_audit": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_TRANSIENT_IO_RETRY_EQUIVALENCE_AUDIT_V1.json",
+  "transient_io_retry_equivalence_audit_sha256": "b1f8d8b50c73a34d8b0cc62bc28cdbb1cdf32d9dae233afecaf0f297d7014c4a",
+  "case_count": 68,
+  "outer_coverage_exact_once_each_candidate_variant": true,
+  "same_case_time_node_axis_contract": true,
+  "full_FEM_reference_max_abs_difference_m": 0.0,
+  "incremental_total_views_separated": true,
+  "direct_outputs_preserved": [
+    "incremental_displacement_m",
+    "incremental_velocity_mps"
+  ],
+  "velocity_comparison_scope": "direct S10 incremental velocity versus direct FEM/COMSOL incremental velocity; no B2 velocity is fabricated by differentiating displacement",
+  "B2_target_clean_decomposition_identity_max_abs_m": 0.0,
+  "FEM_base_target_injection": false,
+  "evidence_label": "historically exposed nested grouped OOF with fold-identical target-clean B2 composition; not blind or external validation",
+  "S11_authorized": false,
+  "reason_S11_blocked": "Independent audit establishes valid evidence but promotion requires a separate paired scientific decision over these frozen metrics.",
+  "outputs": [
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\desktop.ini",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_AUDITED_RUN_REGISTRY.csv",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_OOF_AGGREGATE_METRICS.csv",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_OOF_PAIRED_BOOTSTRAP.csv",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_OOF_PER_CASE_AXIS_METRICS.csv",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_R2_LHS_02_CONTROL_OOF_FIELDS.h5",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_R2_LHS_02_PHYSICS_OOF_FIELDS.h5",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_R4_LHS_03_CONTROL_OOF_FIELDS.h5",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_R4_LHS_03_PHYSICS_OOF_FIELDS.h5",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_R6_LHS_04_CONTROL_OOF_FIELDS.h5",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\independent_oof_audit_v1\\S10_R6_LHS_04_PHYSICS_OOF_FIELDS.h5"
+  ]
+}

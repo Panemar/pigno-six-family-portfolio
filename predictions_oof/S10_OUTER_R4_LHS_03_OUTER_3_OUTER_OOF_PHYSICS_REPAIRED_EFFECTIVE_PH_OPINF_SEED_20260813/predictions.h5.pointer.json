@@ -1,0 +1,6 @@
+{
+  "source": "external://predictions_oof/S10_OUTER_R4_LHS_03_OUTER_3_OUTER_OOF_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260813/predictions.h5",
+  "sha256": "8f41db9beb8d57bf3793ea894624efc5d37c31c8fd28b81625a0789323b7e137",
+  "size_bytes": 165780408,
+  "reason": "large binary stored externally; verify against recorded SHA-256"
+}

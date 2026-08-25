@@ -1,0 +1,7 @@
+{
+  "figure_id": "F12",
+  "title": "S9 hyperparameter parallel coordinates",
+  "caption": "Normalized coordinates for the 32 deterministic Latin-hypercube trials. Line color denotes route and thick lines denote the four configurations promoted to high fidelity. Score is mean low-fidelity worst-axis pooled displacement L2.",
+  "units": "mixed; raw values in source CSV",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

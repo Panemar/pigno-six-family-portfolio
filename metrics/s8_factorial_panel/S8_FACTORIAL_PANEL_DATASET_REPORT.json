@@ -1,0 +1,382 @@
+{
+  "schema": "S8_BALANCED_FACTORIAL_PANEL_DATASET_REPORT_V1",
+  "status": "FAIL_S8_PANEL_INITIAL_REPRESENTATION_FLOOR",
+  "generated_utc": "2026-08-11T04:01:13.334690+00:00",
+  "evidence_label": "historically exposed micropanel; not OOF, generalization or blind",
+  "case_count": 12,
+  "time_count": 1201,
+  "observation_count": 512,
+  "rank": 224,
+  "maximum_nonzero_case_translation_oracle_relative_l2_by_axis": [
+    0.17530753858324805,
+    0.011172394076029052,
+    0.014920236368089045
+  ],
+  "maximum_nonzero_case_velocity_oracle_relative_l2_by_axis": [
+    0.2406359416348846,
+    0.04916650252288831,
+    0.026612236510882528
+  ],
+  "translation_oracle_gate_each_axis_max": 0.05,
+  "translation_oracle_gate_pass": false,
+  "velocity_oracle_diagnostic_only": true,
+  "observation_inferred_qdot_is_exact_physical_state": false,
+  "strong_full_time_residual_authorized": false,
+  "case_reports": [
+    {
+      "case_id": "BASE_C1_0T",
+      "base_case_id": "BASE_C1_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 5.312785367195261e-08,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "translation_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.0,
+      "qdot_observation_vs_direct13_relative_l2": 0.0,
+      "reduced_force_l2": 0.0,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5": "afebb20e8cc026b17384186206558d7c5372cedbeaadf09438e1c114f67c8c1e"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C1_0T\\compact_kinematics.h5": "02cbc80791f40ef10568eb33b4e251ef5eea5731f65256bf9517a14b152e457c"
+      }
+    },
+    {
+      "case_id": "BASE_C2_0T",
+      "base_case_id": "BASE_C2_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 0.0,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "translation_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.0,
+      "qdot_observation_vs_direct13_relative_l2": 0.0,
+      "reduced_force_l2": 0.0,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C2_0T_v1\\original_full_dof_state_pilot.h5": "d53f2092188b40b572a92a95faa006201759db96fb189056ad106fb4712d5431"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C2_0T\\compact_kinematics.h5": "e584595775d1a0ef59e613ef13d2f4fff35f81b12d3cac8bff6222caf0041e64"
+      }
+    },
+    {
+      "case_id": "BASE_C3_0T",
+      "base_case_id": "BASE_C3_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 0.0,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "translation_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.0,
+      "qdot_observation_vs_direct13_relative_l2": 0.0,
+      "reduced_force_l2": 0.0,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5": "d28757243a3a581d55a2eb24bf7482a735cc14de18d174cf81fd2004183016e8"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C3_0T\\compact_kinematics.h5": "5e7d3b1a40d6d31ad4375d239e81df4ef0eecf2cb0dbc7e2bb1356b82a8a348d"
+      }
+    },
+    {
+      "case_id": "BASE_C8_0T",
+      "base_case_id": "BASE_C8_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 0.0,
+      "delta_translation_rms_m": 0.0,
+      "delta_velocity_rms_mps": 0.0,
+      "translation_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.0,
+      "qdot_observation_vs_direct13_relative_l2": 0.0,
+      "reduced_force_l2": 0.0,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C8_0T_v1\\original_full_dof_state_pilot.h5": "2794f499de85b565ddbbf6a50e690e89970142c45672ae265746526fa13dfae7"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C8_0T\\compact_kinematics.h5": "9a264b2c30c390c0826e1dbd79194ed329b7ce3956799472b2ba85472604ef5c"
+      }
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "base_case_id": "BASE_C3_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 0.0,
+      "delta_translation_rms_m": 0.01280485661520886,
+      "delta_velocity_rms_mps": 0.0041366228274062914,
+      "translation_oracle_relative_l2_by_axis": [
+        7.414041464956584e-05,
+        9.347520605073018e-06,
+        3.76610139225989e-06
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.01376997045826393,
+        0.0028882895649998473,
+        0.0012547855048059284
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.0013958110982914924,
+      "qdot_observation_vs_direct13_relative_l2": 0.1182486658959817,
+      "reduced_force_l2": 520977.00968334085,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_A_E3_C6_1T_v1\\original_full_dof_state_pilot.h5": "a77cede74a2f489eb0e4cbf091f90f618847ab2bce07cf79ad32cfa3ba01f182",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5": "d28757243a3a581d55a2eb24bf7482a735cc14de18d174cf81fd2004183016e8"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_A_E3_C6_1T\\compact_kinematics.h5": "2f5e8bd317d3f733fb5389bc0c864dd038e52247cb24940fef96088a87860664",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C3_0T\\compact_kinematics.h5": "5e7d3b1a40d6d31ad4375d239e81df4ef0eecf2cb0dbc7e2bb1356b82a8a348d"
+      }
+    },
+    {
+      "case_id": "V40_B_E5_C9_1T",
+      "base_case_id": "BASE_C8_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 0.0,
+      "delta_translation_rms_m": 0.013444176999750939,
+      "delta_velocity_rms_mps": 0.004703095072938286,
+      "translation_oracle_relative_l2_by_axis": [
+        0.00014241524863939782,
+        1.4570733178635118e-05,
+        7.986439692493863e-06
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.012059560122191042,
+        0.0025280915499050543,
+        0.0015895546651900321
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.0015862347810446844,
+      "qdot_observation_vs_direct13_relative_l2": 0.12371945578632987,
+      "reduced_force_l2": 627285.232679898,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_B_E5_C9_1T_v1\\original_full_dof_state_pilot.h5": "96892db7c62fda37628b511622656b79db5eb68c9c5101e4725bd646620449e0",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C8_0T_v1\\original_full_dof_state_pilot.h5": "2794f499de85b565ddbbf6a50e690e89970142c45672ae265746526fa13dfae7"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_B_E5_C9_1T\\compact_kinematics.h5": "2ced25438ac5f3bc8d7d90515e980cab7b677b5ce86e3d4f1a2ca5a267bc655f",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C8_0T\\compact_kinematics.h5": "9a264b2c30c390c0826e1dbd79194ed329b7ce3956799472b2ba85472604ef5c"
+      }
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "base_case_id": "BASE_C1_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 5.312785367195261e-08,
+      "delta_translation_rms_m": 0.012843883561513706,
+      "delta_velocity_rms_mps": 0.007989101763169247,
+      "translation_oracle_relative_l2_by_axis": [
+        0.14635536556167164,
+        0.009131280629316358,
+        0.01014689739758209
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.21027581234041817,
+        0.04916650252288831,
+        0.02069142157543941
+      ],
+      "q_observation_vs_direct13_relative_l2": 2.316087840830515,
+      "qdot_observation_vs_direct13_relative_l2": 4.807130947490109,
+      "reduced_force_l2": 851776.2325398867,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_C_E8_C12_2T_v1\\original_full_dof_state_pilot.h5": "b8b8433e9b5e1b4a540e67b4f11b70f72a191a35a20816dcd3f93d88905b4fed",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5": "afebb20e8cc026b17384186206558d7c5372cedbeaadf09438e1c114f67c8c1e"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_C_E8_C12_2T\\compact_kinematics.h5": "762d25a6adbef06a1462522e65deb42dde6bb806b990c021e394d72459a6ef77",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C1_0T\\compact_kinematics.h5": "02cbc80791f40ef10568eb33b4e251ef5eea5731f65256bf9517a14b152e457c"
+      }
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "base_case_id": "BASE_C2_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 5.312785367195261e-08,
+      "delta_translation_rms_m": 0.01635887471113665,
+      "delta_velocity_rms_mps": 0.010045347249526666,
+      "translation_oracle_relative_l2_by_axis": [
+        0.13473937430383798,
+        0.008420241273879917,
+        0.008771370438140644
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.17408165128493627,
+        0.04827211212937296,
+        0.019107406747408413
+      ],
+      "q_observation_vs_direct13_relative_l2": 1.9407452448612368,
+      "qdot_observation_vs_direct13_relative_l2": 4.009810778332608,
+      "reduced_force_l2": 1040376.9644747808,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V40_CPLUS_E2_C5_2T_v1\\original_full_dof_state_pilot.h5": "aa35bbd56b8cd60fc0f37e2dcab864455f3ee440d62e0a7488351149854ebc95",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C2_0T_v1\\original_full_dof_state_pilot.h5": "d53f2092188b40b572a92a95faa006201759db96fb189056ad106fb4712d5431"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V40_CPLUS_E2_C5_2T\\compact_kinematics.h5": "7fab31c65cd01150a55f0d7a0c435260792e862c0bd4b433768a0dcf812d6c23",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C2_0T\\compact_kinematics.h5": "e584595775d1a0ef59e613ef13d2f4fff35f81b12d3cac8bff6222caf0041e64"
+      }
+    },
+    {
+      "case_id": "V52_A_E7_C11_2T",
+      "base_case_id": "BASE_C8_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 5.312785367195261e-08,
+      "delta_translation_rms_m": 0.007526060375050178,
+      "delta_velocity_rms_mps": 0.005890980186515255,
+      "translation_oracle_relative_l2_by_axis": [
+        0.17530753858324805,
+        0.011172394076029052,
+        0.014920236368089045
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.18733684980739795,
+        0.045902230465768745,
+        0.026612236510882528
+      ],
+      "q_observation_vs_direct13_relative_l2": 3.021351616026941,
+      "qdot_observation_vs_direct13_relative_l2": 8.151069688714033,
+      "reduced_force_l2": 543651.5423829658,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_A_E7_C11_2T_v1\\original_full_dof_state_pilot.h5": "3c7d1ff5880bcff29ea62bf3a6f9bcd57e316dcccec3cf7eb190f688730fd03d",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C8_0T_v1\\original_full_dof_state_pilot.h5": "2794f499de85b565ddbbf6a50e690e89970142c45672ae265746526fa13dfae7"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_A_E7_C11_2T\\compact_kinematics.h5": "173906e772c1425c81dc351530bec41efb0516393eef75067eb752503389067e",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C8_0T\\compact_kinematics.h5": "9a264b2c30c390c0826e1dbd79194ed329b7ce3956799472b2ba85472604ef5c"
+      }
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "base_case_id": "BASE_C1_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 5.312785367195261e-08,
+      "delta_translation_rms_m": 0.013051246269084485,
+      "delta_velocity_rms_mps": 0.005329909037012514,
+      "translation_oracle_relative_l2_by_axis": [
+        0.00015949054106655924,
+        1.6955619246314565e-05,
+        7.702794541974506e-06
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.026204377779406266,
+        0.0033583241883737487,
+        0.0024976658064468494
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.004188076788216278,
+      "qdot_observation_vs_direct13_relative_l2": 0.36390367967102627,
+      "reduced_force_l2": 561246.3078770307,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_B_E6_C10_1T_v1\\original_full_dof_state_pilot.h5": "6fcd0888c8eb1a49a568aab1ec8a7983477b2ed609db2f98ab99fb010a757aa3",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C1_0T_v1\\original_full_dof_state_pilot.h5": "afebb20e8cc026b17384186206558d7c5372cedbeaadf09438e1c114f67c8c1e"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_B_E6_C10_1T\\compact_kinematics.h5": "bfb5b351622db8cb3f98f07602a166a862305bd14bcfd802b7ac52d5952292f8",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C1_0T\\compact_kinematics.h5": "02cbc80791f40ef10568eb33b4e251ef5eea5731f65256bf9517a14b152e457c"
+      }
+    },
+    {
+      "case_id": "V52_C_E4_C7_1T",
+      "base_case_id": "BASE_C2_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 0.0,
+      "delta_translation_rms_m": 0.013631097018645335,
+      "delta_velocity_rms_mps": 0.006110366610937715,
+      "translation_oracle_relative_l2_by_axis": [
+        0.00018352944989816314,
+        1.936748873094913e-05,
+        9.88400623417872e-06
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.01946647553994964,
+        0.0031098140846643994,
+        0.002640096234890029
+      ],
+      "q_observation_vs_direct13_relative_l2": 0.00406605163882002,
+      "qdot_observation_vs_direct13_relative_l2": 0.41802566412448916,
+      "reduced_force_l2": 655520.0869737626,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_C_E4_C7_1T_v1\\original_full_dof_state_pilot.h5": "6f7250d3874a8c87581e13c99de4e4ec5666b041fa1fb2ea244f8a38476a7638",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C2_0T_v1\\original_full_dof_state_pilot.h5": "d53f2092188b40b572a92a95faa006201759db96fb189056ad106fb4712d5431"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_C_E4_C7_1T\\compact_kinematics.h5": "4d84f2268e11aef2ed0b4ab6958bb43989dce9c4ae73e3edfefe00cd0066ca48",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C2_0T\\compact_kinematics.h5": "e584595775d1a0ef59e613ef13d2f4fff35f81b12d3cac8bff6222caf0041e64"
+      }
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "base_case_id": "BASE_C3_0T",
+      "observation_coordinate_error_m": 0.0,
+      "full_dof_coordinate_error_m": 0.0,
+      "delta_translation_rms_m": 0.01436115744787952,
+      "delta_velocity_rms_mps": 0.010925588796502739,
+      "translation_oracle_relative_l2_by_axis": [
+        0.1397883599735462,
+        0.008671406242579918,
+        0.009437987028640574
+      ],
+      "velocity_oracle_relative_l2_by_axis": [
+        0.2406359416348846,
+        0.04631723392741243,
+        0.024608017468156256
+      ],
+      "q_observation_vs_direct13_relative_l2": 2.060343249253374,
+      "qdot_observation_vs_direct13_relative_l2": 6.530831992435346,
+      "reduced_force_l2": 921285.7237109295,
+      "direct_full_dof_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_V52_CPLUS_E1_C4_2T_v1\\original_full_dof_state_pilot.h5": "6a29d2de9724328d2a77677ec580d956a0c2c5036fdcb348958110462ce82891",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\full_dof_state_recovery_panel_BASE_C3_0T_v1\\original_full_dof_state_pilot.h5": "d28757243a3a581d55a2eb24bf7482a735cc14de18d174cf81fd2004183016e8"
+      },
+      "compact_sources": {
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\V52_CPLUS_E1_C4_2T\\compact_kinematics.h5": "2c0fd3545c107d7ebe666b33db2e71ad59aec14f7f48163aead23dcccb5a1ba9",
+        "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\cases\\BASE_C3_0T\\compact_kinematics.h5": "5e7d3b1a40d6d31ad4375d239e81df4ef0eecf2cb0dbc7e2bb1356b82a8a348d"
+      }
+    }
+  ],
+  "input_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_trajectory_projector_V40_A_E6_C10_1T_v2_full_dt\\S8_CAPACITY_FULL_TRAJECTORY_PROJECTOR.h5": "4811c5c79b0bfe94e9ef02b8bcff553d4ac4035fdeb93919e2cacf1306cfd823",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_PROTOCOL.json": "5f1f217d10e1d47d00ce20c73b17f147003924b7e5164ecac30766e1cb9cfd2d",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\causal_inputs_68_branch_o_v1.h5": "6df908bf9c9f9b44d5a9334ce674a2ba0f254f079968c3d102d476834af2dc5f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\parametric_graph_load_generator_v1\\audit_report.json": "00f27d1c00fdad89bf9eda407d26dd8a2bebb8e78d97716f3ee5dc14570b8376",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\original_exact_timoshenko_graph.npz": "97a064ff0ac2226f4e0c8eb6c2363799ee9a7b7a238fa131030f0060cafe2e86",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\load_support\\original_graph_load_support.npz": "3c9bb636ae559fe6b8e062d8419cf850f2cfc7739bb24483a5b4989afdbec34a",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\graph_original_v1\\observation_load_kernels_v1\\kernels.npz": "41049a0275899337bb77a6819b4bbb0871d6964c9d8d789d9bce72cc1f2876b0",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\causal_inputs_cal_v2_case_identity\\cal_causal_inputs.h5": "38948f1f3ea2c6f00683c4c7df0f2aa604993a57861acd7638fe8a66d8fc3bdb"
+  },
+  "output": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_DATASET.h5": "77ce5da426cb9dda7c2b137042dbad35661e9bba5b7a794d1ceff91330ff8475"
+  }
+}

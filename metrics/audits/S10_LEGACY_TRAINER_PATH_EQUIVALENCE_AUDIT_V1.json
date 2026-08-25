@@ -1,0 +1,33 @@
+{
+  "schema": "S10_LEGACY_TRAINER_PATH_EQUIVALENCE_AUDIT_V1",
+  "status": "PASS_S10_LEGACY_TRAINER_PATH_EQUIVALENCE_FOR_NONREPAIRED_INVOCATIONS",
+  "generated_utc": "2026-08-11T22:45:46.588051+00:00",
+  "recorded_legacy_trainer_sha256": "ceccd64ce1295c0124618b3e2da9622bed78d52baaf04f1b8a8de2989d203c8d",
+  "archived_normalized_legacy_copy_sha256": "aa7db93e161d569f31351bea6af17b28c41e0462a48aa5921055e7839d00d71d",
+  "current_trainer_sha256": "a1e9992229527d5f7ebf11ae1776609e305f9c0e4859522c76986d9b15c82a55",
+  "unified_diff": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\audits\\S10_LEGACY_TRAINER_PATH_EQUIVALENCE_AUDIT_V1.diff",
+  "unified_diff_sha256": "af5fe80074074c98b90769bac31984b0be0f191f8a133cabe76f2b21b3ba01b5",
+  "proof_obligations": {
+    "repair_flag_defaults_false": true,
+    "repair_flag_restricted_to_R4_physics": true,
+    "legacy_R4_physics_explicitly_rejected": true,
+    "repair_run_id_suffix_conditional": true,
+    "new_propagator_branch_guarded_by_repair_flag": true,
+    "R6_anchor_condition_preserved": true,
+    "model_constructor_preserved": true,
+    "optimizer_constructor_preserved": true,
+    "legacy_reported_hash_matches_frozen_contract": true
+  },
+  "admitted_scope": [
+    "legacy controls for R2, R4 and R6 invoked without --r4-repaired",
+    "legacy R2 and R6 physics invoked without --r4-repaired"
+  ],
+  "excluded_scope": [
+    "all legacy R4 physics reports",
+    "any invocation whose split, epoch, capacity, causality, BC or prediction identity differs"
+  ],
+  "reasoning": "For an invocation without --r4-repaired the new flag is false, the new pH fit and forward branches are unreachable, the R4 legacy-physics guard is false for controls and non-R4 routes, and the model/optimizer paths are preserved. Report provenance keys differ, but the admitted computational path does not.",
+  "formal_program_equivalence_proved": false,
+  "reuse_requires_independent_report_split_epoch_capacity_and_prediction_checks": true,
+  "S11_authorized": false
+}

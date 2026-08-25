@@ -1,0 +1,21 @@
+{"utc": "2026-08-11T13:21:38.900881+00:00", "event": "watcher_started", "pid": 39548}
+{"utc": "2026-08-11T15:42:12.620126+00:00", "event": "upstream_failure_observed", "status": "BLOCKED_BY_S10_CAMPAIGN_FAILURE"}
+{"utc": "2026-08-11T22:11:55.535760+00:00", "event": "watcher_started", "pid": 14152}
+{"utc": "2026-08-12T10:45:23.542711+00:00", "event": "watcher_started", "pid": 18804}
+{"utc": "2026-08-12T19:36:53.563601+00:00", "event": "upstream_failure_observed", "status": "BLOCKED_BY_S10_CAMPAIGN_FAILURE"}
+{"utc": "2026-08-12T20:17:26.276207+00:00", "event": "watcher_started", "pid": 7324}
+{"utc": "2026-08-13T00:32:34.360268+00:00", "event": "watcher_started", "pid": 28536}
+{"utc": "2026-08-13T00:32:34.588152+00:00", "event": "step_started", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\57_audit_s10_oof_dynamic_spatial_metrics.py"}
+{"utc": "2026-08-13T00:32:38.464772+00:00", "event": "step_failed", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "returncode": 1}
+{"utc": "2026-08-13T00:34:15.351206+00:00", "event": "watcher_started", "pid": 20276}
+{"utc": "2026-08-13T00:34:15.548127+00:00", "event": "step_started", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\57_audit_s10_oof_dynamic_spatial_metrics.py"}
+{"utc": "2026-08-13T00:34:17.153997+00:00", "event": "step_failed", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "returncode": 1}
+{"utc": "2026-08-13T00:34:49.287779+00:00", "event": "watcher_started", "pid": 30820}
+{"utc": "2026-08-13T00:34:49.508335+00:00", "event": "step_started", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\57_audit_s10_oof_dynamic_spatial_metrics.py"}
+{"utc": "2026-08-13T00:43:50.240587+00:00", "event": "step_failed", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "returncode": 1}
+{"utc": "2026-08-13T00:45:03.185143+00:00", "event": "watcher_started", "pid": 16000}
+{"utc": "2026-08-13T00:45:03.384251+00:00", "event": "step_started", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\57_audit_s10_oof_dynamic_spatial_metrics.py"}
+{"utc": "2026-08-13T00:53:50.955390+00:00", "event": "step_finished", "step_name": "S10_DYNAMIC_SPATIAL_AUDIT", "stdout": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_DYNAMIC_SPATIAL_AUDIT.stdout.log", "stderr": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_DYNAMIC_SPATIAL_AUDIT.stderr.log"}
+{"utc": "2026-08-13T00:53:51.138370+00:00", "event": "step_started", "step_name": "S10_PROMOTION_DECISION", "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\55_decide_s10_promotion.py"}
+{"utc": "2026-08-13T00:53:52.360158+00:00", "event": "step_finished", "step_name": "S10_PROMOTION_DECISION", "stdout": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_PROMOTION_DECISION.stdout.log", "stderr": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_PROMOTION_DECISION.stderr.log"}
+{"utc": "2026-08-13T00:53:52.685726+00:00", "event": "scientific_decision_pipeline_complete", "promoted_to_S11": [], "S11_training_started": false}

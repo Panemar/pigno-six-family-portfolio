@@ -1,0 +1,63 @@
+{
+  "status": "CONDITIONED_S6_R3_ELEMENTWISE_VARIATIONAL_WITNESS",
+  "generated_utc": "2026-08-11T01:12:54.142949+00:00",
+  "route": "R3_GRAPH_NEURAL_GALERKIN",
+  "reference": "one FEM model implemented and solved in COMSOL; independent graph assembly is a regularizer/auditor, not a second reference",
+  "case_id": "V40_A_E6_C10_1T",
+  "base_case_id": "BASE_C1_0T",
+  "same_case_same_saved_time_same_coordinate": true,
+  "historically_exposed_not_blind": true,
+  "element_tests": {
+    "tests": 15,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "pass": true
+  },
+  "structural_implementation_pass": true,
+  "FEM_COMSOL_compatibility_pass": false,
+  "metrics": {
+    "element_count": 24215,
+    "dof_count": 132984,
+    "fixed_dof_count": 36,
+    "basis_fixed_max_abs": 0.0,
+    "matrix_symmetry_relative_l2": {
+      "M": 0.0,
+      "C": 0.0,
+      "K": 0.0
+    },
+    "matrix_relative_to_admitted_equation_space": {
+      "M": 0.0003268794391269819,
+      "C": 1660516431.0174615,
+      "K": 2362220487.830989
+    },
+    "force_relative_to_admitted_equation_space": 2.1621852120616438e-09,
+    "graph_elementwise_weak_ratio_active": {
+      "count": 12,
+      "median": 33622842859.748222,
+      "p90": 33897334361.07056,
+      "maximum": 34019764486.631207
+    },
+    "minimum_eigenvalues": {
+      "M": 0.9999896116591405,
+      "C": 0.9286529264758587,
+      "K": 540.6118610051336
+    }
+  },
+  "decision": {
+    "elementwise_virtual_work_authorized": false,
+    "fallback_if_conditioned": "Petrov-Galerkin/variational Physical32 operator already admitted from the FEM/COMSOL-compatible equation space; do not claim elementwise graph-matrix identity",
+    "coordinatewise_strong_loss_authorized": false,
+    "capacity_training_authorized": true,
+    "HPO_authorized": false
+  },
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_CAPACITY_FULL_DT_DATASET.h5": "d76ad9ea38f3d2ad20d90aa8fa041ca2be84764aea4365d2d285e70da5265f09",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_physical32_variational_residual_preflight_V40_A_E6_C10_1T_v2\\S8_PHYSICAL32_VARIATIONAL_PREFLIGHT.h5": "d0bbb215094fd3b63c6ab4799a65195298a86d0ccc7d6b328e121948c5eafdd8",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracci\u00f3n\\Original_extractions_20260801\\modal_original_v1\\transient_reduced_operator_v3_canonical\\reduced_operator.npz": "0c28d9dc7ed942584f121bbd587e43016a1d09a1640b8dede7254b88c6700ba0",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracci\u00f3n\\Original_extractions_20260801\\workspace\\PIGNO\\pigno_dynamic_v2\\scripts\\assemble_oriented_timoshenko_modal.py": "f2280d10878aee41f513db70b3b8a0d9112dd7b69c5ff5eb40c68f8d0cf7a527",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\strong_physics_pigno_v3\\S6_TIMOSHENKO_TESTS.xml": "840d4126ab19bb1bfd98c39ddad348527a7b83990037c063ab2a82e860c6fbe1",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\strong_physics_pigno_v3\\VARIATIONAL_TEST_SPACE_CONTRACT.json": "414680c5e424f17b9edf98d77405b75b3ffb25f6c105cce93158f458908c561e"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS_S5_INCREMENTAL_TOTAL_FIELD_MAPPING",
+  "generated_utc": "2026-08-11T00:28:43.850589+00:00",
+  "checks": {
+    "all_68_cases_mapped": true,
+    "exact_four_base_cases": true,
+    "scenario_pairing_exact": true,
+    "same_coordinates": true,
+    "same_saved_time": true
+  },
+  "maximum_coordinate_error_m": 0.0,
+  "maximum_time_error_s": 0.0,
+  "mapping_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\contracts\\INCREMENTAL_TOTAL_FIELD_MAPPING.csv",
+  "mapping_sha256": "8a5c81a0737e6e2b51fb91710adb7553dca6f87261026efd6de4a03baa755f46",
+  "field_semantics": {
+    "total": "stored FEM/COMSOL field",
+    "increment": "case total minus matching 0T base at identical saved time/node/component",
+    "reconstruction": "base FEM plus predicted increment"
+  },
+  "selection_boundary": "The mapping is physical metadata and fixed before model fitting; it contains no predicted values or response-derived scenario labels.",
+  "training_performed": false,
+  "FEM_modified_or_resolved": false
+}

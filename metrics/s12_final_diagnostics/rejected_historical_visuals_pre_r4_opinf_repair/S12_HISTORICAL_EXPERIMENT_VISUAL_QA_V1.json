@@ -1,0 +1,144 @@
+{
+  "status": "PASS_S12_HISTORICAL_EXPERIMENT_VISUAL_QA_V1",
+  "generated_utc": "2026-08-11T14:12:19.503571+00:00",
+  "scope": [
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+  ],
+  "manual_visual_review_recorded_after_original_resolution_inspection": true,
+  "rows": [
+    {
+      "figure_id": "F07",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: three components, five ranks and three oracle statistics are legible on log scale"
+    },
+    {
+      "figure_id": "F08",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: six frozen routes and X/Y/Z capacity errors are legible without implying generalization"
+    },
+    {
+      "figure_id": "F09",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: S6 and S7 paired intervention directions are visually distinct"
+    },
+    {
+      "figure_id": "F10",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: all heatmap annotations have sufficient contrast"
+    },
+    {
+      "figure_id": "F11",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: all 32 configurations and exact successive-halving attrition are visible"
+    },
+    {
+      "figure_id": "F12",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: promoted trials use thickness and routes use line style under a single hue"
+    },
+    {
+      "figure_id": "F13",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS_WITH_LIMITATION: n=32 cross-validated permutation associations are not causal importance"
+    },
+    {
+      "figure_id": "F14",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: physics/control use blue/orange and route identity uses marker shape"
+    },
+    {
+      "figure_id": "F15",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS: X/Y/Z validation trajectories are separated and same-fold scope is explicit"
+    },
+    {
+      "figure_id": "F16",
+      "checks": {
+        "generator_exact": true,
+        "generator_hash_exact": true,
+        "png_hash_exact": true,
+        "pdf_hash_exact": true,
+        "csv_hash_exact": true,
+        "caption_id_exact": true
+      },
+      "visual_finding": "PASS_WITH_LIMITATION: recorded losses are shown and unavailable gradient diagnostics are declared"
+    }
+  ],
+  "rejected_attempt_archive": "rejected_visual_qa_historical_v1",
+  "forbidden_arrowpoint_count": 0,
+  "failures": [],
+  "training_or_tuning_performed": false,
+  "OOF_or_final_decision_authorized": false
+}

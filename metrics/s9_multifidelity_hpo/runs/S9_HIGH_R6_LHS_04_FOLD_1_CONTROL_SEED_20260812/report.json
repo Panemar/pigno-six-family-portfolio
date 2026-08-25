@@ -1,0 +1,124 @@
+{
+  "status": "PASS_S9_FOLD_TRIAL_EXECUTION",
+  "run_id": "S9_HIGH_R6_LHS_04_FOLD_1_CONTROL_SEED_20260812",
+  "trial_id": "R6_LHS_04",
+  "route": "R6",
+  "variant": "control",
+  "fidelity": "high",
+  "fold": 1,
+  "seed": 20260812,
+  "configuration": {
+    "trial_id": "R6_LHS_04",
+    "route": "R6",
+    "variant": "control",
+    "width": 40,
+    "graph_depth": 3,
+    "temporal_modes": 8,
+    "temporal_kernel": 17,
+    "temporal_blocks": 3,
+    "head_hidden": 96,
+    "learning_rate": 0.0009783235389984137,
+    "weight_decay": 8.623061767774373e-05,
+    "velocity_data_weight": 0.5,
+    "state_loss_weight": 0.03,
+    "equilibrium_loss_weight": 0.0001,
+    "gradient_clip": 1.0,
+    "scheduler": "constant"
+  },
+  "train_case_ids": [
+    "BASE_C1_0T",
+    "BASE_C3_0T",
+    "BASE_C8_0T",
+    "V40_A_E3_C6_1T",
+    "V40_B_E5_C9_1T",
+    "V40_C_E8_C12_2T",
+    "V52_A_E7_C11_2T",
+    "V52_B_E6_C10_1T",
+    "V52_CPLUS_E1_C4_2T"
+  ],
+  "validation_case_ids": [
+    "BASE_C2_0T",
+    "V40_CPLUS_E2_C5_2T",
+    "V52_C_E4_C7_1T"
+  ],
+  "best_epoch": 115,
+  "selection_key": [
+    1.0,
+    0.12716448202935202,
+    0.12716448202935202,
+    0.13663068021843205,
+    0.13858799714071565,
+    0.29907024106741226,
+    0.4584906453694102,
+    5.825853811670157,
+    279753
+  ],
+  "validation_metrics": {
+    "displacement_X_pooled_l2": 0.12716448202935202,
+    "velocity_X_pooled_l2": 0.7470633094115461,
+    "displacement_Y_pooled_l2": 0.08161571915953224,
+    "velocity_Y_pooled_l2": 0.4584906453694102,
+    "displacement_Z_pooled_l2": 0.090290039878528,
+    "velocity_Z_pooled_l2": 0.4086363521224023,
+    "equilibrium_residual_median": 5.825853811670157,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "validation_case_metrics": [
+    {
+      "case_id": "BASE_C2_0T",
+      "active": false,
+      "displacement_X_relative_l2": 0.0,
+      "velocity_X_relative_l2": 0.0,
+      "displacement_Y_relative_l2": 0.0,
+      "velocity_Y_relative_l2": 0.0,
+      "displacement_Z_relative_l2": 0.0,
+      "velocity_Z_relative_l2": 0.0
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "active": true,
+      "displacement_X_relative_l2": 0.13858799714071565,
+      "velocity_X_relative_l2": 0.6522571744015502,
+      "displacement_Y_relative_l2": 0.07111298003769458,
+      "velocity_Y_relative_l2": 0.39996659190865685,
+      "displacement_Z_relative_l2": 0.08016593287328738,
+      "velocity_Z_relative_l2": 0.40017485426957167
+    },
+    {
+      "case_id": "V52_C_E4_C7_1T",
+      "active": true,
+      "displacement_X_relative_l2": 0.11901482791787978,
+      "velocity_X_relative_l2": 0.8545880062586422,
+      "displacement_Y_relative_l2": 0.11205959845892075,
+      "velocity_Y_relative_l2": 0.5812048947648102,
+      "displacement_Z_relative_l2": 0.09612768860855958,
+      "velocity_Z_relative_l2": 0.4332839389138327
+    }
+  ],
+  "validation_displacement_P90": {
+    "X": 0.13663068021843205,
+    "Y": 0.10796493661679812,
+    "Z": 0.09453151303503236
+  },
+  "validation_displacement_worst": {
+    "X": 0.13858799714071565,
+    "Y": 0.11205959845892075,
+    "Z": 0.09612768860855958
+  },
+  "base_zero_increment_ratio": 0.0,
+  "causality_max_abs": 0.0,
+  "anchor_kind": "learned",
+  "parameter_count": 279753,
+  "peak_vram_GiB": 1.78071928024292,
+  "evidence_label": "fold-clean historical development panel; not OOF, blind or final generalization evidence",
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_DATASET.h5": "77ce5da426cb9dda7c2b137042dbad35661e9bba5b7a794d1ceff91330ff8475",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\S9_FOLD_1_REPRESENTATION.h5": "d830e389777d5b0c8dbc3d3209625e86e850c4bd9aeba82f37af6903411caba7",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s9_multifidelity_hpo\\S9_MULTIFIDELITY_HPO_PROTOCOL.json": "600f45661d830ddeb2748456c5dd81abcbccdd00e6f51700cb01f29a199adc93",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\39_run_s9_fold_trial.py": "d902f75ab3c334402cf8058efeec5e2382d8a8be78176d9eec442862c431db9d"
+  },
+  "generated_utc": "2026-08-11T09:03:44.969882+00:00"
+}

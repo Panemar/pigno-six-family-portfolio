@@ -1,0 +1,6 @@
+{
+  "source": "external://predictions_oof/S10_OUTER_R4_LHS_03_OUTER_0_OUTER_OOF_CONTROL_SEED_20260813/predictions.h5",
+  "sha256": "05b51c32f04e3c7d6468083155e0828e9f0cf27b75723f84576fdb9e3d8a3a50",
+  "size_bytes": 177187388,
+  "reason": "large binary stored externally; verify against recorded SHA-256"
+}

@@ -1,0 +1,7 @@
+{
+  "figure_id": "F13",
+  "title": "Exploratory S9 hyperparameter importance",
+  "caption": "Four-fold cross-validated random-forest permutation importance with 30 test-fold permutations. The 32-trial sample is small and interactions are confounded; rankings are diagnostic associations, not causal effects.",
+  "units": "absolute increase in low-fidelity score MAE",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

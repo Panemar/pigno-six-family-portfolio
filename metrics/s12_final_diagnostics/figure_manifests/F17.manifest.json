@@ -1,0 +1,23 @@
+{
+  "figure_id": "F17",
+  "title": "OOF case-error empirical distributions",
+  "generated_utc": "2026-08-13T00:57:11.395531+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\65_generate_s12_core_oof_figures.py",
+  "script_sha256": "219fa14f8e8502efc7845f12050b0d7711aaceeb9edb32b16f7828c6c04e3e4f",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F17.csv",
+  "source_csv_sha256": "49746a106000799f3a5f98a899925646a55ca225caeb0149bfa4b626fbfb3f8a",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F17.png",
+  "png_sha256": "4bef62ffe85423b478801b38c851c918e9632d2cff7d37ffd127304308becd92",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F17.pdf",
+  "pdf_sha256": "d3d1c753efc923498c53744c184d397d005f312b20afb1846b5aaa47db75a924",
+  "units": "dimensionless",
+  "quantity": "total displacement",
+  "axes": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

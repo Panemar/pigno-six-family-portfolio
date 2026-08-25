@@ -1,0 +1,28 @@
+{
+  "schema": "S10_INCREMENTAL_TOTAL_RECONSTRUCTION_CONTRACT_V2",
+  "status": "FROZEN_BEFORE_FIRST_S10_OUTER_OOF_RESULT",
+  "supersedes": "S10_INCREMENTAL_TOTAL_RECONSTRUCTION_CONTRACT_V1",
+  "supersession_reason": "V1 correctly prohibited FEM-base injection but a historical OOF base prediction does not prove exclusion of the current S10 target trajectory because historical B2 and S10 folds differ.",
+  "reference": "single FEM model implemented and solved in COMSOL",
+  "axis_mapping": {
+    "X": "u_transverse",
+    "Y": "v_vertical_height",
+    "Z": "w_longitudinal"
+  },
+  "incremental_target": "delta_y_FEM(case)=y_FEM(case)-y_FEM(environment-matched zero-train base)",
+  "incremental_candidate": "delta_y_S10_OOF(case)",
+  "incremental_B2_common_split": "delta_y_B2_common(case)=y_B2_common(case)-y_B2_common_base_evaluated_by_the_same_target_excluding_outer_model(case)",
+  "total_candidate": "y_S10_hybrid_common(case)=y_B2_common_base_evaluated_by_target_excluding_outer_model(case)+delta_y_S10_OOF(case)",
+  "total_B2_comparator": "y_B2_common(case)",
+  "prohibited": [
+    "adding the observed FEM base field",
+    "using historical B2 total metrics as if they shared S10 folds",
+    "calling the hybrid total field nested OOF unless the B2 base model excluded the current target trajectory",
+    "mixing total-response and incremental-response errors"
+  ],
+  "primary_comparison": "all candidates, controls, and B2 refit use the exact S10 folds, case, time, node, axis, unit, and field semantics",
+  "historical_B2_role": "immutable historical reference and reproducibility check; not the primary common-split comparator",
+  "evidence_label": "nested grouped OOF over historically exposed trajectories; not blind or external validation",
+  "S11_authorized": false,
+  "source_protocol": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_B2_COMMON_SPLIT_PROTOCOL_V1.json"
+}

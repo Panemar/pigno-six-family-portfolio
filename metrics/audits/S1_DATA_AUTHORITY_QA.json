@@ -1,0 +1,48 @@
+{
+  "status": "PASS_S1_BRANCH_O_DATA_AUTHORITY",
+  "checks": {
+    "rows_68": true,
+    "unique_case_id_68": true,
+    "zero_train_cases_4": true,
+    "loaded_cases_64": true,
+    "speed_40_loaded_32": true,
+    "speed_52_loaded_32": true,
+    "required_paths_complete": true,
+    "quality_checks_all_pass": true,
+    "all_h5_hashes_recomputed_match": true,
+    "all_h5_case_attrs_match": true,
+    "all_axis_contracts_match": true,
+    "all_h5_shapes_match": true,
+    "all_times_strictly_increasing": true,
+    "all_graph_nodes_in_range": true,
+    "single_coordinate_contract": true,
+    "single_time_grid": true,
+    "single_observation_graph_mapping": true,
+    "folds_cover_same_cases": true,
+    "fold_sizes_14_14_14_13_13": true,
+    "fold_group_is_case": true
+  },
+  "universe_sha256": "10a79e21c625589fb76905d0db6537ad1bd5ea68c24422e4f52efa0c2d0b030b",
+  "quality_sha256": "f07451acb2b9a203a4c05719c771588bbd4893957eecfbf3540267cbf7b08c30",
+  "fold_assignment_sha256": "e8099a34d78c581ce869d4c0d078cb6487fdc1a69b66d349afe8b0b11f77fe7e",
+  "missing_paths": [],
+  "quality_failures": [],
+  "fold_sizes": {
+    "0": 14,
+    "1": 14,
+    "2": 14,
+    "3": 13,
+    "4": 13
+  },
+  "coordinate_fingerprint_count": 1,
+  "time_fingerprint_count": 1,
+  "observation_graph_mapping_fingerprint_count": 1,
+  "h5_total_bytes": 2533536951,
+  "h5_hash_mismatch_count": 0,
+  "null_policy": {
+    "speed_kmh_nominal": "null is required for the four 0T base cases; speed is not physically active",
+    "other_required_columns": "no nulls admitted"
+  },
+  "historical_exposure": true,
+  "blind_test": false
+}

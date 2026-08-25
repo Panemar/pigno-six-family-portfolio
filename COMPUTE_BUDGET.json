@@ -1,0 +1,43 @@
+{
+  "schema": "PORTFOLIO_COMPUTE_BUDGET_V1",
+  "hardware_observed_2026_08_10": {
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU",
+    "vram_mib": 8151,
+    "ram_bytes": 34032443392,
+    "logical_cpu": 16,
+    "pytorch": "2.11.0+cu128",
+    "cuda_available": true
+  },
+  "scope": {
+    "routes": 6,
+    "capacity_seed_per_route": 1,
+    "micropanel_cases": 3,
+    "repairs_per_route_max": 2,
+    "factorial_candidates_max": 6,
+    "medium_fidelity_candidates_max": 4,
+    "outer_oof_candidates_max": 3,
+    "finalists_max": 2,
+    "finalist_seeds": 5
+  },
+  "epoch_caps": {
+    "capacity_or_micropanel": 150,
+    "screening": 25,
+    "medium_fidelity": 100,
+    "full_fidelity": 300
+  },
+  "early_stopping": {
+    "capacity_min_no_improvement_evaluations": 30,
+    "requires_finite_multimetric_monitoring": true,
+    "training_loss_is_not_promotion_evidence": true
+  },
+  "resource_policy": {
+    "primary_training_device": "cuda:0",
+    "mixed_precision": "allowed only after numerical parity smoke test",
+    "single_gpu_training_process_default": true,
+    "comsol_np": 10,
+    "new_comsol_solve_authorized": false,
+    "minimum_free_G_GB_warning": 40,
+    "minimum_free_G_GB_stop": 20
+  },
+  "budget_amendment_rule": "requires predeclared evidence and may not use outer OOF outcomes"
+}

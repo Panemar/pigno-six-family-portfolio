@@ -1,0 +1,79 @@
+{
+  "schema": "S10_B2_COMMON_SPLIT_PROTOCOL_V1",
+  "status": "FROZEN_BEFORE_FIRST_S10_OUTER_OOF_RESULT",
+  "generated_utc": "2026-08-11T11:36:38.970418+00:00",
+  "model": "B2_FOLDCLEAN_POD_CAUSAL_FIR_RIDGE",
+  "purpose": "Refit the frozen B2 algorithm on the exact S10 outer/inner trajectory partitions and preserve a target-fold-clean base prediction for total-field composition.",
+  "algorithm_changes": "none",
+  "partition_changes_from_historical_B2": "S10 common folds replace historical S7 folds solely to satisfy equal-split comparison",
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "case_count": 68,
+  "factorial_design_rank_preflight": {
+    "required_rank": 9,
+    "outer_train_ranks": [9, 9, 9, 9, 9],
+    "all_twenty_inner_train_ranks_equal_9": true,
+    "status": "PASS"
+  },
+  "input_ranks": [
+    64,
+    128
+  ],
+  "ridge_alphas": [
+    1e-06,
+    1e-08
+  ],
+  "lags_samples": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "target_clean_base_rule": "For each outer evaluation trajectory, evaluate its environment-matched zero-train base with the same B2 outer model whose fit excluded the evaluation trajectory. The base case may be in outer-train because it is an admissible prior trajectory, but the evaluated target trajectory may not be used.",
+  "required_outputs": [
+    "prediction_uvw_m",
+    "target_fold_base_prediction_uvw_m",
+    "incremental_prediction_uvw_m",
+    "outer_fold",
+    "case_id",
+    "time_s"
+  ],
+  "execution_order": "after S10 single-GPU campaign; never concurrently on cuda:0",
+  "historical_B2_preserved": true,
+  "historical_B2_predictions_primary_for_S10_comparison": false,
+  "S11_authorized": false,
+  "sources": {
+    "s10_protocol": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_NESTED_GROUPED_OOF_PROTOCOL_AMENDED_V2.json",
+      "sha256": "bcfc75380a61de09f9f93a751d485b2ebeca826d3fadc2669a65cde7b25c6ca7"
+    },
+    "historical_b2_metadata": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\NESTED_CV_FOLDS.csv",
+      "sha256": "04c3f4f491e819935f0d2ca6b9db0e71580a11690d496363d0e24e9250e5e27f"
+    },
+    "historical_b2_source_index": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\dataset_original_v1\\s7_nested_cv_baselines_v1\\authority\\S7_CASE_SOURCE_INDEX.csv",
+      "sha256": "82fb8c8d81b1531aedb375118ee275805288e08b649478c9badeabb1478aef5f"
+    },
+    "historical_b2_runner": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\workspace\\PIGNO\\pigno_dynamic_v2\\scripts\\13_run_s7_b2_nested_cv.py",
+      "sha256": "a3f04cc359aab720359e034ce11fbe743aa8a5bf5b5674dd6412236e6d7f3e3a"
+    },
+    "historical_b2_feature_code": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\workspace\\PIGNO\\pigno_dynamic_v2\\scripts\\evaluate_original_cal_causal_temporal_ridge_baseline.py",
+      "sha256": "797d7d8c36a9a943d28380e272a51c6de8cf96683fc14a49e5a4fb1a642b2e6d"
+    },
+    "historical_force_feature_code": {
+      "path": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\Full Data Extracción\\Original_extractions_20260801\\workspace\\PIGNO\\pigno_dynamic_v2\\scripts\\evaluate_original_cal_identified_force_rom_baseline.py",
+      "sha256": "30166fdac8bd5349b5d5b7b5466a5466f794c258093ce25553db02fe6a40d0d9"
+    }
+  },
+  "generated_files": [
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_B2_COMMON_SPLIT_FOLDS.csv",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s10_nested_grouped_oof\\S10_B2_COMMON_SPLIT_ASSIGNMENTS.csv"
+  ]
+}

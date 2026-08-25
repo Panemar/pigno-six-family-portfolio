@@ -1,0 +1,44 @@
+{
+  "status": "R2_NOT_AUTOMATICALLY_PROMOTED__DIAGNOSTIC_MICROPANEL_REQUIRED_BY_NO_SINGLE_CASE_CLOSURE_RULE",
+  "generated_utc": "2026-08-11T01:09:53.365937+00:00",
+  "route": "R2_MO_PIGNO",
+  "evidence_label": "historically exposed one-case capacity; not OOF, generalization or blind",
+  "representation_repair_consumed": true,
+  "representation_rank64_materially_helped": false,
+  "optimization_repair_consumed": true,
+  "task_gradient_evidence": {
+    "rank64_checkpoint_cosine": 0.00011329894186928868,
+    "interpretation": "near-orthogonal, so PCGrad was rejected; task GradNorm was tested"
+  },
+  "optimized_physics_predictive_improvements_vs_control": {
+    "physical_q_relative_l2": -0.6844066097470601,
+    "physical_qdot_relative_l2": -0.07111952222369135,
+    "displacement_X_relative_l2": -0.1278959814950505,
+    "displacement_Y_relative_l2": -0.1994473946047223,
+    "displacement_Z_relative_l2": -0.283982132495713,
+    "velocity_X_relative_l2": -0.038546885216705136,
+    "velocity_Y_relative_l2": -0.018869623044108764,
+    "velocity_Z_relative_l2": -0.024202503669239595,
+    "rotation_X_relative_l2": -0.06003038670882981,
+    "rotation_Y_relative_l2": -0.018591467460314433,
+    "rotation_Z_relative_l2": -0.022846968445321872,
+    "rotation_rate_X_relative_l2": -0.023225948749021338,
+    "rotation_rate_Y_relative_l2": -0.005041922852125197,
+    "rotation_rate_Z_relative_l2": -0.0033898798813196125
+  },
+  "optimized_physics_physical_improvements_vs_control": {
+    "variational_weak_median": -1.431705619967478,
+    "variational_weak_p90": 0.07661954066999815
+  },
+  "optimized_physics_noninferior_to_control": false,
+  "graph_branch_nonzero": true,
+  "hard_BC_and_causality_pass": true,
+  "decision": {
+    "automatic_micropanel_promotion": false,
+    "scientific_route_closure": false,
+    "HPO_authorized": false,
+    "nested_OOF_authorized": false,
+    "reason_not_promoted": "Neither base nor repaired R2 passed capacity; rank enrichment and task GradNorm did not produce material predictive capacity, and physics degraded its matched control.",
+    "reason_not_closed": "The master contract forbids closure from one case; only the common diagnostic micropanel remains, without additional R2-specific repairs."
+  }
+}

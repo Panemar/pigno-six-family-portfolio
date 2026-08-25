@@ -1,0 +1,10 @@
+{
+  "status": "PASS_S1_S2_COMMON_AUTHORITY_CONTRACTS",
+  "data_authority": "PASS_S1_BRANCH_O_DATA_AUTHORITY",
+  "active_beam_graph": "PASS_S2_ACTIVE_BEAM_GRAPH_NUMERICAL_QA",
+  "load_support": "PASS_S1_LOAD_SUPPORT_TOPOLOGY_QA",
+  "modal_reference": "PASS_S2_MODAL_REFERENCE_AND_AUDITOR_CONTRACT",
+  "training_authorized": false,
+  "reason_training_blocked": "S3 source transfer audit and S4 portfolio definition are still incomplete",
+  "next": "S3_SOURCE_AUDIT_AND_S4_FREEZE"
+}

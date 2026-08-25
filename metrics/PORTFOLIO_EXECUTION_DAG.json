@@ -1,0 +1,23 @@
+{
+  "schema": "PORTFOLIO_EXECUTION_DAG_V1",
+  "current_state": "S0_FIRST_DELIVERY_COMPLETE",
+  "nodes": [
+    {"id":"S0","action":"preserve and classify legacy evidence","training":false},
+    {"id":"S1","action":"freeze numerical authority, loads and base state","depends_on":["S0"],"training":false},
+    {"id":"S2","action":"freeze active Beam graph and modal/observation contracts","depends_on":["S1"],"training":false},
+    {"id":"S3","action":"audit primary sources, equations and official code","depends_on":["S1","S2"],"training":false},
+    {"id":"S4","action":"freeze exactly R1-R6 and common contracts","depends_on":["S3"],"training":false},
+    {"id":"S5","action":"oracle floors and task-gradient conflicts","depends_on":["S4"],"training":"diagnostic only"},
+    {"id":"S6","action":"parallel capacity and three-case micropanel","depends_on":["S5"],"parallel_routes":["R1","R2","R3","R4","R5","R6"]},
+    {"id":"S7","action":"one representation and one optimization repair per route","depends_on":["S6"]},
+    {"id":"S8","action":"factorial panel, at most six candidates","depends_on":["S7"]},
+    {"id":"S9","action":"multifidelity HPO, at most four candidates","depends_on":["S8"]},
+    {"id":"S10","action":"nested grouped OOF, at most three candidates","depends_on":["S9"]},
+    {"id":"S11","action":"five seeds, at most two finalists","depends_on":["S10"]},
+    {"id":"S12","action":"all frozen metrics and figures; no tuning","depends_on":["S11"]},
+    {"id":"S13","action":"design new FEM panel; execute only with user authorization","depends_on":["S12"],"blocked":true},
+    {"id":"S14","action":"final package and scientific decision","depends_on":["S12"]}
+  ],
+  "parallelism_rule": "parallel conceptual registry and interleaved GPU trials; one 8GB GPU training process at a time unless measured VRAM permits safe concurrency",
+  "stop_only_on": ["demonstrated data corruption","unauthorized FEM modification required","budget exhausted","scientific final state"]
+}

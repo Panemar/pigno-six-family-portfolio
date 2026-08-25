@@ -1,0 +1,9 @@
+{"utc": "2026-08-11T13:27:24.298320+00:00", "event": "watcher_started", "pid": 21408}
+{"utc": "2026-08-11T15:42:38.760743+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S10_POSTCAMPAIGN_FAILURE"}
+{"utc": "2026-08-11T22:12:29.976820+00:00", "event": "watcher_started", "pid": 35384}
+{"utc": "2026-08-12T10:45:23.580659+00:00", "event": "watcher_started", "pid": 22572}
+{"utc": "2026-08-12T19:37:21.307600+00:00", "event": "upstream_failure", "status": "BLOCKED_BY_S10_POSTCAMPAIGN_FAILURE"}
+{"utc": "2026-08-12T20:17:26.303716+00:00", "event": "watcher_started", "pid": 34640}
+{"utc": "2026-08-13T00:33:00.450292+00:00", "event": "upstream_failure", "status": "OPERATIONAL_FAILURE_S10_SCIENTIFIC_DECISION_PIPELINE"}
+{"utc": "2026-08-13T00:54:56.342928+00:00", "event": "watcher_started", "pid": 35168}
+{"utc": "2026-08-13T00:54:56.447623+00:00", "event": "no_finalist", "promotion_status": "NO_S10_ROUTE_ELIGIBLE_FOR_S11"}

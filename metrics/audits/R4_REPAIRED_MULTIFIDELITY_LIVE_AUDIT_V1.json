@@ -1,0 +1,2333 @@
+{
+  "schema": "R4_REPAIRED_MULTIFIDELITY_LIVE_AUDIT_V1",
+  "generated_utc": "2026-08-11T21:01:55.018797+00:00",
+  "campaign_status": {
+    "status": "RUNNING_S9_R4_REPAIRED_MULTIFIDELITY",
+    "fidelity": "high",
+    "current_run_id": "S9_HIGH_R4_LHS_03_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+    "current_pid": 37784,
+    "current_child_status": {
+      "status": "RUNNING_S9_FOLD_TRIAL",
+      "run_id": "S9_HIGH_R4_LHS_03_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "epoch": 5,
+      "epochs": 150,
+      "best_epoch": 5,
+      "best_selection_key": [
+        6.0,
+        0.9504735990574186,
+        0.9504735990574186,
+        1.004889936133418,
+        1.015609867301797,
+        2.2820782423844106,
+        0.9896396463874544,
+        0.11003964751617329,
+        377760
+      ],
+      "current_validation_metrics": {
+        "displacement_X_pooled_l2": 0.9504735990574186,
+        "velocity_X_pooled_l2": 1.0029415053799455,
+        "displacement_Y_pooled_l2": 0.8136429907467633,
+        "velocity_Y_pooled_l2": 0.9896396463874544,
+        "displacement_Z_pooled_l2": 0.517961652580229,
+        "velocity_Z_pooled_l2": 0.9877679190073922,
+        "equilibrium_residual_median": 0.11003964751617329,
+        "hard_BC_max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "nested_OOF_authorized": false
+  },
+  "completed_fold_report_count": 28,
+  "complete_configuration_count": 11,
+  "fold_reports": [
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_01",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_01_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.8506312096703473,
+        0.8506312096703473,
+        0.9365958970795153,
+        0.9538951555247839,
+        1.5947730867591159,
+        0.7617860964838405,
+        0.19389285812927962,
+        226056
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.8506312096703473,
+        "Y": 0.3897188762153737,
+        "Z": 0.35442300087339484
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_01",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_01_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.8560787370110123,
+        0.8560787370110123,
+        0.9248136719533594,
+        0.9390706142757664,
+        1.5805397031943798,
+        0.7468644575182669,
+        0.19535600276232332,
+        226056
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.8560787370110123,
+        "Y": 0.3694481754181495,
+        "Z": 0.35501279076521786
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_02_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        5.0,
+        0.2582547123751046,
+        0.2582547123751046,
+        0.3111005203358862,
+        0.3223684023623063,
+        0.5693680095111405,
+        0.7133018132893187,
+        0.04534105118862615,
+        556608
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.2582547123751046,
+        "Y": 0.17144133679858287,
+        "Z": 0.13967196033745308
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_02_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.35344955589715665,
+        0.35344955589715665,
+        0.3592665343322317,
+        0.3604345794826441,
+        0.7174002663334846,
+        0.6957291309050002,
+        0.022356875621705987,
+        556608
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.35344955589715665,
+        "Y": 0.1805397867163264,
+        "Z": 0.18341092372000153
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_03_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        5.0,
+        0.24832688301262043,
+        0.24832688301262043,
+        0.289880666284484,
+        0.2985455439265278,
+        0.5807391060176934,
+        0.7109019376355845,
+        0.03991035411950885,
+        377760
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.24832688301262043,
+        "Y": 0.17000541756008428,
+        "Z": 0.16240680544498864
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_03_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.3338343073470337,
+        0.3338343073470337,
+        0.3617823500011784,
+        0.3675900741562052,
+        0.7488309996307039,
+        0.6965410150661975,
+        0.03390201230595636,
+        377760
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.3338343073470337,
+        "Y": 0.20880832378497896,
+        "Z": 0.2061883684986913
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_04_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.53045517304373,
+        0.53045517304373,
+        0.6050843533344604,
+        0.6204167870580359,
+        1.03749399613304,
+        0.7217987733708866,
+        0.03537111663531542,
+        768896
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.53045517304373,
+        "Y": 0.24780184593812096,
+        "Z": 0.25923697715118915
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_04_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.5304641871800992,
+        0.5304641871800992,
+        0.5494562276843347,
+        0.5533057515497367,
+        1.0116651235750782,
+        0.7067705631486365,
+        0.023084897043159417,
+        768896
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.5304641871800992,
+        "Y": 0.210341713198271,
+        "Z": 0.27085922319670797
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_05",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_05_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.7268808650619133,
+        0.7268808650619133,
+        0.8090491942358715,
+        0.8256857346626411,
+        1.2522769636673774,
+        0.7282362548301929,
+        0.06313783981269168,
+        229952
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.7268808650619133,
+        "Y": 0.29055061587568204,
+        "Z": 0.23484548272978198
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_05",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_05_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.6946101972530835,
+        0.6946101972530835,
+        0.7729936493338535,
+        0.7895491198816823,
+        1.2084208133971424,
+        0.7209147434838358,
+        0.09433027495552093,
+        229952
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.6946101972530835,
+        "Y": 0.2422545935272167,
+        "Z": 0.2715560226168422
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_06",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_06_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.8301187826612686,
+        0.8301187826612686,
+        0.9231639710479467,
+        0.9419934773107527,
+        1.449075918431835,
+        0.8481641881975812,
+        0.09528209863190187,
+        244736
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.8301187826612686,
+        "Y": 0.34859859753616373,
+        "Z": 0.27035853823440253
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_06",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_06_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.8224668046692407,
+        0.8224668046692407,
+        0.9158010271441952,
+        0.9355214727565565,
+        1.4535122103349196,
+        0.7993197571799997,
+        0.04480240305532215,
+        244736
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.8224668046692407,
+        "Y": 0.32418049690021333,
+        "Z": 0.3068649087654657
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_07",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_07_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.7627796510092671,
+        0.7627796510092671,
+        0.8811249615846192,
+        0.9056330682501458,
+        1.4613056567950908,
+        0.7728954024834137,
+        0.03598331170081902,
+        241456
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.7627796510092671,
+        "Y": 0.3618269786034434,
+        "Z": 0.33669902718238026
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_07",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_07_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.6766596687193352,
+        0.6766596687193352,
+        0.794225822861022,
+        0.8200033953409974,
+        1.3584724353290132,
+        0.7496467837184605,
+        0.044735203023572694,
+        241456
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.6766596687193352,
+        "Y": 0.35419205437067786,
+        "Z": 0.3276207122390001
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_08",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_LOW_R4_LHS_08_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.9011558044408002,
+        0.9011558044408002,
+        0.9420314835887347,
+        0.9500396065090726,
+        1.8725203714674623,
+        0.9728037827498848,
+        0.13311649300547937,
+        215552
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.9011558044408002,
+        "Y": 0.5941051659666087,
+        "Z": 0.3772594010600535
+      }
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_08",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_LOW_R4_LHS_08_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        6.0,
+        0.9016481572931637,
+        0.9016481572931637,
+        0.9890457759093576,
+        1.0073397774157327,
+        1.9210485362554746,
+        0.965703013812945,
+        0.05927442046124069,
+        215552
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.9016481572931637,
+        "Y": 0.6042545768922853,
+        "Z": 0.41514580207002544
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_MEDIUM_R4_LHS_03_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.12271276150148164,
+        0.12271276150148164,
+        0.1452532788799712,
+        0.1499985164821561,
+        0.285637208129521,
+        0.683464432213652,
+        0.03943591919055974,
+        377760
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.12271276150148164,
+        "Y": 0.09283260218089685,
+        "Z": 0.0700918444471425
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_MEDIUM_R4_LHS_03_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.13782541651474894,
+        0.13782541651474894,
+        0.14831983195966594,
+        0.150491727885949,
+        0.31812500409251615,
+        0.6680117357739341,
+        0.030794277804139306,
+        377760
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.13782541651474894,
+        "Y": 0.09150578591186151,
+        "Z": 0.08879380166590571
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "fold": 2,
+      "run_id": "S9_MEDIUM_R4_LHS_03_FOLD_2_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.13070229317590415,
+        0.13070229317590415,
+        0.13177315399557718,
+        0.13375483482771477,
+        0.28020264433129777,
+        0.6762910012545935,
+        0.024236326820690265,
+        377760
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.13070229317590415,
+        "Y": 0.07998406425168368,
+        "Z": 0.06951628690370992
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "fold": 3,
+      "run_id": "S9_MEDIUM_R4_LHS_03_FOLD_3_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        2.0,
+        0.13324281351153683,
+        0.13324281351153683,
+        0.19237500678125438,
+        0.20099750725174462,
+        0.32210444519138876,
+        0.7108319059076426,
+        0.025663562806767508,
+        377760
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.13324281351153683,
+        "Y": 0.11662229734920875,
+        "Z": 0.0722393343306432
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_MEDIUM_R4_LHS_02_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.12689432794072147,
+        0.12689432794072147,
+        0.1526302702407012,
+        0.1581115427957019,
+        0.2842726851804701,
+        0.6568323522041499,
+        0.027689193077901263,
+        556608
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.12689432794072147,
+        "Y": 0.08576702584621462,
+        "Z": 0.071611331393534
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_MEDIUM_R4_LHS_02_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.14384003619136043,
+        0.14384003619136043,
+        0.16345520799457905,
+        0.16765592161501597,
+        0.32650114200567965,
+        0.6746588139521763,
+        0.02443239838162255,
+        556608
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.14384003619136043,
+        "Y": 0.09947807327346225,
+        "Z": 0.08318303254085696
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "fold": 2,
+      "run_id": "S9_MEDIUM_R4_LHS_02_FOLD_2_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.12948751815269627,
+        0.12948751815269627,
+        0.1414938202735701,
+        0.1444975753857228,
+        0.2954402248989058,
+        0.6693206543667685,
+        0.02704228406171419,
+        556608
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.12948751815269627,
+        "Y": 0.08827361846199763,
+        "Z": 0.07767908828421193
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "fold": 3,
+      "run_id": "S9_MEDIUM_R4_LHS_02_FOLD_3_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        2.0,
+        0.1364174121519046,
+        0.1364174121519046,
+        0.17112098513801988,
+        0.17603351046412147,
+        0.3127131323650063,
+        0.7071382470792493,
+        0.03212653969111783,
+        556608
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.1364174121519046,
+        "Y": 0.10273021303216255,
+        "Z": 0.0735655071809392
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "fold": 0,
+      "run_id": "S9_MEDIUM_R4_LHS_04_FOLD_0_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.13474858937301193,
+        0.13474858937301193,
+        0.15080353006652578,
+        0.15406444979585496,
+        0.30202681119223734,
+        0.6902129020008287,
+        0.03106182006628677,
+        768896
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.13474858937301193,
+        "Y": 0.09447315738484742,
+        "Z": 0.072805064434378
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "fold": 1,
+      "run_id": "S9_MEDIUM_R4_LHS_04_FOLD_1_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.17139950659223122,
+        0.17139950659223122,
+        0.1843993941277419,
+        0.18933941845183222,
+        0.3512252132102921,
+        0.67947167823938,
+        0.03250362226349039,
+        768896
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.17139950659223122,
+        "Y": 0.09419924962167565,
+        "Z": 0.08562645699638521
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "fold": 2,
+      "run_id": "S9_MEDIUM_R4_LHS_04_FOLD_2_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        1.0,
+        0.12769809024099132,
+        0.12769809024099132,
+        0.13992735860311276,
+        0.1429948540082822,
+        0.27915930979939985,
+        0.6804264479419183,
+        0.032048895932097976,
+        768896
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.12769809024099132,
+        "Y": 0.0796578178190934,
+        "Z": 0.07180340173931514
+      }
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "fold": 3,
+      "run_id": "S9_MEDIUM_R4_LHS_04_FOLD_3_PHYSICS_REPAIRED_EFFECTIVE_PH_OPINF_SEED_20260812",
+      "gate_pass": true,
+      "gate_failures": [],
+      "selection_key": [
+        2.0,
+        0.1517855197580956,
+        0.1517855197580956,
+        0.1993266848516073,
+        0.20611607878902763,
+        0.36046964959324307,
+        0.7206345007693972,
+        0.0410097994176778,
+        768896
+      ],
+      "pooled_displacement_l2": {
+        "X": 0.1517855197580956,
+        "Y": 0.1271730480937698,
+        "Z": 0.08151108174137767
+      }
+    }
+  ],
+  "complete_configurations": [
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_01",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.8560787370110123,
+        0.8560787370110123,
+        0.9365958970795153,
+        0.9538951555247839,
+        1.5947730867591159,
+        0.7617860964838405,
+        0.19535600276232332,
+        226056.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.8506312096703473,
+            "median": 0.8533549733406798,
+            "maximum": 0.8560787370110123
+          },
+          "Y": {
+            "minimum": 0.3694481754181495,
+            "median": 0.3795835258167616,
+            "maximum": 0.3897188762153737
+          },
+          "Z": {
+            "minimum": 0.35442300087339484,
+            "median": 0.35471789581930635,
+            "maximum": 0.35501279076521786
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.9248136719533594,
+          "median": 0.9307047845164373,
+          "maximum": 0.9365958970795153
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.9390706142757664,
+          "median": 0.9464828849002751,
+          "maximum": 0.9538951555247839
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.7468644575182669,
+          "median": 0.7543252770010538,
+          "maximum": 0.7617860964838405
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.19389285812927962,
+          "median": 0.19462443044580147,
+          "maximum": 0.19535600276232332
+        }
+      },
+      "provisional_rank": 7
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.35344955589715665,
+        0.35344955589715665,
+        0.3592665343322317,
+        0.3604345794826441,
+        0.7174002663334846,
+        0.7133018132893187,
+        0.04534105118862615,
+        556608.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.2582547123751046,
+            "median": 0.30585213413613066,
+            "maximum": 0.35344955589715665
+          },
+          "Y": {
+            "minimum": 0.17144133679858287,
+            "median": 0.17599056175745464,
+            "maximum": 0.1805397867163264
+          },
+          "Z": {
+            "minimum": 0.13967196033745308,
+            "median": 0.1615414420287273,
+            "maximum": 0.18341092372000153
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.3111005203358862,
+          "median": 0.335183527334059,
+          "maximum": 0.3592665343322317
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.3223684023623063,
+          "median": 0.3414014909224752,
+          "maximum": 0.3604345794826441
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.6957291309050002,
+          "median": 0.7045154720971595,
+          "maximum": 0.7133018132893187
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.022356875621705987,
+          "median": 0.03384896340516607,
+          "maximum": 0.04534105118862615
+        }
+      },
+      "provisional_rank": 2
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.3338343073470337,
+        0.3338343073470337,
+        0.3617823500011784,
+        0.3675900741562052,
+        0.7488309996307039,
+        0.7109019376355845,
+        0.03991035411950885,
+        377760.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.24832688301262043,
+            "median": 0.29108059517982704,
+            "maximum": 0.3338343073470337
+          },
+          "Y": {
+            "minimum": 0.17000541756008428,
+            "median": 0.18940687067253162,
+            "maximum": 0.20880832378497896
+          },
+          "Z": {
+            "minimum": 0.16240680544498864,
+            "median": 0.18429758697183996,
+            "maximum": 0.2061883684986913
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.289880666284484,
+          "median": 0.32583150814283124,
+          "maximum": 0.3617823500011784
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.2985455439265278,
+          "median": 0.3330678090413665,
+          "maximum": 0.3675900741562052
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.6965410150661975,
+          "median": 0.703721476350891,
+          "maximum": 0.7109019376355845
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.03390201230595636,
+          "median": 0.036906183212732604,
+          "maximum": 0.03991035411950885
+        }
+      },
+      "provisional_rank": 1
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.5304641871800992,
+        0.5304641871800992,
+        0.6050843533344604,
+        0.6204167870580359,
+        1.03749399613304,
+        0.7217987733708866,
+        0.03537111663531542,
+        768896.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.53045517304373,
+            "median": 0.5304596801119146,
+            "maximum": 0.5304641871800992
+          },
+          "Y": {
+            "minimum": 0.210341713198271,
+            "median": 0.22907177956819597,
+            "maximum": 0.24780184593812096
+          },
+          "Z": {
+            "minimum": 0.25923697715118915,
+            "median": 0.26504810017394853,
+            "maximum": 0.27085922319670797
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.5494562276843347,
+          "median": 0.5772702905093976,
+          "maximum": 0.6050843533344604
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.5533057515497367,
+          "median": 0.5868612693038864,
+          "maximum": 0.6204167870580359
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.7067705631486365,
+          "median": 0.7142846682597616,
+          "maximum": 0.7217987733708866
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.023084897043159417,
+          "median": 0.029228006839237416,
+          "maximum": 0.03537111663531542
+        }
+      },
+      "provisional_rank": 3
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_05",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.7268808650619133,
+        0.7268808650619133,
+        0.8090491942358715,
+        0.8256857346626411,
+        1.2522769636673774,
+        0.7282362548301929,
+        0.09433027495552093,
+        229952.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.6946101972530835,
+            "median": 0.7107455311574984,
+            "maximum": 0.7268808650619133
+          },
+          "Y": {
+            "minimum": 0.2422545935272167,
+            "median": 0.2664026047014494,
+            "maximum": 0.29055061587568204
+          },
+          "Z": {
+            "minimum": 0.23484548272978198,
+            "median": 0.2532007526733121,
+            "maximum": 0.2715560226168422
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.7729936493338535,
+          "median": 0.7910214217848626,
+          "maximum": 0.8090491942358715
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.7895491198816823,
+          "median": 0.8076174272721617,
+          "maximum": 0.8256857346626411
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.7209147434838358,
+          "median": 0.7245754991570144,
+          "maximum": 0.7282362548301929
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.06313783981269168,
+          "median": 0.0787340573841063,
+          "maximum": 0.09433027495552093
+        }
+      },
+      "provisional_rank": 4
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_06",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.8301187826612686,
+        0.8301187826612686,
+        0.9231639710479467,
+        0.9419934773107527,
+        1.4535122103349196,
+        0.8481641881975812,
+        0.09528209863190187,
+        244736.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.8224668046692407,
+            "median": 0.8262927936652547,
+            "maximum": 0.8301187826612686
+          },
+          "Y": {
+            "minimum": 0.32418049690021333,
+            "median": 0.33638954721818853,
+            "maximum": 0.34859859753616373
+          },
+          "Z": {
+            "minimum": 0.27035853823440253,
+            "median": 0.28861172349993414,
+            "maximum": 0.3068649087654657
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.9158010271441952,
+          "median": 0.9194824990960709,
+          "maximum": 0.9231639710479467
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.9355214727565565,
+          "median": 0.9387574750336546,
+          "maximum": 0.9419934773107527
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.7993197571799997,
+          "median": 0.8237419726887905,
+          "maximum": 0.8481641881975812
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.04480240305532215,
+          "median": 0.07004225084361201,
+          "maximum": 0.09528209863190187
+        }
+      },
+      "provisional_rank": 6
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_07",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.7627796510092671,
+        0.7627796510092671,
+        0.8811249615846192,
+        0.9056330682501458,
+        1.4613056567950908,
+        0.7728954024834137,
+        0.044735203023572694,
+        241456.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.6766596687193352,
+            "median": 0.7197196598643012,
+            "maximum": 0.7627796510092671
+          },
+          "Y": {
+            "minimum": 0.35419205437067786,
+            "median": 0.35800951648706064,
+            "maximum": 0.3618269786034434
+          },
+          "Z": {
+            "minimum": 0.3276207122390001,
+            "median": 0.33215986971069017,
+            "maximum": 0.33669902718238026
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.794225822861022,
+          "median": 0.8376753922228206,
+          "maximum": 0.8811249615846192
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.8200033953409974,
+          "median": 0.8628182317955716,
+          "maximum": 0.9056330682501458
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.7496467837184605,
+          "median": 0.7612710931009371,
+          "maximum": 0.7728954024834137
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.03598331170081902,
+          "median": 0.04035925736219585,
+          "maximum": 0.044735203023572694
+        }
+      },
+      "provisional_rank": 5
+    },
+    {
+      "fidelity": "low",
+      "trial_id": "R4_LHS_08",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1
+      ],
+      "expected_folds": [
+        0,
+        1
+      ],
+      "aggregate_key": [
+        0.0,
+        6.0,
+        0.9016481572931637,
+        0.9016481572931637,
+        0.9890457759093576,
+        1.0073397774157327,
+        1.9210485362554746,
+        0.9728037827498848,
+        0.13311649300547937,
+        215552.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          25,
+          25
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.9011558044408002,
+            "median": 0.901401980866982,
+            "maximum": 0.9016481572931637
+          },
+          "Y": {
+            "minimum": 0.5941051659666087,
+            "median": 0.599179871429447,
+            "maximum": 0.6042545768922853
+          },
+          "Z": {
+            "minimum": 0.3772594010600535,
+            "median": 0.3962026015650395,
+            "maximum": 0.41514580207002544
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.9420314835887347,
+          "median": 0.9655386297490461,
+          "maximum": 0.9890457759093576
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.9500396065090726,
+          "median": 0.9786896919624026,
+          "maximum": 1.0073397774157327
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.965703013812945,
+          "median": 0.9692533982814149,
+          "maximum": 0.9728037827498848
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.05927442046124069,
+          "median": 0.09619545673336002,
+          "maximum": 0.13311649300547937
+        }
+      },
+      "provisional_rank": 8
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_02",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aggregate_key": [
+        0.0,
+        2.0,
+        0.14384003619136043,
+        0.14384003619136043,
+        0.17112098513801988,
+        0.17603351046412147,
+        0.32650114200567965,
+        0.7071382470792493,
+        0.03212653969111783,
+        556608.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          55,
+          70,
+          75,
+          80
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.12689432794072147,
+            "median": 0.13295246515230041,
+            "maximum": 0.14384003619136043
+          },
+          "Y": {
+            "minimum": 0.08576702584621462,
+            "median": 0.09387584586772994,
+            "maximum": 0.10273021303216255
+          },
+          "Z": {
+            "minimum": 0.071611331393534,
+            "median": 0.07562229773257556,
+            "maximum": 0.08318303254085696
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.1414938202735701,
+          "median": 0.1580427391176401,
+          "maximum": 0.17112098513801988
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.1444975753857228,
+          "median": 0.16288373220535893,
+          "maximum": 0.17603351046412147
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.6568323522041499,
+          "median": 0.6719897341594724,
+          "maximum": 0.7071382470792493
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.02443239838162255,
+          "median": 0.027365738569807726,
+          "maximum": 0.03212653969111783
+        }
+      },
+      "provisional_rank": 2
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_03",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aggregate_key": [
+        0.0,
+        2.0,
+        0.13782541651474894,
+        0.13782541651474894,
+        0.19237500678125438,
+        0.20099750725174462,
+        0.32210444519138876,
+        0.7108319059076426,
+        0.03943591919055974,
+        377760.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          80,
+          80,
+          80,
+          80
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.12271276150148164,
+            "median": 0.1319725533437205,
+            "maximum": 0.13782541651474894
+          },
+          "Y": {
+            "minimum": 0.07998406425168368,
+            "median": 0.09216919404637919,
+            "maximum": 0.11662229734920875
+          },
+          "Z": {
+            "minimum": 0.06951628690370992,
+            "median": 0.07116558938889285,
+            "maximum": 0.08879380166590571
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.13177315399557718,
+          "median": 0.14678655541981855,
+          "maximum": 0.19237500678125438
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.13375483482771477,
+          "median": 0.15024512218405256,
+          "maximum": 0.20099750725174462
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.6680117357739341,
+          "median": 0.6798777167341228,
+          "maximum": 0.7108319059076426
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.024236326820690265,
+          "median": 0.028228920305453407,
+          "maximum": 0.03943591919055974
+        }
+      },
+      "provisional_rank": 1
+    },
+    {
+      "fidelity": "medium",
+      "trial_id": "R4_LHS_04",
+      "variant": "physics",
+      "observed_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "expected_folds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aggregate_key": [
+        0.0,
+        2.0,
+        0.17139950659223122,
+        0.17139950659223122,
+        0.1993266848516073,
+        0.20611607878902763,
+        0.36046964959324307,
+        0.7206345007693972,
+        0.0410097994176778,
+        768896.0
+      ],
+      "all_fold_gates_pass": true,
+      "metric_summary": {
+        "best_epochs": [
+          55,
+          70,
+          80,
+          80
+        ],
+        "pooled_displacement_l2": {
+          "X": {
+            "minimum": 0.12769809024099132,
+            "median": 0.14326705456555378,
+            "maximum": 0.17139950659223122
+          },
+          "Y": {
+            "minimum": 0.0796578178190934,
+            "median": 0.09433620350326154,
+            "maximum": 0.1271730480937698
+          },
+          "Z": {
+            "minimum": 0.07180340173931514,
+            "median": 0.07715807308787784,
+            "maximum": 0.08562645699638521
+          }
+        },
+        "maximum_axis_P90": {
+          "minimum": 0.13992735860311276,
+          "median": 0.16760146209713384,
+          "maximum": 0.1993266848516073
+        },
+        "maximum_axis_worst_case": {
+          "minimum": 0.1429948540082822,
+          "median": 0.1717019341238436,
+          "maximum": 0.20611607878902763
+        },
+        "median_axis_velocity_l2": {
+          "minimum": 0.67947167823938,
+          "median": 0.6853196749713735,
+          "maximum": 0.7206345007693972
+        },
+        "equilibrium_residual_median": {
+          "minimum": 0.03106182006628677,
+          "median": 0.032276259097794184,
+          "maximum": 0.0410097994176778
+        }
+      },
+      "provisional_rank": 3
+    }
+  ],
+  "incomplete_configurations": [],
+  "provisional_rankings": {
+    "low": [
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_03",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.3338343073470337,
+          0.3338343073470337,
+          0.3617823500011784,
+          0.3675900741562052,
+          0.7488309996307039,
+          0.7109019376355845,
+          0.03991035411950885,
+          377760.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.24832688301262043,
+              "median": 0.29108059517982704,
+              "maximum": 0.3338343073470337
+            },
+            "Y": {
+              "minimum": 0.17000541756008428,
+              "median": 0.18940687067253162,
+              "maximum": 0.20880832378497896
+            },
+            "Z": {
+              "minimum": 0.16240680544498864,
+              "median": 0.18429758697183996,
+              "maximum": 0.2061883684986913
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.289880666284484,
+            "median": 0.32583150814283124,
+            "maximum": 0.3617823500011784
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.2985455439265278,
+            "median": 0.3330678090413665,
+            "maximum": 0.3675900741562052
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.6965410150661975,
+            "median": 0.703721476350891,
+            "maximum": 0.7109019376355845
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.03390201230595636,
+            "median": 0.036906183212732604,
+            "maximum": 0.03991035411950885
+          }
+        },
+        "provisional_rank": 1
+      },
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_02",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.35344955589715665,
+          0.35344955589715665,
+          0.3592665343322317,
+          0.3604345794826441,
+          0.7174002663334846,
+          0.7133018132893187,
+          0.04534105118862615,
+          556608.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.2582547123751046,
+              "median": 0.30585213413613066,
+              "maximum": 0.35344955589715665
+            },
+            "Y": {
+              "minimum": 0.17144133679858287,
+              "median": 0.17599056175745464,
+              "maximum": 0.1805397867163264
+            },
+            "Z": {
+              "minimum": 0.13967196033745308,
+              "median": 0.1615414420287273,
+              "maximum": 0.18341092372000153
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.3111005203358862,
+            "median": 0.335183527334059,
+            "maximum": 0.3592665343322317
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.3223684023623063,
+            "median": 0.3414014909224752,
+            "maximum": 0.3604345794826441
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.6957291309050002,
+            "median": 0.7045154720971595,
+            "maximum": 0.7133018132893187
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.022356875621705987,
+            "median": 0.03384896340516607,
+            "maximum": 0.04534105118862615
+          }
+        },
+        "provisional_rank": 2
+      },
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_04",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.5304641871800992,
+          0.5304641871800992,
+          0.6050843533344604,
+          0.6204167870580359,
+          1.03749399613304,
+          0.7217987733708866,
+          0.03537111663531542,
+          768896.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.53045517304373,
+              "median": 0.5304596801119146,
+              "maximum": 0.5304641871800992
+            },
+            "Y": {
+              "minimum": 0.210341713198271,
+              "median": 0.22907177956819597,
+              "maximum": 0.24780184593812096
+            },
+            "Z": {
+              "minimum": 0.25923697715118915,
+              "median": 0.26504810017394853,
+              "maximum": 0.27085922319670797
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.5494562276843347,
+            "median": 0.5772702905093976,
+            "maximum": 0.6050843533344604
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.5533057515497367,
+            "median": 0.5868612693038864,
+            "maximum": 0.6204167870580359
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.7067705631486365,
+            "median": 0.7142846682597616,
+            "maximum": 0.7217987733708866
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.023084897043159417,
+            "median": 0.029228006839237416,
+            "maximum": 0.03537111663531542
+          }
+        },
+        "provisional_rank": 3
+      },
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_05",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.7268808650619133,
+          0.7268808650619133,
+          0.8090491942358715,
+          0.8256857346626411,
+          1.2522769636673774,
+          0.7282362548301929,
+          0.09433027495552093,
+          229952.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.6946101972530835,
+              "median": 0.7107455311574984,
+              "maximum": 0.7268808650619133
+            },
+            "Y": {
+              "minimum": 0.2422545935272167,
+              "median": 0.2664026047014494,
+              "maximum": 0.29055061587568204
+            },
+            "Z": {
+              "minimum": 0.23484548272978198,
+              "median": 0.2532007526733121,
+              "maximum": 0.2715560226168422
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.7729936493338535,
+            "median": 0.7910214217848626,
+            "maximum": 0.8090491942358715
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.7895491198816823,
+            "median": 0.8076174272721617,
+            "maximum": 0.8256857346626411
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.7209147434838358,
+            "median": 0.7245754991570144,
+            "maximum": 0.7282362548301929
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.06313783981269168,
+            "median": 0.0787340573841063,
+            "maximum": 0.09433027495552093
+          }
+        },
+        "provisional_rank": 4
+      },
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_07",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.7627796510092671,
+          0.7627796510092671,
+          0.8811249615846192,
+          0.9056330682501458,
+          1.4613056567950908,
+          0.7728954024834137,
+          0.044735203023572694,
+          241456.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.6766596687193352,
+              "median": 0.7197196598643012,
+              "maximum": 0.7627796510092671
+            },
+            "Y": {
+              "minimum": 0.35419205437067786,
+              "median": 0.35800951648706064,
+              "maximum": 0.3618269786034434
+            },
+            "Z": {
+              "minimum": 0.3276207122390001,
+              "median": 0.33215986971069017,
+              "maximum": 0.33669902718238026
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.794225822861022,
+            "median": 0.8376753922228206,
+            "maximum": 0.8811249615846192
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.8200033953409974,
+            "median": 0.8628182317955716,
+            "maximum": 0.9056330682501458
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.7496467837184605,
+            "median": 0.7612710931009371,
+            "maximum": 0.7728954024834137
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.03598331170081902,
+            "median": 0.04035925736219585,
+            "maximum": 0.044735203023572694
+          }
+        },
+        "provisional_rank": 5
+      },
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_06",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.8301187826612686,
+          0.8301187826612686,
+          0.9231639710479467,
+          0.9419934773107527,
+          1.4535122103349196,
+          0.8481641881975812,
+          0.09528209863190187,
+          244736.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.8224668046692407,
+              "median": 0.8262927936652547,
+              "maximum": 0.8301187826612686
+            },
+            "Y": {
+              "minimum": 0.32418049690021333,
+              "median": 0.33638954721818853,
+              "maximum": 0.34859859753616373
+            },
+            "Z": {
+              "minimum": 0.27035853823440253,
+              "median": 0.28861172349993414,
+              "maximum": 0.3068649087654657
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.9158010271441952,
+            "median": 0.9194824990960709,
+            "maximum": 0.9231639710479467
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.9355214727565565,
+            "median": 0.9387574750336546,
+            "maximum": 0.9419934773107527
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.7993197571799997,
+            "median": 0.8237419726887905,
+            "maximum": 0.8481641881975812
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.04480240305532215,
+            "median": 0.07004225084361201,
+            "maximum": 0.09528209863190187
+          }
+        },
+        "provisional_rank": 6
+      },
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_01",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.8560787370110123,
+          0.8560787370110123,
+          0.9365958970795153,
+          0.9538951555247839,
+          1.5947730867591159,
+          0.7617860964838405,
+          0.19535600276232332,
+          226056.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.8506312096703473,
+              "median": 0.8533549733406798,
+              "maximum": 0.8560787370110123
+            },
+            "Y": {
+              "minimum": 0.3694481754181495,
+              "median": 0.3795835258167616,
+              "maximum": 0.3897188762153737
+            },
+            "Z": {
+              "minimum": 0.35442300087339484,
+              "median": 0.35471789581930635,
+              "maximum": 0.35501279076521786
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.9248136719533594,
+            "median": 0.9307047845164373,
+            "maximum": 0.9365958970795153
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.9390706142757664,
+            "median": 0.9464828849002751,
+            "maximum": 0.9538951555247839
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.7468644575182669,
+            "median": 0.7543252770010538,
+            "maximum": 0.7617860964838405
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.19389285812927962,
+            "median": 0.19462443044580147,
+            "maximum": 0.19535600276232332
+          }
+        },
+        "provisional_rank": 7
+      },
+      {
+        "fidelity": "low",
+        "trial_id": "R4_LHS_08",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1
+        ],
+        "expected_folds": [
+          0,
+          1
+        ],
+        "aggregate_key": [
+          0.0,
+          6.0,
+          0.9016481572931637,
+          0.9016481572931637,
+          0.9890457759093576,
+          1.0073397774157327,
+          1.9210485362554746,
+          0.9728037827498848,
+          0.13311649300547937,
+          215552.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            25,
+            25
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.9011558044408002,
+              "median": 0.901401980866982,
+              "maximum": 0.9016481572931637
+            },
+            "Y": {
+              "minimum": 0.5941051659666087,
+              "median": 0.599179871429447,
+              "maximum": 0.6042545768922853
+            },
+            "Z": {
+              "minimum": 0.3772594010600535,
+              "median": 0.3962026015650395,
+              "maximum": 0.41514580207002544
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.9420314835887347,
+            "median": 0.9655386297490461,
+            "maximum": 0.9890457759093576
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.9500396065090726,
+            "median": 0.9786896919624026,
+            "maximum": 1.0073397774157327
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.965703013812945,
+            "median": 0.9692533982814149,
+            "maximum": 0.9728037827498848
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.05927442046124069,
+            "median": 0.09619545673336002,
+            "maximum": 0.13311649300547937
+          }
+        },
+        "provisional_rank": 8
+      }
+    ],
+    "medium": [
+      {
+        "fidelity": "medium",
+        "trial_id": "R4_LHS_03",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "expected_folds": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "aggregate_key": [
+          0.0,
+          2.0,
+          0.13782541651474894,
+          0.13782541651474894,
+          0.19237500678125438,
+          0.20099750725174462,
+          0.32210444519138876,
+          0.7108319059076426,
+          0.03943591919055974,
+          377760.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            80,
+            80,
+            80,
+            80
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.12271276150148164,
+              "median": 0.1319725533437205,
+              "maximum": 0.13782541651474894
+            },
+            "Y": {
+              "minimum": 0.07998406425168368,
+              "median": 0.09216919404637919,
+              "maximum": 0.11662229734920875
+            },
+            "Z": {
+              "minimum": 0.06951628690370992,
+              "median": 0.07116558938889285,
+              "maximum": 0.08879380166590571
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.13177315399557718,
+            "median": 0.14678655541981855,
+            "maximum": 0.19237500678125438
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.13375483482771477,
+            "median": 0.15024512218405256,
+            "maximum": 0.20099750725174462
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.6680117357739341,
+            "median": 0.6798777167341228,
+            "maximum": 0.7108319059076426
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.024236326820690265,
+            "median": 0.028228920305453407,
+            "maximum": 0.03943591919055974
+          }
+        },
+        "provisional_rank": 1
+      },
+      {
+        "fidelity": "medium",
+        "trial_id": "R4_LHS_02",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "expected_folds": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "aggregate_key": [
+          0.0,
+          2.0,
+          0.14384003619136043,
+          0.14384003619136043,
+          0.17112098513801988,
+          0.17603351046412147,
+          0.32650114200567965,
+          0.7071382470792493,
+          0.03212653969111783,
+          556608.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            55,
+            70,
+            75,
+            80
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.12689432794072147,
+              "median": 0.13295246515230041,
+              "maximum": 0.14384003619136043
+            },
+            "Y": {
+              "minimum": 0.08576702584621462,
+              "median": 0.09387584586772994,
+              "maximum": 0.10273021303216255
+            },
+            "Z": {
+              "minimum": 0.071611331393534,
+              "median": 0.07562229773257556,
+              "maximum": 0.08318303254085696
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.1414938202735701,
+            "median": 0.1580427391176401,
+            "maximum": 0.17112098513801988
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.1444975753857228,
+            "median": 0.16288373220535893,
+            "maximum": 0.17603351046412147
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.6568323522041499,
+            "median": 0.6719897341594724,
+            "maximum": 0.7071382470792493
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.02443239838162255,
+            "median": 0.027365738569807726,
+            "maximum": 0.03212653969111783
+          }
+        },
+        "provisional_rank": 2
+      },
+      {
+        "fidelity": "medium",
+        "trial_id": "R4_LHS_04",
+        "variant": "physics",
+        "observed_folds": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "expected_folds": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "aggregate_key": [
+          0.0,
+          2.0,
+          0.17139950659223122,
+          0.17139950659223122,
+          0.1993266848516073,
+          0.20611607878902763,
+          0.36046964959324307,
+          0.7206345007693972,
+          0.0410097994176778,
+          768896.0
+        ],
+        "all_fold_gates_pass": true,
+        "metric_summary": {
+          "best_epochs": [
+            55,
+            70,
+            80,
+            80
+          ],
+          "pooled_displacement_l2": {
+            "X": {
+              "minimum": 0.12769809024099132,
+              "median": 0.14326705456555378,
+              "maximum": 0.17139950659223122
+            },
+            "Y": {
+              "minimum": 0.0796578178190934,
+              "median": 0.09433620350326154,
+              "maximum": 0.1271730480937698
+            },
+            "Z": {
+              "minimum": 0.07180340173931514,
+              "median": 0.07715807308787784,
+              "maximum": 0.08562645699638521
+            }
+          },
+          "maximum_axis_P90": {
+            "minimum": 0.13992735860311276,
+            "median": 0.16760146209713384,
+            "maximum": 0.1993266848516073
+          },
+          "maximum_axis_worst_case": {
+            "minimum": 0.1429948540082822,
+            "median": 0.1717019341238436,
+            "maximum": 0.20611607878902763
+          },
+          "median_axis_velocity_l2": {
+            "minimum": 0.67947167823938,
+            "median": 0.6853196749713735,
+            "maximum": 0.7206345007693972
+          },
+          "equilibrium_residual_median": {
+            "minimum": 0.03106182006628677,
+            "median": 0.032276259097794184,
+            "maximum": 0.0410097994176778
+          }
+        },
+        "provisional_rank": 3
+      }
+    ],
+    "high": []
+  },
+  "all_completed_fold_gates_pass": true,
+  "nested_OOF_authorized": false,
+  "evidence_label": "live historical development monitoring; not OOF, blind, or final evidence"
+}

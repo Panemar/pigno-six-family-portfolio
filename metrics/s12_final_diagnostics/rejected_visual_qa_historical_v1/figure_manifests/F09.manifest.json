@@ -1,0 +1,15 @@
+{
+  "figure_id": "F09",
+  "title": "Directed repair effects under frozen comparisons",
+  "generated_utc": "2026-08-11T14:06:03.923923+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "4db6f767f86d1e863ecbe9d0aee53595374e923d5e1fb0ff158b6ad48aeb528e",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F09.csv",
+  "source_csv_sha256": "deb5df318b87b3e74c83d54167cb6d9f93739ac8b4ac665bbf6ad4fad6138d9d",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F09.png",
+  "png_sha256": "5a2b172a993006f1275b3419fe1d21c1272745346a7034d3d440269f2fa60f50",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F09.pdf",
+  "pdf_sha256": "ba39e2260c59d69db5258531cdc2e95ace5fd9ff79d0acc2f645a9c82bd024e6",
+  "units": "dimensionless",
+  "quantity": "sum of displacement component errors"
+}

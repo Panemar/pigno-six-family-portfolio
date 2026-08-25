@@ -1,0 +1,49 @@
+{
+  "status": "R1_NOT_AUTOMATICALLY_PROMOTED__DIAGNOSTIC_MICROPANEL_REQUIRED_BY_NO_SINGLE_CASE_CLOSURE_RULE",
+  "generated_utc": "2026-08-11T00:56:21.802797+00:00",
+  "route": "R1_BRIDGE_PINO",
+  "capacity_case": "V40_A_E6_C10_1T versus BASE_C1_0T incremental field",
+  "evidence_label": "historically exposed one-case capacity; not OOF, not generalization, not blind",
+  "base_architecture_passed_capacity": false,
+  "representation_repair_consumed": true,
+  "optimization_repair_consumed": true,
+  "representation_repair_material": true,
+  "representation_repair_predictive_improvements": {
+    "reduced_q_relative_l2": 0.8328203001486094,
+    "reduced_qdot_relative_l2": 0.3723616694072516,
+    "displacement_X_relative_l2": 0.9312901243060508,
+    "displacement_Y_relative_l2": 0.8124858462317478,
+    "displacement_Z_relative_l2": 0.8503273405912873,
+    "velocity_X_relative_l2": 0.4847222165434475,
+    "velocity_Y_relative_l2": 0.28561278168263476,
+    "velocity_Z_relative_l2": 0.4521569842999102
+  },
+  "optimized_physics_predictive_improvements_vs_control": {
+    "reduced_q_relative_l2": -0.028717587729904497,
+    "reduced_qdot_relative_l2": -0.008769863978740055,
+    "displacement_X_relative_l2": -0.028595592633033566,
+    "displacement_Y_relative_l2": -0.038984089340592123,
+    "displacement_Z_relative_l2": -0.027132332144477137,
+    "velocity_X_relative_l2": -0.01005707317090653,
+    "velocity_Y_relative_l2": -0.02118299782177865,
+    "velocity_Z_relative_l2": -0.004339338830232019
+  },
+  "optimized_physics_physical_improvements_vs_control": {
+    "variational_weak_median": 0.20374289014516028,
+    "variational_weak_p90": 0.4634471726987617
+  },
+  "optimized_physics_noninferior_to_control": false,
+  "optimized_physics_capacity_gates_pass": false,
+  "hard_BC_and_causality": {
+    "all_runs_hard_BC_below_1e-12": true,
+    "all_runs_future_perturbation_below_1e-7": true
+  },
+  "decision": {
+    "automatic_micropanel_promotion": false,
+    "scientific_route_closure": false,
+    "reason_not_promoted": "After both repairs, no physics-informed R1 passed the one-case diagnostic gates and the optimized physics model degraded every predictive metric versus its matched data-only control.",
+    "reason_not_closed": "The portfolio contract forbids closing a route from one output or one case; R1 may receive only the common diagnostic micropanel, with no further route-specific repairs or HPO.",
+    "HPO_authorized": false,
+    "nested_OOF_authorized": false
+  }
+}

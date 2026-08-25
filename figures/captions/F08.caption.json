@@ -1,0 +1,7 @@
+{
+  "figure_id": "F08",
+  "title": "Six-family one-case capacity comparison",
+  "caption": "Historical one-case capacity outcomes for all six routes. The R4 point is retained and explicitly marked in source data as pre-effective-pH-OpInf evidence that is not valid for forward R4 decisions; its repaired route re-enters on the common micropanel and factorial panel. The vertical segment spans X/Y/Z. This is representability history, not generalization.",
+  "units": "dimensionless",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

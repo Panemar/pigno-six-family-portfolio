@@ -1,0 +1,668 @@
+{
+  "status": "PASS_S12_PREDECISION_MANUAL_VISUAL_QA_V1",
+  "generated_utc": "2026-08-13T01:17:03.973206+00:00",
+  "scope": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36",
+    "F37",
+    "F38",
+    "F39",
+    "F40",
+    "F41",
+    "F42",
+    "F43"
+  ],
+  "manual_visual_review_performed": true,
+  "review_method": "agent_inspection_of_contact_sheets_and_original_pngs",
+  "readiness_sha256": "872d0469d68e55cb658f7b410e1cb9e414425bf677be4065198955c92be1388c",
+  "reviewed_png_sha256": {
+    "F01": "c08610ba1e4f298feaf731c8d49728d40ab0c8dcdc23526af94e2f14e20cd565",
+    "F02": "8a2e7984d6182c68b23877757cebeaa3cffbb70773e7a3fe4a1e6e58500b855c",
+    "F03": "9dfe712dc446309cb0f99db1cc619545800ab09c3ecbd4af7782e847c7cec8db",
+    "F04": "9c3ae358d700756bd38eb853e7f9d11ca758f039b91e1395f652b9f35cc5c0e7",
+    "F05": "45aaa7b1824745ef34d6a4006c6025619311ed7c0e66b0e575277e7a5b66dd69",
+    "F06": "d87e83d947594c210d3851d7db564a603091fd0f3db74e5d213594bdc075479f",
+    "F07": "33d10ac9d837d59910fee45424f0743461f6c8b6c6682cd6fae53e4d75b58ab8",
+    "F08": "26b52d34eb2c063600647f4f8d229758375d5dba03cc1735f0ce9d478b78eebe",
+    "F09": "3d817eb3c40be471eac1ed5833a25b650032ec57c02fc11023621e69e6a7c17e",
+    "F10": "a8fa33c81ea4ced437feeb1b92af84ef3a799522d102931cf66db82f34099e9c",
+    "F11": "fe8e4da93ac4918f9e411e279302397ba79bad43d1efd6184283619d9a59d3e8",
+    "F12": "dc8067f658fae14f94e708cd65eab0c61b90a4c2c96a6c28297b79f08eca1bc7",
+    "F13": "0ad41f668b82723acc94a7c548b25516909cb1636b49ef9e879ef1a2d93e95a7",
+    "F14": "bf7d792330996b59ed0744c4e58cec64bd66e468010716595a33a4f9930c9116",
+    "F15": "5d1565c8feda856b2932a3aa0bf26b1d3eceda3ceca631bb9d7035182562fcb7",
+    "F16": "d47af15d0d395ea1655e004ad3a10a822740c39af40de761fb1ab13d8bd36428",
+    "F17": "4bef62ffe85423b478801b38c851c918e9632d2cff7d37ffd127304308becd92",
+    "F18": "939233a405bb476a7d1b747eaf8a0a4c34ff25c88cc872a46619f640e7f42965",
+    "F19": "439c39cb1302dbb0f80655230e1eb8f487a2d555d321192d4661b7b68495e1d6",
+    "F20": "77d3b2b081a7fe6b03c6d4ab057a3f59c41293bcaf36ddea66741ac9396c1702",
+    "F21": "8a9d39b61dfdaba094a51aa89cf49ee3270c29aa41cbde99cf0fb0d1415f4a21",
+    "F22": "f0da54659b925d806a71002bee92a353c214ff62ac9d79865960c7f9cdc30039",
+    "F23": "bf63c017ba5ee67e431e5c9f12b0aba9f24815299593546d0a7e47cdfba9b3ab",
+    "F24": "cfd19474683d832e74d226beb096f56e4738610742d098ae7b097b355d82f856",
+    "F25": "22ae1ea21fca9d77564664c90af65141d542bff0521ffd394333b3b34fdc9523",
+    "F26": "1573dcb38ec71281c2f937d497b79c645261d987ee0effda5ac57666fa5feae1",
+    "F27": "a3ae7772fa00f2d401236d09cbc45104d78ec4d20e6074e876f71a0655771355",
+    "F28": "afb3c2d0dbbea69d2c3651288c4d0a09652e735a27ec6d207d2de254a54f3a2d",
+    "F29": "c4398fd09379cfbb5c8c6cb1d7934800c0cca8a6a8161e8e8423ca95cb3db4d6",
+    "F30": "bf7754aea802a79d577cc97656fd5d3de85f4696c63cb09a97a8b85e8184dd61",
+    "F31": "4caeff763774dd3659e02f72bdd4fbf6bbc0c5399a596d3493d34a7af9b37e49",
+    "F32": "679a5bb0fec56d6813335dd067425ba214ba4b38a638ce203d8602224fcba0cf",
+    "F33": "4313dbcc183d13e0da10cb4348db44f2949af07ef96b72aed505b5f08d4e5e2e",
+    "F34": "37e1c759232d1d17ed7364ea353bacebd435c17957bc66b0485555c58f36fd23",
+    "F35": "89eaef8a389886f530802156901a130254a8301bdbaa4590955a3a260c72d143",
+    "F36": "5eb50713be765c31f0c1f535c42159c21277e4c845c6c4b88fac108a5891167a",
+    "F37": "2e81bb920a9d71c4140211c3714d9a2695fe00265a791d2fd4311beba90d75e7",
+    "F38": "c29ded3e1e722157730dc3136a5ef7309cdea4478adf34d0ef43d0287ca88806",
+    "F39": "3c6bfe9e3f931cab602347ee6def8049452d2f2a762a343114a5ba520f63ba63",
+    "F40": "fda6a11447b8744e961db61d7dbd2cb8b05f76a502f6850992d92c425d56b97c",
+    "F41": "8ed89ba13fa83e03c5cc16d9434bb43dfe9b0e4a7a093fd7042b7dd1dfdda4d0",
+    "F42": "ed6fbc85f0cdd18fedcc850f774d28a31e0fd91f140a5e4ee4b41a9b53eb3afc",
+    "F43": "b6168fc6c4ae63a8a66dcd4b27c6a423998a068c3b1899bf8747197e9db85f81"
+  },
+  "findings": [
+    {
+      "figure_id": "F01",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F02",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F03",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F04",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F05",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F06",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F07",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F08",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Historical one-case capacity evidence is legible and explicitly excludes pre-repair R4 from forward decisions."
+    },
+    {
+      "figure_id": "F09",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Historical repairs are legible; slopes are descriptive and do not override frozen gates."
+    },
+    {
+      "figure_id": "F10",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F11",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F12",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F13",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Exploratory n=32 permutation associations and uncertainty bars are legible but are not causal importance."
+    },
+    {
+      "figure_id": "F14",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F15",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F16",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Recorded loss terms are legible; unavailable gradient diagnostics are declared rather than reconstructed."
+    },
+    {
+      "figure_id": "F17",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F18",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F19",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F20",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F21",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F22",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F23",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "The one-point panels correctly disclose single-seed S10 negative evidence and do not imply seed variability."
+    },
+    {
+      "figure_id": "F24",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F25",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F26",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F27",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F28",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F29",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F30",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F31",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "True-aspect geometry is legible after removing overlapping numeric ticks; exact coordinates remain in the source CSV."
+    },
+    {
+      "figure_id": "F32",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F33",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F34",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Phase gaps at low-energy frequencies remain visibly blank and are not imputed."
+    },
+    {
+      "figure_id": "F35",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F36",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Defined kinematic ratios are legible and valid/total counts expose four zero-energy cases per axis."
+    },
+    {
+      "figure_id": "F37",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F38",
+      "verdict": "PASS",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Title, plotted quantity, units, axes, labels and visual encodings are legible and consistent with the caption."
+    },
+    {
+      "figure_id": "F39",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Projected response-frequency diagnostics are legible but are not presented as independent eigenmode validation."
+    },
+    {
+      "figure_id": "F40",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Structural MAC and projected-response MAC are visually separated and retain their distinct meanings."
+    },
+    {
+      "figure_id": "F41",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "COMAC is legible; the conservative zero convention remains identified as a diagnostic limitation."
+    },
+    {
+      "figure_id": "F42",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Frozen-checkpoint graph perturbations and relabel invariance are legible but do not claim causal superiority to retraining without a graph."
+    },
+    {
+      "figure_id": "F43",
+      "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+      "checks": {
+        "title_and_units_visible": true,
+        "no_clipped_labels": true,
+        "comparable_axes_consistent": true,
+        "grayscale_or_noncolor_distinction": true,
+        "geometry_semantics_correct": true,
+        "caption_matches_quantity": true
+      },
+      "finding": "Capacity/error comparison is legible but contains one frozen single-seed point and therefore no variance claim."
+    }
+  ],
+  "repaired_during_review": [
+    "F31",
+    "F36"
+  ],
+  "failed_attempt_archives_preserved": [
+    "failed_visual_qa_F31_F36_before_repair",
+    "stale_predecision_readiness_before_F31_F36_visual_repair"
+  ],
+  "training_or_tuning_performed": false,
+  "S14_authorized": true
+}

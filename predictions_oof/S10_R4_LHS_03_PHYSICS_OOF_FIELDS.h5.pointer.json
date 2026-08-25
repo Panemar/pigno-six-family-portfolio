@@ -1,0 +1,6 @@
+{
+  "source": "external://predictions_oof/S10_R4_LHS_03_PHYSICS_OOF_FIELDS.h5",
+  "sha256": "d85d7e45858fcbce5dbf2c77a1dbe8bfb0e9e0baa2809c3b33dfae5085b4e9d6",
+  "size_bytes": 1326431459,
+  "reason": "large binary stored externally; verify against recorded SHA-256"
+}

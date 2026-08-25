@@ -1,0 +1,17 @@
+order,stage,label,x,y
+0,S0,Evidence,0.0,2.5
+1,S1,FEM authority,1.7,2.5
+2,S2,Graph/modal,3.4,2.5
+3,S3,Sources,5.1,2.5
+4,S4,6 routes frozen,6.8,2.5
+5,S5,Oracle floors,8.5,2.5
+6,S6,Capacity,10.2,2.5
+7,S7,Repairs,11.9,2.5
+8,S8,Factorial panel,11.9,0.5
+9,S9,Multifidelity HPO,10.2,0.5
+10,S10,Nested OOF,8.5,0.5
+11,S11,5 seeds,6.8,0.5
+12,S12,Diagnostics,5.1,0.5
+13,S13,"New FEM panel
+not authorized",3.4,0.5
+14,S14,Decision/package,1.7,0.5

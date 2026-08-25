@@ -1,0 +1,7 @@
+{
+  "figure_id": "F06",
+  "title": "FEM/COMSOL base, incremental and total vertical fields",
+  "caption": "Reference fields at the saved time nearest 9.025 s for V52_CPLUS_E8_C12_2T. A single symmetric color scale is used across all three panels.",
+  "units": "m in source; mm in color scale",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

@@ -1,0 +1,18 @@
+{
+  "figure_id": "F43",
+  "title": "Predictive error versus model capacity and VRAM",
+  "generated_utc": "2026-08-13T00:57:17.580759+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\65_generate_s12_core_oof_figures.py",
+  "script_sha256": "219fa14f8e8502efc7845f12050b0d7711aaceeb9edb32b16f7828c6c04e3e4f",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F43.csv",
+  "source_csv_sha256": "cc53211fa402d11084805d1c46a5cdafa168230a7617103ae578595dd44ea377",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F43.png",
+  "png_sha256": "b6168fc6c4ae63a8a66dcd4b27c6a423998a068c3b1899bf8747197e9db85f81",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F43.pdf",
+  "pdf_sha256": "2b33e83493cdbd01d9bbfd0d9230c456b8141985b1ae51ac6ceabab60ff45515",
+  "units": "dimensionless error; parameter count; GiB VRAM",
+  "quantity": "computational comparison",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

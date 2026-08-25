@@ -1,0 +1,205 @@
+{
+  "schema": "R4_PH_OPINF_FOLD_REPRESENTATION_GATE_V1",
+  "status": "PASS_R4_PH_OPINF_FOLD_REPRESENTATION_GATE",
+  "generated_utc": "2026-08-11T15:57:54.134081+00:00",
+  "evidence_scope": "S8 historical 12-case factorial panel; fold-clean representation preflight only; not OOF or final validation",
+  "method": "pH-OpInf-R-style port regression plus projected constrained D solve and implicit-midpoint rollout",
+  "derivative_contract": "tangent-assisted xdot from training q,v,f and admitted Physical32 M,C,K; no validation response enters fitting",
+  "gates": {
+    "all_four_folds_finite": true,
+    "all_four_folds_constrained_solver_converged": true,
+    "all_four_folds_gradient_rank_64": true,
+    "all_four_folds_dissipative_constraint": true,
+    "all_four_folds_worst_direct_state_l2_le_0_10": true,
+    "all_four_folds_energy_balance_relative_defect_le_1e_8": true
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "train_case_ids": [
+        "BASE_C2_0T",
+        "BASE_C3_0T",
+        "BASE_C8_0T",
+        "V40_A_E3_C6_1T",
+        "V40_B_E5_C9_1T",
+        "V40_CPLUS_E2_C5_2T",
+        "V52_A_E7_C11_2T",
+        "V52_C_E4_C7_1T",
+        "V52_CPLUS_E1_C4_2T"
+      ],
+      "validation_case_ids": [
+        "BASE_C1_0T",
+        "V40_C_E8_C12_2T",
+        "V52_B_E6_C10_1T"
+      ],
+      "fit_diagnostics": {
+        "snapshot_count": 117,
+        "state_dimension": 64,
+        "input_dimension": 32,
+        "gradient_rank": 64,
+        "joint_gradient_input_rank": 78,
+        "derivative_source": "tangent_equilibrium_MCK",
+        "port_ridge": 1e-06,
+        "operator_ridge": 1e-08,
+        "iterations": 68,
+        "converged": true,
+        "relative_step": 4.959620653432628e-07,
+        "state_derivative_relative_l2": 0.004231133171208543,
+        "port_output_relative_l2": 7.767209480084177e-06,
+        "maximum_symmetric_eigenvalue": 7.495330293270888e-16,
+        "minimum_dissipation_eigenvalue": -7.495330293270888e-16,
+        "finite": true
+      },
+      "validation_ph_opinf_median_direct_state_relative_l2": 0.041127019768797374,
+      "validation_ph_opinf_worst_direct_state_relative_l2": 0.04809985956700767,
+      "unconstrained_maximum_real_eigenvalue": 15.967349945599794,
+      "unconstrained_stable": false,
+      "validation_unconstrained_median_direct_state_relative_l2": null,
+      "validation_unconstrained_worst_direct_state_relative_l2": null,
+      "maximum_energy_balance_relative_defect": 1.3873023470231403e-13,
+      "pass": true
+    },
+    {
+      "fold": 1,
+      "train_case_ids": [
+        "BASE_C1_0T",
+        "BASE_C3_0T",
+        "BASE_C8_0T",
+        "V40_A_E3_C6_1T",
+        "V40_B_E5_C9_1T",
+        "V40_C_E8_C12_2T",
+        "V52_A_E7_C11_2T",
+        "V52_B_E6_C10_1T",
+        "V52_CPLUS_E1_C4_2T"
+      ],
+      "validation_case_ids": [
+        "BASE_C2_0T",
+        "V40_CPLUS_E2_C5_2T",
+        "V52_C_E4_C7_1T"
+      ],
+      "fit_diagnostics": {
+        "snapshot_count": 117,
+        "state_dimension": 64,
+        "input_dimension": 32,
+        "gradient_rank": 64,
+        "joint_gradient_input_rank": 78,
+        "derivative_source": "tangent_equilibrium_MCK",
+        "port_ridge": 1e-06,
+        "operator_ridge": 1e-08,
+        "iterations": 42,
+        "converged": true,
+        "relative_step": 4.978956866254392e-07,
+        "state_derivative_relative_l2": 0.004830084723539129,
+        "port_output_relative_l2": 7.96708401182859e-06,
+        "maximum_symmetric_eigenvalue": 9.391979359238578e-16,
+        "minimum_dissipation_eigenvalue": -9.391979359238578e-16,
+        "finite": true
+      },
+      "validation_ph_opinf_median_direct_state_relative_l2": 0.026771350993115183,
+      "validation_ph_opinf_worst_direct_state_relative_l2": 0.05363629910043974,
+      "unconstrained_maximum_real_eigenvalue": 22.996760172161633,
+      "unconstrained_stable": false,
+      "validation_unconstrained_median_direct_state_relative_l2": null,
+      "validation_unconstrained_worst_direct_state_relative_l2": null,
+      "maximum_energy_balance_relative_defect": 1.3817003833198098e-13,
+      "pass": true
+    },
+    {
+      "fold": 2,
+      "train_case_ids": [
+        "BASE_C1_0T",
+        "BASE_C2_0T",
+        "BASE_C8_0T",
+        "V40_B_E5_C9_1T",
+        "V40_C_E8_C12_2T",
+        "V40_CPLUS_E2_C5_2T",
+        "V52_A_E7_C11_2T",
+        "V52_B_E6_C10_1T",
+        "V52_C_E4_C7_1T"
+      ],
+      "validation_case_ids": [
+        "BASE_C3_0T",
+        "V40_A_E3_C6_1T",
+        "V52_CPLUS_E1_C4_2T"
+      ],
+      "fit_diagnostics": {
+        "snapshot_count": 117,
+        "state_dimension": 64,
+        "input_dimension": 32,
+        "gradient_rank": 64,
+        "joint_gradient_input_rank": 78,
+        "derivative_source": "tangent_equilibrium_MCK",
+        "port_ridge": 1e-06,
+        "operator_ridge": 1e-08,
+        "iterations": 52,
+        "converged": true,
+        "relative_step": 4.967521650625974e-07,
+        "state_derivative_relative_l2": 0.004721008084339831,
+        "port_output_relative_l2": 7.556510899509729e-06,
+        "maximum_symmetric_eigenvalue": 1.023654630924623e-15,
+        "minimum_dissipation_eigenvalue": -1.023654630924623e-15,
+        "finite": true
+      },
+      "validation_ph_opinf_median_direct_state_relative_l2": 0.05354191746779685,
+      "validation_ph_opinf_worst_direct_state_relative_l2": 0.05490430356284698,
+      "unconstrained_maximum_real_eigenvalue": 21.23772544767109,
+      "unconstrained_stable": false,
+      "validation_unconstrained_median_direct_state_relative_l2": null,
+      "validation_unconstrained_worst_direct_state_relative_l2": null,
+      "maximum_energy_balance_relative_defect": 1.3381773625569802e-13,
+      "pass": true
+    },
+    {
+      "fold": 3,
+      "train_case_ids": [
+        "BASE_C1_0T",
+        "BASE_C2_0T",
+        "BASE_C3_0T",
+        "V40_A_E3_C6_1T",
+        "V40_C_E8_C12_2T",
+        "V40_CPLUS_E2_C5_2T",
+        "V52_B_E6_C10_1T",
+        "V52_C_E4_C7_1T",
+        "V52_CPLUS_E1_C4_2T"
+      ],
+      "validation_case_ids": [
+        "BASE_C8_0T",
+        "V40_B_E5_C9_1T",
+        "V52_A_E7_C11_2T"
+      ],
+      "fit_diagnostics": {
+        "snapshot_count": 117,
+        "state_dimension": 64,
+        "input_dimension": 32,
+        "gradient_rank": 64,
+        "joint_gradient_input_rank": 78,
+        "derivative_source": "tangent_equilibrium_MCK",
+        "port_ridge": 1e-06,
+        "operator_ridge": 1e-08,
+        "iterations": 46,
+        "converged": true,
+        "relative_step": 4.89216135865148e-07,
+        "state_derivative_relative_l2": 0.004929378444551961,
+        "port_output_relative_l2": 7.102364644062795e-06,
+        "maximum_symmetric_eigenvalue": 8.568217926184676e-16,
+        "minimum_dissipation_eigenvalue": -8.568217926184676e-16,
+        "finite": true
+      },
+      "validation_ph_opinf_median_direct_state_relative_l2": 0.040028040139204045,
+      "validation_ph_opinf_worst_direct_state_relative_l2": 0.040078960825640844,
+      "unconstrained_maximum_real_eigenvalue": 8.282187980772527,
+      "unconstrained_stable": false,
+      "validation_unconstrained_median_direct_state_relative_l2": null,
+      "validation_unconstrained_worst_direct_state_relative_l2": null,
+      "maximum_energy_balance_relative_defect": 1.411995141419338e-13,
+      "pass": true
+    }
+  ],
+  "source_hashes": {
+    "s8_factorial_panel\\S8_FACTORIAL_PANEL_DATASET.h5": "77ce5da426cb9dda7c2b137042dbad35661e9bba5b7a794d1ceff91330ff8475",
+    "s9_multifidelity_hpo\\S9_MULTIFIDELITY_HPO_PROTOCOL.json": "600f45661d830ddeb2748456c5dd81abcbccdd00e6f51700cb01f29a199adc93",
+    "scripts\\88_audit_r4_repaired_opinf_fold_rollout.py": "3a62ab383da56972f5483a1bde84bb2672d68aace4075a17e420516317e7d090",
+    "src\\portfolio_operators\\port_hamiltonian.py": "84dda7df7c57468193ea0187f0812bbde5256e642625bda1ff3cf1021dd4b5de"
+  },
+  "next_gate": "R4_REPAIRED_CAPACITY_AND_MICROPANEL_WITH_CONNECTED_GRAPH_RESIDUAL"
+}

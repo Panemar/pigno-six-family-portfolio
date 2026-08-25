@@ -1,0 +1,18 @@
+{
+  "figure_id": "F12",
+  "title": "S9 hyperparameter parallel coordinates",
+  "generated_utc": "2026-08-13T01:09:58.117613+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\71_generate_s12_historical_experiment_figures.py",
+  "script_sha256": "35a868314a85c6e1b9a87f8b5c491396535597c4bd04a3766adcccb0b9ce9f78",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F12.csv",
+  "source_csv_sha256": "46f195f114cb656e50548f30fad82219d9546d030116b07220bfb6292c1b372b",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F12.png",
+  "png_sha256": "dc8067f658fae14f94e708cd65eab0c61b90a4c2c96a6c28297b79f08eca1bc7",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F12.pdf",
+  "pdf_sha256": "30c7c8e1334e1a6af70dad7d7ab265b2b72bb76a487f1fd27508661c73b51be5",
+  "units": "mixed; raw values in source CSV",
+  "quantity": "S9 hyperparameter design",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

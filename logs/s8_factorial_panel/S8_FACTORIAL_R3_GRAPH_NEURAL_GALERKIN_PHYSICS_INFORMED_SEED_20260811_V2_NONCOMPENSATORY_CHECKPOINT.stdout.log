@@ -1,0 +1,19 @@
+{
+  "status": "PASS_S8_FACTORIAL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S8_FACTORIAL_R3_GRAPH_NEURAL_GALERKIN_PHYSICS_INFORMED_SEED_20260811_V2_NONCOMPENSATORY_CHECKPOINT",
+  "best_epoch": 140,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.0931144641240117,
+    "velocity_X_pooled_l2": 0.6782942208731116,
+    "displacement_Y_pooled_l2": 0.0683847481285509,
+    "velocity_Y_pooled_l2": 0.4239087019489972,
+    "displacement_Z_pooled_l2": 0.0668410854836171,
+    "velocity_Z_pooled_l2": 0.3546700670898474,
+    "physical_q13_pooled_l2": 0.04123624538744847,
+    "physical_qdot13_pooled_l2": 0.089098724506807,
+    "equilibrium_residual_median": 0.135035297445066,
+    "equilibrium_residual_p90": 3.1773020044585394,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

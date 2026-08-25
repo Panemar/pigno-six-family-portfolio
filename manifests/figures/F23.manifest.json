@@ -1,0 +1,18 @@
+{
+  "figure_id": "F23",
+  "title": "S10 single-seed OOF diagnostic disclosure",
+  "generated_utc": "2026-08-13T00:57:15.313002+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\65_generate_s12_core_oof_figures.py",
+  "script_sha256": "219fa14f8e8502efc7845f12050b0d7711aaceeb9edb32b16f7828c6c04e3e4f",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F23.csv",
+  "source_csv_sha256": "82e9ccf25799ec8a4558bff529d6242e3bd0e8b2b105294780df016fdded5032",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F23.png",
+  "png_sha256": "bf63c017ba5ee67e431e5c9f12b0aba9f24815299593546d0a7e47cdfba9b3ab",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F23.pdf",
+  "pdf_sha256": "14a85a448c9419cd7e62b7101acc88c865b097814440a10a2837b552ccab5c59",
+  "units": "dimensionless",
+  "quantity": "total displacement",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

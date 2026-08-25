@@ -1,0 +1,11 @@
+trial_id,seed,outer_fold,variant,hard_BC_max_abs_m,plot_value_m
+R4_LHS_03,20260813,0,physics,0.0,1e-16
+R4_LHS_03,20260813,0,control,0.0,1e-16
+R4_LHS_03,20260813,1,physics,0.0,1e-16
+R4_LHS_03,20260813,1,control,0.0,1e-16
+R4_LHS_03,20260813,2,physics,0.0,1e-16
+R4_LHS_03,20260813,2,control,0.0,1e-16
+R4_LHS_03,20260813,3,physics,0.0,1e-16
+R4_LHS_03,20260813,3,control,0.0,1e-16
+R4_LHS_03,20260813,4,physics,0.0,1e-16
+R4_LHS_03,20260813,4,control,0.0,1e-16

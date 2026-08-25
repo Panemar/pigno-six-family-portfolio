@@ -1,0 +1,15 @@
+{
+  "status": "PASS_S10_NESTED_GROUPED_OOF_EXECUTION_AWAITING_INDEPENDENT_AUDIT",
+  "candidate_ids": [
+    "R4_LHS_03",
+    "R2_LHS_02",
+    "R6_LHS_04"
+  ],
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "inner_epochs": 100,
+  "outer_prediction_files": 30,
+  "evidence_label": "historically exposed nested grouped OOF; not blind",
+  "S11_authorized": false,
+  "generated_utc": "2026-08-13T00:08:05.873326+00:00"
+}

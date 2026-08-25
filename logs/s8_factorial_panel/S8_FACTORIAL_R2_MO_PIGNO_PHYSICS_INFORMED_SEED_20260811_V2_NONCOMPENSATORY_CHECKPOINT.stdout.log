@@ -1,0 +1,19 @@
+{
+  "status": "PASS_S8_FACTORIAL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S8_FACTORIAL_R2_MO_PIGNO_PHYSICS_INFORMED_SEED_20260811_V2_NONCOMPENSATORY_CHECKPOINT",
+  "best_epoch": 105,
+  "metrics": {
+    "displacement_X_pooled_l2": 0.0892734241412551,
+    "velocity_X_pooled_l2": 0.8489419234837301,
+    "displacement_Y_pooled_l2": 0.07032428682138732,
+    "velocity_Y_pooled_l2": 0.6712498269247638,
+    "displacement_Z_pooled_l2": 0.05167294306034758,
+    "velocity_Z_pooled_l2": 0.5723543735548173,
+    "physical_q13_pooled_l2": 0.052958346350659456,
+    "physical_qdot13_pooled_l2": 0.10669291439678998,
+    "equilibrium_residual_median": 0.15603039921389525,
+    "equilibrium_residual_p90": 2.812831130703313,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "figure_id": "F41",
+  "title": "Structural COMAC over the 512 bridge observations",
+  "caption": "Coordinate modal assurance between the first 12 FEM/COMSOL modes and the independent Timoshenko graph modes. Isolated modes are sign-aligned; the near-degenerate 6–9 cluster is orthogonally aligned as a subspace before COMAC. Node color is the conservative minimum over X, Y and Z above the serialized energy floor. This audits the shared structural representation, not learned PIGNO eigenmodes.",
+  "units": "m coordinates; dimensionless COMAC",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

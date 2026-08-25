@@ -1,0 +1,7 @@
+{
+  "figure_id": "F27",
+  "title": "Representative vertical space–time fields",
+  "caption": "FEM/COMSOL, PIGNO and absolute-error vertical fields at the frozen representative seed/case. Nodes are stably ordered by physical Z coordinate; all 1201 saved times and 512 observations are retained.",
+  "units": "s, m in source; mm plotted",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

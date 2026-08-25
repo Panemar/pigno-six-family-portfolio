@@ -1,0 +1,202 @@
+{
+  "status": "PASS_S8_FACTORIAL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S8_FACTORIAL_R2_MO_PIGNO_PHYSICS_INFORMED_SEED_20260811_V2_NONCOMPENSATORY_CHECKPOINT",
+  "route": "R2",
+  "family": "MO_PIGNO",
+  "variant": "physics",
+  "optimization": "fixed",
+  "stage": "S8",
+  "seed": 20260811,
+  "anchor_kind": "learned_data_only_latent",
+  "evidence_label": "historically exposed S8 panel capacity; not OOF, generalization or blind",
+  "best_epoch": 105,
+  "checkpoint_selection": "lexicographic_noncompensatory_primary_displacement_then_velocity_and_physical_tiebreakers",
+  "checkpoint_selection_key": [
+    0.0,
+    0.0,
+    0.0892734241412551,
+    0.0892734241412551,
+    0.11769740196321138,
+    0.14528746028796127,
+    0.21127065402299,
+    0.6712498269247638,
+    0.052958346350659456
+  ],
+  "epochs_executed": 150,
+  "parameter_count": 187552,
+  "epoch0_metrics": {
+    "displacement_X_pooled_l2": 1.0058329257195282,
+    "velocity_X_pooled_l2": 1.001991386035879,
+    "displacement_Y_pooled_l2": 1.0016962073057567,
+    "velocity_Y_pooled_l2": 1.002331398750466,
+    "displacement_Z_pooled_l2": 0.996245399717504,
+    "velocity_Z_pooled_l2": 1.002472055019232,
+    "physical_q13_pooled_l2": 1.012409996424166,
+    "physical_qdot13_pooled_l2": 1.0134617163189337,
+    "equilibrium_residual_median": 1.227073684604979,
+    "equilibrium_residual_p90": 27.347257433287297,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "final_metrics": {
+    "displacement_X_pooled_l2": 0.0892734241412551,
+    "velocity_X_pooled_l2": 0.8489419234837301,
+    "displacement_Y_pooled_l2": 0.07032428682138732,
+    "velocity_Y_pooled_l2": 0.6712498269247638,
+    "displacement_Z_pooled_l2": 0.05167294306034758,
+    "velocity_Z_pooled_l2": 0.5723543735548173,
+    "physical_q13_pooled_l2": 0.052958346350659456,
+    "physical_qdot13_pooled_l2": 0.10669291439678998,
+    "equilibrium_residual_median": 0.15603039921389525,
+    "equilibrium_residual_p90": 2.812831130703313,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "per_case_metrics": [
+    {
+      "case_id": "BASE_C1_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "BASE_C2_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "BASE_C3_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "BASE_C8_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "displacement_X_relative_l2": 0.06758208601626543,
+      "velocity_X_relative_l2": 0.7848781877008301,
+      "displacement_Y_relative_l2": 0.07146417033910825,
+      "velocity_Y_relative_l2": 0.7204079920487658,
+      "displacement_Z_relative_l2": 0.0331464123575431,
+      "velocity_Z_relative_l2": 0.5142867750675713
+    },
+    {
+      "case_id": "V40_B_E5_C9_1T",
+      "displacement_X_relative_l2": 0.08077616286646098,
+      "velocity_X_relative_l2": 0.9018174996837046,
+      "displacement_Y_relative_l2": 0.07501097448996097,
+      "velocity_Y_relative_l2": 0.7256919482393235,
+      "displacement_Z_relative_l2": 0.033441810856634446,
+      "velocity_Z_relative_l2": 0.5364549166932918
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "displacement_X_relative_l2": 0.1058730912526043,
+      "velocity_X_relative_l2": 0.8668966382668573,
+      "displacement_Y_relative_l2": 0.06371217704125376,
+      "velocity_Y_relative_l2": 0.6322750995961807,
+      "displacement_Z_relative_l2": 0.0671991173062571,
+      "velocity_Z_relative_l2": 0.6947163614338671
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "displacement_X_relative_l2": 0.10460040177155107,
+      "velocity_X_relative_l2": 0.8789052075262611,
+      "displacement_Y_relative_l2": 0.06026972953866012,
+      "velocity_Y_relative_l2": 0.6136124891947684,
+      "displacement_Z_relative_l2": 0.06329046164807593,
+      "velocity_Z_relative_l2": 0.690626483340902
+    },
+    {
+      "case_id": "V52_A_E7_C11_2T",
+      "displacement_X_relative_l2": 0.14528746028796127,
+      "velocity_X_relative_l2": 0.8954217490044418,
+      "displacement_Y_relative_l2": 0.0999561250498513,
+      "velocity_Y_relative_l2": 0.6886699516174744,
+      "displacement_Z_relative_l2": 0.1237927560520245,
+      "velocity_Z_relative_l2": 0.46919058192573493
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "displacement_X_relative_l2": 0.06615864783463354,
+      "velocity_X_relative_l2": 0.681351858958703,
+      "displacement_Y_relative_l2": 0.06862050575695339,
+      "velocity_Y_relative_l2": 0.7717642087334942,
+      "displacement_Z_relative_l2": 0.03308542682280656,
+      "velocity_Z_relative_l2": 0.40887020189249546
+    },
+    {
+      "case_id": "V52_C_E4_C7_1T",
+      "displacement_X_relative_l2": 0.08060358432307917,
+      "velocity_X_relative_l2": 0.8462718707955852,
+      "displacement_Y_relative_l2": 0.07582362654130582,
+      "velocity_Y_relative_l2": 0.7727780170765364,
+      "displacement_Z_relative_l2": 0.046389225878707294,
+      "velocity_Z_relative_l2": 0.4236567766393797
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "displacement_X_relative_l2": 0.10444798558956944,
+      "velocity_X_relative_l2": 0.7950971986205525,
+      "displacement_Y_relative_l2": 0.07408537320168707,
+      "velocity_Y_relative_l2": 0.6586412497585451,
+      "displacement_Z_relative_l2": 0.07897032717249902,
+      "velocity_Z_relative_l2": 0.45209116110469394
+    }
+  ],
+  "displacement_case_P90": {
+    "X": 0.11769740196321138,
+    "Y": 0.08306337609386946,
+    "Z": 0.09241705583635666
+  },
+  "velocity_case_P90": {
+    "X": 0.8973404742082206,
+    "Y": 0.7720683512364068,
+    "Z": 0.6918534467687916
+  },
+  "base_zero_increment_relative_to_panel_peak": 0.0,
+  "causality_future_perturbation_max_abs": 0.0,
+  "graph_load_branch_sensitivity_relative_l2": 0.9082373380661011,
+  "diagnostic_gates": {
+    "finite": true,
+    "hard_BC": true,
+    "causality": true,
+    "base_zero_increment": true,
+    "primary_pooled_each_axis": true,
+    "primary_case_P90_each_axis": true,
+    "velocity_pooled_axis_median": false,
+    "velocity_case_P90_axis_median": false,
+    "graph_branch_nonzero": true
+  },
+  "primary_field_gate_pass": true,
+  "full_state_velocity_gate_pass": false,
+  "physics_scope": "Physical32; direct 13-state supervision and route-compatible structure. Observation field coefficients are not FEM DOFs.",
+  "HPO_authorized": false,
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_DATASET.h5": "77ce5da426cb9dda7c2b137042dbad35661e9bba5b7a794d1ceff91330ff8475",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_DUAL_STATE_FIELD_REPRESENTATION.h5": "e3727ae616427def881ffc8f316f9e79f9fc677e10eabe249159859d2627c368",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s8_factorial_panel\\S8_FACTORIAL_PANEL_PROTOCOL.json": "5f1f217d10e1d47d00ce20c73b17f147003924b7e5164ecac30766e1cb9cfd2d",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\31_train_s6_micropanel_route.py": "0de56b6b8ed8c65a0d35cedf7942e46b625efb7af8f1abdc540c5418cc197f40"
+  },
+  "generated_utc": "2026-08-11T05:27:01.963919+00:00"
+}

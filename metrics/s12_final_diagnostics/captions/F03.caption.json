@@ -1,0 +1,7 @@
+{
+  "figure_id": "F03",
+  "title": "Active FEM Beam graph and observation operator — true aspect",
+  "caption": "All 48,430 active Beam edges, 512 observation nodes and translation-restrained graph nodes. Geometry is plotted X-transverse, Z-longitudinal, Y-vertical with true aspect.",
+  "units": "m",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

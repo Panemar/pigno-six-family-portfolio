@@ -1,0 +1,7 @@
+{
+  "figure_id": "F24",
+  "title": "Representative OOF time histories",
+  "caption": "Median-seed, median-case histories at the fixed FEM/COMSOL maximum-energy observation node for each component. The same case, time, node and component are used for all models.",
+  "units": "s and m in source; mm plotted",
+  "evidence_label": "historically exposed grouped OOF; not blind or external"
+}

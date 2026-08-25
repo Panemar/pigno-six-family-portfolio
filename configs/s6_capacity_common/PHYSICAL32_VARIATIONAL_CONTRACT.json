@@ -1,0 +1,16 @@
+{
+  "status": "ADMITTED_PHYSICAL32_VARIATIONAL_WITNESS",
+  "source_report": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_physical32_variational_residual_preflight_V40_A_E6_C10_1T_v2\\report.json",
+  "source_report_sha256": "b4d929c9cfc396ddc12010eec75cfac90cfa90832ab917f93a1a0b41e37836e8",
+  "authorized_loss": "variational/virtual-work residual on physical32 only",
+  "coordinatewise_strong_loss_authorized": false,
+  "residual192_strong_equation_authorized": false,
+  "direct_qddot_scope": "13-time FEM/COMSOL panel only; not a full saved-grid target",
+  "finite_difference_qddot_is_exact_FEM_COMSOL_derivative": false,
+  "weak_metrics": {
+    "median": 0.0002635389434071257,
+    "p90": 0.006498776853663713,
+    "p95": 0.008275426128384365,
+    "maximum": 0.009305454110698089
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "S12_GRAPH_UTILITY_INFERENCE_ABLATION_PROTOCOL_V1",
+  "status": "FROZEN_BEFORE_S11_COMPLETE",
+  "execution_gate": "PASS_S11_TO_S12_FULL_DIAGNOSTICS_DECISION",
+  "scope": "physics-informed S11 finalists; all five seeds, all five outer folds and their complete OOF trajectories",
+  "purpose": "Test permutation consistency and whether frozen OOF checkpoints depend beneficially or adversely on audited graph connectivity and mechanics.",
+  "not_training_or_tuning": true,
+  "authority": {
+    "reference": "single FEM model implemented and solved in COMSOL",
+    "graph": "active audited Beam graph",
+    "identity": "same case, saved time, observation node, global component and units",
+    "axes": {"X": "transverse", "Y": "vertical", "Z": "longitudinal"}
+  },
+  "perturbations": [
+    {
+      "id": "P0_CORRECT",
+      "role": "frozen reference inference",
+      "mechanism": "unaltered normalized node features, directed reciprocal connectivity, aligned edge mechanics, local frames, hierarchy and load-node mapping"
+    },
+    {
+      "id": "P1_CONSISTENT_NODE_RELABEL",
+      "role": "permutation-equivariance numerical QA",
+      "mechanism": "deterministic node relabeling applied consistently to node features, both edge endpoints, hierarchy and load-node indices; edge attributes and frames stay paired with their physical edges",
+      "expected": "decoded coefficient prediction relative difference <= 1e-6",
+      "interpretation": "invariance check, not utility evidence"
+    },
+    {
+      "id": "P2_EDGE_ATTRIBUTE_MISMATCH",
+      "role": "mechanical pairing corruption",
+      "mechanism": "deterministic cyclic permutation of normalized edge attributes while connectivity remains fixed",
+      "interpretation": "tests use of edge mechanics; it is not a plausible bridge model"
+    },
+    {
+      "id": "P3_CONNECTIVITY_DESTINATION_SHIFT",
+      "role": "topology corruption",
+      "mechanism": "deterministic cyclic relabeling of destination endpoints only while sources and edge attributes remain fixed",
+      "interpretation": "tests dependence on correct connectivity; it is not a retrained graph-free baseline"
+    },
+    {
+      "id": "P4_MEAN_NEUTRALIZED_EDGE_MECHANICS",
+      "role": "mechanical-information ablation",
+      "mechanism": "set normalized edge attributes to zero, corresponding to neutralization at training-fold means rather than physical zero stiffness",
+      "interpretation": "tests information carried by property variation"
+    },
+    {
+      "id": "P5_IDENTITY_LOCAL_FRAMES",
+      "role": "orientation corruption",
+      "mechanism": "replace local frames by identity only for routes whose forward operator consumes frames",
+      "interpretation": "not applicable to routes that do not consume frames"
+    }
+  ],
+  "metrics": [
+    "prediction shift relative L2 from P0",
+    "trajectory relative L2 versus FEM/COMSOL by X/Y/Z",
+    "paired error change from P0",
+    "P50, P90 and worst paired change",
+    "trajectory bootstrap 95% interval",
+    "finite-output and hard-BC checks",
+    "runtime and peak VRAM"
+  ],
+  "noncompensatory_interpretation": {
+    "permutation_gate": "P1 must satisfy numerical invariance",
+    "functional_dependence": "at least one graph corruption must produce nonzero prediction shift",
+    "beneficial_use": "corruption must worsen paired P90 or worst-case error without an ordinary-case improvement that reverses the paired bootstrap conclusion",
+    "harmful_or_ignored": "a corruption that improves prediction, or no measurable prediction shift, cannot be reported as graph utility",
+    "causal_limit": "inference corruption cannot establish superiority over a separately retrained graph-free model"
+  },
+  "historical_metric_exclusion": {
+    "field": "graph_load_branch_sensitivity_relative_l2",
+    "reason": "the historical implementation zeroed temporal and load inputs together for the first active case; it did not perturb connectivity, mechanics or frames",
+    "allowed_use": "input/excitation sensitivity only"
+  },
+  "output": "F42 plus source table, caption, manifest and an audit report",
+  "final_claim_boundary": "Unless both the frozen inference ablation and an already-authorized capacity-matched graph-free retraining exist, report functional graph dependence/benefit only; do not claim causal architectural superiority."
+}

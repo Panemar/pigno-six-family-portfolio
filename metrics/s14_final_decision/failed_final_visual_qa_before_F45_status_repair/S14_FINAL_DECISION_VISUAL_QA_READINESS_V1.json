@@ -1,0 +1,35 @@
+{
+  "status": "READY_S14_FINAL_DECISION_VISUAL_QA_FOR_AGENT_INSPECTION",
+  "generated_utc": "2026-08-13T01:17:22.258636+00:00",
+  "scope": [
+    "F44",
+    "F45"
+  ],
+  "records": [
+    {
+      "figure_id": "F44",
+      "width_px": 4178,
+      "height_px": 1468,
+      "png_sha256": "94be4902a70810e96024edeb5ee2cf411a8a44bb071bf64daa53b4b5b07a7f0a",
+      "pdf_sha256": "662c0452d192f35c66fa829bcb5b2c8c0507c2a4e634a34841f6d89be3b24140",
+      "csv_sha256": "a7e6b241c4cba77ea2d79075fe427703e31fd48c0e893d35572865b5cb0fbd46",
+      "caption_sha256": "bfa92556a882b8b66703d3823a05082ad0375256a155184d215d11a0642d4be1",
+      "manifest_sha256": "16fc35b2666a63ccc3e5c75df5d039b0cc7a621fc40f57f294ecf21f12557b07"
+    },
+    {
+      "figure_id": "F45",
+      "width_px": 3295,
+      "height_px": 1643,
+      "png_sha256": "7e32cf75e44bc107ed918860507f9d3d8a2628ee9ce268c1f2ab1f94d3893270",
+      "pdf_sha256": "57e12714f18da759ea0cc5f2768893d8bf83f9321c75948aec9ffb73845df2ae",
+      "csv_sha256": "7b717e4a9809b71bfb63b0ffdf09f541b226c4c516d8d4814e68a81880ecbedf",
+      "caption_sha256": "08a7f7bac938687a13aff8dc3b1c78f47e13a3c7b69bc0f873636ec9b52cea29",
+      "manifest_sha256": "922c53220732397e80466ce7ee21f3d01fe17cbd76471ea00a77626f54f26132"
+    }
+  ],
+  "contact_sheet": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s14_final_decision\\S14_FINAL_DECISION_QA_SHEET.png",
+  "contact_sheet_sha256": "9ec350d98bc53ca39f0bc0cf728e46fbba474761ec4a394397c160017780fb86",
+  "failures": [],
+  "manual_visual_review_performed": false,
+  "final_package_authorized": false
+}

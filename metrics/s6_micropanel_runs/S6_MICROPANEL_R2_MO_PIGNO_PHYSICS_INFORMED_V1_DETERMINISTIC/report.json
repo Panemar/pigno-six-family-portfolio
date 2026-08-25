@@ -1,0 +1,133 @@
+{
+  "status": "PASS_S6_MICROPANEL_PRIMARY_WITH_VELOCITY_LIMITATION",
+  "run_id": "S6_MICROPANEL_R2_MO_PIGNO_PHYSICS_INFORMED_V1_DETERMINISTIC",
+  "route": "R2",
+  "family": "MO_PIGNO",
+  "variant": "physics",
+  "anchor_kind": "learned_data_only_latent",
+  "evidence_label": "historically exposed six-case micropanel capacity; not OOF, generalization or blind",
+  "best_epoch": 150,
+  "epochs_executed": 150,
+  "parameter_count": 187552,
+  "epoch0_metrics": {
+    "displacement_X_pooled_l2": 1.0014667289549428,
+    "velocity_X_pooled_l2": 1.0026387023117995,
+    "displacement_Y_pooled_l2": 1.0032421242904628,
+    "velocity_Y_pooled_l2": 1.0020326846307934,
+    "displacement_Z_pooled_l2": 0.9951963357212608,
+    "velocity_Z_pooled_l2": 1.0022562516705946,
+    "physical_q13_pooled_l2": 0.9850913831910959,
+    "physical_qdot13_pooled_l2": 1.0093408719190404,
+    "equilibrium_residual_median": 1.467491313819727,
+    "equilibrium_residual_p90": 57.13417970190108,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "final_metrics": {
+    "displacement_X_pooled_l2": 0.09456166566334055,
+    "velocity_X_pooled_l2": 0.8031871753096356,
+    "displacement_Y_pooled_l2": 0.0652501534175756,
+    "velocity_Y_pooled_l2": 0.6113136793535555,
+    "displacement_Z_pooled_l2": 0.053407233965534255,
+    "velocity_Z_pooled_l2": 0.536607929668939,
+    "physical_q13_pooled_l2": 0.03927622881865494,
+    "physical_qdot13_pooled_l2": 0.09218998100626281,
+    "equilibrium_residual_median": 0.2646405300825754,
+    "equilibrium_residual_p90": 3.798586062346448,
+    "hard_BC_max_abs": 0.0,
+    "finite": true
+  },
+  "per_case_metrics": [
+    {
+      "case_id": "BASE_C3_0T",
+      "displacement_X_relative_l2": null,
+      "velocity_X_relative_l2": null,
+      "displacement_Y_relative_l2": null,
+      "velocity_Y_relative_l2": null,
+      "displacement_Z_relative_l2": null,
+      "velocity_Z_relative_l2": null
+    },
+    {
+      "case_id": "V40_A_E3_C6_1T",
+      "displacement_X_relative_l2": 0.07843456619419983,
+      "velocity_X_relative_l2": 0.7919565931040442,
+      "displacement_Y_relative_l2": 0.08744124779057931,
+      "velocity_Y_relative_l2": 0.7291185882400474,
+      "displacement_Z_relative_l2": 0.03537051103198647,
+      "velocity_Z_relative_l2": 0.5180670980190953
+    },
+    {
+      "case_id": "V52_B_E6_C10_1T",
+      "displacement_X_relative_l2": 0.07837393078456616,
+      "velocity_X_relative_l2": 0.6970140951879507,
+      "displacement_Y_relative_l2": 0.09160930560668208,
+      "velocity_Y_relative_l2": 0.7767338094101554,
+      "displacement_Z_relative_l2": 0.0432311184757246,
+      "velocity_Z_relative_l2": 0.4176422352605777
+    },
+    {
+      "case_id": "V40_C_E8_C12_2T",
+      "displacement_X_relative_l2": 0.10869741277988924,
+      "velocity_X_relative_l2": 0.8321257797962195,
+      "displacement_Y_relative_l2": 0.06038558028987835,
+      "velocity_Y_relative_l2": 0.6015133701424313,
+      "displacement_Z_relative_l2": 0.0627857214769906,
+      "velocity_Z_relative_l2": 0.5870779112472954
+    },
+    {
+      "case_id": "V52_CPLUS_E1_C4_2T",
+      "displacement_X_relative_l2": 0.09892609560699198,
+      "velocity_X_relative_l2": 0.7665443684537314,
+      "displacement_Y_relative_l2": 0.0568328303315488,
+      "velocity_Y_relative_l2": 0.595634202662629,
+      "displacement_Z_relative_l2": 0.066017550070195,
+      "velocity_Z_relative_l2": 0.46429360888397353
+    },
+    {
+      "case_id": "V40_CPLUS_E2_C5_2T",
+      "displacement_X_relative_l2": 0.1088766824928319,
+      "velocity_X_relative_l2": 0.8412168358119115,
+      "displacement_Y_relative_l2": 0.061611080424810984,
+      "velocity_Y_relative_l2": 0.5694406477715318,
+      "displacement_Z_relative_l2": 0.06968604685876177,
+      "velocity_Z_relative_l2": 0.5906873760418158
+    }
+  ],
+  "displacement_case_P90": {
+    "X": 0.10880497460765484,
+    "Y": 0.08994208248024098,
+    "Z": 0.06821864814333506
+  },
+  "velocity_case_P90": {
+    "X": 0.8375804134056347,
+    "Y": 0.7576877209421121,
+    "Z": 0.5892435901240076
+  },
+  "base_zero_increment_relative_to_panel_peak": 0.0,
+  "causality_future_perturbation_max_abs": 0.0,
+  "graph_load_branch_sensitivity_relative_l2": 0.804987370967865,
+  "diagnostic_gates": {
+    "finite": true,
+    "hard_BC": true,
+    "causality": true,
+    "base_zero_increment": true,
+    "primary_pooled_each_axis": true,
+    "primary_case_P90_each_axis": true,
+    "velocity_pooled_axis_median": false,
+    "velocity_case_P90_axis_median": false,
+    "graph_branch_nonzero": true
+  },
+  "primary_field_gate_pass": true,
+  "full_state_velocity_gate_pass": false,
+  "physics_scope": "Physical32; direct 13-state supervision and route-compatible structure. Observation field coefficients are not FEM DOFs.",
+  "HPO_authorized": false,
+  "nested_OOF_authorized": false,
+  "source_hashes": {
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_SIX_CASE_MICROPANEL_DATASET.h5": "f2dcafb4770c0626a4e6e37c390b548d648901f77fbd65db24ab94c44c11c678",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\S6_DUAL_STATE_FIELD_REPRESENTATION_VELOCITY_R128.h5": "d04861bf2da00bbb5181275ca9479ff91cf9096cbd774c09bce44e4390e8d798",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s6_micropanel_common\\SIX_ROUTE_MICROPANEL_PROTOCOL.json": "7ebe23c2e3fdfb0672b3759b652e5777487bb7cc3246b3d65008f24574a027ad",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\structure_preserving_pigno_v4\\s8_capacity_full_dt_dataset_V40_A_E6_C10_1T_v1\\S8_GRAPH_INPUTS.npz": "2b5e9cf3aaa645cb88987e45bd436b1ee3144e681ba2abebe21b87d36c4c837f",
+    "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\31_train_s6_micropanel_route.py": "c371dac987d9317be2d50304b7772509580846d49d5ef683aa916a4d7fea48d6"
+  },
+  "generated_utc": "2026-08-11T03:11:36.901274+00:00"
+}

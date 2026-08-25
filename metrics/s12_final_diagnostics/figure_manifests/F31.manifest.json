@@ -1,0 +1,19 @@
+{
+  "figure_id": "F31",
+  "title": "Nodewise OOF total-displacement error — true aspect",
+  "generated_utc": "2026-08-13T01:14:43.859931+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\67_generate_s12_dynamic_spatial_figures.py",
+  "script_sha256": "01b9f48e35b8239c89e0a93871c38c0d1c24b287c97baae89ab03289134f596c",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F31.csv",
+  "source_csv_sha256": "4ff4406735bb6597893fa5ada7d931b27e9a260a7e5234f8dc9fa24ca2647b00",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F31.png",
+  "png_sha256": "4caeff763774dd3659e02f72bdd4fbf6bbc0c5399a596d3493d34a7af9b37e49",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F31.pdf",
+  "pdf_sha256": "7d07bf14430c4cfd4b153df9693cec234cc17d51dc1afeecf06c0c09757ca42b",
+  "units": "dimensionless error; coordinates in m",
+  "quantity": "total displacement",
+  "geometry": "true aspect",
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "diagnostic_only_non_promoted_route": true
+}

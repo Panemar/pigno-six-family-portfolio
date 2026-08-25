@@ -1,0 +1,16 @@
+{
+  "status": "PASS_S12_SINGLE_SEED_NEGATIVE_DIAGNOSTICS",
+  "completed_steps": [
+    "CORE_OOF_FIGURES",
+    "DYNAMIC_SPATIAL_AUDIT",
+    "DYNAMIC_SPATIAL_FIGURES",
+    "PAIRED_OOF_FIELDS",
+    "MODAL_DIAGNOSTICS",
+    "GRAPH_UTILITY_AUDIT",
+    "GRAPH_UTILITY_FIGURE"
+  ],
+  "evidence_mode": "S10_SINGLE_SEED_NEGATIVE",
+  "five_seed_claim_allowed": false,
+  "training_or_tuning_performed": false,
+  "completed_utc": "2026-08-13T01:07:26.051085+00:00"
+}

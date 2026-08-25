@@ -1,0 +1,15 @@
+{
+  "figure_id": "F02",
+  "title": "Distinct physics and representation mechanisms across six routes",
+  "generated_utc": "2026-08-11T13:59:05.399816+00:00",
+  "script": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\scripts\\69_generate_s12_authority_graph_figures.py",
+  "script_sha256": "247e9a772e612a65a03ac0faf76912cb67d4fdc53cd5de9948a747a00fd5b8f0",
+  "source_csv": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figure_data\\F02.csv",
+  "source_csv_sha256": "e2eee777a94b97bb5c64f4c1040416abd02507fada1356c1684ec1b89611226f",
+  "png": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F02.png",
+  "png_sha256": "8a2e7984d6182c68b23877757cebeaa3cffbb70773e7a3fe4a1e6e58500b855c",
+  "pdf": "G:\\Mi unidad\\RESEARCH-BRIDGE\\7-TESIS\\PIGNO\\portfolio_physics_informed_operators_final\\s12_final_diagnostics\\figures\\F02.pdf",
+  "pdf_sha256": "19574e043599ea66e0bc81d8e53d3cda8046f4320809173190556b44794d5d92",
+  "units": "binary presence",
+  "quantity": "portfolio architecture"
+}
